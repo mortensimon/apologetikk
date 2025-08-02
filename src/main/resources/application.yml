@@ -1,0 +1,6 @@
+spring:
+  jackson:
+    serialization:
+      indent-output: true   # pen formatering (dev)
+    property-naming-strategy: SNAKE_CASE  # hvis du vil ha snake_case
+    default-property-inclusion: non_null  # dropp null-felt
