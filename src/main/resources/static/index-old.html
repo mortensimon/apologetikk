@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <title>Hello</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="font-family: system-ui, sans-serif; max-width: 48rem; margin: 3rem auto;">
+<h1>Hei verden!</h1>
+<p>Denne siden serveres som statisk fil fra Spring Boot.</p>
+
+<h2>API-test</h2>
+<button onclick="callApi()">Kall /api/hello</button>
+<pre id="out"></pre>
+
+<script>
+  async function callApi() {
+    const r = await fetch('/api/hello');
+    const j = await r.json();
+    document.getElementById('out').textContent = JSON.stringify(j, null, 2);
+  }
+</script>
+</body>
+</html>
