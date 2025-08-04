@@ -1,376 +1,118 @@
 <!doctype html>
 <html lang="no">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Enkel Bayes-valgomat</title>
-  <style>
-      :root { --fg:#111; --bg:#fff; --muted:#6b7280; --accent:#2563eb; --err:#b91c1c; }
-      @media (prefers-color-scheme: dark) {
-          :root { --fg:#f3f4f6; --bg:#0b0f14; --muted:#9ca3af; --accent:#60a5fa; }
-      }
-      html,body { margin:0; padding:0; background:var(--bg); color:var(--fg); font:16px system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
-      .wrap { max-width:900px; margin:24px auto; padding:0 16px 48px; }
-      h1 { font-size:1.4rem; margin:0 0 12px; }
-      p.lead { color:var(--muted); margin-top:0; }
-      .card { border:1px solid rgba(0,0,0,.08); background:rgba(255,255,255,.6); backdrop-filter:saturate(1.2) blur(2px);
-          border-radius:12px; padding:16px; margin:16px 0; }
-      @media (prefers-color-scheme: dark){
-          .card { border-color: rgba(255,255,255,.08); background:rgba(255,255,255,.04); }
-      }
-      .grid { display:grid; gap:12px; grid-template-columns: repeat(1,minmax(0,1fr)); }
-      @media (min-width:700px){ .grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
-      label { font-weight:600; display:flex; align-items:center; justify-content:space-between; gap:8px; }
-      .hint { font-weight:400; color:var(--muted); font-size:.9rem; }
-      input[type="number"] { width:100%; box-sizing:border-box; padding:10px 12px; border-radius:10px; border:1px solid rgba(0,0,0,.15); background:transparent; color:inherit; }
-      .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
-      .btn { border:1px solid rgba(0,0,0,.15); padding:10px 14px; border-radius:12px; cursor:pointer; background:transparent; color:inherit; }
-      .btn.primary { border-color:transparent; background:var(--accent); color:white; }
-      .btn.ghost { background:transparent; }
-      .btn:disabled { opacity:.6; cursor:not-allowed; }
-      .result { font-size:1.1rem; }
-      .kv { display:grid; grid-template-columns: 1fr auto; gap:6px 16px; }
-      .kv div.key { color:var(--muted); }
-      .err { color:var(--err); }
-      details { margin-top:10px; }
-      table { width:100%; border-collapse:collapse; font-size:.95rem; }
-      th, td { text-align:right; padding:8px 10px; border-bottom:1px solid rgba(0,0,0,.08); }
-      th:first-child, td:first-child { text-align:left; }
-      code { background:rgba(0,0,0,.06); padding:.1rem .35rem; border-radius:6px; }
-  </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Bayes-valgomat (Vue 3) – prosent</title>
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Vue 3 (CDN) -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 </head>
 <body>
-<div class="wrap">
-  <h1>Enkel Bayes‑valgomat</h1>
-  <p class="lead">Skriv inn <em>apriori</em> \(P(H)\), samt sannsynligheten for evidens gitt hypotesen og gitt ikke‑hypotesen. Resultatet oppdateres fortløpende.</p>
+<div id="app" class="wrap">
+  <h1>{{ title }}</h1>
+  <p class="lead">{{ intro }}</p>
 
-  <div class="card">
-    <div class="row" style="justify-content:space-between">
-      <div class="row">
-        <strong>Inndata i:</strong>
-        <label class="row"><input type="radio" name="mode" value="percent" checked> prosent (0–100)</label>
-        <label class="row"><input type="radio" name="mode" value="prob"> sannsynlighet (0–1)</label>
-      </div>
-      <button id="reset" class="btn ghost" title="Nullstill alle felter">Nullstill</button>
-    </div>
+  <button class="btn" @click="showHelp = !showHelp">
+    {{ showHelp ? 'Hide explanation' : 'Show explanation' }}
+  </button>
 
-    <div class="grid" style="margin-top:8px">
-      <div>
-        <label>Apriori \(P(H)\)
-          <span class="hint" id="priorHint">%</span>
-        </label>
-        <input id="prior" type="number" inputmode="decimal" min="0" max="100" step="any" placeholder="f.eks. 50" />
-      </div>
-
-      <div>
-        <label>Evidens: \(P(E\mid H)\)
-          <span class="hint" id="pehHint">%</span>
-        </label>
-        <input id="peh" type="number" inputmode="decimal" min="0" max="100" step="any" placeholder="f.eks. 80" />
-      </div>
-
-      <div>
-        <label>Evidens: \(P(E\mid \neg H)\)
-          <span class="hint" id="penhHint">%</span>
-        </label>
-        <input id="penh" type="number" inputmode="decimal" min="0" max="100" step="any" placeholder="f.eks. 30" />
-      </div>
-
-      <div>
-        <label>Posterior \(P(H\mid E)\)</label>
-        <div id="posterior" class="result">—</div>
-      </div>
-    </div>
-
-    <details>
-      <summary>Vis flere detaljer</summary>
-      <div class="kv" style="margin-top:8px">
-        <div class="key">Bayes‑faktor \(BF = \frac{P(E\mid H)}{P(E\mid \neg H)}\)</div>
-        <div id="bf">—</div>
-        <div class="key">Odds før \(\frac{P(H)}{1-P(H)}\)</div>
-        <div id="oddsPrior">—</div>
-        <div class="key">Odds etter \(BF \times \text{odds før}\)</div>
-        <div id="oddsPost">—</div>
-      </div>
-    </details>
-
-    <div class="row" style="margin-top:12px">
-      <button id="apply" class="btn primary" disabled>Bruk posterior som ny apriori</button>
-      <button id="addRound" class="btn" disabled>Legg til i historikk</button>
-      <button id="undo" class="btn ghost" disabled>Angre siste</button>
-      <label class="row" style="margin-left:auto"><input id="toggleHistory" type="checkbox" checked> Vis historikk</label>
-    </div>
-  </div>
-
-  <div id="historyCard" class="card" style="display:none;">
-    <h3>Historikk</h3>
-    <div class="hint">Hver rad er en runde der posterior ble brukt som ny apriori.</div>
-    <div style="overflow:auto;">
-      <table id="historyTable">
-        <thead>
-        <tr>
-          <th>#</th>
-          <th>P(H) før</th>
-          <th>P(E|H)</th>
-          <th>P(E|¬H)</th>
-          <th>BF</th>
-          <th>P(H|E)</th>
-        </tr>
-        </thead>
-        <tbody></tbody>
-      </table>
-    </div>
-  </div>
-
-  <div class="card">
-    <strong>Formel:</strong>
-    <p>Posterior beregnes som
-      <br>
-      \(P(H\mid E) = \dfrac{P(E\mid H)\,P(H)}{P(E\mid H)\,P(H) + P(E\mid \neg H)\,(1-P(H))}\).
+  <div v-show="showHelp" class="help-text">
+    <p class="lead">
+      State the apriori probability of the hypothesis/question. This is your "gut feeling" about the hypothesis before considering any evidence.
+      Let's say you think the apriori probability is 0%. That means you, regardless of the evidence, believe the hypothesis is impossible.
+      Or, if you specify 100%, you believe the hypothesis is certain to be true, regardless of the evidence. These are the two extremes
+      that must be avoided if one considers oneself open to evidence! You can specify any value, but ChatGPT says 5% means 'very skeptical'
+      and consequently 95% means 'very confident'. The default is 50%, which means you are neutral and have no prior opinion about the hypothesis.
     </p>
-    <p class="hint">Tips: Angi 0–100 i prosentmodus eller 0–1 i sannsynlighetsmodus. Verdier utenfor gyldig område markeres som feil.</p>
-    <div id="error" class="err"></div>
+    <p class="lead">
+      After entering the apriori probability, you can add evidence. For each piece of evidence, you must specify two probabilities. Let assume
+      an example hypothesis: "Unicorns exist". We can then think of an evidence such as "I found a long straight & twisted horn".
+    <ul>
+      <li>
+        P(E<sub>i</sub> | H): The probability of the evidence given that the hypothesis is true.
+        In our example the probability of finding a long straight & twisted horn if unicorns exist is 80%,
+        since we don't know if unicorns tends to lose their horns.
+      </li>
+      <li>
+        P(E<sub>i</sub> | ¬H): The probability of the evidence given that the hypothesis is false.
+        In our example the probability of finding a long straight & twisted horn if unicorns do not exist is 90%, because it's possible
+        that some animals (like narwhals) have similar horns, or that the horn is a fake.
+      </li>
+    </ul>
+    </p>
+    <p class="lead">
+      Once you have entered the apriori probability and at least one piece of evidence, the posterior probability will be calculated. This will
+      continously update as you add or change evidence. The posterior probability is the probability of the hypothesis given the <b>all</b> evidence.
+    </p>
+  </div>
+
+
+  <!-- Topp: apriori + posterior -->
+  <div class="card">
+    <div class="top no-mode">
+      <div>
+        <label>Apriori P(H) <span class="hint">(0–100&nbsp;%)</span></label>
+        <!-- Apriori -->
+        <input
+          type="number" min="0" max="100" step="any" inputmode="decimal"
+          :value="priorPct"
+          @keydown="blockNonNumeric"
+          @input="onPriorInput"
+        />
+      </div>
+      <div>
+        <label>Posterior P(H|E)</label>
+        <div class="posterior">{{ posteriorPctText }}</div>
+      </div>
+      <div class="right">
+        <button class="btn ghost" @click="resetAll">Nullstill</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Evidens-liste -->
+  <div class="card">
+    <div class="row" style="justify-content:space-between; margin-bottom:6px">
+      <strong>Evidens</strong>
+      <button class="btn" @click="addEvidence">+ Legg til evidens</button>
+    </div>
+
+    <div v-for="(ev, idx) in evidences" :key="ev.id" class="e-row" style="margin-bottom:10px">
+      <div>
+        <label>P(E<sub>{{ idx + 1 }}</sub> | H) <span class="hint">(0–100&nbsp;%)</span></label>
+        <!-- P(E_i | H) -->
+        <input
+          type="number" min="0" max="100" step="any" inputmode="decimal"
+          :value="ev.pehPct"
+          @keydown="blockNonNumeric"
+          @input="onEvInput($event, ev, 'pehPct')"
+        />
+      </div>
+      <div>
+        <label>P(E<sub>{{ idx + 1 }}</sub> | ¬H) <span class="hint">(0–100&nbsp;%)</span></label>
+        <!-- P(E_i | ¬H) -->
+        <input
+          type="number" min="0" max="100" step="any" inputmode="decimal"
+          :value="ev.penhPct"
+          @keydown="blockNonNumeric"
+          @input="onEvInput($event, ev, 'penhPct')"
+        />
+      </div>
+      <div class="row" style="justify-content:flex-end">
+        <button class="btn ghost" title="Fjern" @click="removeEvidence(idx)">Fjern</button>
+      </div>
+    </div>
+
+    <div class="err" v-if="errorMsg">{{ errorMsg }}</div>
+    <div class="muted" v-else>Tips: Alle verdier oppgis i prosent (0–100).</div>
   </div>
 </div>
 
-<script>
-  // --- Utils ---
-  const $ = sel => document.querySelector(sel);
-  const priorEl = $("#prior");
-  const pehEl = $("#peh");
-  const penhEl = $("#penh");
-  const posteriorEl = $("#posterior");
-  const bfEl = $("#bf");
-  const oddsPriorEl = $("#oddsPrior");
-  const oddsPostEl = $("#oddsPost");
-  const errorEl = $("#error");
-  const applyBtn = $("#apply");
-  const addRoundBtn = $("#addRound");
-  const undoBtn = $("#undo");
-  const resetBtn = $("#reset");
-  const historyCard = $("#historyCard");
-  const historyTableBody = $("#historyTable tbody");
-  const toggleHistory = $("#toggleHistory");
-  const modeRadios = document.querySelectorAll('input[name="mode"]');
-  const priorHint = $("#priorHint"), pehHint = $("#pehHint"), penhHint = $("#penhHint");
-
-  let mode = "percent"; // "percent" or "prob"
-  let history = [];
-
-  function clamp01(x){ return isFinite(x) ? Math.max(0, Math.min(1, x)) : NaN; }
-  function parseInput(el){
-    const v = el.value.trim();
-    if(v === "") return null;
-    const num = Number(v.replace(",", "."));
-    if(!isFinite(num)) return NaN;
-    return mode === "percent" ? num/100 : num;
-  }
-  function prettyProb(p){
-    if(!isFinite(p)) return "—";
-    if(p < 0 || p > 1) return "—";
-    const asPct = (p*100).toFixed(2).replace(".", ",") + " %";
-    const asProb = p.toFixed(4).replace(".", ",");
-    return `${asPct}  (${asProb})`;
-  }
-  function prettyNum(x){
-    if(!isFinite(x)) return "∞";
-    const s = Math.abs(x) >= 1000 ? x.toExponential(3) : x.toFixed(3);
-    return s.replace(".", ",");
-  }
-  function setRange(el){
-    if(mode === "percent"){ el.min = 0; el.max = 100; el.step="any"; }
-    else { el.min = 0; el.max = 1; el.step="any"; }
-  }
-  function updateHints(){
-    priorHint.textContent = mode==="percent" ? "% (0–100)" : "[0–1]";
-    pehHint.textContent = mode==="percent" ? "% (0–100)" : "[0–1]";
-    penhHint.textContent = mode==="percent" ? "% (0–100)" : "[0–1]";
-  }
-
-  // --- Core Bayes ---
-  function compute(){
-    // Reset error state
-    errorEl.textContent = "";
-    [priorEl, pehEl, penhEl].forEach(el => el.style.borderColor = "rgba(0,0,0,.15)");
-
-    const pH = parseInput(priorEl);
-    const pEh = parseInput(pehEl);
-    const pE_notH = parseInput(penhEl);
-
-    // Validate available inputs
-    const fields = [pH, pEh, pE_notH];
-    const allProvided = fields.every(v => v !== null);
-    const anyInvalid = fields.some(v => v !== null && (!isFinite(v) || v < 0 || v > 1));
-
-    if(!allProvided){
-      posteriorEl.textContent = "—";
-      bfEl.textContent = "—";
-      oddsPriorEl.textContent = "—";
-      oddsPostEl.textContent = "—";
-      applyBtn.disabled = true;
-      addRoundBtn.disabled = true;
-      return;
-    }
-    if(anyInvalid){
-      errorEl.textContent = "Ugyldig verdi: alle felter må være innenfor 0–1 (eller 0–100 % i prosentmodus).";
-      [priorEl, pehEl, penhEl].forEach((el,i)=>{
-        const v = [pH,pEh,pE_notH][i];
-        if(v !== null && (!isFinite(v) || v < 0 || v > 1)){ el.style.borderColor = "#b91c1c"; }
-      });
-      posteriorEl.textContent = "—";
-      bfEl.textContent = "—";
-      oddsPriorEl.textContent = "—";
-      oddsPostEl.textContent = "—";
-      applyBtn.disabled = true;
-      addRoundBtn.disabled = true;
-      return;
-    }
-
-    const prior = clamp01(pH);
-    const peh = clamp01(pEh);
-    const penh = clamp01(pE_notH);
-
-    // Bayes factor & odds form
-    const bf = (penh === 0) ? (peh === 0 ? NaN : Infinity) : (peh / penh);
-    const oddsPrior = (prior === 1) ? Infinity : (prior === 0 ? 0 : (prior / (1 - prior)));
-    const oddsPost = (isFinite(bf) && isFinite(oddsPrior)) ? bf * oddsPrior
-      : (!isFinite(bf) && oddsPrior===0 ? 0 : (!isFinite(oddsPrior) && bf===0 ? 0 : (bf===Infinity ? Infinity : NaN)));
-    const posterior = (isFinite(oddsPost))
-      ? (oddsPost / (1 + oddsPost))
-      : (bf===Infinity ? 1 : (bf===0 ? 0 : NaN));
-
-    posteriorEl.textContent = prettyProb(posterior);
-    bfEl.textContent = prettyNum(bf);
-    oddsPriorEl.textContent = prettyNum(oddsPrior);
-    oddsPostEl.textContent = prettyNum(oddsPost);
-
-    applyBtn.disabled = !(isFinite(posterior));
-    addRoundBtn.disabled = applyBtn.disabled;
-  }
-
-  // --- History handling ---
-  function renderHistory(){
-    historyTableBody.innerHTML = "";
-    history.forEach((r,i)=>{
-      const tr = document.createElement("tr");
-      const fmt = x => (x===Infinity ? "∞" : (x===0 ? "0" : (isFinite(x) ? x : "—")));
-      const td = (txt, alignRight=true) => {
-        const el = document.createElement("td");
-        el.textContent = txt;
-        if(!alignRight) el.style.textAlign="left";
-        return el;
-      };
-      tr.appendChild(td(String(i+1), false));
-      tr.appendChild(td(probTxt(r.prior)));
-      tr.appendChild(td(probTxt(r.peh)));
-      tr.appendChild(td(probTxt(r.penh)));
-      tr.appendChild(td(numTxt(r.bf)));
-      tr.appendChild(td(probTxt(r.post)));
-      historyTableBody.appendChild(tr);
-    });
-
-    function probTxt(p){ return isFinite(p) ? (p*100).toFixed(2).replace(".",",")+" %" : "—"; }
-    function numTxt(x){
-      if(x===Infinity) return "∞";
-      if(!isFinite(x)) return "—";
-      return (Math.abs(x)>=1000 ? x.toExponential(3) : x.toFixed(3)).replace(".",",");
-    }
-  }
-
-  // --- Events ---
-  [priorEl, pehEl, penhEl].forEach(el => el.addEventListener("input", compute));
-
-  modeRadios.forEach(r => r.addEventListener("change", e=>{
-    mode = e.target.value;
-    // Convert current input values between modes to preserve meaning
-    const fields = [priorEl, pehEl, penhEl];
-    fields.forEach(el=>{
-      if(el.value.trim() === "") return;
-      const v = Number(el.value.replace(",", "."));
-      if(!isFinite(v)) return;
-      if(mode === "percent"){ // We switched to percent: value was prob -> *100
-        el.value = (v*100).toString();
-      } else { // switched to probability: value was percent -> /100
-        el.value = (v/100).toString();
-      }
-    });
-    [priorEl, pehEl, penhEl].forEach(setRange);
-    updateHints();
-    compute();
-  }));
-
-  applyBtn.addEventListener("click", ()=>{
-    // Compute first to ensure current posterior
-    compute();
-    // Extract numbers as probabilities
-    const pH = clamp01(parseInput(priorEl));
-    const peh = clamp01(parseInput(pehEl));
-    const penh = clamp01(parseInput(penhEl));
-
-    // Calculate posterior again (same logic as compute, but compact)
-    const bf = (penh === 0) ? (peh === 0 ? NaN : Infinity) : (peh / penh);
-    const oddsPrior = (pH === 1) ? Infinity : (pH === 0 ? 0 : (pH / (1 - pH)));
-    const oddsPost = (isFinite(bf) && isFinite(oddsPrior)) ? bf * oddsPrior
-      : (!isFinite(bf) && oddsPrior===0 ? 0 : (!isFinite(oddsPrior) && bf===0 ? 0 : (bf===Infinity ? Infinity : NaN)));
-    const post = (isFinite(oddsPost)) ? (oddsPost / (1 + oddsPost)) : (bf===Infinity ? 1 : (bf===0 ? 0 : NaN));
-    if(!isFinite(post)) return;
-
-    // Push to history
-    history.push({ prior:pH, peh, penh, bf, post });
-    renderHistory();
-    undoBtn.disabled = history.length === 0 ? true : false;
-
-    // Use posterior as new prior
-    priorEl.value = mode === "percent" ? (post*100) : post;
-    // (Behold evidensfeltene, så du kan kjøre ny runde med samme eller endret evidens)
-    compute();
-  });
-
-  addRoundBtn.addEventListener("click", ()=>{
-    // Legg inn runde i historikk uten å sette posterior som ny apriori
-    compute();
-    const pH = clamp01(parseInput(priorEl));
-    const peh = clamp01(parseInput(pehEl));
-    const penh = clamp01(parseInput(penhEl));
-    const bf = (penh === 0) ? (peh === 0 ? NaN : Infinity) : (peh / penh);
-    const oddsPrior = (pH === 1) ? Infinity : (pH === 0 ? 0 : (pH / (1 - pH)));
-    const oddsPost = (isFinite(bf) && isFinite(oddsPrior)) ? bf * oddsPrior : NaN;
-    const post = (isFinite(oddsPost)) ? (oddsPost / (1 + oddsPost)) : (bf===Infinity ? 1 : (bf===0 ? 0 : NaN));
-    if(!isFinite(post)) return;
-    history.push({ prior:pH, peh, penh, bf, post });
-    renderHistory();
-    undoBtn.disabled = history.length === 0 ? true : false;
-  });
-
-  undoBtn.addEventListener("click", ()=>{
-    if(history.length === 0) return;
-    history.pop();
-    renderHistory();
-    undoBtn.disabled = history.length === 0 ? true : false;
-  });
-
-  resetBtn.addEventListener("click", ()=>{
-    [priorEl, pehEl, penhEl].forEach(el => { el.value = ""; el.style.borderColor = "rgba(0,0,0,.15)"; });
-    errorEl.textContent = "";
-    posteriorEl.textContent = "—";
-    bfEl.textContent = "—";
-    oddsPriorEl.textContent = "—";
-    oddsPostEl.textContent = "—";
-    applyBtn.disabled = true;
-    addRoundBtn.disabled = true;
-    history = [];
-    renderHistory();
-    undoBtn.disabled = true;
-  });
-
-  toggleHistory.addEventListener("change", ()=>{
-    historyCard.style.display = toggleHistory.checked ? "block" : "none";
-  });
-
-  // Init
-  [priorEl, pehEl, penhEl].forEach(setRange);
-  updateHints();
-  toggleHistory.dispatchEvent(new Event("change"));
-</script>
+<!-- App-kode (ES-modul) -->
+<script type="module" src="./js/app.js"></script>
 </body>
 </html>

@@ -2,10 +2,41 @@
 import { calculatePosterior, validationError } from './bayes.js';
 import { clampPct } from './utils.js';
 
-const { createApp, reactive, ref, computed } = window.Vue;
+const { createApp, reactive, ref, computed, onMounted } = window.Vue;
 
 createApp({
   setup() {
+    // JSON-data
+    const title = ref('');
+    const intro = ref('');
+    const showHelp = ref(false);
+
+    function getIdFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('id');
+    }
+
+    onMounted(async () => {
+      const id = getIdFromUrl();
+      if (!id) {
+        title.value = 'Feil';
+        intro.value = 'Ingen ID angitt i URL.';
+        return;
+      }
+
+      try {
+        const res = await fetch(`evidence/${id}.json`);
+        if (!res.ok) throw new Error('Fant ikke fil');
+        const data = await res.json();
+        title.value = data.title || '';
+        intro.value = data.intro || '';
+      } catch (err) {
+        title.value = 'Feil';
+        intro.value = 'Kunne ikke laste inn data: ' + err.message;
+      }
+    });
+
+
     // UI-state
     const priorPct = ref(50);
     const evidences = reactive([{ id: 1, pehPct: 80, penhPct: 30 }]);
@@ -80,7 +111,8 @@ createApp({
       posteriorPctText,
       addEvidence, removeEvidence, resetAll, recalc,
       clampPct, blockNonNumeric,
-      onPriorInput, onEvInput
+      onPriorInput, onEvInput,
+      title, intro, showHelp
     };
   }
 }).mount('#app');

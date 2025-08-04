@@ -1,83 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Bayes-valgomat (Vue 3) – prosent</title>
-
-  <!-- Global CSS -->
-  <link rel="stylesheet" href="./css/styles.css">
-
-  <!-- Vue 3 (CDN) -->
-  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velkommen til Valgomaten</title>
+  <style>
+      body {
+          font-family: sans-serif;
+          max-width: 600px;
+          margin: 3rem auto;
+          padding: 1rem;
+          line-height: 1.6;
+      }
+      h1 {
+          font-size: 1.8rem;
+      }
+      ul {
+          margin-top: 1.5rem;
+      }
+      li {
+          margin-bottom: 0.8rem;
+      }
+      a {
+          color: #1a73e8;
+          text-decoration: none;
+      }
+      a:hover {
+          text-decoration: underline;
+      }
+  </style>
 </head>
 <body>
-<div id="app" class="wrap">
-  <h1>Bayes‑valgomat (kun prosent)</h1>
-  <p class="lead">Oppgi apriori (0–100&nbsp;%) og legg til én eller flere evidenser. Posterior oppdateres mens du skriver.</p>
+<h1>Velkommen til Kapologikk</h1>
 
-  <!-- Topp: apriori + posterior -->
-  <div class="card">
-    <div class="top no-mode">
-      <div>
-        <label>Apriori P(H) <span class="hint">(0–100&nbsp;%)</span></label>
-        <!-- Apriori -->
-        <input
-          type="number" min="0" max="100" step="any" inputmode="decimal"
-          :value="priorPct"
-          @keydown="blockNonNumeric"
-          @input="onPriorInput"
-        />
-      </div>
-      <div>
-        <label>Posterior P(H|E)</label>
-        <div class="posterior">{{ posteriorPctText }}</div>
-      </div>
-      <div class="right">
-        <button class="btn ghost" @click="resetAll">Nullstill</button>
-      </div>
-    </div>
-  </div>
+<p>
+  Dette er et verktøy som bruker Bayes’ teorem til å hjelpe deg med å
+  evaluere ulike påstander og argumenter basert på evidens.
+</p>
 
-  <!-- Evidens-liste -->
-  <div class="card">
-    <div class="row" style="justify-content:space-between; margin-bottom:6px">
-      <strong>Evidens</strong>
-      <button class="btn" @click="addEvidence">+ Legg til evidens</button>
-    </div>
+<p>Velg hvilken valgomat du ønsker å bruke:</p>
 
-    <div v-for="(ev, idx) in evidences" :key="ev.id" class="e-row" style="margin-bottom:10px">
-      <div>
-        <label>P(E<sub>{{ idx+1 }}</sub> | H) <span class="hint">(0–100&nbsp;%)</span></label>
-        <!-- P(E_i | H) -->
-        <input
-          type="number" min="0" max="100" step="any" inputmode="decimal"
-          :value="ev.pehPct"
-          @keydown="blockNonNumeric"
-          @input="onEvInput($event, ev, 'pehPct')"
-        />
-      </div>
-      <div>
-        <label>P(E<sub>{{ idx+1 }}</sub> | ¬H) <span class="hint">(0–100&nbsp;%)</span></label>
-        <!-- P(E_i | ¬H) -->
-        <input
-          type="number" min="0" max="100" step="any" inputmode="decimal"
-          :value="ev.penhPct"
-          @keydown="blockNonNumeric"
-          @input="onEvInput($event, ev, 'penhPct')"
-        />
-      </div>
-      <div class="row" style="justify-content:flex-end">
-        <button class="btn ghost" title="Fjern" @click="removeEvidence(idx)">Fjern</button>
-      </div>
-    </div>
-
-    <div class="err" v-if="errorMsg">{{ errorMsg }}</div>
-    <div class="muted" v-else>Tips: Alle verdier oppgis i prosent (0–100).</div>
-  </div>
-</div>
-
-<!-- App-kode (ES-modul) -->
-<script type="module" src="./js/app.js"></script>
+<ul>
+  <li>
+    <a href="valgomat.html?id=test1">
+      Question: If papacy is true, Catholicism is true - if not, it is not.
+    </a>
+  </li>
+  <li>
+    <a href="valgomat.html?id=test2">
+      Valgomat: If Sola Scriptura is true, Protestantism is true - if not, it is not.
+    </a>
+  </li>
+</ul>
 </body>
 </html>
