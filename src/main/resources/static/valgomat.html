@@ -75,12 +75,20 @@
   <!-- Evidence-list -->
   <div>
     <div class="row" style="justify-content:space-between; margin-bottom:6px">
-      <strong>Evidence</strong>
-      <button class="btn" @click="addEvidence">+ Legg til evidens</button>
+      <strong>Evidences</strong>
+      <button class="btn" @click="addEvidence">+ Add evidence</button>
     </div>
 
-    <div v-for="(ev, idx) in evidences" :key="ev.id" class="card evidence" :class="backgroundClassEv(idx)" >
-      <div class="e-row" >
+    <div v-for="(ev, idx) in evidences" :key="ev.id" class="card evidence" :class="backgroundClassEv(idx)">
+      <div class="e-row">
+        <div>
+          <h3 class="evidence-heading">{{ hypJson.evidence[idx].id }}</h3>
+        </div>
+        <div class="row" style="justify-content:flex-end" v-if="idx === evidences.length - 1">
+          <button class="btn ghost" title="Fjern" @click="removeEvidence(idx)">Fjern</button>
+        </div>
+      </div>
+      <div class="e-row">
         <div>
           <label>P(E<sub>{{ idx + 1 }}</sub> | H) <span class="hint">(0–100&nbsp;%)</span></label>
           <!-- P(E_i | H) -->
@@ -89,6 +97,7 @@
             :value="ev.pehPct"
             @keydown="blockNonNumeric"
             @input="onEvInput($event, ev, 'pehPct')"
+            @change="checkAutoAppendEvidence"
           />
         </div>
         <div>
@@ -99,10 +108,8 @@
             :value="ev.penhPct"
             @keydown="blockNonNumeric"
             @input="onEvInput($event, ev, 'penhPct')"
+            @change="checkAutoAppendEvidence"
           />
-        </div>
-        <div class="row" style="justify-content:flex-end">
-          <button class="btn ghost" title="Fjern" @click="removeEvidence(idx)">Fjern</button>
         </div>
       </div>
     </div>

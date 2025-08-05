@@ -6,14 +6,18 @@ const {createApp, reactive, ref, computed, onMounted} = window.Vue;
 
 createApp({
   setup() {
-    // JSON-data
+
+
+    // Initialisering
     const hypJson = ref({
       title: '',
       intro: '',
       evidences: []
     });
-
+    const evidences = reactive([]); // start tomt
+    const loadedEvidenceData = ref([]); // start tomt, vil fylles med data/evidence fra json
     const showHelp = ref(false);
+
 
     function getIdFromUrl() {
       const params = new URLSearchParams(window.location.search);
@@ -39,11 +43,25 @@ createApp({
       const id = getIdFromUrl();
       const res = await fetch(`evidence/${id}.json`);
       hypJson.value = await res.json();
+
+      // Fjern eksisterende evidensvurderinger
+      evidences.splice(0, evidences.length);
+
+      // Lagre alle JSON-evidensobjekter internt
+      loadedEvidenceData.value = hypJson.value.evidence;
+
+      // Vis første evidence
+      evidences.push({
+        id: 1,
+        pehPct: null,
+        penhPct: null
+      });
+
+      nextId = 2;
     });
 
     // UI-state
     const priorPct = ref(50);
-    const evidences = reactive([{id: 1, pehPct: 80, penhPct: 30}]);
     let nextId = 2;
     const errorMsg = ref('');
 
@@ -63,7 +81,20 @@ createApp({
 
     // UI-hendelser
     const addEvidence = () => evidences.push({id: nextId++, pehPct: null, penhPct: null});
-    const removeEvidence = (idx) => evidences.splice(idx, 1);
+
+
+    const removeEvidence = (idx) => {
+      evidences.splice(idx, 1);
+
+      // Hvis man fjernet den siste synlige evidensen
+      if (idx === evidences.length && nextId > 1) {
+        nextId--;
+      }
+
+      recalc();
+    };
+
+
     const resetAll = () => {
       priorPct.value = 50;
       evidences.splice(0, evidences.length, {id: 1, pehPct: 80, penhPct: 30});
@@ -105,6 +136,25 @@ createApp({
       recalc();
     };
 
+    const checkAutoAppendEvidence = () => {
+      const lastIndex = evidences.length - 1;
+      const lastEv = evidences[lastIndex];
+
+      if (
+        lastEv &&
+        lastEv.pehPct !== null &&
+        lastEv.penhPct !== null &&
+        loadedEvidenceData.value.length > 0 &&
+        evidences.length < loadedEvidenceData.value.length
+      ) {
+        evidences.push({
+          id: nextId++,
+          pehPct: null,
+          penhPct: null
+        });
+      }
+    };
+
 
     // Eksponer til template
     return {
@@ -113,7 +163,8 @@ createApp({
       addEvidence, removeEvidence, resetAll, recalc,
       clampPct, blockNonNumeric,
       onPriorInput, onEvInput,
-      hypJson, showHelp, backgroundClass, backgroundClassEv
+      hypJson, showHelp, backgroundClass, backgroundClassEv,
+      checkAutoAppendEvidence
     };
   }
 }).mount('#app');
