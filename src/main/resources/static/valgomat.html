@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Bayes-valgomat (Vue 3) – prosent</title>
+  <title>Capologia</title>
+  <link rel="icon" href="./img/favicon-16x16.png" type="image/png">
 
   <!-- Global CSS -->
   <link rel="stylesheet" href="./css/styles.css">
@@ -12,15 +13,13 @@
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 </head>
 <body>
-<div id="app" class="wrap">
-  <h1>{{ title }}</h1>
-  <p class="lead">{{ intro }}</p>
 
-  <button class="btn" @click="showHelp = !showHelp">
-    {{ showHelp ? 'Hide explanation' : 'Show explanation' }}
-  </button>
+<div id="app" class="wrap" v-if="hypJson">
+  <h1>{{ hypJson.title }}</h1>
+  <p class="lead">{{ hypJson.intro }}</p>
 
-  <div v-show="showHelp" class="help-text">
+  <details class="help-text">
+    <summary class="btn">Explanation of Bayes</summary>
     <p class="lead">
       State the apriori probability of the hypothesis/question. This is your "gut feeling" about the hypothesis before considering any evidence.
       Let's say you think the apriori probability is 0%. That means you, regardless of the evidence, believe the hypothesis is impossible.
@@ -29,35 +28,34 @@
       and consequently 95% means 'very confident'. The default is 50%, which means you are neutral and have no prior opinion about the hypothesis.
     </p>
     <p class="lead">
-      After entering the apriori probability, you can add evidence. For each piece of evidence, you must specify two probabilities. Let assume
+      After entering the apriori probability, you can add evidence. For each piece of evidence, you must specify two probabilities. Let's assume
       an example hypothesis: "Unicorns exist". We can then think of an evidence such as "I found a long straight & twisted horn".
+    </p>
     <ul>
       <li>
-        P(E<sub>i</sub> | H): The probability of the evidence given that the hypothesis is true.
-        In our example the probability of finding a long straight & twisted horn if unicorns exist is 80%,
+        P(E<sub>i</sub> | H): The probability of the evidence if unicorn exists. We can say that the probability of such a horn is 80%,
         since we don't know if unicorns tends to lose their horns.
       </li>
       <li>
-        P(E<sub>i</sub> | ¬H): The probability of the evidence given that the hypothesis is false.
-        In our example the probability of finding a long straight & twisted horn if unicorns do not exist is 90%, because it's possible
-        that some animals (like narwhals) have similar horns, or that the horn is a fake.
+        P(E<sub>i</sub> | ¬H): The probability of the evidence if unicorns do not exist. We can say that the probability of such a horn is 79%,
+        since it is likely that such a horn could be found in nature, or that it is a fake horn.
       </li>
     </ul>
-    </p>
     <p class="lead">
-      Once you have entered the apriori probability and at least one piece of evidence, the posterior probability will be calculated. This will
-      continously update as you add or change evidence. The posterior probability is the probability of the hypothesis given the <b>all</b> evidence.
+      Once you have entered the apriori/initial probability and at least one piece of evidence, the result will be calculated. The result will
+      update as you add or change evidence. The result is probability of the hypothesis given the <b>all</b> evidence.
     </p>
-  </div>
+  </details>
 
 
   <!-- Topp: apriori + posterior -->
-  <div class="card">
+  <div class="card heading">
     <div class="top no-mode">
       <div>
-        <label>Apriori P(H) <span class="hint">(0–100&nbsp;%)</span></label>
+        <label>Your inital "gut feeling" <span class="hint">(0–100&nbsp;%)</span></label>
         <!-- Apriori -->
         <input
+          class="input apriori-big"
           type="number" min="0" max="100" step="any" inputmode="decimal"
           :value="priorPct"
           @keydown="blockNonNumeric"
@@ -65,8 +63,8 @@
         />
       </div>
       <div>
-        <label>Posterior P(H|E)</label>
-        <div class="posterior">{{ posteriorPctText }}</div>
+        <label>The result</label>
+        <div :class="backgroundClass(posterior*100)" class="posterior">{{ posteriorPctText }}</div>
       </div>
       <div class="right">
         <button class="btn ghost" @click="resetAll">Nullstill</button>
@@ -74,44 +72,44 @@
     </div>
   </div>
 
-  <!-- Evidens-liste -->
-  <div class="card">
+  <!-- Evidence-list -->
+  <div>
     <div class="row" style="justify-content:space-between; margin-bottom:6px">
-      <strong>Evidens</strong>
+      <strong>Evidence</strong>
       <button class="btn" @click="addEvidence">+ Legg til evidens</button>
     </div>
 
-    <div v-for="(ev, idx) in evidences" :key="ev.id" class="e-row" style="margin-bottom:10px">
-      <div>
-        <label>P(E<sub>{{ idx + 1 }}</sub> | H) <span class="hint">(0–100&nbsp;%)</span></label>
-        <!-- P(E_i | H) -->
-        <input
-          type="number" min="0" max="100" step="any" inputmode="decimal"
-          :value="ev.pehPct"
-          @keydown="blockNonNumeric"
-          @input="onEvInput($event, ev, 'pehPct')"
-        />
-      </div>
-      <div>
-        <label>P(E<sub>{{ idx + 1 }}</sub> | ¬H) <span class="hint">(0–100&nbsp;%)</span></label>
-        <!-- P(E_i | ¬H) -->
-        <input
-          type="number" min="0" max="100" step="any" inputmode="decimal"
-          :value="ev.penhPct"
-          @keydown="blockNonNumeric"
-          @input="onEvInput($event, ev, 'penhPct')"
-        />
-      </div>
-      <div class="row" style="justify-content:flex-end">
-        <button class="btn ghost" title="Fjern" @click="removeEvidence(idx)">Fjern</button>
+    <div v-for="(ev, idx) in evidences" :key="ev.id" class="card evidence" :class="backgroundClassEv(idx)" >
+      <div class="e-row" >
+        <div>
+          <label>P(E<sub>{{ idx + 1 }}</sub> | H) <span class="hint">(0–100&nbsp;%)</span></label>
+          <!-- P(E_i | H) -->
+          <input
+            type="number" min="0" max="100" step="any" inputmode="decimal"
+            :value="ev.pehPct"
+            @keydown="blockNonNumeric"
+            @input="onEvInput($event, ev, 'pehPct')"
+          />
+        </div>
+        <div>
+          <label>P(E<sub>{{ idx + 1 }}</sub> | ¬H) <span class="hint">(0–100&nbsp;%)</span></label>
+          <!-- P(E_i | ¬H) -->
+          <input
+            type="number" min="0" max="100" step="any" inputmode="decimal"
+            :value="ev.penhPct"
+            @keydown="blockNonNumeric"
+            @input="onEvInput($event, ev, 'penhPct')"
+          />
+        </div>
+        <div class="row" style="justify-content:flex-end">
+          <button class="btn ghost" title="Fjern" @click="removeEvidence(idx)">Fjern</button>
+        </div>
       </div>
     </div>
 
     <div class="err" v-if="errorMsg">{{ errorMsg }}</div>
-    <div class="muted" v-else>Tips: Alle verdier oppgis i prosent (0–100).</div>
   </div>
 </div>
-
 <!-- App-kode (ES-modul) -->
 <script type="module" src="./js/app.js"></script>
 </body>

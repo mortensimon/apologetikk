@@ -58,12 +58,19 @@ p.lead {
     grid-template-columns: 1fr 1fr auto;
 }
 
-.card {
+.card.evidence {
     border: 1px solid var(--bd);
     border-radius: 12px;
     padding: 14px;
     margin: 12px 0;
-    background: transparent;
+}
+
+.card.heading {
+    background-color: #f7f9fc; /* lys blågrå bakgrunn */
+    border: 1px solid #d0d7de;
+    border-radius: 8px;
+    padding: 14px;
+    margin: 12px 0;
 }
 
 label {
@@ -110,10 +117,20 @@ input[type="number"] {
     font-size: 1.15rem;
     font-weight: 700;
     padding: 10px 12px;
+    text-align: center;
     border-radius: 10px;
     border: 1px dashed var(--bd);
-    text-align: center;
 }
+
+input.apriori-big {
+    font-size: 1.15rem;
+    font-weight: 700;
+    padding: 10px 12px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 
 .e-row {
     display: grid;
@@ -138,4 +155,16 @@ input[type="number"] {
     margin-top: 1rem;
     transition: all 0.3s ease;
 }
+
+.bg-yellow {
+    background-color: #fff8b3; /* lys gul */
+}
+.bg-red {
+    background-color: #ffd6d6; /* lys rød */
+}
+.bg-green {
+    background-color: #d6ffd6; /* lys grønn */
+}
+
+
 
