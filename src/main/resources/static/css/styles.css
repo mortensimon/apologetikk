@@ -80,15 +80,21 @@ p.lead {
     color: #444;
 }
 
-label {
-    font-weight: 600;
-    display: block;
+.details-block summary {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 4px;
 }
 
-.hint {
+.details-block {
+    border-left: 3px solid var(--accent);
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+label {
     font-weight: 400;
-    color: var(--muted);
-    font-size: .9rem;
+    display: block;
 }
 
 input[type="number"] {

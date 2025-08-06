@@ -88,12 +88,30 @@
           <button class="btn ghost" title="Fjern" @click="removeEvidence(idx)">Fjern</button>
         </div>
       </div>
+      <div>
+        <b>Summary:</b> {{ hypJson.evidence[idx].short }}
+      </div>
+      <details class="details-block" style="margin: 6px 0;">
+        <summary class="btn small">More info</summary>
+        <!-- Detaljer -->
+        <div style="margin-top: 6px;">
+          {{ hypJson.evidence[idx].details }}
+        </div>
+        <!-- Referanser -->
+        <div v-if="hypJson.evidence[idx].references && hypJson.evidence[idx].references.length" style="margin-top: 8px;">
+          <strong>References:</strong>
+          <ul>
+            <li v-for="(ref, refIdx) in hypJson.evidence[idx].references" :key="refIdx">
+              <a :href="extractUrl(ref)" target="_blank" rel="noopener">{{ ref }}</a>
+            </li>
+          </ul>
+        </div>
+      </details>
       <div class="e-row">
         <div>
-          <label>P(E<sub>{{ idx + 1 }}</sub> | H) <span class="hint">(0–100&nbsp;%)</span></label>
-          <!-- P(E_i | H) -->
+          <label style="font-size: 0.6em;">Probability of evidence if hypothesis is <b>true</b> (0–100)</label>
           <input
-            type="number" min="0" max="100" step="any" inputmode="decimal"
+            type="number" min="0" max="100" step="any" inputmode="numeric"
             :value="ev.pehPct"
             @keydown="blockNonNumeric"
             @input="onEvInput($event, ev, 'pehPct')"
@@ -101,10 +119,9 @@
           />
         </div>
         <div>
-          <label>P(E<sub>{{ idx + 1 }}</sub> | ¬H) <span class="hint">(0–100&nbsp;%)</span></label>
-          <!-- P(E_i | ¬H) -->
+          <label style="font-size: 0.6em;">Probability of evidence if hypothesis is <b>false</b> (0–100)</label>
           <input
-            type="number" min="0" max="100" step="any" inputmode="decimal"
+            type="number" min="0" max="100" step="any" inputmode="numeric"
             :value="ev.penhPct"
             @keydown="blockNonNumeric"
             @input="onEvInput($event, ev, 'penhPct')"

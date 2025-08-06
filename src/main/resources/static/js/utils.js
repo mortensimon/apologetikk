@@ -5,8 +5,9 @@
 export const clampPct = (val) => {
   if (val === '' || val == null) return val;         // la tom streng stå under skriving
   const x = parseFloat(String(val).replace(',', '.'));
-  if (isNaN(x)) return 0;
-  return Math.max(0, Math.min(100, x));
+  if (isNaN(x))
+    return 0;
+  return x < 0 ? 0 : x > 100 ? 100 : x;
 };
 
 export const validPct = (v) =>

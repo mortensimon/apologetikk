@@ -105,7 +105,7 @@ createApp({
 
     // Blokker vitenskapelig notasjon og +- i number-felt
     const blockNonNumeric = (e) => {
-      if (['e', 'E', '+', '-'].includes(e.key)) e.preventDefault();
+      if (['e', 'E', '+', '-', '.', ','].includes(e.key)) e.preventDefault();
     };
 
     // Prefikserer 0 ved .xxx/ ,xxx, klamper 0–100, oppdaterer state + feltet
@@ -127,8 +127,6 @@ createApp({
 
     const onEvInput = (e, ev, key) => {
       let s = String(e.target.value || '').trim();
-      if (s.startsWith('.') || s.startsWith(',')) s = '0' + s;
-
       const x = clampPct(s);
       ev[key] = x;
       e.target.value = String(x);
@@ -155,6 +153,11 @@ createApp({
       }
     };
 
+    function extractUrl(ref) {
+      const match = ref.match(/https?:\/\/\S+/);
+      return match ? match[0] : '#';
+    }
+
 
     // Eksponer til template
     return {
@@ -164,7 +167,7 @@ createApp({
       clampPct, blockNonNumeric,
       onPriorInput, onEvInput,
       hypJson, showHelp, backgroundClass, backgroundClassEv,
-      checkAutoAppendEvidence
+      checkAutoAppendEvidence, extractUrl
     };
   }
 }).mount('#app');
