@@ -54,7 +54,8 @@ createApp({
       evidences.push({
         id: 1,
         pehPct: null,
-        penhPct: null
+        penhPct: null,
+        weight: 50
       });
 
       nextId = 2;
@@ -80,7 +81,7 @@ createApp({
     };
 
     // UI-hendelser
-    const addEvidence = () => evidences.push({id: nextId++, pehPct: null, penhPct: null});
+    const addEvidence = () => evidences.push({id: nextId++, pehPct: null, penhPct: null, weight: 50});
 
 
     const removeEvidence = (idx) => {
@@ -97,7 +98,7 @@ createApp({
 
     const resetAll = () => {
       priorPct.value = 50;
-      evidences.splice(0, evidences.length, {id: 1, pehPct: 80, penhPct: 30});
+      evidences.splice(0, evidences.length, {id: 1, pehPct: 80, penhPct: 30, weight: 50});
       nextId = 2;
       errorMsg.value = '';
       recalc();
@@ -148,7 +149,8 @@ createApp({
         evidences.push({
           id: nextId++,
           pehPct: null,
-          penhPct: null
+          penhPct: null,
+          weight: 50
         });
       }
     };

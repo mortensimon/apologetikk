@@ -107,6 +107,12 @@ input[type="number"] {
     color: inherit;
 }
 
+input.weight {
+    width: 60px;
+    background-color: #f3f4f6;
+    margin-left: 12px;
+}
+
 .btn {
     border: 1px solid var(--bd);
     padding: 10px 14px;

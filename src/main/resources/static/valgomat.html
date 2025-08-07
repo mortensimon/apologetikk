@@ -128,6 +128,18 @@
             @change="checkAutoAppendEvidence"
           />
         </div>
+        <!-- 🆕 Tredje input-felt: vekt -->
+        <div>
+          <label style="font-size: 0.6em;">Weight</label>
+          <input
+            class="weight"
+            type="number" min="0" max="100" step="any" inputmode="numeric"
+            :value="ev.weight"
+            @keydown="blockNonNumeric"
+            @input="onEvInput($event, ev, 'weight')"
+            style="width: 60px;"
+          />
+        </div>
       </div>
     </div>
 
