@@ -195,5 +195,41 @@ input.apriori-big {
     background-color: #d6ffd6; /* lys grønn */
 }
 
+.cta-wrap { margin: 24px 0 40px; }
+.c­ta { font-size: 1.15rem; padding: 14px 18px; width: 100%; border-width: 2px; }
+
+.modal {
+    max-width: 820px;
+    width: 90%;
+    border: 1px solid var(--bd);
+    border-radius: 12px;
+    padding: 16px;
+    background: var(--bg);
+    color: var(--fg);
+}
+
+.modal::backdrop {
+    background: rgba(0,0,0,.4);
+}
+
+.modal h2 {
+    margin: 0 0 8px;
+    font-size: 1.2rem;
+}
+
+.modal .json {
+    max-height: 60vh;
+    overflow: auto;
+    background: rgba(0,0,0,.05);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--bd);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: .9rem;
+}
+@media (prefers-color-scheme: dark) {
+    .modal .json { background: rgba(255,255,255,.06); }
+}
+
 
 

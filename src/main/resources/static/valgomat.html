@@ -145,12 +145,29 @@
             <option :value="50">normal</option>
             <option :value="75">extra</option>
             <option :value="100">double</option>
-          </select>        </div>
+          </select>
+        </div>
       </div>
     </div>
 
     <div class="err" v-if="errorMsg">{{ errorMsg }}</div>
   </div>
+
+  <!-- CTA -->
+  <div class="cta-wrap">
+    <button class="btn primary cta" @click="openPublish">Publish your results</button>
+  </div>
+
+  <!-- Modal -->
+  <dialog ref="resultsDialog" class="modal">
+    <h2>Review your results</h2>
+    <pre class="json">{{ publishJson }}</pre>
+    <div class="row right">
+      <button class="btn" @click="copyPublish">Copy JSON</button>
+      <button class="btn primary" @click="closePublish">Close</button>
+    </div>
+  </dialog>
+
 </div>
 <!-- App-kode (ES-modul) -->
 <script type="module" src="./js/app.js"></script>

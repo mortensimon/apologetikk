@@ -6,8 +6,6 @@ const {createApp, reactive, ref, computed, onMounted} = window.Vue;
 
 createApp({
   setup() {
-
-
     // Initialisering
     const hypJson = ref({
       title: '',
@@ -17,7 +15,46 @@ createApp({
     const evidences = reactive([]); // start tomt
     const loadedEvidenceData = ref([]); // start tomt, vil fylles med data/evidence fra json
     const showHelp = ref(false);
+    const resultsDialog = ref(null);
+    const publishJson = ref('');
 
+    function openPublish() {
+      // Ta med KUN besvarte evidenser (begge felter utfylt)
+      const answered = evidences
+        .filter(ev => ev.pehPct !== null && ev.penhPct !== null)
+        .map(ev => {
+          const label = hypJson.value?.evidence?.[ev.id - 1]?.id ?? `E${ev.id}`;
+          return {
+            id: ev.id,
+            label,
+            pehPct: ev.pehPct,
+            penhPct: ev.penhPct,
+            weight: ev.weight
+          };
+        });
+
+      const payload = {
+        title: hypJson.value?.title ?? '',
+        aprioriPct: priorPct.value,
+        posteriorPct: Number.isFinite(posterior.value) ? +(posterior.value * 100).toFixed(2) : null,
+        evidences: answered
+      };
+
+      publishJson.value = JSON.stringify(payload, null, 2);
+      resultsDialog.value?.showModal();
+    }
+
+    function closePublish() {
+      resultsDialog.value?.close();
+    }
+
+    async function copyPublish() {
+      try {
+        await navigator.clipboard.writeText(publishJson.value);
+      } catch (_) {
+        // no-op; kunne evt. vise en liten melding
+      }
+    }
 
     function getIdFromUrl() {
       const params = new URLSearchParams(window.location.search);
@@ -177,7 +214,8 @@ createApp({
       clampPct, blockNonNumeric,
       onPriorInput, onEvInput,
       hypJson, showHelp, backgroundClass, backgroundClassEv,
-      checkAutoAppendEvidence, extractUrl
+      checkAutoAppendEvidence, extractUrl,
+      openPublish, closePublish, copyPublish, publishJson, resultsDialog
     };
   }
 }).mount('#app');
