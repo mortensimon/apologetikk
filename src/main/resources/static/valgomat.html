@@ -131,15 +131,19 @@
         <!-- 🆕 Tredje input-felt: vekt -->
         <div>
           <label style="font-size: 0.6em;">Weight</label>
-          <input
+          <select
             class="weight"
-            type="number" min="0" max="100" step="any" inputmode="numeric"
             :value="ev.weight"
-            @keydown="blockNonNumeric"
-            @input="onEvInput($event, ev, 'weight')"
-            style="width: 60px;"
-          />
-        </div>
+            @change="onEvInput($event, ev, 'weight')"
+            style="width: 140px;"
+            title="How strongly this evidence should count"
+          >
+            <option :value="0">disregard</option>
+            <option :value="25">some</option>
+            <option :value="50">normal</option>
+            <option :value="75">extra</option>
+            <option :value="100">double</option>
+          </select>        </div>
       </div>
     </div>
 

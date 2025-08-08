@@ -33,8 +33,6 @@ export function productBF(evidences) {
 
     const exponent = 2 * weight;                 // 50 → 1, 100 → 2, 0 → 0
 
-    console.log(`BF for evidence ${peh} / ${penh} with weight ${weight}: base=${base}, exponent=${exponent}`);
-
     bf *= Math.pow(base, exponent);
   }
   return bf;
