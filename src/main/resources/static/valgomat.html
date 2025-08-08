@@ -43,7 +43,9 @@
     </ul>
     <p class="lead">
       Once you have entered the apriori/initial probability and at least one piece of evidence, the result will be calculated. The result will
-      update as you add or change evidence. The result is probability of the hypothesis given the <b>all</b> evidence.
+      update as you add or change evidence. The result is probability of the hypothesis given the <b>all</b> evidence. In our example, if
+      we choose 1% as the apriori probability, and the two probabilities above, the result will be 1,01% - a slight increase in the probability.
+      Test some values below, and see the result yourself!
     </p>
   </details>
 
@@ -67,7 +69,7 @@
         <div :class="backgroundClass(posterior*100)" class="posterior">{{ posteriorPctText }}</div>
       </div>
       <div class="right">
-        <button class="btn ghost" @click="resetAll">Nullstill</button>
+        <button class="btn ghost" @click="resetAll">Reset evidences</button>
       </div>
     </div>
   </div>
@@ -75,8 +77,8 @@
   <!-- Evidence-list -->
   <div>
     <div class="row" style="justify-content:space-between; margin-bottom:6px">
-      <strong>Evidences</strong>
-      <button class="btn" @click="addEvidence">+ Add evidence</button>
+      <strong>Evidences ({{ hypJson.evidence.length }} available)</strong>
+      <button class="btn" @click="addEvidence">Show next evidence</button>
     </div>
 
     <div v-for="(ev, idx) in evidences" :key="ev.id" class="card evidence" :class="backgroundClassEv(idx)">
@@ -85,7 +87,7 @@
           <h3 class="evidence-heading">{{ hypJson.evidence[idx].id }}</h3>
         </div>
         <div class="row" style="justify-content:flex-end" v-if="idx === evidences.length - 1">
-          <button class="btn ghost" title="Fjern" @click="removeEvidence(idx)">Fjern</button>
+          <button class="btn ghost" title="Remove" @click="removeEvidence(idx)">Remove</button>
         </div>
       </div>
       <div>

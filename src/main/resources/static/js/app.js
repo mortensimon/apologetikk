@@ -12,7 +12,7 @@ createApp({
     const hypJson = ref({
       title: '',
       intro: '',
-      evidences: []
+      evidence: []
     });
     const evidences = reactive([]); // start tomt
     const loadedEvidenceData = ref([]); // start tomt, vil fylles med data/evidence fra json
@@ -80,10 +80,6 @@ createApp({
       errorMsg.value = validationError(priorPct.value, evidences);
     };
 
-    // UI-hendelser
-    const addEvidence = () => evidences.push({id: nextId++, pehPct: null, penhPct: null, weight: 50});
-
-
     const removeEvidence = (idx) => {
       evidences.splice(idx, 1);
 
@@ -135,6 +131,18 @@ createApp({
       recalc();
     };
 
+    // Add new evidence from button click
+    const addEvidence = () =>
+    {
+      // Do not add if nextId exceeds loaded evidence data length
+      if (nextId > hypJson.value.evidence.length) {
+        errorMsg.value = 'All evidences are shown';
+        return;
+      }
+      evidences.push({id: nextId++, pehPct: null, penhPct: null, weight: 50});
+    }
+
+    // Add new evidence through submitting the evidence form (both fields)
     const checkAutoAppendEvidence = () => {
       const lastIndex = evidences.length - 1;
       const lastEv = evidences[lastIndex];
