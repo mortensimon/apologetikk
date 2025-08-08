@@ -309,12 +309,39 @@
             ]
         },
         {
-            "id": "Apostolic Fathers",
-            "short": "Apostolic Fathers (average)",
-            "details": "The Apostolic Fathers (late 1st and early 2nd centuries) show respect for Rome, but do not explicitly describe a fully developed papal office. Their writings show an early recognition of Rome’s authority while still operating within a largely collegial and local church structure.",
+            "id": "Clement of Rome (c. 70–96 AD)",
+            "short": "Clement of Rome asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
+            "details": "Catholics often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead.\n\nCritics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice.",
             "category": "Patristic",
             "references": [
-                "Will add sources later. Not sure how best to do this."
+                "Clement of Rome (c. 70–96 AD): https://www.newadvent.org/fathers/1010.htm"
+            ]
+        },
+        {
+            "id": "Ignatius of Antioch (c. 107–108 AD)",
+            "short": "Ignatius of Antioch, who generally speaks \"down\" to the churches he writes on the way to his martyrdom, speaks \"up\" to the Romans, going so far as to say that Rome \"presides over love\" (i.e. the Eucharist).",
+            "details": "Catholics often argue that the reason Ignatius shows such respect for Rome is that St. Peter's office continues there, as evidenced by \"presiding over love\". \"Love feast\" is a common name for the Eucharist, so this fits very well with the modern Catholic understanding of being in communion with the Pope.\n\nCritics often counter that Rome was an important city, Peter or no Peter, and Ignatius is writing to request that the Christians there avoid helping him escape martyrdom, so it is natural that he should be more polite.",
+            "category": "Patristic",
+            "references": [
+                "Ignatius of Antioch: https://www.newadvent.org/fathers/0107.htm"
+            ]
+        },
+        {
+            "id": "Polycarp of Smyrna (early 2nd century)",
+            "short": "Polycarp of Smyrna visited Rome to attempt a resolution of the Quartodeciman Controversy.",
+            "details": "Many of the (presumably Johannine) churches in Asia Minor celebrated Easter according to the Jewish calendar, no matter what day of the week it landed on, whereas the rest of the Church celebrated on a Sunday. This caused some controversy in the second century because it was felt that there should be a common Easter date for the whole Church.\n\nCatholics argue that Polycarp travelling to Rome fits the Petrine leadership hypothesis.\n\nCritics argue that Rome was the see complaining about this in the first place, which explains why Polycarp felt a need to travel there.",
+            "category": "Patristic",
+            "references": [
+                "Polycarp of Smyrna: https://www.earlychurchtexts.com/public/eusebius_quartodeciman_controversy.htm"
+            ]
+        },
+        {
+            "id": "Bethsaida Inscription",
+            "short": "A church in Bethsaida, Peter's hometown, calls him 'chief and commander of the Heavenly Apostles'.",
+            "details": "Catholics argue that 'chief and commander of the Heavenly Apostles' sounds a lot like the Papacy.\n\nCritics argue that the church is built in Peter's honour, so of course it uses exalted language about him.",
+            "category": "Patristic",
+            "references": [
+                "Incription in Bethsaida: https://www.smithsonianmag.com/smart-news/did-archaeologists-find-st-peters-birthplace-180980607/"
             ]
         },
         {
