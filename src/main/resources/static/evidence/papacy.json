@@ -309,8 +309,8 @@
             ]
         },
         {
-            "id": "Clement of Rome (c. 70–96 AD)",
-            "short": "Clement of Rome asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
+            "id": "Clement of Rome",
+            "short": "Clement of Rome (c. 70–96 AD) asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
             "details": "Catholics often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead.\n\nCritics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice.",
             "category": "Patristic",
             "references": [
@@ -318,8 +318,8 @@
             ]
         },
         {
-            "id": "Ignatius of Antioch (c. 107–108 AD)",
-            "short": "Ignatius of Antioch, who generally speaks \"down\" to the churches he writes on the way to his martyrdom, speaks \"up\" to the Romans, going so far as to say that Rome \"presides over love\" (i.e. the Eucharist).",
+            "id": "Ignatius of Antioch",
+            "short": "Ignatius of Antioch (c. 107–108 AD), who generally speaks \"down\" to the churches he writes on the way to his martyrdom, speaks \"up\" to the Romans, going so far as to say that Rome \"presides over love\" (i.e. the Eucharist).",
             "details": "Catholics often argue that the reason Ignatius shows such respect for Rome is that St. Peter's office continues there, as evidenced by \"presiding over love\". \"Love feast\" is a common name for the Eucharist, so this fits very well with the modern Catholic understanding of being in communion with the Pope.\n\nCritics often counter that Rome was an important city, Peter or no Peter, and Ignatius is writing to request that the Christians there avoid helping him escape martyrdom, so it is natural that he should be more polite.",
             "category": "Patristic",
             "references": [
@@ -327,7 +327,7 @@
             ]
         },
         {
-            "id": "Polycarp of Smyrna (early 2nd century)",
+            "id": "Polycarp of Smyrna",
             "short": "Polycarp of Smyrna visited Rome to attempt a resolution of the Quartodeciman Controversy.",
             "details": "Many of the (presumably Johannine) churches in Asia Minor celebrated Easter according to the Jewish calendar, no matter what day of the week it landed on, whereas the rest of the Church celebrated on a Sunday. This caused some controversy in the second century because it was felt that there should be a common Easter date for the whole Church.\n\nCatholics argue that Polycarp travelling to Rome fits the Petrine leadership hypothesis.\n\nCritics argue that Rome was the see complaining about this in the first place, which explains why Polycarp felt a need to travel there.",
             "category": "Patristic",
@@ -337,7 +337,7 @@
         },
         {
             "id": "Bethsaida Inscription",
-            "short": "A church in Bethsaida, Peter's hometown, calls him 'chief and commander of the Heavenly Apostles'.",
+            "short": "A church from c. 100 AD in Bethsaida, Peter's hometown, calls him 'chief and commander of the Heavenly Apostles'.",
             "details": "Catholics argue that 'chief and commander of the Heavenly Apostles' sounds a lot like the Papacy.\n\nCritics argue that the church is built in Peter's honour, so of course it uses exalted language about him.",
             "category": "Patristic",
             "references": [
@@ -345,12 +345,111 @@
             ]
         },
         {
-            "id": "Pre-Nicene Fathers",
-            "short": "Pre-Nicene Fathers (average)",
-            "details": "The Pre-Nicene Fathers (2nd to early 4th centuries) recognized the bishop of Rome as a leading figure, often citing Peter and Paul’s association with Rome to support its authority. However, they stop short of articulating a centralized papal supremacy.",
+            "id": "Dionysius of Corinth",
+            "short": "Dionysius of Corinth (c. 171 AD) praises Rome for uniting the churches of Rome and Corinth.",
+            "details": "Catholics argue that this shows the Pope's role as a uniter of the Church.\n\nCritics argue that Corinth was a Roman colony and had a close relationship with Rome because of that.",
             "category": "Patristic",
             "references": [
-                "Will add sources later. Not sure how best to do this."
+                "Dionysius of Corinth: https://4marksofthechurch.com/cf-st-dionysius-of-corinth/"
+            ]
+        },
+        {
+            "id": "Irenæus of Lyons",
+            "short": "Irenæus (c. 180 AD): All churches must agree with Rome.",
+            "details": "Catholics argue that this shows the central role of Rome in doctrinal questions, maybe even a precedent for Papal Infallibility.\n\nCritics argue that this is merely an expression of respect for Rome's evident orthodoxy, not a belief that Rome is infallible.",
+            "category": "Patristic",
+            "references": [
+                "Irenæus of Lyons: https://www.newadvent.org/fathers/0103303.htm"
+            ]
+        },
+        {
+            "id": "Writers on the Rock",
+            "short": "Tertullian (pre-Montanism) and Origen both identified Peter as the rock on which the Church was to be built and the one to receive the keys in a way distinct from all others.",
+            "details": "Catholics argue that this shows that Peter's unique leadership role was known early on.\n\nCritics generally look to the points below to diminish Peter's role.",
+            "category": "Patristic",
+            "references": [
+                "Tertullian (c. 200): https://www.newadvent.org/fathers/0311.htm\nTertullian (c. 203–206 AD): https://www.newadvent.org/fathers/0318.htm\nTertullian (c. 208–212 AD): https://www.newadvent.org/fathers/0406.htm\nOrigen (c. 225 AD): https://www.newadvent.org/fathers/101505.htm\nOrigen (c. 233–244 AD): https://www.newadvent.org/fathers/101613.htm\nOrigen (c. 248 AD): https://www.churchfathers.org/origins-of-peter-as-pope"
+            ]
+        },
+        {
+            "id": "Tertullian Mocks the Pope",
+            "short": "Tertullian, after becoming a Montanist heretic, mocks the Pope by sarcastically referring to him as \"Pontifex Maximus\" and \"bishop of bishops\".",
+            "details": "Catholics argue that Tertullian, as a heretic, would mock the Pope's authority because he didn't recognize it anymore.\n\nCritics argue that this shows that the Pope was not the undisputed leader of the early Church.",
+            "category": "Patristic",
+            "references": [
+                "Tertullian (c. 220–240 AD): https://www.newadvent.org/fathers/0407.htm"
+            ]
+        },
+        {
+            "id": "All Christians as Peters",
+            "short": "Origen interpreted all Christians as a kind of Peter.",
+            "details": "Catholics argue that this is fine, because a passage can have several layers of meaning.\n\nCritics argue that this undermines the papal aspects of identifying Peter as the rock.",
+            "category": "Patristic",
+            "references": [
+                "Origen (c. 225 AD): https://www.newadvent.org/fathers/101505.htm"
+            ]
+        },
+        {
+            "id": "Pope Anterus",
+            "short": "Pope Anterus (c. 236) refers to the \"apostolic seat\".",
+            "details": "Catholics argue that this is a very early reference to the chair of Peter as *the* apostolic seat.\n\nCritics may see it as a special honour given to Peter's seat because he was the leader of the Twelve, or even just one of several apostolic seats.",
+            "category": "Patristic",
+            "references": [
+                "Pope Anterus (c. 236 AD): https://catenabible.com/com/5735dfe4ec4bd7c9723bacbd"
+            ]
+        },
+        {
+            "id": "Cyprian and the Equality of the Apostles",
+            "short": "Cyprian of Carthage (c. 251–252 AD) says the apostles received equal power to bind and loose.",
+            "details": "Catholics argue that this is true, in the sense that the Pope is the leader of the college of bishops, but he doesn't replace the bishops.\n\nCritics see this as incompatible with Papal Supremacy in general and Universal Jurisdiction in particular.",
+            "category": "Patristic",
+            "references": [
+                "Cyprian of Carthage (c. 251–252 AD): https://archive.org/details/TheUnityOfTheChurchByStCyprianOfCarthage/page/n9/mode/2up?view=theater"
+            ]
+        },
+        {
+            "id": "Cyprian vs. Pope Stephen",
+            "short": "Cyprian of Carthage (c. 256 AD) opposed Pope Stephen, who threatened to excommunicate him over his rebaptism of converts from heretic groups.",
+            "details": "Catholics argue that this is an example where a saint is simply in the wrong, both doctrinally and hierarchically.\n\nCritics see this as suggesting Rome was not the highest authority in the Church at this point.",
+            "category": "Patristic",
+            "references": [
+                "Cyprian of Carthage (c. 256 AD): https://www.newadvent.org/fathers/050674.htm"
+            ]
+        },
+        {
+            "id": "Cyprian and the Unity of the Faith",
+            "short": "Cyprian of Carthage (c. 252 AD) says the unity of the faith derives from the seat of Peter.",
+            "details": "The first edition of this book sounds a lot more \"papal\", but Cyprian toned it down for the second edition, where Peter is more of a model for every bishop.\n\nCatholics see the first edition as an admission that Cyprian did recognize the Pope's authority.\n\nCritics argue that he toned it down in the second edition to clarify what his actual stance was.",
+            "category": "Patristic",
+            "references": [
+                "Cyprian of Carthage (c. 252 AD): https://www.newadvent.org/fathers/050654.htm"
+            ]
+        },
+        {
+            "id": "Ambrose, Peter, and the Church",
+            "short": "Ambrose of Milan (c. 340–397): Where Peter is, there is the Church.",
+            "details": "Catholics see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.\n\nCritics argue that this can be understood to refer to any local bishop, not just the Pope.",
+            "category": "Patristic",
+            "references": [
+                "Ambrose of Milan (c. 340–397 AD): https://archive.org/details/corpusscriptorum64ambruoft/page/250/mode/2up?view=theater"
+            ]
+        },
+        {
+            "id": "Ambrose and Peter's Confession",
+            "short": "Ambrose of Milan (c. 340–397) says the Petrine Primacy is one of confession, not of honor; a primacy of faith, not rank.",
+            "details": "Catholics argue that this is true in the sense that the Church is built on Peter because of his confession, and that the \"rank\" refers to the Pope's role as servant of the servants of God.\n\nCritics argue that this indicates the Pope is not above the other bishops in any way.",
+            "category": "Patristic",
+            "references": [
+                "Ambrose of Milan"
+            ]
+        },
+        {
+            "id": "Several Fathers on the Rock and Keys",
+            "short": "Jerome (c. 376–377): \"I know that this [chair of Peter] is the rock on which the Church is built\"\nAugustine (early) affirmed Peter as the rock.\nOptatus of Milevis (c. 367 AD) affirmed Petrine primacy and sole holding of keys",
+            "details": "Catholics argue that this shows an awareness of Peter's (and therefore Rome's) special role.\n\nCritics argue that Augustine changed his mind on this, which shows that this interpretation was not universally accepted.",
+            "category": "Patristic",
+            "references": [
+                "Jerome (c. 376–377): https://www.newadvent.org/fathers/3001015.htm\nOptatus of Milevis: https://www.sacredheartchristian.com/papacy/st.-optatus-of-milevis"
             ]
         },
         {
