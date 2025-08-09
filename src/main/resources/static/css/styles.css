@@ -107,10 +107,20 @@ input[type="number"] {
     color: inherit;
 }
 
-input.weight {
-    width: 60px;
+.weight {
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    width: 60px;             /* Lik bredde som før */
+    text-align: left;       /* Ligner tallfelt */
     background-color: #f3f4f6;
-    margin-left: 12px;
+}
+
+/* For å fortsatt kunne se at det er et felt, men uten pil */
+.weight:focus {
+    border-color: #888;
+    outline: none;
 }
 
 .btn {
