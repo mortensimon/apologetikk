@@ -7,8 +7,11 @@
   <link rel="icon" href="./img/favicon-16x16.png" type="image/png">
 
   <!-- Global CSS -->
-  <link rel="stylesheet" href="./css/styles.css">
-
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="./css/theme.css">
   <!-- Vue 3 (CDN) -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 </head>
@@ -52,7 +55,7 @@
 
   <!-- Topp: apriori + posterior -->
   <div class="card heading">
-    <div class="top no-mode">
+    <div class="row-fixed">
       <div>
         <label>Your inital "gut feeling" <span class="hint">(0–100&nbsp;%)</span></label>
         <!-- Apriori -->
@@ -82,7 +85,7 @@
     </div>
 
     <div v-for="(ev, idx) in evidences" :key="ev.id" class="card evidence" :class="backgroundClassEv(idx)">
-      <div class="e-row">
+      <div class="row-fixed">
         <div>
           <h3 class="evidence-heading">{{ hypJson.evidence[idx].id }}</h3>
         </div>
@@ -109,7 +112,7 @@
           </ul>
         </div>
       </details>
-      <div class="e-row">
+      <div class="row-fixed">
         <div>
           <label style="font-size: 0.6em;">Probability of evidence if hypothesis is <b>true</b> (0–100)</label>
           <input
@@ -154,8 +157,10 @@
   </div>
 
   <!-- CTA -->
-  <div class="cta-wrap">
-    <button class="btn primary cta" @click="openPublish">Publish your results</button>
+  <div class="row-fixed">
+    <button class="btn btn--primary btn--lg" @click="openPublish">
+      Publish your results
+    </button>
   </div>
 
   <!-- Modal -->
@@ -164,11 +169,11 @@
     <pre class="json">{{ publishJson }}</pre>
     <div class="row right">
       <button class="btn" @click="copyPublish">Copy JSON</button>
-      <button class="btn primary" @click="closePublish">Close</button>
+      <button class="btn btn--primary" @click="closePublish">Close</button>
     </div>
   </dialog>
-
 </div>
+
 <!-- App-kode (ES-modul) -->
 <script type="module" src="./js/app.js"></script>
 </body>

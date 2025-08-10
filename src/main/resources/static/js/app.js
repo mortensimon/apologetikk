@@ -131,7 +131,7 @@ createApp({
 
     const resetAll = () => {
       priorPct.value = 50;
-      evidences.splice(0, evidences.length, {id: 1, pehPct: 80, penhPct: 30, weight: 50});
+      evidences.splice(0, evidences.length, {id: 1, pehPct: 50, penhPct: 50, weight: 50});
       nextId = 2;
       errorMsg.value = '';
       recalc();
