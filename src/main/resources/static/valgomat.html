@@ -71,7 +71,7 @@
         <div :class="backgroundClass(posterior*100)" class="posterior">{{ posteriorPctText }}</div>
       </div>
       <div class="right">
-        <button class="btn ghost" @click="resetAll">Reset evidences</button>
+        <button class="btn" @click="resetAll">Reset evidences</button>
       </div>
     </div>
   </div>
@@ -88,8 +88,9 @@
         <div>
           <h3 class="evidence-heading">{{ hypJson.evidence[idx].id }}</h3>
         </div>
-        <div class="row" style="justify-content:flex-end" v-if="idx === evidences.length - 1">
-          <button class="btn ghost" title="Remove" @click="removeEvidence(idx)">Remove</button>
+        <div></div>
+        <div style="justify-content:flex-end" v-if="idx === evidences.length - 1">
+          <button class="btn" title="Remove" @click="removeEvidence(idx)">Remove</button>
         </div>
       </div>
       <div>
@@ -159,16 +160,64 @@
 
   <!-- CTA -->
   <div class="row-fixed">
-    <button class="btn btn-primary btn-lg" @click="openPublish">
+    <button class="btn btn-primary btn-lg" @click="startPublish">
       Publish your results
     </button>
+    <button class="btn" @click="openView">
+      View other users' results
+    </button>
+    <button class="btn" @click="addEvidence">Show next evidence</button>
   </div>
 
-  <!-- Modal -->
-  <dialog ref="resultsDialog" class="modal">
-    <h2>Review your results</h2>
-    <pre class="json">{{ publishJson }}</pre>
+  <!-- Denomination modal -->
+  <dialog ref="denomDialog" class="modal">
+    <h2>Select your denomination</h2>
+
+    <div style="margin:8px 0 12px;">
+      <select class="input-weight" v-model="denomination" style="width:100%;">
+        <option value="" disabled>Select…</option>
+        <option v-for="d in denominations" :key="d" :value="d">{{ d }}</option>
+      </select>
+    </div>
+
     <div class="row right">
+      <button class="btn" @click="cancelDenomination">Cancel</button>
+      <button class="btn btn-primary" :disabled="!denomination" @click="confirmDenomination">
+        Continue
+      </button>
+    </div>
+  </dialog>
+
+  <!-- Results modal (add denomination display if you want) -->
+  <dialog ref="resultsDialog" class="modal">
+    <h2>{{ publishJson.title }}</h2>
+
+    <div class="row" style="justify-content:space-between; margin: 8px 0 6px;">
+      <div><strong>Denomination:</strong> {{ publishJson.denomination || '—' }}</div>
+      <div><strong>Apriori:</strong> {{ fmtPct(publishJson.aprioriPct) }}</div>
+      <div><strong>Posterior:</strong> {{ fmtPct(publishJson.posteriorPct) }}</div>
+    </div>
+
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Evidence</th>
+        <th>P(E|H)</th>
+        <th>P(E|¬H)</th>
+        <th>Weight</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr v-for="ev in publishJson.evidences" :key="ev.id">
+        <td>{{ ev.label || ('E' + ev.id) }}</td>
+        <td class="num">{{ fmtPct(ev.pehPct) }}</td>
+        <td class="num">{{ fmtPct(ev.penhPct) }}</td>
+        <td class="num">{{ ev.weight }}</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <div class="row right" style="margin-top: 10px;">
       <button class="btn" @click="copyPublish">Copy JSON</button>
       <button class="btn btn-primary" @click="closePublish">Close</button>
     </div>

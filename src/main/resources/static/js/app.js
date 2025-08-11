@@ -18,30 +18,52 @@ createApp({
     const resultsDialog = ref(null);
     const publishJson = ref('');
 
+    // inside setup()
+    const denomDialog = ref(null);
+    const denomination = ref('');
+    const denominations = [
+      'Catholic','Orthodox','Lutheran','Reformed/Calvinist',
+      'Anglican','Baptist','Pentecostal/Charismatic',
+      'Non-denominational','Other'
+    ];
+
+    function startPublish() {
+      denomination.value = '';
+      denomDialog.value?.showModal();
+    }
+
+    function cancelDenomination() {
+      denomDialog.value?.close();
+    }
+
+    function confirmDenomination() {
+      denomDialog.value?.close();
+      openPublish(); // reuse your existing builder
+    }
+
+
     function openPublish() {
-      // Ta med KUN besvarte evidenser (begge felter utfylt)
       const answered = evidences
         .filter(ev => ev.pehPct !== null && ev.penhPct !== null)
         .map(ev => {
           const label = hypJson.value?.evidence?.[ev.id - 1]?.id ?? `E${ev.id}`;
-          return {
-            id: ev.id,
-            label,
-            pehPct: ev.pehPct,
-            penhPct: ev.penhPct,
-            weight: ev.weight
-          };
+          return { id: ev.id, label, pehPct: ev.pehPct, penhPct: ev.penhPct, weight: ev.weight };
         });
 
       const payload = {
         title: hypJson.value?.title ?? '',
+        denomination: denomination.value || null,
         aprioriPct: priorPct.value,
         posteriorPct: Number.isFinite(posterior.value) ? +(posterior.value * 100).toFixed(2) : null,
         evidences: answered
       };
 
-      publishJson.value = JSON.stringify(payload, null, 2);
+      publishJson.value = payload;
       resultsDialog.value?.showModal();
+    }
+    function fmtPct(v) {
+      if (v == null || isNaN(v)) return '—';
+      return `${(+v).toFixed(2)}%`;
     }
 
     function closePublish() {
@@ -215,7 +237,9 @@ createApp({
       onPriorInput, onEvInput,
       hypJson, showHelp, backgroundClass, backgroundClassEv,
       checkAutoAppendEvidence, extractUrl,
-      openPublish, closePublish, copyPublish, publishJson, resultsDialog
+      openPublish, closePublish, copyPublish, publishJson, resultsDialog,
+      fmtPct, startPublish, cancelDenomination, confirmDenomination,
+      denomination, denominations, denomDialog
     };
   }
 }).mount('#app');

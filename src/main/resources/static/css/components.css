@@ -176,4 +176,9 @@ button:focus,
     font-size: .9rem;
 }
 
+.table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+.table th, .table td { padding: 8px 10px; border: 1px solid var(--bd); }
+.table th { text-align: left; background: rgba(0,0,0,.03); }
+.table td.num { text-align: right; }
+
 
