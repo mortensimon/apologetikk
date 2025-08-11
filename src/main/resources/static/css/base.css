@@ -34,3 +34,18 @@ label {
     font-weight: 400;
     display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fg: #e5e7eb;
+        --bg: #0b0f14;
+        --muted: #9ca3af;
+        --accent: #60a5fa;
+        --bd: rgba(255, 255, 255, .15);
+    }
+
+    /* Beholder din mørke bakgrunn for JSON-området i modal */
+    .modal .json {
+        background: rgba(255,255,255,.06);
+    }
+}

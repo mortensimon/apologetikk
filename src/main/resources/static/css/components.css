@@ -29,10 +29,6 @@
     color: #444;
 }
 
-.cta-wrap {
-    margin: 24px 0 40px;
-}
-
 /* =========================
    Details block
    ========================= */
@@ -51,35 +47,30 @@
 /* =========================
    Inputs
    ========================= */
-input[type="number"] {
+/* Felles base */
+.input-apriori, .input-number, .input-weight {
+    background: transparent;
     border: 1px solid var(--bd);
     border-radius: 10px;
-    padding: 10px 12px;
-    font-size: 16px;
-    width: 100%;
     box-sizing: border-box;
-    background: transparent;
     color: inherit;
-}
-
-.weight {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 10px 12px;
     font-size: 16px;
-    width: 60px; /* Lik bredde som før */
-    text-align: left; /* Ligner tallfelt */
-    background-color: #f3f4f6;
-}
-
-input.apriori-big {
-    font-size: 18px;
-    font-weight: 700;
     padding: 10px 12px;
     text-align: center;
     width: 100%;
-    box-sizing: border-box;
 }
+
+.input-apriori {
+    font-size: 18px; /* større skrift for apriori-input */
+    font-weight: 700; /* fet skrift */
+}
+
+.input-weight {
+    width: 60px; /* mindre bredde for vekt-input - den er mindre viktig */
+    background-color: #f3f4f6;   /* annerledes bakgrunn */
+}
+
+
 
 /* =========================
    Buttons
@@ -94,18 +85,14 @@ input.apriori-big {
 }
 
 /* Varianter */
-.btn--primary {
+.btn-primary {
     background: var(--accent);
     border-color: transparent;
     color: #fff;
 }
 
-.btn--ghost {
-    background: transparent;
-}
-
 /* Størrelse */
-.btn--lg {
+.btn-lg {
     font-size: 1.15rem;
     padding: 14px 18px;
 }
@@ -134,8 +121,8 @@ input.apriori-big {
    Focus
    ========================= */
 /* Tastaturfokus (anbefalt) */
-input[type="number"]:focus-visible,
-select.weight:focus-visible,
+.input-number:focus-visible,
+.input-weight:focus-visible,
 textarea:focus-visible,
 button:focus-visible,
 .btn:focus-visible {
@@ -145,8 +132,8 @@ button:focus-visible,
 }
 
 /* (valgfritt) vis også samme stil ved vanlig :focus (mus-klikk) */
-input[type="number"]:focus,
-select.weight:focus,
+.input-number:focus,
+.input-weight:focus,
 textarea:focus,
 button:focus,
 .btn:focus {
