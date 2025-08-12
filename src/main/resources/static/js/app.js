@@ -72,15 +72,53 @@ createApp({
 
     async function copyPublish() {
       try {
-        await navigator.clipboard.writeText(publishJson.value);
+        const text = JSON.stringify(publishJson.value, null, 2);
+        await navigator.clipboard.writeText(text);
       } catch (_) {
         // no-op; kunne evt. vise en liten melding
+      }
+    }
+
+    async function publishToServer() {
+      try {
+        const res = await fetch('/api/results', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(publishJson.value)
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) {
+          alert(`Failed to publish: ${data.message || res.statusText}`);
+          return;
+        }
+        alert('Results published successfully. File: ' + (data.href || 'n/a'));
+      } catch (e) {
+        alert('Failed to publish: ' + (e && e.message ? e.message : String(e)));
       }
     }
 
     function getIdFromUrl() {
       const params = new URLSearchParams(window.location.search);
       return params.get('id');
+    }
+
+    async function openView() {
+      try {
+        const input = prompt('Paste result link or id (UUID):');
+        if (!input) return;
+        const id = (input.trim().split('/').filter(Boolean).pop() || '').trim();
+        if (!id) return alert('No id provided');
+        const res = await fetch(`/api/results/${encodeURIComponent(id)}`);
+        const data = await res.json().catch(() => null);
+        if (!res.ok) {
+          const msg = (data && data.message) ? data.message : res.statusText;
+          return alert('Failed to load: ' + msg);
+        }
+        publishJson.value = data;
+        resultsDialog.value?.showModal();
+      } catch (e) {
+        alert('Failed to load: ' + (e && e.message ? e.message : String(e)));
+      }
     }
 
     function backgroundClass(pct) {
@@ -237,9 +275,9 @@ createApp({
       onPriorInput, onEvInput,
       hypJson, showHelp, backgroundClass, backgroundClassEv,
       checkAutoAppendEvidence, extractUrl,
-      openPublish, closePublish, copyPublish, publishJson, resultsDialog,
+      openPublish, closePublish, copyPublish, publishToServer, publishJson, resultsDialog,
       fmtPct, startPublish, cancelDenomination, confirmDenomination,
-      denomination, denominations, denomDialog
+      denomination, denominations, denomDialog, openView
     };
   }
 }).mount('#app');
