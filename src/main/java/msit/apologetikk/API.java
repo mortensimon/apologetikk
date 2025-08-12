@@ -55,17 +55,15 @@ class API {
             Files.createDirectories(ROOT);
 
             // Krev feltene som styrer filplassering:
-            String title = textOrBadRequest(root, "title");
-            String denomination = textOrBadRequest(root, "denomination");
+            String title = getSanitizedField(root, "title");
+            String denomination = getSanitizedField(root, "denomination");
 
-            String titSeg = sanitizeSegment(title);
-            String denSeg = sanitizeSegment(denomination);
 
             // Generer stabil unik id (ULID/UUID). UUID er ok:
             String id = UUID.randomUUID().toString();
 
             // data/<title>/<denominasjon>/<id>.json
-            Path dir = ROOT.resolve(titSeg).resolve(denSeg);
+            Path dir = ROOT.resolve(title).resolve(denomination);
             Files.createDirectories(dir);
             Path file = dir.resolve(id + ".json");
 
@@ -124,20 +122,17 @@ class API {
         }
     }
 
-    private static String textOrBadRequest(JsonNode root, String field) {
+    private static String getSanitizedField(JsonNode root, String field) {
         String v = root.path(field).asText(null);
         if (v == null || v.isBlank()) {
             throw new IllegalArgumentException("Missing required field: " + field);
         }
-        return v;
-    }
-
-    private static String sanitizeSegment(String seg) {
-        if (!SAFE_SEG.matcher(seg).matches()) {
+        v = v.replaceAll(" ", "_").replaceAll("/", "_");
+        if (!SAFE_SEG.matcher(v).matches()) {
             // Ikke godta /, .., mellomrom osv.
-            throw new IllegalArgumentException("Illegal characters in path segment: " + seg);
+            throw new IllegalArgumentException("Illegal characters in path segment: " + v);
         }
-        return seg;
+        return v;
     }
 
     @GetMapping("/hello2")
