@@ -30,8 +30,11 @@
       and consequently 95% means 'very confident'. The default is 50%, which means you are neutral and have no prior opinion about the hypothesis.
     </p>
     <p class="lead">
-      After entering the apriori probability, you can add evidence. For each piece of evidence, you must specify two probabilities. Let's assume
-      an example hypothesis: "Unicorns exist". We can then think of an evidence such as "I found a long straight & twisted horn".
+      After entering the apriori probability, you can add evidence. Let's assume an example hypothesis: "Unicorns exist". We can then think of
+      an evidence such as "I found a long straight & twisted horn". We must now specify two probabilities: 1) The probability of this evidence if
+      the hypothesis is true, and 2) the probability of this evidence if the hypothesis is false. You do this by imagining that the hypotheis is
+      true and then ask yourself: "Unicorns exist, then how likely is it that I would find such a horn?" and then you do the same
+      for the case where the hypothesis is false: "Unicorns do not exist, then how likely is it that I would find such a horn?" Let's try it out:
     </p>
     <ul>
       <li>
@@ -40,7 +43,7 @@
       </li>
       <li>
         P(E<sub>i</sub> | ¬H): The probability of the evidence if unicorns do not exist. We can say that the probability of such a horn is 79%,
-        since it is likely that such a horn could be found in nature, or that it is a fake horn.
+        since it is likely that such a horn could be found in nature (from a narwhal perhaps?) or maybe it's fake?
       </li>
     </ul>
     <p class="lead">
@@ -194,8 +197,8 @@
 
     <div class="row" style="justify-content:space-between; margin: 8px 0 6px;">
       <div><strong>Denomination:</strong> {{ publishJson.denomination || '—' }}</div>
-      <div><strong>Apriori:</strong> {{ fmtPct(publishJson.aprioriPct) }}</div>
-      <div><strong>Posterior:</strong> {{ fmtPct(publishJson.posteriorPct) }}</div>
+      <div><strong>Inital Gut-feeling:</strong> {{ fmtPct(publishJson.aprioriPct) }}</div>
+      <div><strong>Result:</strong> {{ fmtPct(publishJson.posteriorPct) }}</div>
     </div>
 
     <table class="table">
@@ -208,7 +211,11 @@
       </tr>
       </thead>
       <tbody>
-      <tr v-for="ev in publishJson.evidences" :key="ev.id">
+      <tr
+        v-for="ev in publishJson.evidences"
+        :key="ev.id"
+        :class="backgroundClassEv(ev.id-1)"
+      >
         <td>{{ ev.label || ('E' + ev.id) }}</td>
         <td class="num">{{ fmtPct(ev.pehPct) }}</td>
         <td class="num">{{ fmtPct(ev.penhPct) }}</td>
