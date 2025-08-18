@@ -1,0 +1,107 @@
+{
+    "title": "Apostolic Succession Through Bishops",
+    "intro": "Hypothesis: Teaching authority requires apostolic succession through bishops.",
+    "evidence": [
+        {
+            "id": "Unspecified in the NT",
+            "short": "Apostolic succession is not explicitly laid out in the New Testament as a requirement for teaching authority.",
+            "details": "Proponents deny that this is a problem, because not everything was written down, and the need for succession was possibly taken for granted, because we do see examples of succession in the New Testament.\n\nCritics argue that something this important would have been specified, and that we can see from both the Old and New Testaments that doctrinal orthodoxy is more important than mere succession.",
+            "category": "Biblical",
+            "references": [
+                "N/A"
+            ]
+        },
+        {
+            "id": "Bishops and Presbyters",
+            "short": "\"Bishop\" and \"presbyter\" seem to be two names for the same office in the New Testament, or possibly used as generic nouns rather than the name of an office at all some places.",
+            "details": "Proponents argue that the terms are less important than the offices themselves, and that \"bishop\" uniquely came to mean the successors of the apostles and their deputies (e.g. Timothy and Titus), with \"presbyter\" being retained for the less authoritative office.\n\nCritics argue that the nomenclature we see in the New Testament outweighs later developments, and that bishops and presbyters are therefore the same office even now, with bishops elevated above presbyters on purely human grounds. Thus, even if apostolic succession were valid, it wouldn't be restricted to the office of bishop, but could also go through presbyters.",
+            "category": "Biblical",
+            "references": [
+                "https://biblehub.com/library/schaff/history_of_the_christian_church_volume_i/section_61_presbyters_or_bishops.htm"
+            ]
+        },
+        {
+            "id": "Organizational Discrepancies",
+            "short": "Early churches may have been organized in various different ways.",
+            "details": "Proponents argue that even if early churches organized themselves in various ways, the core principles were probably kept intact, at least for bishops.\n\nCritics point to historical practices that seem to break the rules for apostolic succession, like the practice of presbyters electing and seemingly ordaining their own bishop in Alexandria.",
+            "category": "History",
+            "references": [
+                "https://javierperdomo.substack.com/p/is-presbyterial-succession-valid"
+            ]
+        },
+        {
+            "id": "Eusebius's Succession Lists",
+            "short": "Eusebius (c. 300 AD) records episcopal lists of major sees, although the lists themselves are older.",
+            "details": "Proponents argue that this is strong evidence in favour of the necessity of apostolic succession.\n\nCritics often concede that there was a tendency towards such a view, but that the purpose of succession was to keep correct doctrine intact, and that the succession is thus a means to an end and only useful for as long as orthodoxy is retained.",
+            "category": "History",
+            "references": [
+                "https://eternalchristendom.com/becoming-catholic/study-banks/apostolic-succession-eusebius-church-history/"
+            ]
+        },
+        {
+            "id": "Paul's Deputy Timothy",
+            "short": "2 Timothy 2:2 shows that Paul authorized Timothy to appoint \"faithful men able to teach\".",
+            "details": "Proponents argue that the fact that Paul had to authorize Timothy to do this implies that it wasn't something just about anyone could do.\n\nCritics argue that this may have been necessary in the Apostolic Age, but once the apostles were gone, so was this ability to give special permission, leaving orthodoxy as the relevant qualification.",
+            "category": "Biblical",
+            "references": [
+                "https://biblehub.com/2_timothy/2-2.htm"
+            ]
+        },
+        {
+            "id": "Paul's Deputy Titus",
+            "short": "Titus 1:5 shows that Paul authorized Titus to appoint presbyters.",
+            "details": "Proponents argue that this shows that Titus could not just appoint people without permission from his superior, and likewise, the local congregations could not just ordain their own presbyters, but required the permission of a man with apostolic authority.\n\nCritics argue that this special authority disappeared with the apostles, and that orthodox doctrine is what's important.",
+            "category": "Biblical",
+            "references": [
+                "https://biblehub.com/titus/1-5.htm"
+            ]
+        },
+        {
+            "id": "Matthias Succeeded Judas",
+            "short": "Acts 1:15–26 indicates the apostolic office was transferable.",
+            "details": "Proponents argue that this shows that the apostolic office did not expire with the Twelve, but was inherited by their successors.\n\nCritics argue that this was possible in the Apostolic Age, but that later on, nobody would qualify because they wouldn't be eyewitnesses of Jesus.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=acts%201:15-26&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "Tertullian and Succession",
+            "short": "Tertullian (c. 200 AD) points to the apostolic churches as normative.",
+            "details": "Proponents argue that Tertullian requires apostolic succession for a church to even be a church.\n\nCritics sometimes challenge this because he sometimes seems rather to require correct doctrine, which to him seems to go hand in hand with succession, but which he probably changed his mind on later, when he became a Montanist.",
+            "category": "History",
+            "references": [
+                "https://www.earlychurchtexts.com/public/tertullian_on_apostolic_tradition.htm",
+				"https://biblehub.com/library/tertullian/the_prescription_against_heretics/index.html"
+            ]
+        },
+        {
+            "id": "Irenæus and Succession",
+            "short": "St. Irenæus of Lyons (c. 180 AD) invokes the succession of bishops (in Rome) to refute the gnostics.",
+            "details": "Proponents argue that St. Irenæus shows the necessity of apostolic succession by bringing it up as something the gnostics lack.\n\nCritics argue that for him, apostolic succession and doctrinal orthodoxy seemed to be two sides of the same coin because early on, they were.",
+            "category": "Patristic",
+            "references": [
+                "https://www.newadvent.org/fathers/0103103.htm"
+            ]
+        },
+        {
+            "id": "Clement and Succession",
+            "short": "St. Clement of Rome (c. 96 AD) describes bishops as successors to the apostles.",
+            "details": "Proponents argue that this is a very early witness to apostolic succession.\n\nCritics argue that it describes succession as being \"with the consent of the whole Church\", not necessarily that one has to be appointed by bishops to be a valid bishop or presbyter, nor that there is only one bishop over each church yet.",
+            "category": "Patristic",
+            "references": [
+                "https://www.earlychristianwritings.com/text/1clement-lightfoot.html"
+            ]
+        },
+        {
+            "id": "Laying on of Hands",
+            "short": "Early Christian ordination rites involved the laying on of hands to transfer authority.",
+            "details": "Proponents argue that this shows the necessity of a bishop ordaining another, because one cannot give what one does not have.\n\nCritics argue that this may simply be the ideal, and not strictly necessary, especially in an emergency where heretics have taken over.",
+            "category": "Biblical",
+            "references": [
+                "https://biblehub.com/1_timothy/5-22.htm",
+				"https://biblehub.com/acts/19-6.htm"
+			]
+        }
+    ]
+}
