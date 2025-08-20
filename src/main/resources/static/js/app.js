@@ -17,14 +17,15 @@ createApp({
     const showHelp = ref(false);
     const resultsDialog = ref(null);
     const publishJson = ref('');
-
-    // inside setup()
     const denomDialog = ref(null);
     const denomination = ref('');
     const denominations = [
       'Catholic','Orthodox','Lutheran','Reformed/Calvinist',
-      'Anglican','Baptist','Pentecostal/Charismatic',
-      'Non-denominational','Other'
+      'Anglican','Baptist','Methodist', 'Pentecostal/Charismatic',
+      'Non-denominational','Adventist', 'Jehova\'s Witness','Latter-day Saints',
+      'Jewish','Islamic','Hindu','Buddhist','New Age',
+      'Spiritual','Pantheist','Agnostic','Atheist',
+      'Other'
     ];
 
     function startPublish() {
@@ -40,7 +41,6 @@ createApp({
       denomDialog.value?.close();
       openPublish(); // reuse your existing builder
     }
-
 
     function openPublish() {
       const answered = evidences
@@ -264,7 +264,6 @@ createApp({
       const match = ref.match(/https?:\/\/\S+/);
       return match ? match[0] : '#';
     }
-
 
     // Eksponer til template
     return {
