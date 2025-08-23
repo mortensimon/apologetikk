@@ -3,114 +3,6 @@
     "intro": "Hypothesis: The bishop of Rome is the highest earthly leader in the Church.<br><br>The Catholic Church is often called \"Roman\" because it holds that the bishop of Rome is the Vicar of Christ on earth. In Catholic teaching on the Papacy, the most controversial point is probably that of Universal Jurisdiction: the Pope has supreme and immediate jurisdiction over the whole Church. Because his word is final and Jesus's promises to the Church indicate that God will preserve her from error, one could say that Papal Infallibility follows logically if we accept Universal Jurisdiction.<br><br>It is important to note that Vatican I, which dogmatized both these teachings, and Pope Pius IX, who convened it, did not understand the Church as a \"Papal dictatorship\". Rather, it is understood that while the Pope has the final word on questions of faith and morals and can exercise his authority without the \"consent\" (meaning \"express permission\") of his brother bishop, he still has the moral obligation of listening to them to ensure his decision has the \"consent\" (meaning \"common agreement\") of the Church.",
     "evidence": [
         {
-            "id": "Gentile Inclusion",
-            "short": "Acts 10:9–16: God abolished Jewish dietary laws and gentile exclusion through Peter",
-            "details": "Proponents see this as an early example of Peter's special jurisdiction over the whole Church.<br><br>Critics argue that this is more so a case of God using someone to accomplish His mission, and that it could easily have been someone else too. Some concede that Peter had a special role, but deny that this role could be passed down to his successors.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%2010:9-16&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Council of Jerusalem",
-            "short": "Acts 15:13–21: James presided over the Council of Jerusalem",
-            "details": "Critics argue that if Peter had jurisdiction over the entire Church, surely he should be the one to preside at this council. The Pope does usually preside when he is personally present at later councils, after all.<br><br>Proponents see this as a good example of Papal conciliarity, with Peter intervening only when necessary and when everyone has had their say.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%2015:13-21&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Authority of the Holy Spirit",
-            "short": "Acts 5:1–11: Peter exercises authority on behalf of the Holy Spirit",
-            "details": "Proponents argue that Peter is clearly presented as the leader of the early Church here.<br><br>Critics usually concede that he is, but argue that this does not necessarily mean his successors are.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%205:1%E2%80%9311&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Paul Rebukes Peter",
-            "short": "Galatians 2:11–13: Paul rebuked Peter",
-            "details": "Critics see this as suggesting that all the apostles, or at least Paul, saw themselves as Peter's equals, at least in authority, if not in honour.<br><br>Proponents argue that Paul was justified in his rebuke, even if Peter was his superior, and that this does not invalidate Peter's special leadership.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Galatians%202:11%E2%80%9313&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Apostle to the Jews or Gentiles",
-            "short": "Galatians 2:8: Peter was called the Apostle to the Jews, and Paul was the Apostle to the Gentiles",
-            "details": "Critics argue that this suggests Peter's jurisdiction was limited to the Jews.<br><br>Proponents counter that both Peter and Paul witness to both Jews and gentiles alike, even though they may have focused more on one or the other, but also, the bishop of Rome is the successor of both, which actually helps the Papal claims.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Galatians%202:8&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "A Steward like Eliakim",
-            "short": "Isaiah 22:15–25: Peter can be considered a steward like Eliakim, but also like Adam, Joseph, and Daniel",
-            "details": "Proponents argue that there are clear parallels between Isaiah 22 and Matthew 16, but also that the stewardship image is present already in Genesis, where Adam is given stewardship over the world and Joseph over Egypt. We also see Shebna and Eliakim as stewards in the Davidic kingdom, and Daniel in Babylon.<br><br>Critics argue that, while there might be something to such typology, we shouldn't base such an important doctrine on speculative types and antitypes.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Isaiah%2022:15%E2%80%9325&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "The Good Shepherd and the Gate",
-            "short": "John 10:1–18, Jesus: The Good Shepherd and the gate the shepherd will enter by",
-            "details": "Proponents argue that Jesus indicates that someone will take his place as the earthly shepherd, and since Jesus is naturally the leader of the entire Church, so will his \"vicar\" be.<br><br>Critics argue that this is speculative typology and could just as easily apply to the pastors of the Church more generally.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2010:1%E2%80%9318&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "The Untorn Net",
-            "short": "John 21:11: Peter pulls ashore the fishing net without it tearing (cf. Matthew 13:47)",
-            "details": "Proponents see this as an indication of Peter's role as \"custodian of unity\".<br><br>Critics caution against speculative typology.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2021:11&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Feed My Sheep",
-            "short": "John 21:15–19, Jesus: Feed my sheep",
-            "details": "Proponents argue that this is the fulfilment of John 10's shepherd who enters by the gate.<br><br>Critics see this as merely restoring Peter after he denied Jesus three times.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2021:15%E2%80%9319&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "I Have Prayed for Thee",
-            "short": "Luke 22:24–34, Jesus: And I have prayed for you [thee], that your faith may not fail",
-            "details": "Proponents argue that it is conspicuous that Peter should be singled out here, and that it shows that he had a special role as leader of the apostles.<br><br>Critics usually concede that Peter is the leader, but deny that this applies to his successors as well.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Strengthen Your Brothers",
-            "short": "Luke 22:24–34, Jesus: Strengthen your brothers",
-            "details": "Proponents see this as indicating how the Pope is supposed to rule: in conciliarity with his brother bishops, yet as a leader with real authority.<br><br>Critics see it as merely indicating Peter's special mission and conciliarity.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "The Greatest Among You",
-            "short": "Luke 22:24–34, Jesus: The greatest among you must be like one who serves",
-            "details": "Proponents argue that this shows how the Pope is supposed to rule: as the servant of the servants of God, in unity with his brother bishops.<br><br>Critics tend to view it as applying only to other leaders in the Church, rather than the Pope specifically.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
-            ]
-        },
-        {
             "id": "On This Rock",
             "short": "Matthew 16:18, Jesus: You are Peter, and on this rock I will build my Church",
             "details": "Proponents see this as Jesus's strongest proclamation of the Papacy. Peter's identity as the rock can be established by noticing the pattern Jesus is using: He makes a statement about Peter, then elaborates on it, three times. This makes it difficult to deny that Peter is also being spoken about in the middle elaboration. Several Church Fathers and ecclesiastical writers also support this, like Tertullian (before he became a Montanist), Origen, Augustine (before he changed his mind), Epiphanius of Salamis, and Gregory of Nyssa.<br><br>Proponents see the rock as allowing us to know where the Church properly is (in communion with Peter's successors).<br><br>Some critics argue that the rock is something other than Peter, like his confession of Jesus or Jesus Himself (both of which have patristic support), but proponents usually acknowledge these as compatible understandings. More sophisticated critics concede that Peter is the rock, but deny that this establishes a Papacy.",
@@ -136,6 +28,15 @@
 				"Tertullian (c. 203–206 AD) reiterates that Peter holds the keys: https://www.newadvent.org/fathers/0318.htm",
 				"Origen (c. 233–244 AD) makes Peter as the holder of the keys distinct from the others: https://www.newadvent.org/fathers/101613.htm",
 				"Optatus of Milevis (367 AD) says Peter alone received the keys: https://tertullian.org/fathers/optatus_01_book1.htm"
+            ]
+        },
+        {
+            "id": "A Steward like Eliakim",
+            "short": "Isaiah 22:15–25: Peter can be considered a steward like Eliakim, but also like Adam, Joseph, and Daniel",
+            "details": "Proponents argue that there are clear parallels between Isaiah 22 and Matthew 16 (especially with the keys), but also that the stewardship image is present already in Genesis, where Adam is given stewardship over the world and Joseph over Egypt. We also see Shebna and Eliakim as stewards in the Davidic kingdom, and Daniel in Babylon.<br><br>Critics argue that, while there might be something to such typology, we shouldn't base such an important doctrine on speculative types and antitypes.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=Isaiah%2022:15%E2%80%9325&version=NRSVUE"
             ]
         },
         {
@@ -167,12 +68,102 @@
             ]
         },
         {
-            "id": "God-Given Rights",
-            "short": "Moses, David, Jesus, and Paul rightly asserted their God-given rights against those who opposed them",
-            "details": "Proponents argue that Kora rebelled against Moses; Saul, Absalom, and many others opposed David; the Jewish leaders opposed Jesus and got Him executed; Paul was opposed by the Judaizers. In all these cases, those whom God had commissioned were in the right, but to an onlooker, that might not always be that clear.<br><br>Critics see this as irrelevant to the case of Peter and his successors.",
+            "id": "I Have Prayed for Thee",
+            "short": "Luke 22:24–34, Jesus: And I have prayed for you [thee], that your faith may not fail",
+            "details": "Proponents argue that it is conspicuous that Peter should be singled out here, and that it shows that he had a special role as leader of the apostles.<br><br>Critics usually concede that Peter is the leader, but deny that this applies to his successors as well.",
             "category": "Biblical",
             "references": [
-                "Several verses. Will add later."
+                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "Strengthen Your Brothers",
+            "short": "Luke 22:24–34, Jesus: Strengthen your brothers",
+            "details": "Proponents see this as indicating how the Pope is supposed to rule: in conciliarity with his brother bishops, yet as a leader with real authority.<br><br>Critics see it as merely indicating Peter's special mission and conciliarity.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "The Greatest Among You",
+            "short": "Luke 22:24–34, Jesus: The greatest among you must be like one who serves",
+            "details": "Proponents argue that this shows how the Pope is supposed to rule: as the servant of the servants of God, in unity with his brother bishops.<br><br>Critics tend to view it as applying only to other leaders in the Church, rather than the Pope specifically.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "The Good Shepherd and the Gate",
+            "short": "John 10:1–18, Jesus: The Good Shepherd and the gate the shepherd will enter by",
+            "details": "Proponents argue that Jesus indicates that someone will take his place as the earthly shepherd, and since Jesus is naturally the leader of the entire Church, so will his \"vicar\" be.<br><br>Critics argue that this is speculative typology and could just as easily apply to the pastors of the Church more generally.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=John%2010:1%E2%80%9318&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "The Untorn Net",
+            "short": "John 21:11: Peter pulls ashore the fishing net without it tearing (cf. Matthew 13:47)",
+            "details": "Proponents see this as an indication of Peter's role as \"custodian of unity\".<br><br>Critics caution against speculative typology.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=John%2021:11&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "Feed My Sheep",
+            "short": "John 21:15–19, Jesus: Feed my sheep",
+            "details": "Proponents argue that this is the fulfilment of John 10's shepherd who enters by the gate.<br><br>Critics see this as merely restoring Peter after he denied Jesus three times.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=John%2021:15%E2%80%9319&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "Authority of the Holy Spirit",
+            "short": "Acts 5:1–11: Peter exercises authority on behalf of the Holy Spirit",
+            "details": "Proponents argue that Peter is clearly presented as the leader of the early Church here.<br><br>Critics usually concede that he is, but argue that this does not necessarily mean his successors are.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=Acts%205:1%E2%80%9311&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "Gentile Inclusion",
+            "short": "Acts 10:9–16: God abolished Jewish dietary laws and gentile exclusion through Peter",
+            "details": "Proponents see this as an early example of Peter's special jurisdiction over the whole Church.<br><br>Critics argue that this is more so a case of God using someone to accomplish His mission, and that it could easily have been someone else too. Some concede that Peter had a special role, but deny that this role could be passed down to his successors.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=Acts%2010:9-16&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "Council of Jerusalem",
+            "short": "Acts 15:13–21: James presided over the Council of Jerusalem",
+            "details": "Critics argue that if Peter had jurisdiction over the entire Church, surely he should be the one to preside at this council. The Pope does usually preside when he is personally present at later councils, after all.<br><br>Proponents see this as a good example of Papal conciliarity, with Peter intervening only when necessary and when everyone has had their say.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=Acts%2015:13-21&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "Paul Rebukes Peter",
+            "short": "Galatians 2:11–13: Paul rebuked Peter",
+            "details": "Critics see this as suggesting that all the apostles, or at least Paul, saw themselves as Peter's equals, at least in authority, if not in honour.<br><br>Proponents argue that Paul was justified in his rebuke, even if Peter was his superior, and that this does not invalidate Peter's special leadership.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=Galatians%202:11%E2%80%9313&version=NRSVUE"
+            ]
+        },
+        {
+            "id": "Apostle to the Jews or Gentiles",
+            "short": "Galatians 2:8: Peter was called the Apostle to the Jews, and Paul was the Apostle to the Gentiles",
+            "details": "Critics argue that this suggests Peter's jurisdiction was limited to the Jews.<br><br>Proponents counter that both Peter and Paul witness to both Jews and gentiles alike, even though they may have focused more on one or the other, but also, the bishop of Rome is the successor of both, which actually helps the Papal claims.",
+            "category": "Biblical",
+            "references": [
+                "https://www.biblegateway.com/passage/?search=Galatians%202:8&version=NRSVUE"
             ]
         },
         {
@@ -206,21 +197,15 @@
             ]
         },
         {
-            "id": "Arabic Canons of Nicæa",
-            "short": "Arabic Canons of Nicæa (c. 10th century): Peter is head of Patriarchs and Vicar of Christ",
-            "details": "The Arabic Canons of Nicaea (c. 10th century), a later and non-original text attributed to the First Council of Nicaea, state that Peter is the head of the Patriarchs and the Vicar of Christ.<br><br>Proponents argue that, though not part of the authentic 4th-century Nicene canons, this reflects a later Christian tradition emphasizing the primacy of Peter and, by extension, the authority of the bishop of Rome.<br><br>Critics usually dismiss it as an irrelevant forgery.",
-            "category": "History",
+            "id": "God-Given Rights",
+            "short": "Moses, David, Jesus, and Paul rightly asserted their God-given rights against those who opposed them",
+            "details": "Proponents argue that Korah rebelled against Moses; Saul, Absalom, and many others opposed David; the Jewish leaders opposed Jesus and got Him executed; Paul was opposed by the Judaizers. In all these cases, those whom God had commissioned were in the right, but to an onlooker, that might not always be that clear.<br><br>Critics see this as irrelevant to the case of Peter and his successors.",
+            "category": "Biblical",
             "references": [
-                "https://biblehub.com/library/schaff/the_seven_ecumenical_councils/the_captions_of_the_arabic.htm"
-            ]
-        },
-        {
-            "id": "Primus Inter Pares",
-            "short": "Eastern Churches consider the Pope \"primus inter pares\"",
-            "details": "The Eastern Churches view the Pope as \"primus inter pares\", meaning \"first among equals\".<br><br>Critics argue that this acknowledges the Pope's honorary primacy among bishops but rejects his supreme authority over the entire Church, emphasizing a collegial and conciliar model of leadership.<br><br>Proponents argue that \"primus inter pares\" was understood to come with actual authority, and that the \"primacy of honour\" is more of a convenient way to deny this",
-            "category": "History",
-            "references": [
-                "Will add source later."
+                "Korah's rebellion: https://biblehub.com/numbers/16.htm",
+                "David and Saul: https://biblehub.com/numbers/16.htm",
+                "David and Absalom: https://biblehub.com/2_samuel/15.htm",
+                "Paul vs. the Judaizers: https://biblehub.com/nkjv/2_samuel/15.htm"
             ]
         },
         {
@@ -233,9 +218,18 @@
             ]
         },
         {
-            "id": "Conciliar Movement and Gallicanism",
-            "short": "The Conciliar Movement and Gallicanism show Catholic skepticism of papal claims",
-            "details": "The Conciliar Movement and Gallicanism reflect periods of skepticism toward papal authority in the Catholic West.<br><br>Critics argue that their emphasis on the authority of Church councils or national churches over the pope in the 14th to 18th centuries demonstrate that Papal Supremacy is a late development.<br><br>Proponents argue that there have always been those who hesitate to acknowledge authority, sometimes to the point of heresy, but that this does not nullify legitimate authority.",
+            "id": "Arabic Canons of Nicæa",
+            "short": "Arabic Canons of Nicæa (c. 10th century): Peter is head of Patriarchs and Vicar of Christ",
+            "details": "The Arabic Canons of Nicaea (c. 10th century), a later and non-original text attributed to the First Council of Nicaea, state that Peter is the head of the Patriarchs and the Vicar of Christ.<br><br>Proponents argue that, though not part of the authentic 4th-century Nicene canons, this reflects a later Christian tradition emphasizing the primacy of Peter and, by extension, the authority of the bishop of Rome.<br><br>Critics usually dismiss it as an irrelevant forgery.",
+            "category": "History",
+            "references": [
+                "https://biblehub.com/library/schaff/the_seven_ecumenical_councils/the_captions_of_the_arabic.htm"
+            ]
+        },
+        {
+            "id": "Primus Inter Pares",
+            "short": "Eastern Churches consider the Pope \"primus inter pares\"",
+            "details": "The Eastern Churches view the Pope as \"primus inter pares\", meaning \"first among equals\".<br><br>Critics argue that this acknowledges the Pope's honorary primacy among bishops but rejects his supreme authority over the entire Church, emphasizing a collegial and conciliar model of leadership.<br><br>Proponents argue that \"primus inter pares\" was understood to come with actual authority, and that the \"primacy of honour\" is more of a convenient way to deny this",
             "category": "History",
             "references": [
                 "Will add source later."
@@ -264,21 +258,12 @@
             ]
         },
         {
-            "id": "Pope Honorius I",
-            "short": "Pope Honorius I condemned for monothelitism",
-            "details": "Pope Honorius I was condemned after his death for supporting monothelitism, a heresy that taught Christ had only one will (divine) instead of both a human and divine will. His condemnation came during the Third Council of Constantinople (680–681), which declared monothelitism heretical.<br><br>Proponents argue that Honorius was criticized not for teaching the heresy himself, but for failing to oppose it clearly and thus allowing it to spread.<br><br>Critics argue that the wording from the council does seem to condemn him as a heretic, calling into question the charism of Papal Infallibility in doctrinal declarations.",
+            "id": "Rome Preserved Orthodoxy",
+            "short": "Rome preserved orthodoxy time and time again",
+            "details": "Proponents argue that, throughout history, Rome repeatedly defended orthodox teachings and was considered a bastion against heresy. This is possibly also attested to by St. Maximus the Confessor, and is often presented as evidence for Papal Infallibility.<br><br>Critics often concede this, but stress that its status was due to its orthodoxy, not the other way around.",
             "category": "History",
             "references": [
-                "Will add source later."
-            ]
-        },
-        {
-            "id": "Pope John XXII",
-            "short": "Pope John XXII taught against the Beatific Vision for three years",
-            "details": "Pope John XXII controversially taught for three years (1331–1334) that the souls of the righteous do not see the Beatific Vision (the direct sight of God) until the Final Judgment, contradicting traditional Catholic teaching. He was criticized for this and retracted his view on his deathbed.<br><br>Critics see this as a blow against Papal Infallibility, since sermons and homilies are a part of the Pope's ordinary magisterium.<br><br>Proponents argue that Papal Infallibility doesn't apply unless the Pope is exercising his extraordinary magisterium with an ex cathedra statement, intending to bind the entire Church.",
-            "category": "History",
-            "references": [
-                "Will add source later."
+                "Maximus the Confessor (c. 580–662): Rome has never erred (only in Latin?)"
             ]
         },
         {
@@ -300,12 +285,21 @@
             ]
         },
         {
-            "id": "Rome Preserved Orthodoxy",
-            "short": "Rome preserved orthodoxy time and time again",
-            "details": "Proponents argue that, throughout history, Rome repeatedly defended orthodox teachings and was considered a bastion against heresy.<br><br>Critics often concede this, but stress that its status was due to its orthodoxy, not the other way around.",
+            "id": "Pope Honorius I",
+            "short": "Pope Honorius I condemned for monothelitism",
+            "details": "Pope Honorius I was condemned after his death for supporting monothelitism, a heresy that taught Christ had only one will (divine) instead of both a human and divine will. His condemnation came during the Third Council of Constantinople (680–681), which declared monothelitism heretical.<br><br>Proponents argue that Honorius was criticized not for teaching the heresy himself, but for failing to oppose it clearly and thus allowing it to spread.<br><br>Critics argue that the wording from the council does seem to condemn him as a heretic, calling into question the charism of Papal Infallibility in doctrinal declarations.",
             "category": "History",
             "references": [
-                "Will add source later. Probably Maximus the Confessor."
+                "Will add source later."
+            ]
+        },
+        {
+            "id": "Pope John XXII",
+            "short": "Pope John XXII taught against the Beatific Vision for three years",
+            "details": "Pope John XXII controversially taught for three years (1331–1334) that the souls of the righteous do not see the Beatific Vision (the direct sight of God) until the Final Judgment, contradicting traditional Catholic teaching. He was criticized for this and retracted his view on his deathbed.<br><br>Critics see this as a blow against Papal Infallibility, since sermons and homilies are a part of the Pope's ordinary magisterium.<br><br>Proponents argue that Papal Infallibility doesn't apply unless the Pope is exercising his extraordinary magisterium with an ex cathedra statement, intending to bind the entire Church.",
+            "category": "History",
+            "references": [
+                "Will add source later."
             ]
         },
         {
@@ -330,6 +324,15 @@
             "id": "Papal Depositions",
             "short": "Various rulers and mobs have arguably deposed valid popes",
             "details": "Critics argue that, throughout history, various rulers and mobs have at times deposed or forced the resignation of valid popes, showing a certain disregard for papal authority.<br><br>Proponents argue that, just like a monarch in exile is often considered the rightfull king of his homeland, so too the Pope remains Pope until he dies if his resignation was made under duress, making the objection irrelevant.",
+            "category": "History",
+            "references": [
+                "Will add source later."
+            ]
+        },
+        {
+            "id": "Conciliar Movement and Gallicanism",
+            "short": "The Conciliar Movement and Gallicanism show Catholic skepticism of papal claims",
+            "details": "The Conciliar Movement and Gallicanism reflect periods of skepticism toward papal authority in the Catholic West.<br><br>Critics argue that their emphasis on the authority of Church councils or national churches over the pope in the 14th to 18th centuries demonstrate that Papal Supremacy is a late development.<br><br>Proponents argue that there have always been those who hesitate to acknowledge authority, sometimes to the point of heresy, but that this does not nullify legitimate authority.",
             "category": "History",
             "references": [
                 "Will add source later."
@@ -382,11 +385,12 @@
         },
         {
             "id": "Tertullian Mocks the Pope",
-            "short": "Tertullian, after becoming a Montanist heretic, mocks the Pope by sarcastically referring to him as \"Pontifex Maximus\" and \"bishop of bishops\".",
+            "short": "Tertullian, after becoming a Montanist heretic, mocks the Pope (or possibly an African bishop) by sarcastically referring to him as \"Pontifex Maximus\" and \"bishop of bishops\".",
             "details": "Proponents argue that Tertullian, as a heretic, would mock the Pope's authority because he didn't recognize it anymore.<br><br>Critics argue that this shows that the Pope was not the undisputed leader of the early Church.",
             "category": "Patristic",
             "references": [
-                "Tertullian (c. 220–240 AD): https://www.newadvent.org/fathers/0407.htm"
+                "Tertullian (c. 220–240 AD): https://www.newadvent.org/fathers/0407.htm",
+                "https://ubipetrusibiecclesia.com/wp-content/uploads/2024/01/eno-the-work-of-optatus.pdf"
             ]
         },
         {
@@ -515,15 +519,6 @@
             "category": "Patristic",
             "references": [
                 "https://www.newadvent.org/fathers/360209068.htm"
-            ]
-        },
-        {
-            "id": "Maximus and Roman Inerrancy",
-            "short": "Maximus the Confessor (c. 580–662): Rome has never erred (only in Latin?).",
-            "details": "Proponents see this as evidence that St. Maximus held to Papal Infallibility.<br><br>Critics object that, on its face, it is merely a statement about Rome's track record, not a guarantee that it will remain orthodox indefinitely.",
-            "category": "Patristic",
-            "references": [
-                "Will add."
             ]
         }
     ]

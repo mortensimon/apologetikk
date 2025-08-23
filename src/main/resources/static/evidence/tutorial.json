@@ -1,0 +1,60 @@
+{
+    "title": "Tutorial",
+    "intro": "Hypothesis: Everybody should learn Japanese.\n\nWelcome to the tutorial!\n\nThis site uses Bayes' Theorem to calculate probabilities based on how likely you think the evidence presented is if we assume the hypothesis is true vs. if we assume it's false.\n\nIn fields like medicine, where all the numbers can be sourced from available statistics, such resulting probabilities can be more objective that the \"gut-feeling\" probabilities we are basing them on. What we're really doing here is modelling our reasoning using numbers, but this can also be done in real time by changing the numbers in light of new evidence. Essentially, if the resulting probability does not match your belief, you probably need to change either the numbers, the weighting, or your belief.\n\nThe first numbers you'll need to fill in are the prior probabilities of the hypothesis being true and false. For our purposes, this is just how sure you feel about each before you even look at the evidence. If you write 100, it means you are so sure that no amount of evidence could change your mind. Similarly, 0 anywhere means it's impossible. We have simplified it to whole numbers only. You can change your priors any time, so you can see what a difference 99 and 1 make compared to 100 and 0 later on.",
+    "evidence": [
+        {
+            "id": "Evidence 1: Learning Japanese can be fun",
+            "short": "Each piece of evidence will be something that both sides of an issue generally agree on, but may interpret differently. You can see a short presentation of this by pressing \"More info\" below.",
+            "details": "In this case, both proponents of the hypothesis and critics of the hypothesis can agree that learning Japanese *can* be fun, but they would qualify it differently.\n\nProponents might argue that it can be fun because learning languages in general is fun, and Japanese is particularly so.\n\nCritics might argue that it *can* be fun if you're particularly interested in it, but that this is usually not the case.\n\nThe questions you need to answer are: How likely is it that it can be fun to learn Japanese *given that it is true that* everybody should learn Japanese? and How likely is it that it can be fun to learn Japanese *given that it is false that* everybody should learn Japanese?\n\nThis kind of evidence is rather flimsy, so it may be best to give it less weight, or even disregard it completely. Only allow the evidence to \"count\" if it actually does.",
+            "category": "Flimsy",
+            "references": [
+                "N/A"
+            ]
+        },
+        {
+            "id": "Evidence 2: Learning Japanese takes time",
+            "short": "This piece of evidence is more concrete.",
+            "details": "Both sides will generally agree that learning Japanese takes time. This is the kind of evidence that is generally cited by the critic, or pre-emptively by a proponent, because it puts the affirmative side on the defensive.\n\nCritics may argue that because learning Japanese takes time, the cost of having everyone learn Japanese outweighs the benefits.\n\nProponents may concede that it is not worth it to have everyone learn Japanese to fluency, but that everyone should spend enough time on it to reach basic comprehension.\n\nMaybe this one is very conclusive for you, in which case you might give it more weight. \"Double\" is equivalent to having the evidence count twice, which is a lot, but if you need to assign even more weight to a particularly convincing piece of evidence, you can give everything else less weight instead.",
+            "category": "Concrete",
+            "references": [
+                "N/A"
+            ]
+        },
+        {
+            "id": "Evidence 3: Speaking Japanese can help you get a job in Japan",
+            "short": "This piece of evidence is a little less concrete, but not as flimsy as the first.",
+            "details": "This is the kind of evidence that is generally cited by the proponent, or pre-emptively by a critic.\n\nProponents may argue that having a job in Japan is great because it is a great country to live in as a foreigner, and you need a job anyway.\n\nCritics might concede that these are true, although they might point out that other countries may be more attractive to work in and don't require learning Japanese, which makes the evidence irrelevant.\n\nEssentially, both sides agree that the evidence is the case, but their goal is to argue that the evidence that helps them is relevant, while the evidence that doesn't help their side is less so.",
+            "category": "Concrete",
+            "references": [
+                "N/A"
+            ]
+        },
+        {
+            "id": "Evidence 4: Understanding Japanese gives you access to Japanese entertainment",
+            "short": "This is also fairly concrete and you might assign it more weight because of that.",
+            "details": "Proponents might argue that this counts for a lot, because Japanese entertainment is popular.\n\nCritics may point out that many people are not interested in Japanese entertainment, and there are subtitles for almost anything.\n\nThese arguments are meant to give you food for thought before you answer the question: How likely would this evidence be if it were true that everyone should (or should not) learn Japanese? Also, remember that we could have left out important evidence and would be grateful to have this pointed out to us so we can fix it! Of course, this tutorial is short on purpose.",
+            "category": "Concrete",
+            "references": [
+                "N/A"
+            ]
+        },
+        {
+            "id": "Evidence 5: Japanese is hard to read and write",
+            "short": "This is also concrete, but it might seem a little absurd to ask, \"If everyone should learn Japanese, how likely is it that Japanese would be hard to read and write?\"",
+            "details": "Proponents might argue that it gives you a sense of accomplishment when you finally get it.\n\nCritics may point out that this unnecessarily adds to the burden of those who are already not interested.\n\nIf the question seems absurd, you could try to assign probabilities to it anyway but it is a good idea to disregard it if you feel like the probability of the evidence is entirely unrelated to whether or not the hypothesis is true. We may have a few such pieces of evidence if they are commonly invoked, but we usually try to curate it to present the most relevant evidence instead.",
+            "category": "Absurd",
+            "references": [
+                "N/A"
+            ]
+        },
+        {
+            "id": "Evidence 6: It is unclear how we would make everyone learn Japanese",
+            "short": "How likely would this be if the hypothesis were true/false? It may sound somewhat absurd if true, but not if false.",
+            "details": "Proponents might argue that this merely presents us with an exciting challenge.\n\nCritics may point out that this would be expected if it is false that everyone should learn Japanese.\n\nNow that you have 6 pieces of evidence, try playing with the weights and numbers without thinking too hard about the evidence. Look at what happens if you set something to 100, or worse, 0. Don't forget to check what happens when you change your priors!",
+            "category": "Absurd",
+            "references": [
+                "N/A"
+            ]
+        }
+    ]
+}
