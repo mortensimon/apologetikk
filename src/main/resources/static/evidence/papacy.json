@@ -113,19 +113,29 @@
         {
             "id": "On This Rock",
             "short": "Matthew 16:18, Jesus: You are Peter, and on this rock I will build my Church",
-            "details": "Proponents see this as Jesus's strongest proclamation of the Papacy. Peter's identity as the rock can be established by noticing the pattern Jesus is using: He makes a statement about Peter, then elaborates on it, three times. This makes it difficult to deny that Peter is also being spoken about in the middle elaboration. Proponents see the rock as allowing us to know where the Church properly is (in communion with Peter's successors).\n\nSome critics argue that the rock is something other than Peter, like his confession of Jesus or Jesus Himself (both of which have patristic support), but proponents usually acknowledge these as compatible understandings. More sophisticated critics concede that Peter is the rock, but deny that this establishes a Papacy.",
+            "details": "Proponents see this as Jesus's strongest proclamation of the Papacy. Peter's identity as the rock can be established by noticing the pattern Jesus is using: He makes a statement about Peter, then elaborates on it, three times. This makes it difficult to deny that Peter is also being spoken about in the middle elaboration. Several Church Fathers and ecclesiastical writers also support this, like Tertullian (before he became a Montanist), Origen, Augustine (before he changed his mind), Epiphanius of Salamis, and Gregory of Nyssa.\n\nProponents see the rock as allowing us to know where the Church properly is (in communion with Peter's successors).\n\nSome critics argue that the rock is something other than Peter, like his confession of Jesus or Jesus Himself (both of which have patristic support), but proponents usually acknowledge these as compatible understandings. More sophisticated critics concede that Peter is the rock, but deny that this establishes a Papacy.",
             "category": "Biblical",
             "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2016:18&version=NRSVUE"
+                "https://www.biblegateway.com/passage/?search=Matthew%2016:18&version=NRSVUE",
+                "Tertullian (c. 200) mentions Peter as the rock and holder of the keys: https://www.newadvent.org/fathers/0311.htm",
+				"Tertullian (c. 208–212 AD) admits the Church was built on Peter: https://www.newadvent.org/fathers/0406.htm",
+				"Origen (c. 225 AD) calls Peter the rock the Church is built on: https://www.newadvent.org/fathers/101505.htm",
+				"Origen (c. 248 AD) calls Peter the rock the Church is built on: https://www.churchfathers.org/origins-of-peter-as-pope",
+                "Epiphanius of Salamis (c. 375 AD) says Peter is the rock the Church was built on: http://khazarzar.skeptik.net/books/panariog.htm",
+                "Gregory of Nyssa (c. 395 AD) says Peter is the rock the Church was built on: https://www.sacredheartchristian.com/papacy/st.-gregory-of-nyssa"
             ]
         },
         {
             "id": "The Keys of the Kingdom of Heaven",
             "short": "Matthew 16:19, Jesus: And I will give you the keys of the Kingdom of Heaven",
-            "details": "Proponents see this as indicating Peter's special leadership role, since he alone is promised the keys.\n\nCritics argue that, although the keys are not mentioned in Matthew 18, the power to bind and loose is, and that this is an elaboration on the keys in Matthew 16, and thus means the same thing.",
+            "details": "Proponents see this as indicating Peter's special leadership role, since he alone is promised the keys. This also has support in early writers like Tertullian (pre-Montanism), Origen, and St. Optatus of Milevis.\n\nCritics argue that, although the keys are not mentioned in Matthew 18, the power to bind and loose is, and that this is an elaboration on the keys in Matthew 16, and thus means the same thing.",
             "category": "Biblical",
             "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2016%3A19&version=NRSVUE"
+                "https://www.biblegateway.com/passage/?search=Matthew%2016%3A19&version=NRSVUE",
+                "Tertullian (c. 200) mentions Peter as the rock and holder of the keys: https://www.newadvent.org/fathers/0311.htm",
+				"Tertullian (c. 203–206 AD) reiterates that Peter holds the keys: https://www.newadvent.org/fathers/0318.htm",
+				"Origen (c. 233–244 AD) makes Peter as the holder of the keys distinct from the others: https://www.newadvent.org/fathers/101613.htm",
+				"Optatus of Milevis (367 AD) says Peter alone received the keys: https://tertullian.org/fathers/optatus_01_book1.htm"
             ]
         },
         {
@@ -174,9 +184,21 @@
             ]
         },
         {
+            "id": "Peter as the Leader",
+            "short": "Peter seems to be the leader of the apostles in particular and the early Church in general",
+            "details": "This is supported by several Church Fathers, ecclesiastical writers, and ancient inscriptions.\n\nProponents argue that this function of Peter's office is passed on to his successors.\n\nCritics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
+            "category": "Biblical",
+            "references": [
+                "Several verses. Will add later.",
+                "The Bethsaida Inscription (c. 100) calls Peter \"chief and commander of the Heavenly Apostles\": https://www.smithsonianmag.com/smart-news/did-archaeologists-find-st-peters-birthplace-180980607/",
+                "Peter of Alexandria (d. 311) calls Peter \"first of the apostles\": https://www.newadvent.org/fathers/360209068.htm",
+                "John Cassian (c. 429–430) calls Peter \"chief and head of the apostles\": https://www.ccel.org/ccel/schaff/npnf211.iv.vii.iv.xii.html"
+            ]
+        },
+        {
             "id": "Peter Speaks for the Apostles",
             "short": "Peter often speaks on behalf of all the apostles",
-            "details": "Proponents see this as Peter acts like a leader with actual authority, often without checking with the others first.\n\nCritics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
+            "details": "Proponents see this as Peter acting like a leader with actual authority, often without checking with the others first.\n\nCritics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
             "category": "Biblical",
             "references": [
                 "Several verses. Will add later."
@@ -224,16 +246,20 @@
             "details": "Proponents argue that appeals to Rome, especially from the Eastern Church, show a recognition of the bishop of Rome's authority or moral weight in resolving disputes.\n\nCritics argue that appeals were submitted when one thought they would help, and Rome was an important see, but that doesn't mean it had binding authority over the others.",
             "category": "History",
             "references": [
-                "Will add source later."
+                "Athanasius of Alexandria (c. 296–373) sought the support of the Pope when he was exiled: https://www.newadvent.org/fathers/28081.htm",
+                "Basil of Cæsarea (c.  371–372) valued Roman orthodoxy and criticized its passivity in Eastern disputes: https://www.newadvent.org/fathers/3202243.htm",
+                "Basil of Cæsarea (c.  371–372) sought Roman aid against heretics: https://www.newadvent.org/fathers/3202066.htm",
+                "Cyril of Alexandria (c. 376–444 AD) sought the aid of Pope Celestine against Nestorius: https://www.fourthcentury.com/cyrils-ep-11-letter-to-celestine-cpg-5310-8636/",
+                "John Chrysostom (c. 404) appealed to Pope Innocent, who supported him against his usurpers: https://www.newadvent.org/fathers/1918.htm"
             ]
         },
         {
-            "id": "Eastern Appealed to Patriarchs or Emperors",
+            "id": "Eastern Appeals to Patriarchs or Emperors",
             "short": "Eastern bishops often appealed to patriarchs or emperors instead of Rome",
             "details": "Critics argue that Eastern bishops often appealed to local patriarchs or the Byzantine emperor rather than to Rome, suggesting the choice of whom to appeal to was more pragmatic than anything else.\n\nProponents concede this, but see it as irrelevant.",
             "category": "History",
             "references": [
-                "Will add source later."
+                "Will add sources later."
             ]
         },
         {
@@ -260,7 +286,7 @@
             "details": "In the late 2nd century, Pope Victor I threatened to excommunicate the churches of Asia Minor over a dispute about the date of Easter (the Quartodeciman controversy). Many bishops, including Irenæus of Lyons, urged him to reconsider.\n\nProponents argue that this shows Victor I understood his jurisdiction as extending beyond the West.\n\nCritics argue that he was rebuked for it and that this stopped him from going through with it, suggesting conciliarity won the day.",
             "category": "History",
             "references": [
-                "Will add source later."
+                "Eusebius of Cæsarea (c. 313–325 AD): https://www.earlychurchtexts.com/public/eusebius_quartodeciman_controversy.htm"
             ]
         },
         {
@@ -336,15 +362,6 @@
             ]
         },
         {
-            "id": "Bethsaida Inscription",
-            "short": "A church from c. 100 AD in Bethsaida, Peter's hometown, calls him 'chief and commander of the Heavenly Apostles'.",
-            "details": "Proponents argue that 'chief and commander of the Heavenly Apostles' sounds a lot like the Papacy.\n\nCritics argue that the church is built in Peter's honour, so of course it uses exalted language about him.",
-            "category": "Patristic",
-            "references": [
-                "Incription in Bethsaida: https://www.smithsonianmag.com/smart-news/did-archaeologists-find-st-peters-birthplace-180980607/"
-            ]
-        },
-        {
             "id": "Dionysius of Corinth",
             "short": "Dionysius of Corinth (c. 171 AD) praises Rome for uniting the churches of Rome and Corinth.",
             "details": "Proponents argue that this shows the Pope's role as a uniter of the Church.\n\nCritics argue that Corinth was a Roman colony and had a close relationship with Rome because of that.",
@@ -360,15 +377,6 @@
             "category": "Patristic",
             "references": [
                 "Irenæus of Lyons: https://www.newadvent.org/fathers/0103303.htm"
-            ]
-        },
-        {
-            "id": "Writers on the Rock",
-            "short": "Tertullian (pre-Montanism) and Origen both identified Peter as the rock on which the Church was to be built and the one to receive the keys in a way distinct from all others.",
-            "details": "Proponents argue that this shows that Peter's unique leadership role was known early on.\n\nCritics generally look to the points below to diminish Peter's role.",
-            "category": "Patristic",
-            "references": [
-                "Tertullian (c. 200): https://www.newadvent.org/fathers/0311.htm\nTertullian (c. 203–206 AD): https://www.newadvent.org/fathers/0318.htm\nTertullian (c. 208–212 AD): https://www.newadvent.org/fathers/0406.htm\nOrigen (c. 225 AD): https://www.newadvent.org/fathers/101505.htm\nOrigen (c. 233–244 AD): https://www.newadvent.org/fathers/101613.htm\nOrigen (c. 248 AD): https://www.churchfathers.org/origins-of-peter-as-pope"
             ]
         },
         {
@@ -444,15 +452,6 @@
             ]
         },
         {
-            "id": "Several Fathers on the Rock and Keys",
-            "short": "Jerome (c. 376–377): \"I know that this [chair of Peter] is the rock on which the Church is built\"\nAugustine (early) affirmed Peter as the rock.\nOptatus of Milevis (c. 367 AD) affirmed Petrine primacy and sole holding of keys",
-            "details": "Proponents argue that this shows an awareness of Peter's (and therefore Rome's) special role.\n\nCritics argue that Augustine changed his mind on this, which shows that this interpretation was not universally accepted.",
-            "category": "Patristic",
-            "references": [
-                "Jerome (c. 376–377): https://www.newadvent.org/fathers/3001015.htm\nOptatus of Milevis: https://www.sacredheartchristian.com/papacy/st.-optatus-of-milevis"
-            ]
-        },
-        {
             "id": "Augustine: Roma Locuta, Causa Finita",
             "short": "Augustine of Hippo expressed his opinion that the controversy was over because it had been settled by several councils and sent to Rome.",
             "details": "Augustine is often quoted as saying \"Roma locuta est — causa finita est\" (\"Rome has spoken — the matter is finished\"), but that is a simplified paraphrase. He actually says that two councils have decided against the Pelagians and sent their decisions to the Apostolic See, who has sent their rescripts back to Africa, and that the matter is finished.\n\nProponents argue that this shows that Rome was to be informed when a local controversy was settled, which makes sense if the Pope is the highest authority in the Church.\n\nCritics say Rome had the most prestige (and even then, not always) of the major sees.",
@@ -462,18 +461,65 @@
             ]
         },
         {
-            "id": "Post-Nicene Western Fathers",
-            "short": "Post-Nicene Western Fathers (average)",
-            "details": "The Post-Nicene Western Fathers (4th to 6th centuries), such as St. Augustine and St. Ambrose, increasingly emphasized the authority and primacy of the bishop of Rome. They supported the idea of Rome as a central, guiding see in the Church, linking it to Peter's role. They balanced this with respect for the broader episcopal college.",
+            "id": "Optatus of Milevis on the Chair of Peter",
+            "short": "St. Optatus of Milevis (367 AD) affirmed Petrine primacy for unity and sole holding of keys.",
+            "details": "Proponents argue that this shows that the unity of the Church was already connected to the chair of Peter.\n\nCritics argue that other African fathers from this period, especially Cyprian of Carthage, used similar language but were not afraid to risk excommunication by Pope Stephen I over the rebaptism of heretics. They see it as showing respect for Rome's orthodoxy and an optimistic hope that it would remain orthodox.",
             "category": "Patristic",
             "references": [
-                "Will add sources later. Not sure how best to do this."
+				"Optatus of Milevis (367 AD): https://tertullian.org/fathers/optatus_01_book1.htm"
             ]
         },
         {
-            "id": "Post-Nicene Eastern Fathers",
-            "short": "Post-Nicene Eastern Fathers (average)",
-            "details": "The Post-Nicene Eastern Fathers (4th to 7th centuries), such as St. John Chrysostom and St. Cyril of Alexandria, show great respect for the bishop of Rome, but emphasized a conciliar and collegial Church authority. They recognized the importance of the Roman See but not to the point of embracing unilateral papal supremacy.",
+            "id": "\"Peter Has Spoken Through Leo!\"",
+            "short": "Leo’s Tome was well received at Chalcedon: \"Peter has spoken through Leo!\"",
+            "details": "Proponents see this as a strong affirmation of the continuing Petrine office of the Pope.\n\nCritics object that this does not mean the Pope is the highest earthly authority in the Church, only that Leo's Tome was well received as orthodox.",
+            "category": "Patristic",
+            "references": [
+                "https://www.ccel.org/ccel/schaff/npnf214.xi.vii.html"
+            ]
+        },
+        {
+            "id": "Canon 28 of Chalcedon",
+            "short": "Canon 28 of Chalcedon (451 AD): New Rome shall have equal privileges.",
+            "details": "Critics argue that this is scathing evidence against Papal Primacy.\n\nProponents argue that Papal approval is required for canons to be binding, and no Pope ever approved this canon.",
+            "category": "Patristic",
+            "references": [
+                "Canons of Chalcedon (451 AD): https://earlychurchtexts.com/main/chalcedon/canons_of_chalcedon_03.shtml",
+				"Leo I and subsequent popes did not accept this canon: https://www.newadvent.org/fathers/3604104.htm"
+            ]
+        },
+        {
+            "id": "Universal Jurisdiction",
+            "short": "Leo the Great and Gregory the Great claim universal jurisdiction.",
+            "details": "Proponents argue that this shows that the Pope understood himself to have this jurisdiction all along.\n\nCritics argue that this evidence is somewhat late, and that this idea thus had time to develop.",
+            "category": "Patristic",
+            "references": [
+                "Leo the Great (r. 440–461 AD) explicitly affirms it: https://erickybarra.wordpress.com/2017/01/22/pope-st-leo-the-great-universal-jurisdiction/",
+				"Gregory the Great (598–599 AD) supports it to some extent: https://www.newadvent.org/fathers/360209059.htm"
+            ]
+        },
+        {
+            "id": "The \"Universal Bishop\" Controversy",
+            "short": "Gregory the Great (593 AD) condemned the title \"universal bishop\" for the Patriarch of Constantinople.",
+            "details": "Critics see this as strong evidence against universal jurisdiction, because Pope Gregory the Great comes along relatively late and is considered one of the \"strong\" Popes.\n\nProponents argue that Pope Gregory did not mean that nobody had universal jurisdiction in every sense, but that he saw the Patriarch of Constantinople as trying to claim for himself what was not rightfully his.",
+            "category": "Patristic",
+            "references": [
+                "https://www.newadvent.org/fathers/360205018.htm"
+            ]
+        },
+        {
+            "id": "Pope Gregory and Synods",
+            "short": "Gregory the Great (598–599 AD): synods have no force without the authority and consent of Rome.",
+            "details": "Proponents argue that this shows that Rome has always held that it has the final say in any conciliar matter.\n\nCritics see this as Pope Gregory going beyond his jurisdiction and trying to increase his own power.",
+            "category": "Patristic",
+            "references": [
+                "https://www.newadvent.org/fathers/360209068.htm"
+            ]
+        },
+        {
+            "id": "Maximus and Roman Inerrancy",
+            "short": "Maximus the Confessor (c. 580–662): Rome has never erred (only in Latin?).",
+            "details": "Proponents see this as evidence that St. Maximus held to Papal Infallibility.\n\nCritics object that, on its face, it is merely a statement about Rome's track record, not a guarantee that it will remain orthodox indefinitely.",
             "category": "Patristic",
             "references": [
                 "Will add."
