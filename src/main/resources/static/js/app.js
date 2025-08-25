@@ -21,11 +21,11 @@ createApp({
     const denomDialog = ref(null);
     const denomination = ref('');
     const denominations = [
-      'Catholic','Orthodox','Lutheran','Reformed',
-      'Anglican','Baptist','Methodist', 'Evangelical',
-      'Non-denominational','Adventist', 'JW','LDS',
-      'Jewish','Islamic','Hindu','Buddhist','New-Age',
-      'Spiritual','Pantheist','Agnostic','Atheist',
+      'Catholic', 'Eastern-Orthodox', 'Oriental-Orthodox', 'Lutheran', 'Reformed',
+      'Anglican', 'Baptist', 'Methodist', 'Evangelical',
+      'Non-denominational', 'Adventist', 'JW', 'LDS',
+      'Jewish', 'Islamic', 'Hindu', 'Buddhist', 'New-Age',
+      'Spiritual', 'Agnostic', 'Atheist',
       'Other'
     ];
 
@@ -48,7 +48,7 @@ createApp({
         .filter(ev => ev.pehPct !== null && ev.penhPct !== null)
         .map(ev => {
           const label = hypJson.value?.evidence?.[ev.id - 1]?.id ?? `E${ev.id}`;
-          return { id: ev.id, label, pehPct: ev.pehPct, penhPct: ev.penhPct, weight: ev.weight };
+          return {id: ev.id, label, pehPct: ev.pehPct, penhPct: ev.penhPct, weight: ev.weight};
         });
 
       const payload = {
@@ -63,6 +63,7 @@ createApp({
       publishJson.value = payload;
       resultsDialog.value?.showModal();
     }
+
     function fmtPct(v) {
       if (v == null || isNaN(v)) return '—';
       return `${(+v).toFixed(2)}%`;
@@ -85,7 +86,7 @@ createApp({
       try {
         const res = await fetch('/api/results', {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {'Content-Type': 'application/json'},
           body: JSON.stringify(publishJson.value)
         });
         const data = await res.json().catch(() => ({}));
@@ -143,7 +144,7 @@ createApp({
       const res = await fetch(`evidence/${id}.json`);
       const json = await res.json();
       // Ensure the name from the query string is preserved on the loaded JSON
-      hypJson.value = { ...json, name: id };
+      hypJson.value = {...json, name: id};
 
       // Fjern eksisterende evidensvurderinger
       evidences.splice(0, evidences.length);
@@ -233,8 +234,7 @@ createApp({
     };
 
     // Add new evidence from button click
-    const addEvidence = () =>
-    {
+    const addEvidence = () => {
       // Do not add if nextId exceeds loaded evidence data length
       if (nextId > hypJson.value.evidence.length) {
         errorMsg.value = 'All evidences are shown';
