@@ -1,199 +1,14 @@
 {
-    "title": "The Papacy",
-    "intro": "Hypothesis: The bishop of Rome is the highest earthly leader in the Church.<br><br>The Catholic Church is often called \"Roman\" because it holds that the bishop of Rome is the Vicar of Christ on earth. In Catholic teaching on the Papacy, the most controversial point is probably that of Universal Jurisdiction: the Pope has supreme and immediate jurisdiction over the whole Church. Because his word is final and Jesus's promises to the Church indicate that God will preserve her from error, one could say that Papal Infallibility follows logically if we accept Universal Jurisdiction.<br><br>It is important to note that Vatican I, which dogmatized both these teachings, and Pope Pius IX, who convened it, did not understand the Church as a \"Papal dictatorship\". Rather, it is understood that while the Pope has the final word on questions of faith and morals and can exercise his authority without the \"consent\" (meaning \"express permission\") of his brother bishop, he still has the moral obligation of listening to them to ensure his decision has the \"consent\" (meaning \"common agreement\") of the Church.",
+    "title": "Papal Supremacy",
+    "intro": "Hypothesis: The bishop of Rome is the highest earthly leader in the Church and has supreme and immediate universal jurisdiction.<br><br>The Catholic Church is often called \"Roman\" because it holds that the bishop of Rome is the Vicar of Christ on earth. In Catholic teaching on the Papacy, the most controversial point is probably that of Universal Jurisdiction: the Pope has supreme and immediate jurisdiction over the whole Church. Because his word is final and Jesus's promises to the Church indicate that God will preserve her from error, one could say that Papal Infallibility follows logically if we accept Universal Jurisdiction.<br><br>It is important to note that Vatican I, which dogmatized both these teachings, and Pope Pius IX, who convened it, did not understand the Church as a \"Papal dictatorship\". Rather, it is understood that while the Pope has the final word on questions of faith and morals and can exercise his authority without the \"consent\" (meaning \"express permission\") of his brother bishop, he still has the moral obligation of listening to them to ensure his decision has the \"consent\" (meaning \"common agreement\") of the Church.",
     "evidence": [
         {
-            "id": "On This Rock",
-            "short": "Matthew 16:18, Jesus: You are Peter, and on this rock I will build my Church",
-            "details": "Proponents see this as Jesus's strongest proclamation of the Papacy. Peter's identity as the rock can be established by noticing the pattern Jesus is using: He makes a statement about Peter, then elaborates on it, three times. This makes it difficult to deny that Peter is also being spoken about in the middle elaboration. Several Church Fathers and ecclesiastical writers also support this, like Tertullian (before he became a Montanist), Origen, Augustine (before he changed his mind), Epiphanius of Salamis, and Gregory of Nyssa.<br><br>Proponents see the rock as allowing us to know where the Church properly is (in communion with Peter's successors).<br><br>Some critics argue that the rock is something other than Peter, like his confession of Jesus or Jesus Himself (both of which have patristic support), but proponents usually acknowledge these as compatible understandings. More sophisticated critics concede that Peter is the rock, but deny that this establishes a Papacy.",
-            "category": "Biblical",
+            "id": "Petrine Succession",
+            "short": "The bishop of Rome is Peter's successor in the strictest sense.",
+            "details": "Proponents argue that, because Peter had a leadership role over the whole Church, so does his successors.<br><br>Critics argue that the leadership role over the entire Church was only a feature of the Apostolic Age and doesn't transfer to his successors.",
+            "category": "History",
             "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2016:18&version=NRSVUE",
-                "Tertullian (c. 200) mentions Peter as the rock and holder of the keys: https://www.newadvent.org/fathers/0311.htm",
-				"Tertullian (c. 208–212 AD) admits the Church was built on Peter: https://www.newadvent.org/fathers/0406.htm",
-				"Origen (c. 225 AD) calls Peter the rock the Church is built on: https://www.newadvent.org/fathers/101505.htm",
-				"Origen (c. 248 AD) calls Peter the rock the Church is built on: https://www.churchfathers.org/origins-of-peter-as-pope",
-                "Epiphanius of Salamis (c. 375 AD) says Peter is the rock the Church was built on: http://khazarzar.skeptik.net/books/panariog.htm",
-                "Gregory of Nyssa (c. 395 AD) says Peter is the rock the Church was built on: https://www.sacredheartchristian.com/papacy/st.-gregory-of-nyssa"
-            ]
-        },
-        {
-            "id": "The Keys of the Kingdom of Heaven",
-            "short": "Matthew 16:19, Jesus: And I will give you the keys of the Kingdom of Heaven",
-            "details": "Proponents see this as indicating Peter's special leadership role, since he alone is promised the keys. This also has support in early writers like Tertullian (pre-Montanism), Origen, and St. Optatus of Milevis.<br><br>Critics argue that, although the keys are not mentioned in Matthew 18, the power to bind and loose is, and that this is an elaboration on the keys in Matthew 16, and thus means the same thing.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2016%3A19&version=NRSVUE",
-                "Tertullian (c. 200) mentions Peter as the rock and holder of the keys: https://www.newadvent.org/fathers/0311.htm",
-				"Tertullian (c. 203–206 AD) reiterates that Peter holds the keys: https://www.newadvent.org/fathers/0318.htm",
-				"Origen (c. 233–244 AD) makes Peter as the holder of the keys distinct from the others: https://www.newadvent.org/fathers/101613.htm",
-				"Optatus of Milevis (367 AD) says Peter alone received the keys: https://tertullian.org/fathers/optatus_01_book1.htm"
-            ]
-        },
-        {
-            "id": "A Steward like Eliakim",
-            "short": "Isaiah 22:15–25: Peter can be considered a steward like Eliakim, but also like Adam, Joseph, and Daniel",
-            "details": "Proponents argue that there are clear parallels between Isaiah 22 and Matthew 16 (especially with the keys), but also that the stewardship image is present already in Genesis, where Adam is given stewardship over the world and Joseph over Egypt. We also see Shebna and Eliakim as stewards in the Davidic kingdom, and Daniel in Babylon.<br><br>Critics argue that, while there might be something to such typology, we shouldn't base such an important doctrine on speculative types and antitypes.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Isaiah%2022:15%E2%80%9325&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "The Temple Tax",
-            "short": "Matthew 17:24–27 (and Clement of Alexandria): Jesus paid the temple tax only for himself and Peter",
-            "details": "Proponents argue that this is further evidence for Peter's special role as leader of the entire Church.<br><br>Critics argue that this does not mean his successors are.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2017:24%E2%80%9327&version=NRSVUE",
-                "Clement of Alexandria (200 AD): https://www.sacredheartchristian.com/papacy/st.-clement-of-alexandria"
-            ]
-        },
-        {
-            "id": "\"We\"",
-            "short": "Matthew 17:27: Peter is the only one Jesus ever includes in a \"we\" or \"us\"",
-            "details": "Proponents argue that this also bolsters the case for Peter's special role.<br><br>Critics see it as irrelevant or at least not indicative of a continuing office.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2017:27&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Authority to Bind and Loose",
-            "short": "Matthew 18:18: All the apostles received the authority to bind and loose",
-            "details": "Critics point to this as evidence that all the apostles had the same authority and that Peter was not as special as one might think.<br><br>Proponents argue that this merely indicates the conciliar approach the Pope is supposed to take in working with his brother bishops.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2018:18&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "I Have Prayed for Thee",
-            "short": "Luke 22:24–34, Jesus: And I have prayed for you [thee], that your faith may not fail",
-            "details": "Proponents argue that it is conspicuous that Peter should be singled out here, and that it shows that he had a special role as leader of the apostles.<br><br>Critics usually concede that Peter is the leader, but deny that this applies to his successors as well.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Strengthen Your Brothers",
-            "short": "Luke 22:24–34, Jesus: Strengthen your brothers",
-            "details": "Proponents see this as indicating how the Pope is supposed to rule: in conciliarity with his brother bishops, yet as a leader with real authority.<br><br>Critics see it as merely indicating Peter's special mission and conciliarity.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "The Greatest Among You",
-            "short": "Luke 22:24–34, Jesus: The greatest among you must be like one who serves",
-            "details": "Proponents argue that this shows how the Pope is supposed to rule: as the servant of the servants of God, in unity with his brother bishops.<br><br>Critics tend to view it as applying only to other leaders in the Church, rather than the Pope specifically.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "The Good Shepherd and the Gate",
-            "short": "John 10:1–18, Jesus: The Good Shepherd and the gate the shepherd will enter by",
-            "details": "Proponents argue that Jesus indicates that someone will take his place as the earthly shepherd, and since Jesus is naturally the leader of the entire Church, so will his \"vicar\" be.<br><br>Critics argue that this is speculative typology and could just as easily apply to the pastors of the Church more generally.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2010:1%E2%80%9318&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "The Untorn Net",
-            "short": "John 21:11: Peter pulls ashore the fishing net without it tearing (cf. Matthew 13:47)",
-            "details": "Proponents see this as an indication of Peter's role as \"custodian of unity\".<br><br>Critics caution against speculative typology.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2021:11&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Feed My Sheep",
-            "short": "John 21:15–19, Jesus: Feed my sheep",
-            "details": "Proponents argue that this is the fulfilment of John 10's shepherd who enters by the gate.<br><br>Critics see this as merely restoring Peter after he denied Jesus three times.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2021:15%E2%80%9319&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Authority of the Holy Spirit",
-            "short": "Acts 5:1–11: Peter exercises authority on behalf of the Holy Spirit",
-            "details": "Proponents argue that Peter is clearly presented as the leader of the early Church here.<br><br>Critics usually concede that he is, but argue that this does not necessarily mean his successors are.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%205:1%E2%80%9311&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Gentile Inclusion",
-            "short": "Acts 10:9–16: God abolished Jewish dietary laws and gentile exclusion through Peter",
-            "details": "Proponents see this as an early example of Peter's special jurisdiction over the whole Church.<br><br>Critics argue that this is more so a case of God using someone to accomplish His mission, and that it could easily have been someone else too. Some concede that Peter had a special role, but deny that this role could be passed down to his successors.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%2010:9-16&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Council of Jerusalem",
-            "short": "Acts 15:13–21: James presided over the Council of Jerusalem",
-            "details": "Critics argue that if Peter had jurisdiction over the entire Church, surely he should be the one to preside at this council. The Pope does usually preside when he is personally present at later councils, after all.<br><br>Proponents see this as a good example of Papal conciliarity, with Peter intervening only when necessary and when everyone has had their say.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%2015:13-21&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Paul Rebukes Peter",
-            "short": "Galatians 2:11–13: Paul rebuked Peter",
-            "details": "Critics see this as suggesting that all the apostles, or at least Paul, saw themselves as Peter's equals, at least in authority, if not in honour.<br><br>Proponents argue that Paul was justified in his rebuke, even if Peter was his superior, and that this does not invalidate Peter's special leadership.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Galatians%202:11%E2%80%9313&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Apostle to the Jews or Gentiles",
-            "short": "Galatians 2:8: Peter was called the Apostle to the Jews, and Paul was the Apostle to the Gentiles",
-            "details": "Critics argue that this suggests Peter's jurisdiction was limited to the Jews.<br><br>Proponents counter that both Peter and Paul witness to both Jews and gentiles alike, even though they may have focused more on one or the other, but also, the bishop of Rome is the successor of both, which actually helps the Papal claims.",
-            "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Galatians%202:8&version=NRSVUE"
-            ]
-        },
-        {
-            "id": "Peter is Always First",
-            "short": "Peter is always listed first",
-            "details": "Proponents argue that the order the Twelve are listed in varies, but Simon Peter is always first, and Judas Iscariot always last.<br><br>Critics concede this, but see it as irrelevant or at most as indicating a primacy of honour.",
-            "category": "Biblical",
-            "references": [
-                "Several verses. Will add later."
-            ]
-        },
-        {
-            "id": "Peter as the Leader",
-            "short": "Peter seems to be the leader of the apostles in particular and the early Church in general",
-            "details": "This is supported by several Church Fathers, ecclesiastical writers, and ancient inscriptions.<br><br>Proponents argue that this function of Peter's office is passed on to his successors.<br><br>Critics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
-            "category": "Biblical",
-            "references": [
-                "Several verses. Will add later.",
-                "The Bethsaida Inscription (c. 100) calls Peter \"chief and commander of the Heavenly Apostles\": https://www.smithsonianmag.com/smart-news/did-archaeologists-find-st-peters-birthplace-180980607/",
-                "Peter of Alexandria (d. 311) calls Peter \"first of the apostles\": https://www.newadvent.org/fathers/360209068.htm",
-                "John Cassian (c. 429–430) calls Peter \"chief and head of the apostles\": https://www.ccel.org/ccel/schaff/npnf211.iv.vii.iv.xii.html"
-            ]
-        },
-        {
-            "id": "Peter Speaks for the Apostles",
-            "short": "Peter often speaks on behalf of all the apostles",
-            "details": "Proponents see this as Peter acting like a leader with actual authority, often without checking with the others first.<br><br>Critics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
-            "category": "Biblical",
-            "references": [
-                "Several verses. Will add later."
+                ""
             ]
         },
         {
@@ -258,48 +73,12 @@
             ]
         },
         {
-            "id": "Rome Preserved Orthodoxy",
-            "short": "Rome preserved orthodoxy time and time again",
-            "details": "Proponents argue that, throughout history, Rome repeatedly defended orthodox teachings and was considered a bastion against heresy. This is possibly also attested to by St. Maximus the Confessor, and is often presented as evidence for Papal Infallibility.<br><br>Critics often concede this, but stress that its status was due to its orthodoxy, not the other way around.",
-            "category": "History",
-            "references": [
-                "Maximus the Confessor (c. 580–662): Rome has never erred (only in Latin?)"
-            ]
-        },
-        {
             "id": "Pope Victor I",
             "short": "Pope Victor I threatened to excommunicate Asia Minor",
             "details": "In the late 2nd century, Pope Victor I threatened to excommunicate the churches of Asia Minor over a dispute about the date of Easter (the Quartodeciman controversy). Many bishops, including Irenæus of Lyons, urged him to reconsider.<br><br>Proponents argue that this shows Victor I understood his jurisdiction as extending beyond the West.<br><br>Critics argue that he was rebuked for it and that this stopped him from going through with it, suggesting conciliarity won the day.",
             "category": "History",
             "references": [
                 "Eusebius of Cæsarea (c. 313–325 AD): https://www.earlychurchtexts.com/public/eusebius_quartodeciman_controversy.htm"
-            ]
-        },
-        {
-            "id": "Pope Vigilius",
-            "short": "Pope Vigilius's conflicting declarations on the Three Chapters",
-            "details": "Pope Vigilius issued conflicting declarations on the Three Chapters controversy (6th century). He initially resisted condemnation, but later endorsed it under imperial pressure.<br><br>Critics argue that he did intend to bind the whole Church, making the statements ex cathedra.<br><br>Proponents deny that this \"counts\", because Vigilius was under heavy pressure and not acting freely.",
-            "category": "History",
-            "references": [
-                "Will add source later."
-            ]
-        },
-        {
-            "id": "Pope Honorius I",
-            "short": "Pope Honorius I condemned for monothelitism",
-            "details": "Pope Honorius I was condemned after his death for supporting monothelitism, a heresy that taught Christ had only one will (divine) instead of both a human and divine will. His condemnation came during the Third Council of Constantinople (680–681), which declared monothelitism heretical.<br><br>Proponents argue that Honorius was criticized not for teaching the heresy himself, but for failing to oppose it clearly and thus allowing it to spread.<br><br>Critics argue that the wording from the council does seem to condemn him as a heretic, calling into question the charism of Papal Infallibility in doctrinal declarations.",
-            "category": "History",
-            "references": [
-                "Will add source later."
-            ]
-        },
-        {
-            "id": "Pope John XXII",
-            "short": "Pope John XXII taught against the Beatific Vision for three years",
-            "details": "Pope John XXII controversially taught for three years (1331–1334) that the souls of the righteous do not see the Beatific Vision (the direct sight of God) until the Final Judgment, contradicting traditional Catholic teaching. He was criticized for this and retracted his view on his deathbed.<br><br>Critics see this as a blow against Papal Infallibility, since sermons and homilies are a part of the Pope's ordinary magisterium.<br><br>Proponents argue that Papal Infallibility doesn't apply unless the Pope is exercising his extraordinary magisterium with an ex cathedra statement, intending to bind the entire Church.",
-            "category": "History",
-            "references": [
-                "Will add source later."
             ]
         },
         {
@@ -403,15 +182,6 @@
             ]
         },
         {
-            "id": "Pope Anterus",
-            "short": "Pope Anterus (c. 236) refers to the \"apostolic seat\".",
-            "details": "Proponents argue that this is a very early reference to the chair of Peter as *the* apostolic seat.<br><br>Critics may see it as a special honour given to Peter's seat because he was the leader of the Twelve, or even just one of several apostolic seats.",
-            "category": "Patristic",
-            "references": [
-                "Pope Anterus (c. 236 AD): https://catenabible.com/com/5735dfe4ec4bd7c9723bacbd"
-            ]
-        },
-        {
             "id": "Cyprian and the Equality of the Apostles",
             "short": "Cyprian of Carthage (c. 251–252 AD) says the apostles received equal power to bind and loose.",
             "details": "Proponents argue that this is true, in the sense that the Pope is the leader of the college of bishops, but he doesn't replace the bishops.<br><br>Critics see this as incompatible with Papal Supremacy in general and Universal Jurisdiction in particular.",
@@ -448,15 +218,6 @@
             ]
         },
         {
-            "id": "Ambrose and Peter's Confession",
-            "short": "Ambrose of Milan (c. 340–397) says the Petrine Primacy is one of confession, not of honor; a primacy of faith, not rank.",
-            "details": "Proponents argue that this is true in the sense that the Church is built on Peter because of his confession, and that the \"rank\" refers to the Pope's role as servant of the servants of God.<br><br>Critics argue that this indicates the Pope is not above the other bishops in any way.",
-            "category": "Patristic",
-            "references": [
-                "Ambrose of Milan"
-            ]
-        },
-        {
             "id": "Augustine: Roma Locuta, Causa Finita",
             "short": "Augustine of Hippo expressed his opinion that the controversy was over because it had been settled by several councils and sent to Rome.",
             "details": "Augustine is often quoted as saying \"Roma locuta est — causa finita est\" (\"Rome has spoken — the matter is finished\"), but that is a simplified paraphrase. He actually says that two councils have decided against the Pelagians and sent their decisions to the Apostolic See, who has sent their rescripts back to Africa, and that the matter is finished.<br><br>Proponents argue that this shows that Rome was to be informed when a local controversy was settled, which makes sense if the Pope is the highest authority in the Church.<br><br>Critics say Rome had the most prestige (and even then, not always) of the major sees.",
@@ -472,15 +233,6 @@
             "category": "Patristic",
             "references": [
 				"Optatus of Milevis (367 AD): https://tertullian.org/fathers/optatus_01_book1.htm"
-            ]
-        },
-        {
-            "id": "\"Peter Has Spoken Through Leo!\"",
-            "short": "Leo’s Tome was well received at Chalcedon: \"Peter has spoken through Leo!\"",
-            "details": "Proponents see this as a strong affirmation of the continuing Petrine office of the Pope.<br><br>Critics object that this does not mean the Pope is the highest earthly authority in the Church, only that Leo's Tome was well received as orthodox.",
-            "category": "Patristic",
-            "references": [
-                "https://www.ccel.org/ccel/schaff/npnf214.xi.vii.html"
             ]
         },
         {
