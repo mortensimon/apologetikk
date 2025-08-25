@@ -272,6 +272,24 @@
             "references": [
                 "https://www.newadvent.org/fathers/360209068.htm"
             ]
+        },
+        {
+            "id": "All Societies Have a Head",
+            "short": "Whether inherited, elected, or installed by force, all societies end up having one office holder who holds more authority than anyone else.",
+            "details": "Critics argue that there can't be a head other than Jesus Himself, because He is the bridegroom and the Church His bride, and she can't have two heads.<br><br>Proponents argue that Jesus is ultimately behind all the sacraments, but He always uses ministers to administer them. Likewise, we should expect Him to administer the sacrament of the Church through a minister.",
+            "category": "Philosohical",
+            "references": [
+                "https://aquinas.cc/la/en/~SCG4.C76.8"
+            ]
+        },
+        {
+            "id": "Disputes Require Resolution",
+            "short": "When two equals dispute and there is no resolution in sight, a tiebreaker is needed.",
+            "details": "Proponents argue that, at the very least, a tiebreaker is morally necessary to preserve peace and unity in the Church.<br><br>Critics sometimes argue that God will preserve the Church without such a tiebreaker, or that Church consensus is the tiebreaker, slow though it may be.",
+            "category": "Philosohical",
+            "references": [
+                "https://aquinas.cc/la/en/~SCG4.C76.8"
+            ]
         }
     ]
 }
