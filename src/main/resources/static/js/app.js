@@ -8,6 +8,7 @@ createApp({
   setup() {
     // Initialisering
     const hypJson = ref({
+      name: '',
       title: '',
       intro: '',
       evidence: []
@@ -20,10 +21,10 @@ createApp({
     const denomDialog = ref(null);
     const denomination = ref('');
     const denominations = [
-      'Catholic','Orthodox','Lutheran','Reformed/Calvinist',
-      'Anglican','Baptist','Methodist', 'Pentecostal/Charismatic',
-      'Non-denominational','Adventist', 'Jehova\'s Witness','Latter-day Saints',
-      'Jewish','Islamic','Hindu','Buddhist','New Age',
+      'Catholic','Orthodox','Lutheran','Reformed',
+      'Anglican','Baptist','Methodist', 'Evangelical',
+      'Non-denominational','Adventist', 'JW','LDS',
+      'Jewish','Islamic','Hindu','Buddhist','New-Age',
       'Spiritual','Pantheist','Agnostic','Atheist',
       'Other'
     ];
@@ -51,6 +52,7 @@ createApp({
         });
 
       const payload = {
+        name: hypJson.value?.name ?? '',
         title: hypJson.value?.title ?? '',
         denomination: denomination.value || null,
         aprioriPct: priorPct.value,
@@ -139,7 +141,9 @@ createApp({
     onMounted(async () => {
       const id = getIdFromUrl();
       const res = await fetch(`evidence/${id}.json`);
-      hypJson.value = await res.json();
+      const json = await res.json();
+      // Ensure the name from the query string is preserved on the loaded JSON
+      hypJson.value = { ...json, name: id };
 
       // Fjern eksisterende evidensvurderinger
       evidences.splice(0, evidences.length);

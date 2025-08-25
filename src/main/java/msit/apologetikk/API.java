@@ -55,15 +55,15 @@ class API {
             Files.createDirectories(ROOT);
 
             // Krev feltene som styrer filplassering:
-            String title = getSanitizedField(root, "title");
+            String name = root.path("name").textValue();
             String denomination = getSanitizedField(root, "denomination");
 
 
             // Generer stabil unik id (ULID/UUID). UUID er ok:
             String id = UUID.randomUUID().toString();
 
-            // data/<title>/<denominasjon>/<id>.json
-            Path dir = ROOT.resolve(title).resolve(denomination);
+            // data/<name>/<denominasjon>/<id>.json
+            Path dir = ROOT.resolve(name).resolve(denomination);
             Files.createDirectories(dir);
             Path file = dir.resolve(id + ".json");
 
