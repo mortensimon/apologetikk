@@ -174,11 +174,20 @@
         },
         {
             "id": "All Christians as Peters",
-            "short": "Origen interpreted all Christians as a kind of Peter.",
+            "short": "Origen (ca. 225 AD) interpreted all Christians as a kind of Peter.",
             "details": "Proponents argue that this is fine, because a passage can have several layers of meaning.<br><br>Critics argue that this undermines the papal aspects of identifying Peter as the rock.",
             "category": "Patristic",
             "references": [
                 "Origen (c. 225 AD): https://www.newadvent.org/fathers/101505.htm"
+            ]
+        },
+        {
+            "id": "Firmilian and Rebaptism",
+            "short": "Firmilian and many other Antiochene bishops opposed Pope Stephen I in the Rebaptism Controversy.",
+            "details": "Critics argue that this shows that the bishop of Rome is not above the other bishops and that they felt they did not have to accept his judgement.<br><br>Proponents argue that Popes can be wrong, but so can bishops, even if they have many others on their side. Since the Church ended up siding against the rebaptizers, Pope Stephen was vindicated, and the fact that some bishops did not accept his authority doesn't prove any more than the fact that some people left the Church entirely for a heresy of some sort.",
+            "category": "Patristic",
+            "references": [
+                "Firmilian of Cæsarea (256 AD): https://biblehub.com/library/cyprian/the_epistles_of_cyprian/epistle_lxxiv_firmilian_bishop_of.htm"
             ]
         },
         {
@@ -243,6 +252,15 @@
             "references": [
                 "Canons of Chalcedon (451 AD): https://earlychurchtexts.com/main/chalcedon/canons_of_chalcedon_03.shtml",
 				"Leo I and subsequent popes did not accept this canon: https://www.newadvent.org/fathers/3604104.htm"
+            ]
+        },
+        {
+            "id": "Peter Chrysologus and Roman Agreement",
+            "short": "Peter Chrysologus (481 AD), in his letter to Eutyches: \"we cannot decide upon cases of faith without the harmonious agreement of the Bishop of Rome.\"",
+            "details": "Proponents see this as good evidence that the Pope was seen as the highest authority on matters of faith.<br><br>Critics caution that Peter Chrysologus may be overstating this because the Pope was an important bishop who happened to agree with him in this case.",
+            "category": "Patristic",
+            "references": [
+                "https://eternalchristendom.com/becoming-catholic/articles/number-42/"
             ]
         },
         {

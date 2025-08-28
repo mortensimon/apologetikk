@@ -5,7 +5,7 @@
         {
             "id": "On This Rock",
             "short": "Matthew 16:18, Jesus: You are Peter, and on this rock I will build my Church",
-            "details": "Proponents see this as Jesus's strongest proclamation of the Papacy. Peter's identity as the rock can be established by noticing the pattern Jesus is using: He makes a statement about Peter, then elaborates on it, three times. This makes it difficult to deny that Peter is also being spoken about in the middle elaboration. Several Church Fathers and ecclesiastical writers also support this, like Tertullian (before he became a Montanist), Origen, Augustine (before he changed his mind), Epiphanius of Salamis, and Gregory of Nyssa.<br><br>Proponents see the rock as allowing us to know where the Church properly is (in communion with Peter's successors).<br><br>Some critics argue that the rock is something other than Peter, like his confession of Jesus or Jesus Himself (both of which have patristic support), but proponents usually acknowledge these as compatible understandings. More sophisticated critics concede that Peter is the rock, but deny that this establishes a Papacy.",
+            "details": "Proponents see this as Jesus's strongest proclamation of the Papacy. Peter's identity as the rock can be established by noticing the pattern Jesus is using: He makes a statement about Peter, then elaborates on it, three times. This makes it difficult to deny that Peter is also being spoken about in the middle elaboration. Several Church Fathers and ecclesiastical writers also support this, like Tertullian (before he became a Montanist), Origen, Augustine (before he changed his mind and interpreted the rock as Christ instead), Epiphanius of Salamis, and Gregory of Nyssa.<br><br>Proponents see the rock as allowing us to know where the Church properly is (in communion with Peter's successors).<br><br>Some critics argue that the rock is something other than Peter, like his confession of Jesus or Jesus Himself (both of which have patristic support), but proponents usually acknowledge these as compatible understandings. More sophisticated critics concede that Peter is the rock, but deny that this establishes a Papacy.",
             "category": "Biblical",
             "references": [
                 "https://www.biblegateway.com/passage/?search=Matthew%2016:18&version=NRSVUE",
@@ -20,7 +20,7 @@
         {
             "id": "The Keys of the Kingdom of Heaven",
             "short": "Matthew 16:19, Jesus: And I will give you the keys of the Kingdom of Heaven",
-            "details": "Proponents see this as indicating Peter's special leadership role, since he alone is promised the keys. This also has support in early writers like Tertullian (pre-Montanism), Origen, and St. Optatus of Milevis.<br><br>Critics argue that, although the keys are not mentioned in Matthew 18, the power to bind and loose is, and that this is an elaboration on the keys in Matthew 16, and thus means the same thing.",
+            "details": "Proponents see this as indicating Peter's special leadership role, since he alone is promised the keys. This also has support in early writers like Tertullian (pre-Montanism), Origen, and St. Optatus of Milevis.<br><br>Critics argue that, although the keys are not mentioned in Matthew 18, the power to bind and loose is, and that this is an elaboration on the keys in Matthew 16, and thus means the same thing. That would mean that Peter receives the keys first, but all the other apostles also receive them.",
             "category": "Biblical",
             "references": [
                 "https://www.biblegateway.com/passage/?search=Matthew%2016%3A19&version=NRSVUE",
@@ -143,7 +143,7 @@
         {
             "id": "Council of Jerusalem",
             "short": "Acts 15:13–21: James presided over the Council of Jerusalem",
-            "details": "Critics argue that if Peter had jurisdiction over the entire Church, surely he should be the one to preside at this council. The Pope does usually preside when he is personally present at later councils, after all.<br><br>Proponents see this as a good example of Papal conciliarity, with Peter intervening only when necessary and when everyone has had their say.",
+            "details": "Critics argue that if Peter had jurisdiction over the entire Church, surely he should be the one to preside at this council. The Pope does usually preside when he is personally present at later councils, after all. Also, it is James that gets the final word and seems to make the decision, not Peter.<br><br>Proponents see this as a good example of Papal conciliarity, with Peter intervening only when necessary and when everyone has had their say. Still, they emphasize that it looks like Peter's contribution is what settles the question, and that James is merely agreeing with him.",
             "category": "Biblical",
             "references": [
                 "https://www.biblegateway.com/passage/?search=Acts%2015:13-21&version=NRSVUE"
@@ -169,7 +169,7 @@
         },
         {
             "id": "Peter is Always First",
-            "short": "Peter is always listed first",
+            "short": "In lists of the Twelve, Peter is always listed first (and Judas last).",
             "details": "Proponents argue that the order the Twelve are listed in varies, but Simon Peter is always first, and Judas Iscariot always last.<br><br>Critics concede this, but see it as irrelevant or at most as indicating a primacy of honour.",
             "category": "Biblical",
             "references": [
@@ -200,7 +200,7 @@
         {
             "id": "Clement of Rome",
             "short": "Clement of Rome (c. 70–96 AD) asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
-            "details": "Proponents often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead. Clement knew Peter personally, so if he believed Peter's successors could intervene elsewhere, how much more Peter himself?<br><br>Critics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice.",
+            "details": "Proponents often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead. Clement knew Peter personally, so if he believed Peter's successors could intervene elsewhere, how much more Peter himself?<br><br>Critics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice. Clement is also writing on behalf of the Roman church and doesn't appeal to a Petrine authority, which suggests he may not have been thinking in terms of Petrine succession at all.",
             "category": "Patristic",
             "references": [
                 "Clement of Rome (c. 70–96 AD): https://www.newadvent.org/fathers/1010.htm"
@@ -217,7 +217,7 @@
         },
         {
             "id": "All Christians as Peters",
-            "short": "Origen interpreted all Christians as a kind of Peter.",
+            "short": "Origen (c. 225 AD) interpreted all Christians as a kind of Peter.",
             "details": "Proponents argue that this is fine, because a passage can have several layers of meaning.<br><br>Critics argue that this undermines the papal aspects of identifying Peter as the rock.",
             "category": "Patristic",
             "references": [
@@ -236,7 +236,7 @@
         {
             "id": "Ambrose, Peter, and the Church",
             "short": "Ambrose of Milan (c. 340–397): Where Peter is, there is the Church.",
-            "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.<br><br>Critics argue that this can be understood to refer to any local bishop, not just the Pope.",
+            "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.<br><br>Critics argue that this can be understood to refer to any local bishop, not just the Pope, and that he was speaking pastorally rather than juridically.",
             "category": "Patristic",
             "references": [
                 "Ambrose of Milan (c. 340–397 AD): https://archive.org/details/corpusscriptorum64ambruoft/page/250/mode/2up?view=theater"
