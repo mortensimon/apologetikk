@@ -19,19 +19,6 @@
 </head>
 <body>
 <div id="app" class="wrap" v-cloak>
-  <template v-if="loading">
-    <p class="lead">Laster …</p>
-  </template>
-
-  <template v-else-if="error">
-    <div class="err">{{ error }}</div>
-    <p class="lead">
-      Åpne som <code>stats.html?hyp=&lt;navn&gt;</code>.<br>
-      Eksempel: <code>stats.html?hyp=trinity</code> → <code>data/trinity/average.json</code>.
-    </p>
-  </template>
-
-  <template v-else-if="hypJson">
     <h1>{{ hypJson.title }}</h1>
     <p class="lead">{{ hypJson.intro }}</p>
 
@@ -88,7 +75,6 @@
         </li>
       </ul>
     </details>
-  </template>
 </div>
 
 <!-- App-kode -->

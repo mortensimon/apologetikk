@@ -117,7 +117,7 @@
       </details>
       <div class="row-fixed">
         <div>
-          <label style="font-size: 0.6em;">Probability of evidence if hypothesis is <b>true</b> (0–100)</label>
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].short }}" (0–100)</label>
           <input
             class="input-number"
             type="number" min="0" max="100" step="any" inputmode="numeric"
@@ -128,7 +128,7 @@
           />
         </div>
         <div>
-          <label style="font-size: 0.6em;">Probability of evidence if hypothesis is <b>false</b> (0–100)</label>
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].short }}" (0–100)</label>
           <input
             class="input-number"
             type="number" min="0" max="100" step="any" inputmode="numeric"
@@ -140,7 +140,7 @@
         </div>
         <!-- 🆕 Tredje input-felt: vekt -->
         <div>
-          <label style="font-size: 0.6em;">Weight</label>
+          <label style="font-size: 0.8em;">Importance of evidence</label>
           <select
             class="input-weight"
             :value="ev.weight"

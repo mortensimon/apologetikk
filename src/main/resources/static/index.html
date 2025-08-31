@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>xTiber</title>
-  <!--link rel="icon" href="./img/favicon-16x16.png" type="image/png"-->
+  <link rel="icon" href="./img/favicon-16x16.png" type="image/png">
   <style>
       body {
           font-family: sans-serif;
@@ -13,23 +13,56 @@
           padding: 1rem;
           line-height: 1.6;
       }
+
       h1 {
           font-size: 1.8rem;
       }
+
       ul {
           margin-top: 1.5rem;
       }
+
       li {
           margin-bottom: 0.8rem;
       }
+
       a {
           color: #1a73e8;
           text-decoration: none;
       }
+
       a:hover {
           text-decoration: underline;
       }
   </style>
+  <style>
+      .river {
+          position: relative;
+          display: block;
+          width: 100%;
+          height: 64px;
+      }
+
+      .river > img {
+          width: 100%;
+          height: 100%;
+          display: block;
+      }
+
+      .river::after {
+          content: attr(data-name);
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          font: 700 24px system-ui;
+          color: #0f172a;
+      }
+  </style>
+  <!-- legg i <head> eller rett før </body> -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({ startOnLoad: true });</script>
+
 </head>
 <body>
 <h1>Welcome to xTiber</h1>
@@ -42,13 +75,47 @@
   rational way to approach the most complex questions, where certainty is not possible.
 </p>
 
+<div class="mermaid">
+  flowchart TD
+  A[Atheism] --> B[Gods Existence]
+  B -- No --> A
+  B -- Yes --> C[Resurrection of Jesus]
+  C -- No --> CNo[Theism]
+  C -- Yes --> CYes[River Jordan\nMere Christianity]
+  CYes --> |Let me sort out\nall issues| D{Sola Scriptura}
+  D -- Yes --> P[Protestant Tradition]
+  D -- No --> E[Infant Baptism]
+  P --> E
+  E -- No --> P
+  E -- Yes --> H[Perpetual Virginity of Mary]
+  H --> I[Assumption / Dormition]
+  I -- Yes --> F[Apostolic Succession]
+  F --> J[Petrine Primacy]
+  J --> K[Papal Supremacy]
+  K --> L[Papal Infallibility]
+
+  %% enkel "snarvei"
+  CYes -->|Investigate\nauthority\nto sort\nout issues| J
+
+  %% (valgfritt) klikkbare noder til sidene dine:
+  click B "bayes.html?id=theism" "Open God's Existence"
+  click C "/#resurrection" "Open Resurrection"
+  click D "/#sola-scriptura" "Open Sola Scriptura"
+  click F "/#apostolic-succession" "Open Apostolic Succession"
+  click G "/#infant-baptism" "Open Infant Baptism"
+  click J "/#petrine-primacy" "Open Petrine Primacy"
+  click K "/#papal-supremacy" "Open Papal Supremacy"
+  click L "/#papal-infallibility" "Open Papal Infallibility"
+</div>
+
 <p>Choose which question/hypothesis to explore</p>
+
+
+
 
 <ul>
   <li>
-    <a href="bayes.html?id=tutorial">
-      Tutorial
-    </a>
+    <a href="bayes.html?id=tutorial">Tutorial</a>
   </li>
   <li>
     <a href="bayes.html?id=theism">God's Existence</a> (<a href="stats.html?hyp=theism">stats</a>)
@@ -56,24 +123,20 @@
   <li>
     <a href="bayes.html?id=resurrection">Jesus's Resurrection</a> (<a href="stats.html?hyp=resurrection">stats</a>)
   </li>
-  <li>
-    <a href="bayes.html?id=petrinesupremacy">Petrine Supremacy</a> (<a href="stats.html?hyp=petrinesupremacy">stats</a>)
-  </li>
-  <li>
-    <a href="bayes.html?id=papalsupremacy">Papal Supremacy</a> (<a href="stats.html?hyp=papalsupremacy">stats</a>)
-  </li>
-  <li>
-    <a href="bayes.html?id=papalinfallibility">Papal Infallibility</a> (<a href="stats.html?hyp=papalinfallibility">stats</a>)
-  </li>
+  <div class="river" data-name="Jordan"><img class="river-img" alt=""></div>
   <li>
     <a href="bayes.html?id=solascriptura">Sola Scriptura</a> (<a href="stats.html?hyp=solascriptura">stats</a>)
   </li>
   <li>
-    <a href="bayes.html?id=episcopalsuccession">Apostolic Succession Through Bishops</a> (<a href="stats.html?hyp=episcopalsuccession">stats</a>)
-  </li>
-  <li>
     <a href="bayes.html?id=infantbaptism">Infant Baptism</a> (<a href="stats.html?hyp=infantbaptism">stats</a>)
   </li>
+  <li>
+    <a href="bayes.html?id=petrinesupremacy">Petrine Supremacy</a> (<a href="stats.html?hyp=petrinesupremacy">stats</a>)
+  </li>
+  <li>
+    <a href="bayes.html?id=episcopalsuccession">Apostolic Succession Through Bishops</a> (<a href="stats.html?hyp=episcopalsuccession">stats</a>)
+  </li>
+  <div class="river" data-name="Bosporos"><img class="river-img" alt=""></div>
   <li>
     <a href="bayes.html?id=perpetualvirginity">Perpetual Virginity of Mary</a> (<a href="stats.html?hyp=perpetualvirginity">stats</a>)
   </li>
@@ -83,6 +146,26 @@
   <li>
     <a href="bayes.html?id=marysinlessness">Mary's Sinlessness</a> (<a href="stats.html?hyp=marysinlessness">stats</a>)
   </li>
+  <li>
+    <a href="bayes.html?id=papalsupremacy">Papal Supremacy</a> (<a href="stats.html?hyp=papalsupremacy">stats</a>)
+  </li>
+  <li>
+    <a href="bayes.html?id=papalinfallibility">Papal Infallibility</a> (<a href="stats.html?hyp=papalinfallibility">stats</a>)
+  </li>
+  <div class="river" data-name="Tiber"><img class="river-img" alt=""></div>
 </ul>
+
+
+<script>
+  // Én kilde for SVG-grafikken (flat bølge)
+  const RIVER_SRC =
+    'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" preserveAspectRatio="none"><path d="M0 60 Q 37.5 45 75 60 T 150 60 T 225 60 T 300 60 T 375 60 T 450 60 T 525 60 T 600 60" fill="none" stroke="%230ea5e9" stroke-width="8" stroke-linecap="round"/></svg>';
+
+  document.querySelectorAll('.river-img').forEach(img => {
+    img.src = RIVER_SRC;
+    img.alt = (img.parentElement?.dataset?.name || 'River');
+  });
+</script>
+
 </body>
 </html>

@@ -4,6 +4,75 @@
 const { createApp, ref, computed, onMounted } = window.Vue;
 
 createApp({
+  template: `
+    <template v-if="loading">
+      <p class="lead">Laster …</p>
+    </template>
+
+    <template v-else-if="error">
+      <div class="err">{{ error }}</div>
+      <p class="lead">
+        Åpne som <code>stats.html?hyp=&lt;navn&gt;</code>.<br>
+        Eksempel: <code>stats.html?hyp=papacy</code> → <code>data/papacy/average.json</code>.
+      </p>
+    </template>
+
+    <template v-else-if="hypJson">
+      <h1>{{ hypJson.title }}</h1>
+      <p class="lead">{{ hypJson.intro }}</p>
+
+      <div class="card heading">
+        <div class="row-fixed">
+          <div>
+            <label>Gjennomsnittlig "gut feeling"</label>
+            <div class="posterior" :class="backgroundClass(aprioriPct)">{{ fmtPct(aprioriPct) }}</div>
+          </div>
+          <div>
+            <label>Resultat (posterior)</label>
+            <div class="posterior" :class="backgroundClass(posteriorPct)">{{ fmtPct(posteriorPct) }}</div>
+          </div>
+          <div class="right">
+            <button class="btn" @click="copyJson">Kopier JSON</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="row" style="justify-content:space-between; margin-bottom:6px">
+          <strong>Evidences ({{ hypJson.evidence?.length ?? 0 }})</strong>
+          <span class="hint">Kilde: data/{{ hypSlug }}/average.json</span>
+        </div>
+
+        <table class="table">
+          <thead>
+          <tr>
+            <th>Evidence</th>
+            <th>P(E|H)</th>
+            <th>P(E|¬H)</th>
+            <th>Weight</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr v-for="(ev, idx) in hypJson.evidence" :key="ev.id ?? idx" :class="backgroundClassEv(idx)">
+            <td>{{ ev.label || ev.short || ('E' + (ev.id ?? (idx+1))) }}</td>
+            <td class="num">{{ fmtPct(ev.pehPct) }}</td>
+            <td class="num">{{ fmtPct(ev.penhPct) }}</td>
+            <td class="num">{{ ev.weight }}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <details class="details-block" v-if="hasAnyReferences" style="margin-top:10px;">
+        <summary class="btn small">Vis alle referanser</summary>
+        <ul style="margin-top:8px;">
+          <li v-for="(ref, i) in allReferences" :key="'ref-'+i">
+            <a :href="extractUrl(ref)" target="_blank" rel="noopener">{{ ref }}</a>
+          </li>
+        </ul>
+      </details>
+    </template>
+  `,
   setup() {
     const hypSlug = ref(null);
     const hypJson = ref(null);
