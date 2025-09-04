@@ -77,35 +77,36 @@
 
 <div class="mermaid">
   flowchart TD
-  A[Atheism] --> B[Gods Existence]
-  B -- No --> A
-  B -- Yes --> C[Resurrection of Jesus]
-  C -- No --> CNo[Theism]
-  C -- Yes --> CYes[River Jordan\nMere Christianity]
-  CYes --> |Let me sort out\nall issues| D{Sola Scriptura}
-  D -- Yes --> P[Protestant Tradition]
-  D -- No --> E[Infant Baptism]
-  P --> E
-  E -- No --> P
-  E -- Yes --> H[Perpetual Virginity of Mary]
-  H --> I[Assumption / Dormition]
-  I -- Yes --> F[Apostolic Succession]
-  F --> J[Petrine Primacy]
-  J --> K[Papal Supremacy]
-  K --> L[Papal Infallibility]
+  GodsExistence[God's\nExistence] -- Yes --> Resurrection[Resurrection of\nJesus]
+  GodsExistence -- No --> A[Atheism]
+  Resurrection -- Yes --> xJordan[xJordan:\nMere Christianity]
+  Resurrection -- No --> NCT[Non-Christian\nTheism]
+  xJordan --> SolaScriptura[Sola\nScriptura]
+  SolaScriptura -- Yes --> OriginalSin[Original\nSin]
+  SolaScriptura -- No --> EpiscopalSuccession
+  OriginalSin --> InfantBaptism
+  InfantBaptism[Infant\nBaptism] --> PerpetualVirginity[Perpetual Virginity\nof Mary]
+  PerpetualVirginity --> MarySinlessness[Mary's\nSinlessness]
+  MarySinlessness --> Assumption[Assumption/\nDormition]
+  Assumption --> PresbyterianSuccession[Presbyterian\nSuccession]
+  PresbyterianSuccession --> EpiscopalSuccession
+  EpiscopalSuccession[Episcopal\nSuccession] -- Yes --> PetrineSupremacy[Petrine\nSupremacy]
+  PetrineSupremacy -- Yes --> PapalSupremacy[Papal\nSupremacy]
+  PapalSupremacy --> PapalInfallibility[Papal\nInfallibility]
+  PapalInfallibility --> xTiber[xTiber:\nCatholicism]
 
   %% enkel "snarvei"
-  CYes -->|Investigate\nauthority\nto sort\nout issues| J
+  %% xJordan -->|Investigate\nauthority\ninstead| EpiscopalSuccession
 
   %% (valgfritt) klikkbare noder til sidene dine:
-  click B "bayes.html?id=theism" "Open God's Existence"
-  click C "bayes.html?id=resurrection" "Open Resurrection"
-  click D "/#sola-scriptura" "Open Sola Scriptura"
-  click F "/#apostolic-succession" "Open Apostolic Succession"
-  click G "/#infant-baptism" "Open Infant Baptism"
-  click J "/#petrine-primacy" "Open Petrine Primacy"
-  click K "/#papal-supremacy" "Open Papal Supremacy"
-  click L "/#papal-infallibility" "Open Papal Infallibility"
+  click GodsExistence "bayes.html?id=theism" "Open God's Existence"
+  click Resurrection "bayes.html?id=resurrection" "Open Resurrection"
+  click SolaScriptura "bayes.html?id=solascriptura" "Open Sola Scriptura"
+  click EpiscopalSuccession "bayes.html?id=episcopalsuccession" "Open Episcopal Succession"
+  click InfantBaptism "bayes.html?id=infantbaptism" "Open Infant Baptism"
+  click PetrineSupremacy "bayes.html?id=petrinesupremacy" "Open Petrine Supremacy"
+  click PapalSupremacy "bayes.html?id=papalsupremacy" "Open Papal Supremacy"
+  click PapalInfallibility "bayes.html?id=papalinfallibility" "Open Papal Infallibility"
 </div>
 
 <p>Choose which question/hypothesis to explore</p>

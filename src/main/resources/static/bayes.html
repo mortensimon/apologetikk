@@ -117,7 +117,7 @@
       </details>
       <div class="row-fixed">
         <div>
-          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].short }}" (0–100)</label>
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].id }}" (0–100)</label>
           <input
             class="input-number"
             type="number" min="0" max="100" step="any" inputmode="numeric"
@@ -128,7 +128,7 @@
           />
         </div>
         <div>
-          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].short }}" (0–100)</label>
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].id }}" (0–100)</label>
           <input
             class="input-number"
             type="number" min="0" max="100" step="any" inputmode="numeric"
