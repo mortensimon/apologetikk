@@ -1,0 +1,40 @@
+#stats-js table th.result-header { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+
+#stats-js table td.num { text-align: right; padding-right: 0.5rem; /* litt luft fra høyrekanten */ }
+
+#stats-js table th .arrow-up { color: seagreen; }
+#stats-js table th .arrow-down { color: firebrick; }
+#stats-js table th .arrow-right { color: gray; }
+
+/** Farger for evidens-radene **/
+/** Vi trenger 5 grønnfarger fra svært lysegrønn til nokså sterk grønn **/
+#stats-js table td.green-1 { background-color: #f0fbf0; }  /* svært lys grønn */
+#stats-js table td.green-2 { background-color: #d6f5d6; }  /* mild grønn */
+#stats-js table td.green-3 { background-color: #a6e6a6; }  /* middels grønn */
+#stats-js table td.green-4 { background-color: #6ed66e; }  /* sterk grønn */
+#stats-js table td.green-5 { background-color: #32c832; }  /* dyp grønn  */
+
+#stats-js table td.yellow { background-color: #fff7cc; }  /* lys gul */
+/* Vi trenge 5 rødfarger fra mild rød til sterk rød */
+#stats-js table td.red-1  { background-color: #ffe5e5; }  /* svært lys rød */
+#stats-js table td.red-2  { background-color: #f8d6d6; }  /* mild rød */
+#stats-js table td.red-3  { background-color: #f4a6a6; }  /* middels rød */
+#stats-js table td.red-4  { background-color: #e66e6e; }  /* sterk rød */
+#stats-js table td.red-5  { background-color: #d63232; }  /* dyp rød  */
+
+#stats-js table td.gray   { background-color: #e0e0e0; }
+
+
+/** Logikk for å lage en loddrett strek mellom hver denomination i tabellen **/
+
+#stats-js table { border-collapse: collapse; }
+/* Vertikal skillelinje før hver denom-gruppe unntatt første (kol 6,10,14,...) */
+#stats-js table th:nth-child(4n + 2):not(:nth-child(2)),
+#stats-js table td:nth-child(4n + 2):not(:nth-child(2)) {
+    border-left: 5px solid #ffffff;   /* velg farge/tykkelse */
+}
+/* Litt luft etter skillelinjen (valgfritt) */
+#stats-js table th:nth-child(4n + 2),
+#stats-js table td:nth-child(4n + 2) {
+    padding-left: 0.6rem;
+}

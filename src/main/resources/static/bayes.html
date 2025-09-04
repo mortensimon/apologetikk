@@ -161,16 +161,16 @@
     <div class="err" v-if="errorMsg">{{ errorMsg }}</div>
   </div>
 
-  <!-- CTA -->
   <div class="row-fixed">
     <button class="btn btn-primary btn-lg" @click="startPublish">
       Publish your results
     </button>
-    <button class="btn" @click="openView">
-      View other users' results
-    </button>
+    <!-- html -->
+    <a class="btn" :href="'stats.html?hyp=' + (hypJson.name || '')">{{ hypJson.name }}</a>
+
     <button class="btn" @click="addEvidence">Show next evidence</button>
   </div>
+
 
   <!-- Denomination modal -->
   <dialog ref="denomDialog" class="modal">
@@ -212,7 +212,7 @@
       </thead>
       <tbody>
       <tr
-        v-for="ev in publishJson.evidences"
+        v-for="ev in publishJson.evidence"
         :key="ev.id"
         :class="backgroundClassEv(ev.id-1)"
       >

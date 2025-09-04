@@ -30,48 +30,58 @@ import static org.springframework.http.HttpStatus.CREATED;
 class API {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
-    private static final DateTimeFormatter TS_FMT = DateTimeFormatter.ofPattern("yyyyMMdd-HHmmss-SSS");
     private static final Path ROOT = Paths.get("data"); // => data
     private static final Pattern SAFE_SEG = Pattern.compile("[A-Za-z0-9._-]+");
 
 
-    @GetMapping("/lagre")
-    public ResponseEntity<String> lagre(@Nullable @RequestParam String team,
-                                        @RequestParam String navn,
-                                        @Nullable @RequestParam String epost) {
+    // Lag en ny GET-endpoint /api/average som tar en parameter "hypothesis" og så returnerer alle average.json for alle varianter av denne hypotesen
+    @GetMapping("/average")
+    public ResponseEntity<?> getAverages(@RequestParam String hypothesis) {
+        Path hypPath = ROOT.resolve(hypothesis);
+        if (!Files.exists(hypPath) || !Files.isDirectory(hypPath))
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(Map.of("status", "warn", "message", "No data published yet"));
 
-        if (navn == null) {
-            return ResponseEntity
-                    .status(BAD_REQUEST)
-                    .body("Ny ansatt må ha et navn");
+        try (Stream<Path> walk = Files.walk(hypPath, 2)) {
+            // Finn alle filer som heter average.json
+            var averages = walk
+                    .filter(p -> p.getFileName() != null && p.getFileName().toString().equals("average.json"))
+                    .map(p -> {
+                        try {
+                            return MAPPER.readTree(p.toFile());
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }).toList();
+            return ResponseEntity.ok(Map.of(
+                    "status", "ok",
+                    "hypothesis", hypothesis,
+                    "count", averages.size(),
+                    "averages", averages
+            ));
+        } catch (IOException io) {
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(Map.of(
+                    "status", "error",
+                    "message", io.getMessage()
+            ));
         }
-        // … opprettelse OK
-        return ResponseEntity.status(CREATED).body("OK - lagret ansatt " + navn + " i team " + team + " med epost " + epost);
     }
+
+
+
 
     @PostMapping(value = "/results", consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Map<String, Object>> saveResults(@RequestBody JsonNode root) {
         try {
             Files.createDirectories(ROOT);
-
-            // Krev feltene som styrer filplassering:
             String name = root.path("name").textValue();
             String denomination = getSanitizedField(root, "denomination");
-
-
-            // Generer stabil unik id (ULID/UUID). UUID er ok:
             String id = UUID.randomUUID().toString();
-
-            // data/<name>/<denominasjon>/<id>.json
             Path dir = ROOT.resolve(name).resolve(denomination);
             Files.createDirectories(dir);
             Path file = dir.resolve(id + ".json");
-
-            // Skriv fila
             MAPPER.writeValue(file.toFile(), root);
-
             URI href = URI.create("/api/results/" + id);
-
+            AverageCalculator.init();
             return ResponseEntity.status(HttpStatus.CREATED).body(Map.of(
                     "status", "ok",
                     "id", id,
@@ -133,19 +143,5 @@ class API {
             throw new IllegalArgumentException("Illegal characters in path segment: " + v);
         }
         return v;
-    }
-
-    @GetMapping("/hello2")
-    public Map<String, String> hello() {
-        return Map.of("message2", "Hei fra Spring Boot!");
-    }
-
-    @ExceptionHandler(MissingServletRequestParameterException.class)
-    public ProblemDetail badRequest(MissingServletRequestParameterException ex) {
-        var pd = ProblemDetail.forStatus(BAD_REQUEST);
-        pd.setTitle("Valideringsfeil");
-        pd.setDetail("Her mangler et obligatorisk parameter: " + ex.getParameterName());
-        pd.setProperty("code", "HK400");
-        return pd; // Spring serialiserer til JSON automatisk
     }
 }

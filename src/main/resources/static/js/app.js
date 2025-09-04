@@ -57,7 +57,7 @@ createApp({
         denomination: denomination.value || null,
         aprioriPct: priorPct.value,
         posteriorPct: Number.isFinite(posterior.value) ? +(posterior.value * 100).toFixed(2) : null,
-        evidences: answered
+        evidence: answered
       };
 
       publishJson.value = payload;

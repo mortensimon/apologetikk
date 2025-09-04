@@ -11,73 +11,74 @@
   <link rel="stylesheet" href="./css/layout.css">
   <link rel="stylesheet" href="./css/components.css">
   <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="./css/stats.css"> <!-- kun for denne siden -->
 
   <!-- Vue 3 (CDN) -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 
-  <style>[v-cloak]{display:none}</style>
+  <style>[v-cloak] {
+      display: none
+  }</style>
 </head>
 <body>
-<div id="app" class="wrap" v-cloak>
-    <h1>{{ hypJson.title }}</h1>
-    <p class="lead">{{ hypJson.intro }}</p>
+<div id="stats-js" class="wrap" v-cloak>
 
-    <!-- Topp: apriori + posterior (fra average.json) -->
-    <div class="card heading">
-      <div class="row-fixed">
-        <div>
-          <label>Gjennomsnittlig "gut feeling"</label>
-          <div class="posterior" :class="backgroundClass(aprioriPct)">{{ fmtPct(aprioriPct) }}</div>
-        </div>
-        <div>
-          <label>Resultat (posterior)</label>
-          <div class="posterior" :class="backgroundClass(posteriorPct)">{{ fmtPct(posteriorPct) }}</div>
-        </div>
-        <div class="right">
-          <button class="btn" @click="copyJson">Kopier JSON</button>
-        </div>
-      </div>
-    </div>
+  <table v-if="stats.averages.length">
+    <thead>
+    <!-- Øverste header: én kolonne pr. denom, men hver spaner 3 underkolonner -->
+    <tr>
+      <th></th>
+      <th v-for="avg in stats.averages"
+          :key="avg?.denomination ?? 'denom'"
+          colspan="4">
+        {{ avg?.denomination ?? 'Unknown' }}
+      </th>
+    </tr>
 
-    <!-- Tabell (som i resultsDialog) -->
-    <div class="card">
-      <div class="row" style="justify-content:space-between; margin-bottom:6px">
-        <strong>Evidences ({{ hypJson.evidence?.length ?? 0 }})</strong>
-        <span class="hint">Kilde: data/{{ hypSlug }}/average.json</span>
-      </div>
+    <tr>
+      <th></th>
+      <template v-for="(avg, aIdx) in stats.averages" :key="'result-'+aIdx">
+        <th class="result-header" colspan="4">
+          <span>{{ avg?.aprioriPct ?? '' }}%</span>
+          <span class="arrow-right">➡</span>
+          <span>{{ avg?.posteriorPct ?? '' }}%</span>
+        </th>
+      </template>
+    </tr>
 
-      <table class="table">
-        <thead>
-        <tr>
-          <th>Evidence</th>
-          <th>P(E|H)</th>
-          <th>P(E|¬H)</th>
-          <th>Weight</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr v-for="(ev, idx) in hypJson.evidence" :key="ev.id ?? idx" :class="backgroundClassEv(idx)">
-          <td>{{ ev.label || ev.short || ('E' + (ev.id ?? (idx+1))) }}</td>
-          <td class="num">{{ fmtPct(ev.pehPct) }}</td>
-          <td class="num">{{ fmtPct(ev.penhPct) }}</td>
-          <td class="num">{{ ev.weight }}</td>
-        </tr>
-        </tbody>
-      </table>
-    </div>
+    <!-- Underheader: PEH% / PENH% / Weight for hver denom -->
+    <tr>
+      <th>Evidence</th>
+      <template v-for="(avg, aIdx) in stats.averages" :key="'subhdr-'+aIdx">
+        <th title="P(E|H)">
+          <span class="arrow-up">⬆</span>
+        </th>
+        <th title="P(E|¬H)">
+          <span class="arrow-down">⬇</span>
+        </th>
+        <th title="Weight">⚖️</th>
+        <th title="Count">👥</th>
+      </template>
+    </tr>
+    </thead>
 
-    <!-- Referanser (valgfritt) -->
-    <details class="details-block" v-if="hasAnyReferences" style="margin-top:10px;">
-      <summary class="btn small">Vis alle referanser</summary>
-      <ul style="margin-top:8px;">
-        <li v-for="(ref, i) in allReferences" :key="'ref-'+i">
-          <a :href="extractUrl(ref)" target="_blank" rel="noopener">{{ ref }}</a>
-        </li>
-      </ul>
-    </details>
+    <tbody>
+    <!-- Rader styres av første average (den har flest evidenser) -->
+    <tr v-for="(ev, idx) in (stats.averages[0]?.evidence || [])" :key="ev?.id ?? idx">
+      <td>{{ ev?.label ?? `Evidence ${idx + 1}` }}</td>
+
+      <!-- Tre celler per denom: PEH / PENH / Weight -->
+      <template v-for="(avg, aIdx) in stats.averages" :key="'r'+idx+'c'+aIdx">
+        <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.pehPct ?? '' }}</td>
+        <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.penhPct ?? '' }}</td>
+        <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.weight ?? '' }}</td>
+        <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.count ?? '' }}</td>
+      </template>
+    </tr>
+    </tbody>
+  </table>
 </div>
 
-<!-- App-kode -->
 <script type="module" src="./js/stats.js"></script>
 </body>
 </html>
