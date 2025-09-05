@@ -29,15 +29,6 @@ public class AverageCalculator implements Runnable {
     public void run() {
 
         System.out.println("Kjører bakgrunnsjobb for å beregne gjennomsnitt...");
-        // 1. Start med data-mappen og gå gjennom alle undermapper, også kalt hypotesemapper
-        // 2. For hver hypotesemappe H
-        //    2.1 Lag en liste som skal inneholde resultatene som vi hver undermappe kalt variantmapper
-        //    2.1.Les alle variantmapper i hypotesemappen H
-        // 3. For hver variantmappe V, les alle JSON-filer og samle alle disse data
-        //    3.1 Lagre gjennomsnittet alle data i JSON-filene og lagre filen "average.json" i variantmappen V
-        //    3.2 Lagre resultatet i resultatlisten for hypotesemappen H
-        //    3.3 Beregn gjennomsnittet av alle resultatene i reulsatlisten og lagre filen "average.json" i hypotesemappen H
-
         Path dataPath = Paths.get("data");
         for (File hypotesemappe : dataPath.toFile().listFiles(File::isDirectory)) {
             List<Average> variantAverages = new ArrayList<>();
