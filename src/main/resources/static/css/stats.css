@@ -1,7 +1,16 @@
+body {
+    font-family: sans-serif;
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
 #stats-js table th.result-header { padding-top: 0.5rem; padding-bottom: 0.5rem; }
 
 #stats-js table td.num { text-align: right; padding-right: 0.5rem; /* litt luft fra høyrekanten */ }
 
+/** Pil-farger i tabell-header **/
 #stats-js table th .arrow-up { color: seagreen; }
 #stats-js table th .arrow-down { color: firebrick; }
 #stats-js table th .arrow-right { color: gray; }
@@ -23,6 +32,17 @@
 #stats-js table td.red-5  { background-color: #d63232; }  /* dyp rød  */
 
 #stats-js table td.gray   { background-color: #e0e0e0; }
+
+/** Forsøker å forhindre at teksten i evidens-kolonnen brytes (for da blir noen rader dobbelt så høye) **/
+/* Evidence-label cellene (første <td> i hver rad) */
+#stats-js table td:first-child,
+#stats-js table th:first-child {
+    white-space: nowrap;     /* hindrer linjeskift */
+    overflow: hidden;        /* skjul tekst som er for lang */
+    text-overflow: ellipsis; /* … hvis teksten ikke får plass */
+    max-width: 300px;        /* sett en fornuftig maks bredde */
+    padding-right: 1rem;     /* litt luft etter teksten */
+}
 
 
 /** Logikk for å lage en loddrett strek mellom hver denomination i tabellen **/

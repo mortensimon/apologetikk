@@ -6,31 +6,30 @@
   <title>xTiber</title>
   <link rel="icon" href="./img/favicon-16x16.png" type="image/png">
 
-  <!-- Global CSS -->
-  <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/layout.css">
-  <link rel="stylesheet" href="./css/components.css">
-  <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="css/bayes-base.css">
+  <link rel="stylesheet" href="css/bayes-layout.css">
+  <link rel="stylesheet" href="css/bayes-components.css">
+  <link rel="stylesheet" href="css/bayes-utilities.css">
   <!-- Vue 3 (CDN) -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
 </head>
 <body>
 
 <div id="app" class="wrap" v-if="hypJson">
-  <h1>{{ hypJson.title }}</h1>
+  <h1>{{ hypJson.title }} (<a :href="'stats.html?hyp=' + (hypJson.name || '')">Statistics</a>)</h1>
   <p class="lead">{{ hypJson.intro }}</p>
 
   <details class="help-text">
-    <summary class="btn">Explanation of Bayes</summary>
+    <summary class="btn">Explanation of Bayes - optional read</summary>
     <p class="lead">
-      State the apriori probability of the hypothesis/question. This is your "gut feeling" about the hypothesis before considering any evidence.
+      <b>Abstract explanation:</b> State the apriori probability of the hypothesis/question. This is your "gut feeling" about the hypothesis before considering any evidence.
       Let's say you think the apriori probability is 0%. That means you, regardless of the evidence, believe the hypothesis is impossible.
       Or, if you specify 100%, you believe the hypothesis is certain to be true, regardless of the evidence. These are the two extremes
       that must be avoided if one considers oneself open to evidence! You can specify any value, but ChatGPT says 5% means 'very skeptical'
-      and consequently 95% means 'very confident'. The default is 50%, which means you are neutral and have no prior opinion about the hypothesis.
+      and consequently 95% means 'very confident'. The default is 50%, which means you are neutral and have no prior bias about the hypothesis.
     </p>
     <p class="lead">
-      After entering the apriori probability, you can add evidence. Let's assume an example hypothesis: "Unicorns exist". We can then think of
+      <b>Example:</b> After entering the apriori probability, you can add evidence. Let's assume an example hypothesis: "Unicorns exist". We can then think of
       an evidence such as "I found a long straight & twisted horn". We must now specify two probabilities: 1) The probability of this evidence if
       the hypothesis is true, and 2) the probability of this evidence if the hypothesis is false. You do this by imagining that the hypotheis is
       true and then ask yourself: "Unicorns exist, then how likely is it that I would find such a horn?" and then you do the same
@@ -110,7 +109,8 @@
           <strong>References:</strong>
           <ul>
             <li v-for="(ref, refIdx) in hypJson.evidence[idx].references" :key="refIdx">
-              <a :href="extractUrl(ref)" target="_blank" rel="noopener">{{ ref }}</a>
+              <!-- ref inneholder en tekst med URL. Vi skal lage en tekst hvor *bare* URL-en er klikkbar -->
+              <div v-html="makeRefIntoTextWithLink(ref)"></div>
             </li>
           </ul>
         </div>
@@ -162,12 +162,8 @@
   </div>
 
   <div class="row-fixed">
-    <button class="btn btn-primary btn-lg" @click="startPublish">
-      Publish your results
-    </button>
-    <!-- html -->
-    <a class="btn" :href="'stats.html?hyp=' + (hypJson.name || '')">{{ hypJson.name }}</a>
-
+    <button class="btn btn-primary" @click="startPublish">Publish</button>
+    <button class="btn btn-primary" @click="openUrlNewTab('stats.html?hyp=' + hypJson.name)">Statistics</button>
     <button class="btn" @click="addEvidence">Show next evidence</button>
   </div>
 

@@ -269,6 +269,22 @@ createApp({
       return match ? match[0] : '#';
     }
 
+    function makeRefIntoTextWithLink(ref) {
+      if (!ref) return '';
+      const url = extractUrl(ref);
+      if (url === '#') return ref; // no URL found, return original text
+      return ref.replace(url, `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`);
+    }
+
+    function openUrl(url) {
+      window.location.href = url;
+    }
+
+    function openUrlNewTab(url) {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+
+
     // Eksponer til template
     return {
       priorPct, evidences, errorMsg,
@@ -277,10 +293,10 @@ createApp({
       clampPct, blockNonNumeric,
       onPriorInput, onEvInput,
       hypJson, showHelp, backgroundClass, backgroundClassEv,
-      checkAutoAppendEvidence, extractUrl,
+      checkAutoAppendEvidence, extractUrl, makeRefIntoTextWithLink,
       openPublish, closePublish, copyPublish, publishToServer, publishJson, resultsDialog,
       fmtPct, startPublish, cancelDenomination, confirmDenomination,
-      denomination, denominations, denomDialog, openView
+      denomination, denominations, denomDialog, openView, openUrl,openUrlNewTab
     };
   }
 }).mount('#app');

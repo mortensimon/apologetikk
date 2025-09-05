@@ -1,5 +1,6 @@
 // js/utils.js
 
+
 // Klamper prosentverdi til [0,100]. Tillater komma som desimalskille.
 // Forutsetter at ev. ledende . eller , allerede er prefikset med 0 i input-handlere.
 export const clampPct = (val) => {

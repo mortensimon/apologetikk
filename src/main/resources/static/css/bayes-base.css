@@ -7,7 +7,7 @@
     --bd: rgba(0, 0, 0, .12);
 }
 
-/* En liten ryddighet: konsekvent boksmodell og baseline-typografi */
+/* En liten ryddighet: konsekvent boksmodell og padding */
 *,
 *::before,
 *::after { box-sizing: border-box; }
