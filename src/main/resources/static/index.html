@@ -62,32 +62,43 @@
   flowchart TD
   GodsExistence[God's\nExistence] -- Yes --> Resurrection[Resurrection of\nJesus]
   GodsExistence -- No --> A[Atheism]
-  Resurrection -- Yes --> xJordan[xJordan:\nMere Christianity]
+  Resurrection -- Yes --> DeityofChrist[Deity of\nChrist]
+  DeityofChrist --> xJordan[xJordan:\nMere Christianity]
   Resurrection -- No --> NCT[Non-Christian\nTheism]
-  xJordan --> SolaScriptura[Sola\nScriptura]
-  SolaScriptura -- Yes --> InfantBaptism
-  SolaScriptura -- No --> EpiscopalSuccession
-  InfantBaptism[Infant\nBaptism] --> PerpetualVirginity[Perpetual Virginity\nof Mary]
-  PerpetualVirginity --> MarySinlessness[Mary's\nSinlessness]
-  MarySinlessness --> Assumption[Assumption/\nDormition]
-  Assumption --> EpiscopalSuccession[Episcopal\nSuccession]
+  xJordan -- Investigate\nAuthority --> PresbyterianSuccession
+  xJordan -- Investigate\ndoctrines --> OriginalSin[Original\nSin]
+  OriginalSin -- Yes --> BaptismalRegeneration[Baptismal\nRegeneration]
+  BaptismalRegeneration -- Yes --> InfantBaptism[Infant\nBaptism]
+  InfantBaptism -- Yes --> RealPresence[Real\nPresence]
+  RealPresence -- Yes --> Confession[Reconciliation/\nConfession]
+  Confession -- Yes --> SaintPrayers[Praying\nto Saints]
+  SaintPrayers -- Yes --> PerpetualVirginity[Perpetual Virginity\nof Mary]
+  PerpetualVirginity -- Yes --> Assumption[Assumption/\nDormition]
+  Assumption -- Yes --> MarySinlessness[Mary's\nSinlessness]
+  MarySinlessness -- Yes --> Miaphysitism
+  Miaphysitism -- Yes --> xNile[xNile:\nOriental Orthodoxy]
+  Miaphysitism -- No --> Nestorianism
+  Nestorianism -- Yes --> xTigris[xTigris:\nAssyrian Church\nof the East]
+  Nestorianism -- No --> xBosporus[xBosporus:\nEastern Orthodoxy]
+  xBosporus --> ImmaculateConception[Immaculate\nConception]
+  ImmaculateConception -- Yes --> Matrimony[Marriage and\nDivorce]
+  Matrimony -- Yes --> PresbyterianSuccession[Presbyterian\nSuccession]
+  Matrimony -- No --> xThames[xThames:\nAnglicanism]
+  PresbyterianSuccession -- No --> EpiscopalSuccession
   EpiscopalSuccession[Episcopal\nSuccession] -- Yes --> PetrineSupremacy[Petrine\nSupremacy]
   PetrineSupremacy -- Yes --> PapalSupremacy[Papal\nSupremacy]
-  PapalSupremacy --> PapalInfallibility[Papal\nInfallibility]
-  PapalInfallibility --> xTiber[xTiber:\nCatholicism]
-
+  PapalSupremacy -- Yes --> PapalInfallibility[Papal\nInfallibility]
+  PapalInfallibility -- Yes --> xTiber[xTiber:\nCatholicism]
+  
   %% enkel "snarvei"
   %% xJordan -->|Investigate\nauthority\ninstead| EpiscopalSuccession
-
+  
   %% (valgfritt) klikkbare noder til sidene dine:
   click GodsExistence "bayes.html?id=theism" "Open God's Existence"
   click Resurrection "bayes.html?id=resurrection" "Open Resurrection"
   click SolaScriptura "bayes.html?id=solascriptura" "Open Sola Scriptura"
-  click InfantBaptism "bayes.html?id=infantbaptism" "Open Infant Baptism"
-  click PerpetualVirginity "bayes.html?id=perpetualvirginity" "Open Perpetual Virginity of Mary"
-  click MarySinlessness "bayes.html?id=marysinlessness" "Open Mary's Sinlessness"
-  click Assumption "bayes.html?id=bodilyassumption" "Open Assumption/Dormition"
   click EpiscopalSuccession "bayes.html?id=episcopalsuccession" "Open Episcopal Succession"
+  click InfantBaptism "bayes.html?id=infantbaptism" "Open Infant Baptism"
   click PetrineSupremacy "bayes.html?id=petrinesupremacy" "Open Petrine Supremacy"
   click PapalSupremacy "bayes.html?id=papalsupremacy" "Open Papal Supremacy"
   click PapalInfallibility "bayes.html?id=papalinfallibility" "Open Papal Infallibility"
