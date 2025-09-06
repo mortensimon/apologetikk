@@ -3,7 +3,8 @@
     "intro": "Hypothesis: The bishop of Rome, when intending of his own free will to bind the universal Church, is by the grace of God unable to bind her to error.<br><br>The Pope is not legally obligated to consult his brother bishops before making such a declaration, but he is morally obligated to ensure he is speaking the mind of the Church. In short, he does not need their consent in the sense of \"express permission\", but he does need their consent in the sense of \"commmon agreement\".",
     "evidence": [
         {
-            "id": "The Indefectibility of the Church",
+            "id": 1,
+            "head": "The Indefectibility of the Church",
             "short": "Matthew 16:18 promises that the gates of Hades will not prevail against the Church.",
             "details": "Proponents argue that this means God will ultimately preserve the Church from error. Since the Pope is the highest authority in the Church Militant, it follows that he, as the final court of appeal, cannot bind her to error, since God will preserve His Church.\n\nCritics object that the bishop of Rome may be the highest authority, but he is not the Church, which consists of all the faithful, and it is their consensus that is the ultimate yardstick against which even the Pope's orthodoxy is measured.",
             "category": "Biblical",
@@ -12,7 +13,8 @@
             ]
         },
         {
-            "id": "The Keys of the Kingdom of Heaven",
+            "id": 2,
+            "head": "The Keys of the Kingdom of Heaven",
             "short": "Matthew 16:19, Jesus: I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven.",
             "details": "Proponents see this as giving Peter the power to bind and loose sins, regulations, and even doctrine. Since God would not allow Peter to bind heaven to error, it follows that God would preserve him from error when he exercises this authority.<br><br>Critics argue that this must be read in light of Matthew 18:18, where all the apostles receive the same authority, and that we should understand this as the entire Church together binding and loosing.",
             "category": "Biblical",
@@ -25,7 +27,8 @@
             ]
         },
         {
-            "id": "Authority to Bind and Loose",
+            "id": 3,
+            "head": "Authority to Bind and Loose",
             "short": "Matthew 18:18: All the apostles received the authority to bind and loose",
             "details": "Critics point to this as evidence that all the apostles had the same authority and that Peter was not as special as one might think.<br><br>Proponents argue that this merely indicates the conciliar approach the Pope is supposed to take in working with his brother bishops.",
             "category": "Biblical",
@@ -34,7 +37,8 @@
             ]
         },
         {
-            "id": "Strengthen Your Brothers",
+            "id": 4,
+            "head": "Strengthen Your Brothers",
             "short": "Luke 22:24–34, Jesus: Strengthen your brothers",
             "details": "Proponents see this as indicating how the Pope is supposed to rule: in conciliarity with his brother bishops, yet as a leader who has the final word.<br><br>Critics see it as merely indicating Peter's special mission and conciliarity.",
             "category": "Biblical",
@@ -43,7 +47,8 @@
             ]
         },
         {
-            "id": "The Greatest Among You",
+            "id": 5,
+            "head": "The Greatest Among You",
             "short": "Luke 22:24–34, Jesus: The greatest among you must be like one who serves",
             "details": "Proponents argue that this shows how the Pope is supposed to rule: as the servant of the servants of God, in unity with his brother bishops, but also that there will be a greatest among them.<br><br>Critics tend to view it as applying only to other leaders in the Church, rather than the Pope specifically.",
             "category": "Biblical",
@@ -52,7 +57,8 @@
             ]
         },
         {
-            "id": "Authority of the Holy Spirit",
+            "id": 6,
+            "head": "Authority of the Holy Spirit",
             "short": "Acts 5:1–11: Peter exercises authority on behalf of the Holy Spirit",
             "details": "Proponents argue that Peter acts on behalf of God, who preserves him from error.<br><br>Critics usually concede this, but argue that it does not necessarily mean his successors can claim the same.",
             "category": "Biblical",
@@ -61,7 +67,8 @@
             ]
         },
         {
-            "id": "Peter Speaks for the Apostles",
+            "id": 7,
+            "head": "Peter Speaks for the Apostles",
             "short": "Peter often speaks on behalf of all the apostles",
             "details": "Proponents see this as Peter acting like a leader with actual authority, often without checking with the others first, just like Vatican I allows.<br><br>Critics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority without infallibility either way.",
             "category": "Biblical",
@@ -70,7 +77,8 @@
             ]
         },
         {
-            "id": "Rome Preserved Orthodoxy",
+            "id": 8,
+            "head": "Rome Preserved Orthodoxy",
             "short": "Rome preserved orthodoxy time and time again",
             "details": "Proponents argue that, throughout history, Rome repeatedly defended orthodox teachings and was considered a bastion against heresy. This is possibly also attested to by St. Maximus the Confessor, and is often presented as evidence for Papal Infallibility.<br><br>Critics often concede this, but stress that its status was due to its orthodoxy, not the other way around.",
             "category": "History",
@@ -79,7 +87,8 @@
             ]
         },
         {
-            "id": "Pope Vigilius",
+            "id": 9,
+            "head": "Pope Vigilius",
             "short": "Pope Vigilius's conflicting declarations on the Three Chapters",
             "details": "Pope Vigilius issued conflicting declarations on the Three Chapters controversy (6th century). He initially resisted condemnation, but later endorsed it under imperial pressure.<br><br>Critics argue that he did intend to bind the whole Church, making the statements ex cathedra.<br><br>Proponents deny that this \"counts\", because Vigilius was under heavy pressure and not acting freely.",
             "category": "History",
@@ -88,7 +97,8 @@
             ]
         },
         {
-            "id": "Pope Honorius I",
+            "id": 10,
+            "head": "Pope Honorius I",
             "short": "Pope Honorius I condemned for monothelitism",
             "details": "Pope Honorius I was condemned after his death for supporting monothelitism, a heresy that taught Christ had only one will (divine) instead of both a human and divine will. His condemnation came during the Third Council of Constantinople (680–681), which declared monothelitism heretical.<br><br>Proponents argue that Honorius was criticized not for teaching the heresy himself, but for failing to oppose it clearly and thus allowing it to spread.<br><br>Critics argue that the wording from the council does seem to condemn him as a heretic, calling into question the charism of Papal Infallibility in doctrinal declarations.",
             "category": "History",
@@ -97,7 +107,8 @@
             ]
         },
         {
-            "id": "Pope John XXII",
+            "id": 11,
+            "head": "Pope John XXII",
             "short": "Pope John XXII taught against the Beatific Vision for three years",
             "details": "Pope John XXII controversially taught for three years (1331–1334) that the souls of the righteous do not see the Beatific Vision (the direct sight of God) until the Final Judgment, contradicting traditional Catholic teaching. He was criticized for this and retracted his view on his deathbed.<br><br>Critics see this as a blow against Papal Infallibility, since sermons and homilies are a part of the Pope's ordinary magisterium.<br><br>Proponents argue that Papal Infallibility doesn't apply unless the Pope is exercising his extraordinary magisterium with an ex cathedra statement, intending to bind the entire Church.",
             "category": "History",
@@ -106,7 +117,8 @@
             ]
         },
         {
-            "id": "Irenæus of Lyons",
+            "id": 12,
+            "head": "Irenæus of Lyons",
             "short": "Irenæus (c. 180 AD): All churches must agree with Rome.",
             "details": "Proponents argue that this shows the central role of Rome in doctrinal questions, maybe even a precedent for Papal Infallibility.<br><br>Critics argue that this is merely an expression of respect for Rome's evident orthodoxy, not a belief that Rome is infallible.",
             "category": "Patristic",
@@ -115,7 +127,8 @@
             ]
         },
         {
-            "id": "Ambrose, Peter, and the Church",
+            "id": 13,
+            "head": "Ambrose, Peter, and the Church",
             "short": "Ambrose of Milan (c. 340–397): Where Peter is, there is the Church.",
             "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.<br><br>Critics argue that this can be understood to refer to any local bishop, not just the Pope.",
             "category": "Patristic",
@@ -124,7 +137,8 @@
             ]
         },
         {
-            "id": "Augustine: Roma Locuta, Causa Finita",
+            "id": 14,
+            "head": "Augustine: Roma Locuta, Causa Finita",
             "short": "Augustine of Hippo expressed his opinion that the controversy was over because it had been settled by several councils and sent to Rome.",
             "details": "Augustine is often quoted as saying \"Roma locuta est — causa finita est\" (\"Rome has spoken — the matter is finished\"), but that is a simplified paraphrase. He actually says that two councils have decided against the Pelagians and sent their decisions to the Apostolic See, who has sent their rescripts back to Africa, and that the matter is finished.<br><br>Proponents argue that this shows that Rome was to be informed when a local controversy was settled, which makes sense if the Pope is the highest authority in the Church.<br><br>Critics say Rome had the most prestige (and even then, not always) of the major sees.",
             "category": "Patristic",
@@ -133,7 +147,8 @@
             ]
         },
         {
-            "id": "Optatus of Milevis on the Chair of Peter",
+            "id": 15,
+            "head": "Optatus of Milevis on the Chair of Peter",
             "short": "St. Optatus of Milevis (367 AD) affirmed Petrine primacy for unity and sole holding of keys.",
             "details": "Proponents argue that this shows that the unity of the Church was already connected to the chair of Peter.<br><br>Critics argue that other African fathers from this period, especially Cyprian of Carthage, used similar language but were not afraid to risk excommunication by Pope Stephen I over the rebaptism of heretics. They see it as showing respect for Rome's orthodoxy and an optimistic hope that it would remain orthodox.",
             "category": "Patristic",
@@ -142,7 +157,8 @@
             ]
         },
         {
-            "id": "\"Peter Has Spoken Through Leo!\"",
+            "id": 16Peter Has Spoken Through Leo!\"",
+            "head": "\",
             "short": "Leo’s Tome was well received at Chalcedon: \"Peter has spoken through Leo!\"",
             "details": "Proponents see this as a strong affirmation of the continuing Petrine office of the Pope.<br><br>Critics object that this does not mean the Pope is the highest earthly authority in the Church, only that Leo's Tome was well received as orthodox.",
             "category": "Patristic",
@@ -151,7 +167,8 @@
             ]
         },
         {
-            "id": "\"Peter Has Spoken Through Agatho!\"",
+            "id": 17Peter Has Spoken Through Agatho!\"",
+            "head": "\",
             "short": "Agatho's letter was well received at Constantinople III: \"Peter has spoken through Agatho!\"",
             "details": "Agatho's Letter contains some strong claims about Rome never erring.<br><br>Proponents see this as a strong affirmation of the continuing Petrine office of the Pope, at least from Rome itself. Some argue that the council agreed with it as well.<br><br>Critics object that Agatho's Letter is written in such a way that the Greeks would perceive its lofty claims as hyperbolic flattery, which the Latins knew was common in the East, and thus doesn't prove anything in favour of Papal authority in the East. Some also question whether the infalliibility phrases in Agatho's Letter are original or interpolations.",
             "category": "Patristic",
@@ -161,7 +178,8 @@
             ]
         },
         {
-            "id": "Pope Gregory and Synods",
+            "id": 18,
+            "head": "Pope Gregory and Synods",
             "short": "Gregory the Great (598–599 AD): synods have no force without the authority and consent of Rome.",
             "details": "Proponents argue that this shows that Rome has always held that it has the final say in any conciliar matter, in which case it could be said that ecumenical councils derive their infallibility from the Pope.<br><br>Critics see this as Pope Gregory going beyond his jurisdiction and trying to increase his own power.",
             "category": "Patristic",

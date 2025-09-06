@@ -3,7 +3,8 @@
     "intro": "Hypothesis: Of the authorities we have access to, only Sacred Scripture is capable of binding the conscience of the Christian faithful in its own right.",
     "evidence": [
         {
-            "id": "Not in the Bible",
+            "id": 1,
+            "head": "Not in the Bible",
             "short": "Sola Scriptura is not defined in the Bible.",
             "details": "Critics say this makes it self-contradictory as a doctrine. Proponents often argue that it is more of a necessary principle than a doctrine.",
             "category": "Biblical",
@@ -12,7 +13,8 @@
             ]
         },
         {
-            "id": "Scripture is God-Breathed",
+            "id": 2,
+            "head": "Scripture is God-Breathed",
             "short": "2 Timothy 3:16: Scripture is God-breathed and sufficient to equip the man of God for every good work",
             "details": "Proponents often bring up this verse in support of the Sufficiency of Scripture, which is a necessary doctrine for Sola Scriptura. Critics argue that the verse does not support Scripture Alone.",
             "category": "Biblical",
@@ -21,7 +23,8 @@
             ]
         },
         {
-            "id": "Jesus Used Scripture",
+            "id": 3,
+            "head": "Jesus Used Scripture",
             "short": "Jesus used Scripture as refutation (e.g. in Matthew 19:4).",
             "details": "Proponents see Jesus's use of Scripture as clear support for Sola Scriptura.",
             "category": "Biblical",
@@ -30,7 +33,8 @@
             ]
         },
         {
-            "id": "Apostles Use of Scripture",
+            "id": 4,
+            "head": "Apostles Use of Scripture",
             "short": "The apostles supported their doctrines by quoting Scripture (e.g. Acts 2:14–34).",
             "details": "Proponents often see this as clear evidence for Sola Scriptura. Critics argue that a high view of Scripture is not the same thing as holding to them alone.",
             "category": "Biblical",
@@ -39,7 +43,8 @@
             ]
         },
         {
-            "id": "The Bereans",
+            "id": 5,
+            "head": "The Bereans",
             "short": "Acts 17:11: Bereans checked Paul against the Scriptures.",
             "details": "",
             "category": "Biblical",
@@ -48,7 +53,8 @@
             ]
         },
         {
-            "id": "Late Canon Definition",
+            "id": 6,
+            "head": "Late Canon Definition",
             "short": "The canons of both the Old and New Testaments were defined late.",
             "details": "Critics say this makes Sola Scriptura impossible in the 1st century. Proponents often argue that the Holy Spirit led all the churches to recognize mostly the same books.",
             "category": "History",
@@ -57,7 +63,8 @@
             ]
         },
         {
-            "id": "Unwritten Traditions",
+            "id": 7,
+            "head": "Unwritten Traditions",
             "short": "Unwritten traditions can be apostolic.",
             "details": "",
             "category": "Philosophy",
@@ -66,7 +73,8 @@
             ]
         },
         {
-            "id": "Keep the Traditions",
+            "id": 8,
+            "head": "Keep the Traditions",
             "short": "2 Thessalonians 2:15: Keep the traditions you have received.",
             "details": "",
             "category": "Biblical",
@@ -75,7 +83,8 @@
             ]
         },
         {
-            "id": "Denominational Fragmentation",
+            "id": 9,
+            "head": "Denominational Fragmentation",
             "short": "Sola Scriptura has led to an explosion in denominational fragmentation.",
             "details": "Perhaps \"non-denominational fragmentation\" would be more apt. Post-Reformation, many people started to feel free to start their own church even without wider denominational membership.",
             "category": "History",
@@ -84,7 +93,8 @@
             ]
         },
         {
-            "id": "Church Fathers Relied on Tradition",
+            "id": 10,
+            "head": "Church Fathers Relied on Tradition",
             "short": "Early Church Fathers (e.g. Ignatius, Irenæus) relied on Tradition as well as Scripture",
             "details": "Ignatius of Antioch wrote as if the office of bishop was already well-established, but this is not obvious in Scripture. Presbyterians and Congregationalists even consider it an accretion and reject it.",
             "category": "Patristic",
@@ -93,7 +103,8 @@
             ]
         },
         {
-            "id": "Preservation of Scripture",
+            "id": 11,
+            "head": "Preservation of Scripture",
             "short": "The texts of the Bible have been preserved remarkably well.",
             "details": "We have thousands of manuscript copies, many of them early, in several different languages.",
             "category": "History",
@@ -102,7 +113,8 @@
             ]
         },
         {
-            "id": "Church Fathers Revered Scripture",
+            "id": 12,
+            "head": "Church Fathers Revered Scripture",
             "short": "Some Church Fathers (e.g. Augustine) express an extremely high view of Scripture.",
             "details": "",
             "category": "Patristic",
@@ -111,7 +123,8 @@
             ]
         },
         {
-            "id": "Apostolic Letters as Scripture",
+            "id": 13,
+            "head": "Apostolic Letters as Scripture",
             "short": "2 Peter 3:16: 1st century Christians already read apostolic letters as Scripture.",
             "details": "",
             "category": "Biblical",

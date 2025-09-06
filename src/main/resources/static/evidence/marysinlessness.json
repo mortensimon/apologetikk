@@ -3,7 +3,8 @@
     "intro": "Hypothesis: Mary never committed no personal sins.",
     "evidence": [
         {
-            "id": "Late Attestation",
+            "id": 1,
+            "head": "Late Attestation",
             "short": "The earliest sources do not teach that Mary was sinless.",
             "details": "Proponents argue that they also don't teach that she was sinful.\n\nCritics argue that the assumption would be that she sinned sometimes.",
             "category": "History",
@@ -12,7 +13,8 @@
             ]
         },
         {
-            "id": "John Chrysostom",
+            "id": 2,
+            "head": "John Chrysostom",
             "short": "St. John Chrysostom implies that Mary may have sinned.",
             "details": "Proponents argue that St. John Chrysostom is a late source and not representative of the patristic consensus.",
             "category": "Patristic",
@@ -21,7 +23,8 @@
             ]
         },
         {
-            "id": "Origen of Alexandria",
+            "id": 3,
+            "head": "Origen of Alexandria",
             "short": "Origen implies that Mary may have sinned.",
             "details": "Proponents argue that Origen is not entirely orthodox, and his statement is speculative, not dogmatic.\n\nCritics argue that Origen was a highly respected and careful scholar, and that we should take his opinions seriously.",
             "category": "History",
@@ -30,7 +33,8 @@
             ]
         },
         {
-            "id": "Angry Mary",
+            "id": 4,
+            "head": "Angry Mary",
             "short": "Luke 2:48-50 describes Mary in a way that may seem slightly sinful.",
             "details": "Mary seems to be angry and perhaps even exasperated with Jesus when she finds Him again in the temple in Jerusalem after three days.\n\nProponents argue that this was an understandable anger, and that neither Jesus nor Mary had committed any sin here.\n\nCritics argue that Jesus, being perfect, had not sinned, and that getting angry with Him is at least slightly sinful, because Mary should have known better.",
             "category": "Biblical",
@@ -39,7 +43,8 @@
             ]
         },
         {
-            "id": "All Have Sinned",
+            "id": 5,
+            "head": "All Have Sinned",
             "short": "Romans 5:12 says \"all have sinned\" with no mention of Mary as an exception.",
             "details": "Proponents point out that Jesus is also not mentioned as an exception, and there are many people described as righteous in the Bible, so this may just be a generally true, rather than absolute, statement.\n\nCritics argue that Jesus is literally God, so He is not able to sin in the first place. They tend to read it as an absolute statement.",
             "category": "Biblical",
@@ -48,7 +53,8 @@
             ]
         },
         {
-            "id": "New Eve",
+            "id": 6,
+            "head": "New Eve",
             "short": "Several Church Fathers describe Mary as a \"New Eve\".",
             "details": "Proponents argue that, because Jesus is a new and better Adam, Mary being the new Eve should mean that she is better than Eve because the antitype is always greater than its type.\n\nCritics call this speculative and caution against basing doctrine on typology alone.",
             "category": "Patristic",
@@ -57,7 +63,8 @@
             ]
         },
         {
-            "id": "Full of Grace",
+            "id": 7,
+            "head": "Full of Grace",
             "short": "The angel Gabriel greets Mary as \"κεχαριτωμένη\" ('having received grace' or 'full of grace').",
             "details": "Proponents argue that this title and the reverence the angel shows Mary indicates that she is the most graced human being in history, holier than even the angels.\n\nCritics argue that this is merely a title of respect or even just stating that she has received grace because carrying Jesus in her womb is a great honour.",
             "category": "Biblical",
@@ -66,7 +73,8 @@
             ]
         },
         {
-            "id": "Blessed Among Women",
+            "id": 8,
+            "head": "Blessed Among Women",
             "short": "St. Elizabeth called Mary \"blessed among women\".",
             "details": "Proponents argue that this is a Hebrew superlative, so St. Elizabeth called Mary the most blessed of all women, which presumably included Eve, who was created without original sin.\n\nCritics argue that this may not be intended as a literal description of Mary's sinlessness, and that even if it were, St. Elizabeth could not possibly have known whether or not Mary had any personal sins.",
             "category": "Biblical",
@@ -75,7 +83,8 @@
             ]
         },
         {
-            "id": "Ambrose of Milan",
+            "id": 9,
+            "head": "Ambrose of Milan",
             "short": "St. Ambrose of Milan (4th century) described Mary as \"incorrupt\".",
             "details": "Proponents argue that \"incorrupt\" is about as close as you can get to \"sinless\" without saying it.\n\nCritics argue that Mary was held in high regard, so it's entirely possible that the Fathers of the Church used exaggerated expressions in order to exalt her, but didn't mean these literally.",
             "category": "Patristic",
@@ -84,7 +93,8 @@
             ]
         },
         {
-            "id": "Church Consensus",
+            "id": 10,
+            "head": "Church Consensus",
             "short": "Mary’s sinlessness is affirmed in the Catholic Church, the Eastern Orthodox Church, the Oriental Orthodox Church, and their various splinter groups.",
             "details": "Proponents argue that the entire \"Church of the West\" (former Roman Empire) embraced this doctrine, and it is still held to this day.\n\nCritics argue that it may simply have been forced on the Roman Christians and passed down uncritically until the Reformation gave them reason to question it.",
             "category": "History",
@@ -93,7 +103,8 @@
             ]
         },
         {
-            "id": "Unclear in the Assyrian Church of the East",
+            "id": 11,
+            "head": "Unclear in the Assyrian Church of the East",
             "short": "Mary’s sinlessness is a matter of pious opinion in the Assyrian Church of the East.",
             "details": "Proponents argue that the Assyrian Church of the East is generally less dogmatic in its doctrines anyway, so this evidence does not weigh that heavily.\n\nCritics argue that if Mary were known to be sinless from the 1st century, we would expect this doctrine to be found in the Church of the East as well.",
             "category": "History",
@@ -102,7 +113,8 @@
             ]
         },
         {
-            "id": "The Ark of the New Covenant",
+            "id": 12,
+            "head": "The Ark of the New Covenant",
             "short": "Mary is presented as the antitype of the very holy Ark of the Covenant.",
             "details": "Proponents argue that there are many parallels between Mary and the Ark, and the antitype is always greater than the type in the Bible.\n\nCritics argue that mere typology is too speculative to establish a doctrine on.",
             "category": "Biblical",
@@ -111,7 +123,8 @@
             ]
         },
         {
-            "id": "Our Lady of Lourdes",
+            "id": 13,
+            "head": "Our Lady of Lourdes",
             "short": "In 1858, Bernadette Soubirous, a 14-year-old peasant girl, reportedly met a lady who called herself \"the Immaculate Conception\" 18 times at Lourdes in France, four years after that Catholic dogma was defined.",
             "details": "Proponents point to her lack of education and her sincerity to argue for the Immaculate Conception (taught in the Catholic and Ethiopian Orthodox churches), which presupposes Mary's sinlessness.\n\nCritics argue that supernatural encounters can be explained in other ways, like maybe she had heard the name of the newly defined dogma somewhere and was sincerely mistaken about the encounter.",
             "category": "History",

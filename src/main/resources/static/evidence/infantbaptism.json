@@ -3,7 +3,8 @@
     "intro": "Hypothesis: Infant baptism is an apostolic practice.",
     "evidence": [
         {
-            "id": "Not Explicit in NT",
+            "id": 1,
+            "head": "Not Explicit in NT",
             "short": "There's no explicit mention of infant baptism in the New Testament.",
             "details": "",
             "category": "Biblical",
@@ -12,7 +13,8 @@
             ]
         },
         {
-            "id": "Not Forbidden in NT",
+            "id": 2,
+            "head": "Not Forbidden in NT",
             "short": "Infant baptism is not forbidden anywhere in the New Testament.",
             "details": "",
             "category": "Biblical",
@@ -21,7 +23,8 @@
             ]
         },
         {
-            "id": "Believe and Be Baptized",
+            "id": 3,
+            "head": "Believe and Be Baptized",
             "short": "Mark 16:16: He who believes and is baptized.",
             "details": "Critics say the order suggests one should believe first, then be baptized, and that this excludes anyone who can't make a conscious act of faith. Proponents argue that the order is not the point of this verse.",
             "category": "Biblical",
@@ -30,7 +33,8 @@
             ]
         },
         {
-            "id": "For You and for Your Children",
+            "id": 4,
+            "head": "For You and for Your Children",
             "short": "Acts 2:39: For the promise is for you and for your children.",
             "details": "Proponents argue that this indicates that baptism is also for children, since Peter just promised the Holy Spirit to those who would repent and be baptized. Critics argue that this doesn't have to mean literal infants, and could even mean grown-up children, but that it could just mean children who are able to repent.",
             "category": "Biblical",
@@ -39,7 +43,8 @@
             ]
         },
         {
-            "id": "Baptismal Fast",
+            "id": 5,
+            "head": "Baptismal Fast",
             "short": "Didache: Fast before baptism. No exceptions given.",
             "details": "Critics argue this indicates that infants were not baptized in the 1st century, since they can't be expected to fast. Proponents argue that every exception doesn't have to be included, and the Didache is a catechetical work intended for teaching adult converts.",
             "category": "Patristic",
@@ -48,7 +53,8 @@
             ]
         },
         {
-            "id": "Kingdom of Heaven Belongs to Children",
+            "id": 6,
+            "head": "Kingdom of Heaven Belongs to Children",
             "short": "Matthew 19:14: But Jesus said, \"Let the little children come to me and do not hinder them, for to such belongs the kingdom of heaven.\"",
             "details": "Proponents argue that this indicates that Jesus welcomes even children as full members of His Church. Critics argue that children are still welcome even if they are not yet full members.",
             "category": "Biblical",
@@ -57,7 +63,8 @@
             ]
         },
         {
-            "id": "Household Baptisms",
+            "id": 7,
+            "head": "Household Baptisms",
             "short": "Household baptisms when the head of the household converts.",
             "details": "Proponents argue that households very likely included young children. Critics argue that they also may not have included young children, or that these were simply not considered.",
             "category": "Biblical",
@@ -66,7 +73,8 @@
             ]
         },
         {
-            "id": "Justin Martyr and Baptismal Fast",
+            "id": 8,
+            "head": "Justin Martyr and Baptismal Fast",
             "short": "Justin Martyr describes baptism with fasting, and does not mention infants.",
             "details": "Critics see this as indicating that infants were not baptized. Proponents argue that Justin Martyr's description is concerned with converts from paganism.",
             "category": "Patristic",
@@ -75,7 +83,8 @@
             ]
         },
         {
-            "id": "Tertullian: Delay Baptism",
+            "id": 9,
+            "head": "Tertullian: Delay Baptism",
             "short": "Tertullian (ca. 200): Delay baptism.",
             "details": "It was common to delay baptism out of fear of post-baptismal sins. Tertullian believed that pre-baptismal sins could be remitted by baptism, but not post-baptismal sins, which could cost people their salvation.",
             "category": "Patristic",
@@ -84,7 +93,8 @@
             ]
         },
         {
-            "id": "Late Baptisms",
+            "id": 10,
+            "head": "Late Baptisms",
             "short": "Many early Christians were not baptized as infants.",
             "details": "Like Tertullian, many Christians elected not to baptize their children for fear that they would lose their salvation by committing sins later on. Many Church Fathers, like Augustine, were only baptized as adults.",
             "category": "Patristic",
@@ -93,7 +103,8 @@
             ]
         },
         {
-            "id": "Baptized Unbelievers",
+            "id": 11,
+            "head": "Baptized Unbelievers",
             "short": "Cyril of Jerusalem: Baptism does not save unbelievers.",
             "details": "Proponents say this is about apostates, not infants. Critics argue that age doesn't make a difference, because faith is the important thing.",
             "category": "Patristic",
@@ -102,7 +113,8 @@
             ]
         },
         {
-            "id": "Sacramental Understanding",
+            "id": 12,
+            "head": "Sacramental Understanding",
             "short": "Sacraments are not dependent upon understanding.",
             "details": "Proponents say we delude ourselves if we think we understand the sacraments completely, and understanding is a matter of degree. Critics say we should have at least *some* understanding of what the sacraments are before partaking in them.",
             "category": "Philosophy",
@@ -111,7 +123,8 @@
             ]
         },
         {
-            "id": "Augustine on Baptism",
+            "id": 13,
+            "head": "Augustine on Baptism",
             "short": "Augustine: Baptism saves infants.",
             "details": "Proponents point out that Augustine defended infant baptism. Critics argue that even Augustine was wrong occasionally.",
             "category": "Patristic",
@@ -120,7 +133,8 @@
             ]
         },
         {
-            "id": "Origin: Original Sin",
+            "id": 14,
+            "head": "Origin: Original Sin",
             "short": "Origen (before 250) taught original sin, for which baptism is the remedy.",
             "details": "Proponents argue that children are afflicted by original sin, as evidenced by early writers like Origen, so they need access to baptism so they can be saved too. Critics argue that original sin does not equate to original guilt, and that young children don't have any personal sins yet, so they are not yet in need of the remission of sins.",
             "category": "Patristic",
@@ -129,7 +143,8 @@
             ]
         },
         {
-            "id": "Baptism and Circumcision",
+            "id": 15,
+            "head": "Baptism and Circumcision",
             "short": "Colossians: Baptism is compared to circumcision.",
             "details": "",
             "category": "Biblical",
@@ -138,7 +153,8 @@
             ]
         },
         {
-            "id": "Near Universal Acceptance",
+            "id": 16,
+            "head": "Near Universal Acceptance",
             "short": "Almost 2000 years of consensus says that infants can be baptized.",
             "details": "",
             "category": "History",

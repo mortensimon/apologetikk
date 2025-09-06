@@ -3,7 +3,8 @@
     "intro": "Hypothesis: The bishop of Rome is the highest earthly leader in the Church and has supreme and immediate universal jurisdiction.<br><br>The Catholic Church is often called \"Roman\" because it holds that the bishop of Rome is the Vicar of Christ on earth. In Catholic teaching on the Papacy, the most controversial point is probably that of Universal Jurisdiction: the Pope has supreme and immediate jurisdiction over the whole Church. Because his word is final and Jesus's promises to the Church indicate that God will preserve her from error, one could say that Papal Infallibility follows logically if we accept Universal Jurisdiction.<br><br>It is important to note that Vatican I, which dogmatized both these teachings, and Pope Pius IX, who convened it, did not understand the Church as a \"Papal dictatorship\". Rather, it is understood that while the Pope has the final word on questions of faith and morals and can exercise his authority without the \"consent\" (meaning \"express permission\") of his brother bishop, he still has the moral obligation of listening to them to ensure his decision has the \"consent\" (meaning \"common agreement\") of the Church.",
     "evidence": [
         {
-            "id": "Petrine Succession",
+            "id": 1,
+            "head": "Petrine Succession",
             "short": "The bishop of Rome is Peter's successor in the strictest sense.",
             "details": "Proponents argue that, because Peter had a leadership role over the whole Church, so does his successors.<br><br>Critics argue that the leadership role over the entire Church was only a feature of the Apostolic Age and doesn't transfer to his successors.",
             "category": "History",
@@ -12,7 +13,8 @@
             ]
         },
         {
-            "id": "God-Given Rights",
+            "id": 2,
+            "head": "God-Given Rights",
             "short": "Moses, David, Jesus, and Paul rightly asserted their God-given rights against those who opposed them",
             "details": "Proponents argue that Korah rebelled against Moses; Saul, Absalom, and many others opposed David; the Jewish leaders opposed Jesus and got Him executed; Paul was opposed by the Judaizers. In all these cases, those whom God had commissioned were in the right, but to an onlooker, that might not always be that clear.<br><br>Critics see this as irrelevant to the case of Peter and his successors.",
             "category": "Biblical",
@@ -24,7 +26,8 @@
             ]
         },
         {
-            "id": "Nicæa I's Regional Jurisdiction",
+            "id": 3,
+            "head": "Nicæa I's Regional Jurisdiction",
             "short": "The canons of Nicæa I suggest a regional jurisdiction",
             "details": "The canons of the First Council of Nicaea (325), particularly Canon 6, suggest a model of regional jurisdiction, affirming the authority of major bishops (like those of Rome, Alexandria, and Antioch) over their own territories.<br><br>Critics argue this shows that early Church structure might have lacked a centralized authority.<br><br>Proponents argue that this is true of the Pope as Patriarch of the West, but not in his capacity of head of the entire Church.",
             "category": "History",
@@ -33,7 +36,8 @@
             ]
         },
         {
-            "id": "Arabic Canons of Nicæa",
+            "id": 4,
+            "head": "Arabic Canons of Nicæa",
             "short": "Arabic Canons of Nicæa (c. 10th century): Peter is head of Patriarchs and Vicar of Christ",
             "details": "The Arabic Canons of Nicaea (c. 10th century), a later and non-original text attributed to the First Council of Nicaea, state that Peter is the head of the Patriarchs and the Vicar of Christ.<br><br>Proponents argue that, though not part of the authentic 4th-century Nicene canons, this reflects a later Christian tradition emphasizing the primacy of Peter and, by extension, the authority of the bishop of Rome.<br><br>Critics usually dismiss it as an irrelevant forgery.",
             "category": "History",
@@ -42,7 +46,8 @@
             ]
         },
         {
-            "id": "Primus Inter Pares",
+            "id": 5,
+            "head": "Primus Inter Pares",
             "short": "Eastern Churches consider the Pope \"primus inter pares\"",
             "details": "The Eastern Churches view the Pope as \"primus inter pares\", meaning \"first among equals\".<br><br>Critics argue that this acknowledges the Pope's honorary primacy among bishops but rejects his supreme authority over the entire Church, emphasizing a collegial and conciliar model of leadership.<br><br>Proponents argue that \"primus inter pares\" was understood to come with actual authority, and that the \"primacy of honour\" is more of a convenient way to deny this",
             "category": "History",
@@ -51,7 +56,8 @@
             ]
         },
         {
-            "id": "Eastern Appeals to Rome",
+            "id": 6,
+            "head": "Eastern Appeals to Rome",
             "short": "There were appeals to Rome early on, even in the East",
             "details": "Proponents argue that appeals to Rome, especially from the Eastern Church, show a recognition of the bishop of Rome's authority or moral weight in resolving disputes.<br><br>Critics argue that appeals were submitted when one thought they would help, and Rome was an important see, but that doesn't mean it had binding authority over the others.",
             "category": "History",
@@ -64,7 +70,8 @@
             ]
         },
         {
-            "id": "Eastern Appeals to Patriarchs or Emperors",
+            "id": 7,
+            "head": "Eastern Appeals to Patriarchs or Emperors",
             "short": "Eastern bishops often appealed to patriarchs or emperors instead of Rome",
             "details": "Critics argue that Eastern bishops often appealed to local patriarchs or the Byzantine emperor rather than to Rome, suggesting the choice of whom to appeal to was more pragmatic than anything else.<br><br>Proponents concede this, but see it as irrelevant.",
             "category": "History",
@@ -73,7 +80,8 @@
             ]
         },
         {
-            "id": "Pope Victor I",
+            "id": 8,
+            "head": "Pope Victor I",
             "short": "Pope Victor I threatened to excommunicate Asia Minor",
             "details": "In the late 2nd century, Pope Victor I threatened to excommunicate the churches of Asia Minor over a dispute about the date of Easter (the Quartodeciman controversy). Many bishops, including Irenæus of Lyons, urged him to reconsider.<br><br>Proponents argue that this shows Victor I understood his jurisdiction as extending beyond the West.<br><br>Critics argue that he was rebuked for it and that this stopped him from going through with it, suggesting conciliarity won the day.",
             "category": "History",
@@ -82,7 +90,8 @@
             ]
         },
         {
-            "id": "The Test of Time",
+            "id": 9,
+            "head": "The Test of Time",
             "short": "The Papacy has endured the test of time",
             "details": "Proponents argue that the Papacy is one of the oldest current institutions in the world. It has survived centuries of political, religious, and social challenges to its existence and authority, and remains influential to this day.<br><br>Critics argue that this does not mean its claims of universal jurisdiction and infallibility are true.",
             "category": "History",
@@ -91,7 +100,8 @@
             ]
         },
         {
-            "id": "Papal Forgeries",
+            "id": 10,
+            "head": "Papal Forgeries",
             "short": "Various forgeries were produced to buttress papal claims historically",
             "details": "Throughout history, various forgeries, like the Donation of Constantine and the Symmachian Forgeries, were produced to support and strengthen papal claims to religious authority and even temporal power.<br><br>Critics argue that, though eventually discredited, some of them have directly influenced things like Canon Law and possibly even doctrine.<br><br>Proponents argue that forgeries are made to provide \"proof\" for a position that is already in existence, just not universally accepted.",
             "category": "History",
@@ -100,7 +110,8 @@
             ]
         },
         {
-            "id": "Papal Depositions",
+            "id": 11,
+            "head": "Papal Depositions",
             "short": "Various rulers and mobs have arguably deposed valid popes",
             "details": "Critics argue that, throughout history, various rulers and mobs have at times deposed or forced the resignation of valid popes, showing a certain disregard for papal authority.<br><br>Proponents argue that, just like a monarch in exile is often considered the rightfull king of his homeland, so too the Pope remains Pope until he dies if his resignation was made under duress, making the objection irrelevant.",
             "category": "History",
@@ -109,7 +120,8 @@
             ]
         },
         {
-            "id": "Conciliar Movement and Gallicanism",
+            "id": 12,
+            "head": "Conciliar Movement and Gallicanism",
             "short": "The Conciliar Movement and Gallicanism show Catholic skepticism of papal claims",
             "details": "The Conciliar Movement and Gallicanism reflect periods of skepticism toward papal authority in the Catholic West.<br><br>Critics argue that their emphasis on the authority of Church councils or national churches over the pope in the 14th to 18th centuries demonstrate that Papal Supremacy is a late development.<br><br>Proponents argue that there have always been those who hesitate to acknowledge authority, sometimes to the point of heresy, but that this does not nullify legitimate authority.",
             "category": "History",
@@ -118,7 +130,8 @@
             ]
         },
         {
-            "id": "Clement of Rome",
+            "id": 13,
+            "head": "Clement of Rome",
             "short": "Clement of Rome (c. 70–96 AD) asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
             "details": "Proponents often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead.<br><br>Critics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice.",
             "category": "Patristic",
@@ -127,7 +140,8 @@
             ]
         },
         {
-            "id": "Ignatius of Antioch",
+            "id": 14,
+            "head": "Ignatius of Antioch",
             "short": "Ignatius of Antioch (c. 107–108 AD), who generally speaks \"down\" to the churches he writes on the way to his martyrdom, speaks \"up\" to the Romans, going so far as to say that Rome \"presides over love\" (i.e. the Eucharist).",
             "details": "Proponents often argue that the reason Ignatius shows such respect for Rome is that St. Peter's office continues there, as evidenced by \"presiding over love\". \"Love feast\" is a common name for the Eucharist, so this fits very well with the modern Catholic understanding of being in communion with the Pope.<br><br>Critics often counter that Rome was an important city, Peter or no Peter, and Ignatius is writing to request that the Christians there avoid helping him escape martyrdom, so it is natural that he should be more polite.",
             "category": "Patristic",
@@ -136,7 +150,8 @@
             ]
         },
         {
-            "id": "Polycarp of Smyrna",
+            "id": 15,
+            "head": "Polycarp of Smyrna",
             "short": "Polycarp of Smyrna visited Rome to attempt a resolution of the Quartodeciman Controversy.",
             "details": "Many of the (presumably Johannine) churches in Asia Minor celebrated Easter according to the Jewish calendar, no matter what day of the week it landed on, whereas the rest of the Church celebrated on a Sunday. This caused some controversy in the second century because it was felt that there should be a common Easter date for the whole Church.<br><br>Proponents argue that Polycarp travelling to Rome fits the Petrine leadership hypothesis.<br><br>Critics argue that Rome was the see complaining about this in the first place, which explains why Polycarp felt a need to travel there.",
             "category": "Patristic",
@@ -145,7 +160,8 @@
             ]
         },
         {
-            "id": "Dionysius of Corinth",
+            "id": 16,
+            "head": "Dionysius of Corinth",
             "short": "Dionysius of Corinth (c. 171 AD) praises Rome for uniting the churches of Rome and Corinth.",
             "details": "Proponents argue that this shows the Pope's role as a uniter of the Church.<br><br>Critics argue that Corinth was a Roman colony and had a close relationship with Rome because of that.",
             "category": "Patristic",
@@ -154,7 +170,8 @@
             ]
         },
         {
-            "id": "Irenæus of Lyons",
+            "id": 17,
+            "head": "Irenæus of Lyons",
             "short": "Irenæus (c. 180 AD): All churches must agree with Rome.",
             "details": "Proponents argue that this shows the central role of Rome in doctrinal questions, maybe even a precedent for Papal Infallibility.<br><br>Critics argue that this is merely an expression of respect for Rome's evident orthodoxy, not a belief that Rome is infallible.",
             "category": "Patristic",
@@ -163,7 +180,8 @@
             ]
         },
         {
-            "id": "Tertullian Mocks the Pope",
+            "id": 18,
+            "head": "Tertullian Mocks the Pope",
             "short": "Tertullian, after becoming a Montanist heretic, mocks the Pope (or possibly an African bishop) by sarcastically referring to him as \"Pontifex Maximus\" and \"bishop of bishops\".",
             "details": "Proponents argue that Tertullian, as a heretic, would mock the Pope's authority because he didn't recognize it anymore.<br><br>Critics argue that this shows that the Pope was not the undisputed leader of the early Church.",
             "category": "Patristic",
@@ -173,7 +191,8 @@
             ]
         },
         {
-            "id": "All Christians as Peters",
+            "id": 19,
+            "head": "All Christians as Peters",
             "short": "Origen (ca. 225 AD) interpreted all Christians as a kind of Peter.",
             "details": "Proponents argue that this is fine, because a passage can have several layers of meaning.<br><br>Critics argue that this undermines the papal aspects of identifying Peter as the rock.",
             "category": "Patristic",
@@ -182,7 +201,8 @@
             ]
         },
         {
-            "id": "Firmilian and Rebaptism",
+            "id": 20,
+            "head": "Firmilian and Rebaptism",
             "short": "Firmilian and many other Antiochene bishops opposed Pope Stephen I in the Rebaptism Controversy.",
             "details": "Critics argue that this shows that the bishop of Rome is not above the other bishops and that they felt they did not have to accept his judgement.<br><br>Proponents argue that Popes can be wrong, but so can bishops, even if they have many others on their side. Since the Church ended up siding against the rebaptizers, Pope Stephen was vindicated, and the fact that some bishops did not accept his authority doesn't prove any more than the fact that some people left the Church entirely for a heresy of some sort.",
             "category": "Patristic",
@@ -191,7 +211,8 @@
             ]
         },
         {
-            "id": "Cyprian and the Equality of the Apostles",
+            "id": 21,
+            "head": "Cyprian and the Equality of the Apostles",
             "short": "Cyprian of Carthage (c. 251–252 AD) says the apostles received equal power to bind and loose.",
             "details": "Proponents argue that this is true, in the sense that the Pope is the leader of the college of bishops, but he doesn't replace the bishops.<br><br>Critics see this as incompatible with Papal Supremacy in general and Universal Jurisdiction in particular.",
             "category": "Patristic",
@@ -200,7 +221,8 @@
             ]
         },
         {
-            "id": "Cyprian vs. Pope Stephen",
+            "id": 22,
+            "head": "Cyprian vs. Pope Stephen",
             "short": "Cyprian of Carthage (c. 256 AD) opposed Pope Stephen, who threatened to excommunicate him over his rebaptism of converts from heretic groups.",
             "details": "Proponents argue that this is an example where a saint is simply in the wrong, both doctrinally and hierarchically.<br><br>Critics see this as suggesting Rome was not the highest authority in the Church at this point.",
             "category": "Patristic",
@@ -209,7 +231,8 @@
             ]
         },
         {
-            "id": "Cyprian and the Unity of the Faith",
+            "id": 23,
+            "head": "Cyprian and the Unity of the Faith",
             "short": "Cyprian of Carthage (c. 252 AD) says the unity of the faith derives from the seat of Peter.",
             "details": "The first edition of this book sounds a lot more \"papal\", but Cyprian toned it down for the second edition, where Peter is more of a model for every bishop.<br><br>Proponents see the first edition as an admission that Cyprian did recognize the Pope's authority.<br><br>Critics argue that he toned it down in the second edition to clarify what his actual stance was.",
             "category": "Patristic",
@@ -218,7 +241,8 @@
             ]
         },
         {
-            "id": "Ambrose, Peter, and the Church",
+            "id": 24,
+            "head": "Ambrose, Peter, and the Church",
             "short": "Ambrose of Milan (c. 340–397): Where Peter is, there is the Church.",
             "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.<br><br>Critics argue that this can be understood to refer to any local bishop, not just the Pope.",
             "category": "Patristic",
@@ -227,7 +251,8 @@
             ]
         },
         {
-            "id": "Augustine: Roma Locuta, Causa Finita",
+            "id": 25,
+            "head": "Augustine: Roma Locuta, Causa Finita",
             "short": "Augustine of Hippo expressed his opinion that the controversy was over because it had been settled by several councils and sent to Rome.",
             "details": "Augustine is often quoted as saying \"Roma locuta est — causa finita est\" (\"Rome has spoken — the matter is finished\"), but that is a simplified paraphrase. He actually says that two councils have decided against the Pelagians and sent their decisions to the Apostolic See, who has sent their rescripts back to Africa, and that the matter is finished.<br><br>Proponents argue that this shows that Rome was to be informed when a local controversy was settled, which makes sense if the Pope is the highest authority in the Church.<br><br>Critics say Rome had the most prestige (and even then, not always) of the major sees.",
             "category": "Patristic",
@@ -236,7 +261,8 @@
             ]
         },
         {
-            "id": "Optatus of Milevis on the Chair of Peter",
+            "id": 26,
+            "head": "Optatus of Milevis on the Chair of Peter",
             "short": "St. Optatus of Milevis (367 AD) affirmed Petrine primacy for unity and sole holding of keys.",
             "details": "Proponents argue that this shows that the unity of the Church was already connected to the chair of Peter.<br><br>Critics argue that other African fathers from this period, especially Cyprian of Carthage, used similar language but were not afraid to risk excommunication by Pope Stephen I over the rebaptism of heretics. They see it as showing respect for Rome's orthodoxy and an optimistic hope that it would remain orthodox.",
             "category": "Patristic",
@@ -245,7 +271,8 @@
             ]
         },
         {
-            "id": "Canon 28 of Chalcedon",
+            "id": 27,
+            "head": "Canon 28 of Chalcedon",
             "short": "Canon 28 of Chalcedon (451 AD): New Rome shall have equal privileges.",
             "details": "Critics argue that this is scathing evidence against Papal Primacy.<br><br>Proponents argue that Papal approval is required for canons to be binding, and no Pope ever approved this canon.",
             "category": "Patristic",
@@ -255,7 +282,8 @@
             ]
         },
         {
-            "id": "Peter Chrysologus and Roman Agreement",
+            "id": 28,
+            "head": "Peter Chrysologus and Roman Agreement",
             "short": "Peter Chrysologus (481 AD), in his letter to Eutyches: \"we cannot decide upon cases of faith without the harmonious agreement of the Bishop of Rome.\"",
             "details": "Proponents see this as good evidence that the Pope was seen as the highest authority on matters of faith.<br><br>Critics caution that Peter Chrysologus may be overstating this because the Pope was an important bishop who happened to agree with him in this case.",
             "category": "Patristic",
@@ -264,7 +292,8 @@
             ]
         },
         {
-            "id": "Universal Jurisdiction",
+            "id": 29,
+            "head": "Universal Jurisdiction",
             "short": "Leo the Great and Gregory the Great claim universal jurisdiction.",
             "details": "Proponents argue that this shows that the Pope understood himself to have this jurisdiction all along.<br><br>Critics argue that this evidence is somewhat late, and that this idea thus had time to develop.",
             "category": "Patristic",
@@ -274,7 +303,8 @@
             ]
         },
         {
-            "id": "The \"Universal Bishop\" Controversy",
+            "id": 30Universal Bishop\" Controversy",
+            "head": "The \",
             "short": "Gregory the Great (593 AD) condemned the title \"universal bishop\" for the Patriarch of Constantinople.",
             "details": "Critics see this as strong evidence against universal jurisdiction, because Pope Gregory the Great comes along relatively late and is considered one of the \"strong\" Popes.<br><br>Proponents argue that Pope Gregory did not mean that nobody had universal jurisdiction in every sense, but that he saw the Patriarch of Constantinople as trying to claim for himself what was not rightfully his.",
             "category": "Patristic",
@@ -283,7 +313,8 @@
             ]
         },
         {
-            "id": "Pope Gregory and Synods",
+            "id": 31,
+            "head": "Pope Gregory and Synods",
             "short": "Gregory the Great (598–599 AD): synods have no force without the authority and consent of Rome.",
             "details": "Proponents argue that this shows that Rome has always held that it has the final say in any conciliar matter.<br><br>Critics see this as Pope Gregory going beyond his jurisdiction and trying to increase his own power.",
             "category": "Patristic",
@@ -292,7 +323,8 @@
             ]
         },
         {
-            "id": "All Societies Have a Head",
+            "id": 32,
+            "head": "All Societies Have a Head",
             "short": "Whether inherited, elected, or installed by force, all societies end up having one office holder who holds more authority than anyone else.",
             "details": "Critics argue that there can't be a head other than Jesus Himself, because He is the bridegroom and the Church His bride, and she can't have two heads.<br><br>Proponents argue that Jesus is ultimately behind all the sacraments, but He always uses ministers to administer them. Likewise, we should expect Him to administer the sacrament of the Church through a minister.",
             "category": "Philosohical",
@@ -301,7 +333,8 @@
             ]
         },
         {
-            "id": "Disputes Require Resolution",
+            "id": 33,
+            "head": "Disputes Require Resolution",
             "short": "When two equals dispute and there is no resolution in sight, a tiebreaker is needed.",
             "details": "Proponents argue that, at the very least, a tiebreaker is morally necessary to preserve peace and unity in the Church.<br><br>Critics sometimes argue that God will preserve the Church without such a tiebreaker, or that Church consensus is the tiebreaker, slow though it may be.",
             "category": "Philosohical",
