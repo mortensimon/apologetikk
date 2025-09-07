@@ -35,11 +35,6 @@ public class Average {
         }
     }
 
-    // convenience deepCopy method
-    public Average deepCopy() {
-        return new Average(this);
-    }
-
     public void updateWith(Average newData) {
         if (newData == null) {
             return;
@@ -55,13 +50,17 @@ public class Average {
             Evidence existingEv = currentEvidenceMap.get(newEv.getId());
             if (existingEv != null) {
                 existingEv.setCount(existingEv.getCount() + 1);
-                existingEv.setPehPct(calcAverage(existingEv.getPehPct(), existingEv.getCount(), newEv.getPehPct()));
-                existingEv.setPenhPct(calcAverage(existingEv.getPenhPct(), existingEv.getCount(), newEv.getPenhPct()));
-                if (existingEv.getWeightD() == null) { // første gang vi setter vekt
-                    existingEv.setWeightD(newEv.getWeight());
+                if (newEv.getWeight() == 0) {
+                    existingEv.setCountDisregard(existingEv.getCountDisregard() + 1);
+                } else {
+                    existingEv.setPehPct(calcAverage(existingEv.getPehPct(), existingEv.getCount(), newEv.getPehPct()));
+                    existingEv.setPenhPct(calcAverage(existingEv.getPenhPct(), existingEv.getCount(), newEv.getPenhPct()));
+                    if (existingEv.getWeightD() == null) { // første gang vi setter vekt
+                        existingEv.setWeightD(newEv.getWeight());
+                    }
+                    existingEv.setWeightD(calcAverage(existingEv.getWeightD(), existingEv.getCount(), (double) newEv.getWeight())); // gjennomsnitt av vektene
+                    existingEv.setWeight((int) Math.round(existingEv.getWeightD()));
                 }
-                existingEv.setWeightD(calcAverage(existingEv.getWeightD(), existingEv.getCount(), (double) newEv.getWeight())); // gjennomsnitt av vektene
-                existingEv.setWeight((int) Math.round(existingEv.getWeightD()));
             } else {
                 currentEvidenceMap.put(newEv.getId(), newEv);
             }

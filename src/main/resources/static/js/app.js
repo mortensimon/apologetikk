@@ -24,10 +24,14 @@ createApp({
       'Catholic', 'Eastern-Orthodox', 'Oriental-Orthodox', 'Lutheran', 'Reformed',
       'Anglican', 'Baptist', 'Methodist', 'Evangelical',
       'Non-denominational', 'Adventist', 'JW', 'LDS',
-      'Jewish', 'Islamic', 'Hindu', 'Buddhist', 'New-Age',
-      'Spiritual', 'Agnostic', 'Atheist',
-      'Other'
+      'Jewish', 'Muslim', 'Hindu', 'Buddhist', 'New-Age',
+      'Spiritual', 'Agnostic', 'Atheist', 'Other'
     ];
+
+    /****************************************************
+     * Logikk knyttet til å publisere/dele resultater
+     ****************************************************/
+
 
     function startPublish() {
       denomination.value = '';
@@ -44,12 +48,7 @@ createApp({
     }
 
     function openPublish() {
-      const answered = evidences
-        .filter(ev => ev.pehPct !== null && ev.penhPct !== null)
-        .map(ev => {
-          const label = hypJson.value?.evidence?.[ev.id - 1]?.id ?? `E${ev.id}`;
-          return {id: ev.id, label, pehPct: ev.pehPct, penhPct: ev.penhPct, weight: ev.weight};
-        });
+      const answered = evidences.filter(ev => (ev.pehPct !== null && ev.penhPct !== null && ev.weight > 0) || ev.weight === 0);
 
       const payload = {
         name: hypJson.value?.name ?? '',
@@ -100,18 +99,20 @@ createApp({
       }
     }
 
-    function getIdFromUrl() {
-      const params = new URLSearchParams(window.location.search);
-      return params.get('id');
-    }
+
+    /****************************************************
+     * Logikk knyttet til å hente ut individuelle resultater
+     ****************************************************/
+
+
 
     async function openView() {
       try {
         const input = prompt('Paste result link or id (UUID):');
         if (!input) return;
-        const id = (input.trim().split('/').filter(Boolean).pop() || '').trim();
-        if (!id) return alert('No id provided');
-        const res = await fetch(`/api/results/${encodeURIComponent(id)}`);
+        const uuid = (input.trim().split('/').filter(Boolean).pop() || '').trim();
+        if (!uuid) return alert('No id provided');
+        const res = await fetch(`/api/results/${encodeURIComponent(uuid)}`);
         const data = await res.json().catch(() => null);
         if (!res.ok) {
           const msg = (data && data.message) ? data.message : res.statusText;
@@ -124,6 +125,11 @@ createApp({
       }
     }
 
+    /****************************************************
+     * Logikk knyttet til å farger på rader i tabeller
+     ****************************************************/
+
+    // Brukes i hovedtabellen
     function backgroundClass(pct) {
       if (!isFinite(pct)) return '';
       if (Math.abs(pct - 50) < 0.01) return 'bg-yellow';
@@ -131,6 +137,7 @@ createApp({
       return 'bg-green';
     }
 
+    // Brukes i publiser-dialogen (man viser tabellen med alle evidensene der)
     function backgroundClassEv(evidenceIndex) {
       const totalPct = evidences[evidenceIndex].pehPct - evidences[evidenceIndex].penhPct;
       if (Math.abs(totalPct) < 0.01) return "bg-yellow";
@@ -139,12 +146,21 @@ createApp({
     }
 
 
+    /****************************************************
+     * Logikk knyttet til oppstart av bayes.html-siden
+     ****************************************************/
+
+    function getHypoteseStrFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('id'); // "id" ble brukt som parameternavn, vi burde vel endre det til "hypotese", men ikke nå (6.9.2025)
+    }
+
     onMounted(async () => {
-      const id = getIdFromUrl();
-      const res = await fetch(`evidence/${id}.json`);
+      const hypoteseStr = getHypoteseStrFromUrl();
+      const res = await fetch(`evidence/${hypoteseStr}.json`);
       const json = await res.json();
       // Ensure the name from the query string is preserved on the loaded JSON
-      hypJson.value = {...json, name: id};
+      hypJson.value = {...json, name: hypoteseStr};
 
       // Fjern eksisterende evidensvurderinger
       evidences.splice(0, evidences.length);
@@ -153,51 +169,69 @@ createApp({
       loadedEvidenceData.value = hypJson.value.evidence;
 
       // Vis første evidence
+      let first = loadedEvidenceData.value[0];
       evidences.push({
-        id: 1,
+        id: first.id,
+        head: first.head,
         pehPct: null,
         penhPct: null,
         weight: 50
       });
 
-      nextId = 2;
+      nextIdx = 2;
     });
 
-    // UI-state
+
+    /****************************************************
+     * Logikk knyttet til å beregne posterior
+     ****************************************************/
+
     const priorPct = ref(50);
-    let nextId = 2;
-    const errorMsg = ref('');
-
-    // Utregnet resultat + presentasjon
     const posterior = computed(() => calculatePosterior(priorPct.value, evidences));
-
     const posteriorPctText = computed(() => {
       const p = posterior.value;
       if (!isFinite(p) || p < 0 || p > 1) return '—';
       return (p * 100).toFixed(2).replace('.', ',') + ' %';
     });
 
-    // Valideringstrigger
+
+    /****************************************************
+     * Logikk knyttet til å håndtere feil
+     ****************************************************/
+
+    const errorMsg = ref('');
     const recalc = () => {
       errorMsg.value = validationError(priorPct.value, evidences);
     };
 
+
+
+
+
+
+    let nextIdx = 2;
+
     const removeEvidence = (idx) => {
       evidences.splice(idx, 1);
-
       // Hvis man fjernet den siste synlige evidensen
-      if (idx === evidences.length && nextId > 1) {
-        nextId--;
+      if (idx === evidences.length && nextIdx > 1) {
+        nextIdx--;
       }
-
       recalc();
     };
 
-
     const resetAll = () => {
       priorPct.value = 50;
-      evidences.splice(0, evidences.length, {id: 1, pehPct: 50, penhPct: 50, weight: 50});
-      nextId = 2;
+      // Keep only the first evidence, reset its fields
+      evidences.splice(0, evidences.length);
+      evidences.push({
+        id: loadedEvidenceData.value[0].id,
+        head: loadedEvidenceData.value[0].head,
+        pehPct: null,
+        penhPct: null,
+        weight: 50
+      });
+      nextIdx = 2;
       errorMsg.value = '';
       recalc();
     };
@@ -235,12 +269,26 @@ createApp({
 
     // Add new evidence from button click
     const addEvidence = () => {
-      // Do not add if nextId exceeds loaded evidence data length
-      if (nextId > hypJson.value.evidence.length) {
+      // Use loadedEvidenceData as source of truth
+      const totalLoaded = loadedEvidenceData.value.length || 0;
+      if (evidences.length >= totalLoaded) {
         errorMsg.value = 'All evidences are shown';
         return;
       }
-      evidences.push({id: nextId++, pehPct: null, penhPct: null, weight: 50});
+
+      // Use head from loaded data if available
+      const head = loadedEvidenceData.value[nextIdx - 1]?.head ?? null;
+
+      evidences.push({
+        id: nextIdx++,
+        head,
+        pehPct: null,
+        penhPct: null,
+        weight: 50
+      });
+
+      errorMsg.value = '';
+      recalc();
     }
 
     // Add new evidence through submitting the evidence form (both fields)
@@ -248,19 +296,24 @@ createApp({
       const lastIndex = evidences.length - 1;
       const lastEv = evidences[lastIndex];
 
+      const totalLoaded = loadedEvidenceData.value.length || 0;
+
       if (
         lastEv &&
-        lastEv.pehPct !== null &&
-        lastEv.penhPct !== null &&
-        loadedEvidenceData.value.length > 0 &&
-        evidences.length < loadedEvidenceData.value.length
+        ((lastEv.pehPct !== null && lastEv.penhPct !== null) || lastEv.weight === 0) &&
+        totalLoaded > 0 &&
+        evidences.length < totalLoaded
       ) {
+        const head = loadedEvidenceData.value[nextIdx - 1]?.head ?? null;
         evidences.push({
-          id: nextId++,
+          id: nextIdx++,
+          head,
           pehPct: null,
           penhPct: null,
           weight: 50
         });
+        errorMsg.value = '';
+        recalc();
       }
     };
 

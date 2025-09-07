@@ -2,12 +2,9 @@ package msit.apologetikk;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import jakarta.annotation.Nullable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.http.ProblemDetail;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.MissingServletRequestParameterException;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -15,15 +12,11 @@ import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.time.format.DateTimeFormatter;
 import java.util.Map;
 import java.util.Optional;
 import java.util.UUID;
 import java.util.regex.Pattern;
 import java.util.stream.Stream;
-
-import static org.springframework.http.HttpStatus.BAD_REQUEST;
-import static org.springframework.http.HttpStatus.CREATED;
 
 @RestController
 @RequestMapping(value= "/api", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -97,11 +90,11 @@ class API {
         }
     }
 
-    @GetMapping("/results/{id}")
-    public ResponseEntity<?> getResultsById(@PathVariable String id) {
+    @GetMapping("/results/{uuid}")
+    public ResponseEntity<?> getResultsById(@PathVariable String uuid) {
         // Validate UUID format to avoid path traversal-like inputs
         try {
-            UUID.fromString(id);
+            UUID.fromString(uuid);
         } catch (IllegalArgumentException e) {
             return ResponseEntity.badRequest().body(Map.of(
                     "status", "error",
@@ -112,7 +105,7 @@ class API {
         // Search for data/*/*/{id}.json
         try (Stream<Path> walk = Files.walk(ROOT, 3)) {
             Optional<Path> found = walk
-                    .filter(p -> p.getFileName() != null && p.getFileName().toString().equals(id + ".json"))
+                    .filter(p -> p.getFileName() != null && p.getFileName().toString().equals(uuid + ".json"))
                     .findFirst();
 
             if (found.isEmpty()) {

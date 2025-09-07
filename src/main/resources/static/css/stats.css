@@ -6,6 +6,11 @@ body {
     line-height: 1.6;
 }
 
+/* For å få normal muse-peker over tabellen */
+table td, table th {
+    cursor: default;
+}
+
 #stats-js table th.result-header { padding-top: 0.5rem; padding-bottom: 0.5rem; }
 
 #stats-js table td.num { text-align: right; padding-right: 0.5rem; /* litt luft fra høyrekanten */ }

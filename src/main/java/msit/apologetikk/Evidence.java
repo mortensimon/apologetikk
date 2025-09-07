@@ -4,10 +4,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Evidence {
     private int count;
+    private int countDisregard;
     private int id;
-    private String label;
-    private double pehPct;
-    private double penhPct;
+    private String head;
+    private Double pehPct;
+    private Double penhPct;
     private int weight;
     @JsonIgnore
     private Double weightD;
@@ -18,17 +19,13 @@ public class Evidence {
     // copy constructor
     public Evidence(Evidence other) {
         this.count = other.count;
+        this.countDisregard = other.countDisregard;
         this.id = other.id;
-        this.label = other.label;
+        this.head = other.head;
         this.pehPct = other.pehPct;
         this.penhPct = other.penhPct;
         this.weight = other.weight;
         this.weightD = other.weightD == null ? other.weight : other.weightD;
-    }
-
-    // convenience deepCopy if needed
-    public Evidence deepCopy() {
-        return new Evidence(this);
     }
 
     // getters / setters
@@ -40,6 +37,18 @@ public class Evidence {
         this.count = count;
     }
 
+    public int getCountDisregard() {
+        return countDisregard;
+    }
+
+    public void setCountDisregard(int countDisregard) {
+        this.countDisregard = countDisregard;
+    }
+
+    public int getCountDisregardPct () {
+        return count == 0 ? 0 : (int) Math.round((double) countDisregard / count * 100);
+    }
+
     public int getId() {
         return id;
     }
@@ -48,15 +57,15 @@ public class Evidence {
         this.id = id;
     }
 
-    public String getLabel() {
-        return label;
+    public String getHead() {
+        return head;
     }
 
-    public void setLabel(String label) {
-        this.label = label;
+    public void setHead(String head) {
+        this.head = head;
     }
 
-    public double getPehPct() {
+    public Double getPehPct() {
         return pehPct;
     }
 
@@ -64,7 +73,7 @@ public class Evidence {
         this.pehPct = pehPct;
     }
 
-    public double getPenhPct() {
+    public Double getPenhPct() {
         return penhPct;
     }
 

@@ -88,7 +88,7 @@
     <div v-for="(ev, idx) in evidences" :key="ev.id" class="card evidence" :class="backgroundClassEv(idx)">
       <div class="row-fixed">
         <div>
-          <h3 class="evidence-heading">{{ hypJson.evidence[idx].id }}</h3>
+          <h3 class="evidence-heading">{{ hypJson.evidence[idx].head }}</h3>
         </div>
         <div></div>
         <div style="justify-content:flex-end" v-if="idx === evidences.length - 1">
@@ -99,7 +99,7 @@
         <b>Summary:</b> {{ hypJson.evidence[idx].short }}
       </div>
       <details class="details-block" style="margin: 6px 0;">
-        <summary class="btn small">More info</summary>
+        <summary class="btn small">More info to explain the evidence better</summary>
         <!-- Detaljer -->
         <div style="margin-top: 6px;">
           {{ hypJson.evidence[idx].details }}
@@ -117,7 +117,7 @@
       </details>
       <div class="row-fixed">
         <div>
-          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].id }}" (0–100)</label>
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}" (0–100)</label>
           <input
             class="input-number"
             type="number" min="0" max="100" step="any" inputmode="numeric"
@@ -128,7 +128,7 @@
           />
         </div>
         <div>
-          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].id }}" (0–100)</label>
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}" (0–100)</label>
           <input
             class="input-number"
             type="number" min="0" max="100" step="any" inputmode="numeric"
@@ -143,8 +143,8 @@
           <label style="font-size: 0.8em;">Importance of evidence</label>
           <select
             class="input-weight"
-            :value="ev.weight"
-            @change="onEvInput($event, ev, 'weight')"
+            v-model.number="ev.weight"
+            @change="ev.weight === 0 && checkAutoAppendEvidence()"
             style="width: 140px;"
             title="How strongly this evidence should count"
           >
@@ -207,12 +207,8 @@
       </tr>
       </thead>
       <tbody>
-      <tr
-        v-for="ev in publishJson.evidence"
-        :key="ev.id"
-        :class="backgroundClassEv(ev.id-1)"
-      >
-        <td>{{ ev.label || ('E' + ev.id) }}</td>
+      <tr v-for="(ev,idx) in publishJson.evidence" :key="ev.id" :class="backgroundClassEv(idx)">
+        <td>{{ ev.head }}</td>
         <td class="num">{{ fmtPct(ev.pehPct) }}</td>
         <td class="num">{{ fmtPct(ev.penhPct) }}</td>
         <td class="num">{{ ev.weight }}</td>

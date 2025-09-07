@@ -25,9 +25,9 @@
     <p>
       Below are collected statistics for the hypothesis <b>{{ stats.averages[0].title }}</b>. We've tried
       to compress the data as much as possible, to make it easy to get an overview and compare various
-      evidences and denominations. The table below is hopefully fairly self-explanatory, but we can point
-      out that the percentages in the top header is the movement from "inital gut-feeling" to the "end-result"
-      for that particular denomination. The All-column is the average of all denominations.
+      evidences and denominations. Place mouse over the headers to see what they mean. Color-coding is meant
+      to indicate which evidences have the most impact on the final result. Green colors means in favor of the
+      hypothesis, red means against, and grey means that at least 50% of the answers disregarded that evidence.
     </p>
   </div>
   <div v-else>
@@ -43,20 +43,24 @@
     <!-- Øverste header: én kolonne pr. denom, men hver spaner 3 underkolonner -->
     <tr>
       <th></th>
-      <th v-for="avg in stats.averages"
-          :key="avg?.denomination ?? 'denom'"
-          colspan="4">
-        {{ avg?.denomination ?? 'Unknown' }}
-      </th>
+      <th v-for="avg in stats.averages" :key="avg?.denomination ?? 'denom'" colspan="4"> {{ avg?.denomination ?? 'Unknown' }}</th>
     </tr>
 
     <tr>
       <th></th>
       <template v-for="(avg, aIdx) in stats.averages" :key="'result-'+aIdx">
-        <th class="result-header" colspan="4">
+        <th class="result-header" colspan="4" title="From inital gut-feeling to final result">
           <span>{{ avg?.aprioriPct ?? '' }}%</span>
           <span class="arrow-right">➡</span>
           <span>{{ avg?.posteriorPct ?? '' }}%</span>
+        </th>
+      </template>
+    </tr>
+    <tr>
+      <th></th>
+      <template v-for="(avg, aIdx) in stats.averages" :key="'result-'+aIdx">
+        <th colspan="4" title="Number of answers submitted. Some evidences may have been skipped by some users.">
+          <span>👥: {{ avg.count }}</span>
         </th>
       </template>
     </tr>
@@ -65,25 +69,25 @@
     <tr>
       <th>Evidence</th>
       <template v-for="(avg, aIdx) in stats.averages" :key="'subhdr-'+aIdx">
-        <th title="P(E|H)"><span class="arrow-up">⬆</span></th>
-        <th title="P(E|¬H)"><span class="arrow-down">⬇</span></th>
-        <th title="Weight">⚖️</th>
-        <th title="Count">👥</th>
+        <th title="Probability (%) of evidence, given hypothesis is true"><span class="arrow-up">⬆</span></th>
+        <th title="Probability (%) of evidence, given hypothesis is false"><span class="arrow-down">⬇</span></th>
+        <th title="Importance of evidence. 50 is 'normal', and 100 is 'double'. Disregarded evidence is not included, but show in next column">⚖️</th>
+        <th title="Evidence submitted (%) that was disregarded.">❌</th>
       </template>
     </tr>
     </thead>
 
     <tbody>
     <!-- Rader styres av første average (den har flest evidenser) -->
-    <tr v-for="(ev, idx) in (stats.averages[0]?.evidence || [])" :key="ev?.id ?? idx">
-      <td>{{ ev?.label ?? `Evidence ${idx + 1}` }}</td>
+    <tr v-for="(ev, idx) in (stats.averages[0].evidence)" :key="ev.id">
+      <td>{{ ev.head }}</td>
 
       <!-- Tre celler per denom: PEH / PENH / Weight -->
       <template v-for="(avg, aIdx) in stats.averages" :key="'r'+idx+'c'+aIdx">
         <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.pehPct ?? '' }}</td>
         <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.penhPct ?? '' }}</td>
         <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.weight ?? '' }}</td>
-        <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.count ?? '' }}</td>
+        <td class="num" :class="stats.calcBgColor(avg?.evidence?.[idx])">{{ avg?.evidence?.[idx]?.countDisregardPct ?? '' }}</td>
       </template>
     </tr>
     </tbody>

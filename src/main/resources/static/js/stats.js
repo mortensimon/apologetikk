@@ -6,9 +6,10 @@ createApp({
         averages: [],
         calcBgColor(ev) {
           if (!ev) return '';
-          if (ev.weight === 0) return 'gray';
+          if (ev.countDisregardPct >= 50) return 'gray';
           if (ev.pehPct > ev.penhPct) {
-            const diff = ev.pehPct - ev.penhPct;
+            const diffPct = ev.pehPct - ev.penhPct;
+            const diff = diffPct * (ev.weight*2) / 100;
             if (diff < 5)
               return 'green-1';
             if (diff < 20)
@@ -36,7 +37,6 @@ createApp({
       })
     ;
 
-
     async function load() {
       const params = new URLSearchParams(location.search);
       const hyp = params.get('hyp');
@@ -44,7 +44,6 @@ createApp({
       const res = await fetch(url)
       const data = await res.json();
       stats.averages = Array.isArray(data.averages) ? data.averages : [];
-      console.log(data.averages);
     }
 
     onMounted(load);

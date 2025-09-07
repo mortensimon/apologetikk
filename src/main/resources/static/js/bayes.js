@@ -60,11 +60,11 @@ export function posteriorFrom(prior, bfTotal) {
 
 // Domenebasert feilmelding ved ugyldige inndata
 export function validationError(priorPct, evidencesPct) {
-  if (!validPct(priorPct)) return 'Initial "gut feeling" must be from 0 to 100 %';
+  if (!validPct(priorPct)) return 'Initial "gut feeling" must be over 0% and max 100%';
   for (const ev of evidencesPct) {
     if (ev.pehPct === '' || ev.penhPct === '' || ev.pehPct == null || ev.penhPct == null) continue;
     if (!validPct(ev.pehPct) || !validPct(ev.penhPct)) {
-      return 'All evidence percentages must be from 0 to 100 %';
+      return 'All evidence percentages must be over 0% and max 100%';
     }
   }
   return '';
