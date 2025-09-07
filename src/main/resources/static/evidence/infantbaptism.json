@@ -7,20 +7,14 @@
             "head": "Not Explicit in NT",
             "short": "There's no explicit mention of infant baptism in the New Testament.",
             "details": "",
-            "category": "Biblical",
-            "references": [
-                "N/A"
-            ]
+            "category": "Biblical"
         },
         {
             "id": 2,
             "head": "Not Forbidden in NT",
             "short": "Infant baptism is not forbidden anywhere in the New Testament.",
             "details": "",
-            "category": "Biblical",
-            "references": [
-                "N/A"
-            ]
+            "category": "Biblical"
         },
         {
             "id": 3,
@@ -157,10 +151,7 @@
             "head": "Near Universal Acceptance",
             "short": "Almost 2000 years of consensus says that infants can be baptized.",
             "details": "",
-            "category": "History",
-            "references": [
-                "N/A"
-            ]
+            "category": "History"
         }
     ]
 }

@@ -72,10 +72,26 @@ createApp({
       resultsDialog.value?.close();
     }
 
-    async function copyPublish() {
+    async function aiPrompt() {
       try {
-        const text = JSON.stringify(publishJson.value, null, 2);
-        await navigator.clipboard.writeText(text);
+
+        let prompt = `You are an expert in Bayesian reasoning and critical thinking. You will help analyze a hypothesis and its supporting evidence using Bayesian methods.
+        The hypothesis and evidence are provided in JSON format below. The Bayesian method used involves starting with an initial "gut feeling" percentage (prior probability) 
+        about the hypothesis being true. Each piece of evidence has two percentages: one indicating how likely the evidence is if the hypothesis is true (P(E|H)), and another 
+        indicating how likely the evidence is if the hypothesis is not true (P(E|¬H)). Each evidence also has a weight percentage indicating its importance.
+        Using these inputs, we calculate a posterior probability, which updates our belief in the hypothesis after considering the evidence.
+        
+        Here is the hypothesis and evidence data:
+        ${JSON.stringify(hypJson.value, null, 2)}
+        
+        Here are the results from the user's evaluation:
+        ${JSON.stringify(publishJson.value, null, 2)}
+        
+        Please provide a critical analysis of the hypothesis and the evidence provided. Reflect on the percentages assigned by the user, considering potential cognitive biases or 
+        overconfidence. Additionally, evaluate the strength of the hypothesis itself based on the evidence presented.       
+        Your analysis should be thorough and insightful, helping the user understand the implications of their evaluations.`;
+
+        await navigator.clipboard.writeText(prompt);
       } catch (_) {
         // no-op; kunne evt. vise en liten melding
       }
@@ -203,10 +219,6 @@ createApp({
     const recalc = () => {
       errorMsg.value = validationError(priorPct.value, evidences);
     };
-
-
-
-
 
 
     let nextIdx = 2;
@@ -347,9 +359,9 @@ createApp({
       onPriorInput, onEvInput,
       hypJson, showHelp, backgroundClass, backgroundClassEv,
       checkAutoAppendEvidence, extractUrl, makeRefIntoTextWithLink,
-      openPublish, closePublish, copyPublish, publishToServer, publishJson, resultsDialog,
+      openPublish, closePublish, aiPrompt, publishToServer, publishJson, resultsDialog,
       fmtPct, startPublish, cancelDenomination, confirmDenomination,
-      denomination, denominations, denomDialog, openView, openUrl,openUrlNewTab
+      denomination, denominations, denomDialog, openView, openUrl, openUrlNewTab
     };
   }
 }).mount('#app');

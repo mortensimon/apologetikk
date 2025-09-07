@@ -8,60 +8,42 @@
             "head": "The Empty Tomb",
             "short": "Jesus's tomb was found to be empty.",
             "details": "Some scholars dispute this, but it is accepted by most to be an established fact that Jesus's tomb was indeed empty.\n\nProponents argue that this is expected if the Resurrection happened.\n\nCritics usually try to account for this by suggesting that someone (probably the disciples themselves) had stolen the body and hidden it, or that Jesus didn't actually die. The former fails to account for the disciples' genuine belief in the Resurrection, though.",
-            "category": "History",
-            "references": [
-                "N/A"
-            ]
+            "category": "History"
         },
         {
             "id": 2,
             "head": "The Convinced Disciples",
             "short": "Jesus's disciples genuinely believed their master had risen from the dead.",
             "details": "We know this because they engaged in risky behaviour like preaching the message of Jesus's resurrection despite knowing the potentially mortal danger this put them in.\n\nProponents argue that this is expected if the Resurrection happened, but very unlikely otherwise.\n\nCritics usually try to account for this with either the Swoon Theory (positing that Jesus only seemed to die, and then came to later on), or the Hallucination Theory (positing that the disciples experienced one or more group hallucination). The latter fails to account for the empty tomb, however.",
-            "category": "History",
-            "references": [
-                "N/A"
-            ]
+            "category": "History"
         },
         {
             "id": 3,
             "head": "Paul's Conversion",
             "short": "Paul was hostile, but came to believe.",
             "details": "Paul himself admits this, and his companion, Luke, gives us the details.\n\nProponents argue that Paul was the most unlikely of converts, which lends credibility to his testimony.\n\nCritics often concede that it was unlikely, but argue that unlikely conversions do happen sometimes.",
-            "category": "History",
-            "references": [
-                "N/A"
-            ]
+            "category": "History"
         },
         {
             "id": 4,
             "head": "James's Conversion",
             "short": "James, who was related to Jesus, was skeptical, but came to believe.",
             "details": "James, often called \"brother of the Lord\", is possibly among the family members who call Jesus \"out of his mind\" in Mark 3:21, because John 7:5 tells us that Jesus's brothers were not convinced. However, Paul tells us in 1 Corinthians 15:7 that the risen Jesus appeared to James, which was presumably what changed his mind.\n\nProponents argue that this is expected if the Resurrection happened.\n\nCritics usually try to account for this by suggesting grief hallucinations or conceding that it is yet another unlikely conversion, but that such things do occur.",
-            "category": "History",
-            "references": [
-                "N/A"
-            ]
+            "category": "History"
         },
         {
             "id": 5,
             "head": "The Early Creed",
             "short": "1 Corinthians 15 shows the belief was very early.",
             "details": "This creed is the earliest one extant. It is often dated to within a few years of the Crucifixion, at most.\n\nProponents argue that this precludes legendary development, becausen there wouldn't be time for that to develop.\n\nCritics usually concede this, but caution that this doesn't mean it's necessarily true either.",
-            "category": "History",
-            "references": [
-                "N/A"
-            ]
+            "category": "History"
         },
         {
             "id": 6,
             "head": "The Convinced Soldiers",
             "short": "The Roman soldiers were convinced Jesus was dead.",
             "details": "Roman soldiers were trained to kill and knew what they were doing.\n\nProponents argue that such soldiers would never have been fooled by a half-dead man.\n\nCritics usually concede that Jesus was dead, although those who hold to the Swoon Theory don't.",
-            "category": "History",
-            "references": [
-                "N/A"
-            ]
+            "category": "History"
         }
     ]
 }
