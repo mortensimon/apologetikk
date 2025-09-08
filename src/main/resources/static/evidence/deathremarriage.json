@@ -1,0 +1,113 @@
+{
+    "title": "Divorce",
+    "intro": "Hypothesis: Remarriage is permitted after the death of one's spouse.",
+    "evidence": [
+        {
+            "id": 1,
+            "head": "Paul Advises Young Widows to Marry",
+            "short": "St. Paul recommends that younger widows marry and have children.",
+            "details": "Proponents see this as proof that remarriage is permissible for a widow.\n\nCritics may argue that this is only explicitly for young women, so it may not be allowed for everyone.",
+            "category": "Biblical",
+            "references": [
+                "1 Timothy 5:14: https://biblehub.com/1_timothy/5-14.htm"
+            ]
+        },
+        {
+            "id": 2,
+            "head": "Levirate Marriage",
+            "short": "In the Old Testament, an unmarried man who lives with his brother's family is required to marry his late brother's widow.",
+            "details": "Proponents argue that this gives widows a precedent for remarrying.\n\nCritics argue that the Old Testament law is generally more permissive than that of the New Testament when it comes to divorce and remarriage, so it is not surprising that it should also allow remarriage for widows.",
+            "category": "Biblical",
+            "references": [
+                "Genesis 38:6–11: https://www.biblegateway.com/passage/?search=Genesis%2038%3A6-11&version=NRSVUE",
+                "Deuteronomy 25:5–10: https://www.biblegateway.com/passage/?search=Deuteronomy%2025:5-10&version=NRSVUE"
+            ]
+        },
+        {
+            "id": 3,
+            "head": "Jesus: Like Angels in Heaven",
+            "short": "Jesus implies that the woman who married seven brothers in succession will no longer be married at the resurrection.",
+            "details": "Proponents argue that this is because people are only married until death doth them part, so a widow is no longer married.\n\nCritics may argue that the obligation for a man to marry his brother's widow shows that the obligations of a marriage doesn't simply disappear once one of the spouses dies, and that Jesus is talking about the resurrection from the dead, not death itself.",
+            "category": "Biblical",
+            "references": [
+                "Matthew 22:23–34; Mark 12:18–27; Luke 20:27–40: https://www.biblegateway.com/passage/?search=Matthew%2022%3A23-34%2CMark%2012%3A18-27%2CLuke%2020%3A27-40&version=NRSVUE"
+            ]
+        },
+        {
+            "id": 4,
+            "head": "Paul: Widows Are Not Bound",
+            "short": "St. Paul explains that wives are bound by the law to their husband as long as he lives, but after his death, she can marry another without being called an adultress.",
+            "details": "Proponents see this as supporting a widow's right to remarry.\n\nCritics may concede this for women, but may still argue that men can't. Others may argue that the law is irrelevant to Christian morality, and that the permanence of marriage trumps it.",
+            "category": "Biblical",
+            "references": [
+                "Romans 7:2–3: https://www.biblegateway.com/passage/?search=Romans%207:2-3&version=NRSVUE"
+            ]
+        },
+        {
+            "id": 5,
+            "head": "Paul: It Is Better Not to Marry",
+            "short": "St. Paul expresses a preference for celibacy over marriage.",
+            "details": "Proponents are generally comfortable with this, because a preference is not a command, and Paul allows remarriage in the same chapter.\n\nCritics may argue that we ought to strive for the best, not settle for whatever liberty we can get away with, and so celibacy should trump the licence to remarry.",
+            "category": "Biblical",
+            "references": [
+                "1 Corinthians 7: https://www.biblegateway.com/passage/?search=1%20Corinthians%207&version=NRSVUE"
+            ]
+        },
+        {
+            "id": 6,
+            "head": "Marriage as Christ and the Church",
+            "short": "St. Paul uses marriage as a metaphor for Christ and the Church.",
+            "details": "Critics argue that this suggests one marriage is enough, because there is only one bridegroom, and remarriage would distort this pattern.\n\nProponents generally agree that one marriage is the ideal, but caution that the metaphor should not be taken too far.",
+            "category": "Biblical",
+            "references": [
+                "Ephesians 5:22–32: https://www.biblegateway.com/passage/?search=Ephesians%205%3A22-32&version=NKJV"
+            ]
+        },
+        {
+            "id": 7,
+            "head": "Justin Martyr: Second Marriages Are Sinful",
+            "short": "St. Justin Martyr (c. 155–157 AD) mentions that \"those who make second marriages according to human law are sinners in the sight of our Teacher\".",
+            "details": "Critics argue that this forbids remarriage for widows and widowers.\n\nProponents take it to be a prohibition on remarriage after divorce.",
+            "category": "Patristic",
+            "references": [
+                "First Apology, Chapter 15: https://biblehub.com/library/richardson/early_christian_fathers/the_first_apology_of_justin.htm"
+            ]
+        },
+        {
+            "id": 8,
+            "head": "Church Fathers Against Remarriage",
+            "short": "Some Church Fathers don't allow remarriage at all.",
+            "details": "Critics argue that these Fathers show the mind of the early Church to be against remarriage.\n\nProponents argue that these Fathers were overly zealous and simply wrong on this issue.",
+            "category": "Patristic",
+            "references": [
+                "Athenagoras (176–177 AD): A Plea for the Christians, Chapter 33: https://www.logoslibrary.org/athenagoras/plea/33.html",
+                "Tertullian (c. 200 AD): On Modesty, Chapter XVI: https://www.tertullian.org/works/de_pudicitia.htm",
+                "Tertullian (c. 217 AD): On Monogamy, Chapter 13: https://www.newadvent.org/fathers/0406.htm"
+            ]
+        },
+        {
+            "id": 9,
+            "head": "Church Fathers For Remarriage",
+            "short": "Some Church Fathers do allow remarriage for widows and widowers, many of them reluctantly.",
+            "details": "Proponents argue that these fathers show the mind of the early Church to be in favour of remarriage after the death of one's spouse.\n\nCritics argue that these Fathers were overly permissive.",
+            "category": "Patristic",
+            "references": [
+                "Tertullian (c. 200 AD): To My Wife, Book II: https://tertullian.org/works/ad_uxorem.htm",
+                "Tertullian (c. 207–208 AD): Against Marcion, Book IV, Chapter 34: https://www.tertullian.org/articles/evans_marc/evans_marc_10book4_eng.htm",
+                "St. Jerome (c. 394 AD): Letter 55: https://www.newadvent.org/fathers/3001055.htm",
+                "St. Augustine (late 4th century): https://biblehub.com/library/schaff/the_seven_ecumenical_councils/excursus_on_second_marriages_called.htm",
+                "Clement of Alexandria (c. 199 AD – c.201 AD): Stromata, Book III, Chapter XII: https://www.newadvent.org/fathers/02103.htm (in Latin for some reason)"
+            ]
+        },
+        {
+            "id": 10,
+            "head": "Consensus of the Church",
+            "short": "The Catholic Church, the Eastern Orthodox Church, the Oriental Orthodox Church, the Assyrian Church of the East, as well as most Protestant groups, all allow widows and widowers to remarry.",
+            "details": "Proponents argue that this weighs heavily in favour, because the judgement of the Church trumps individual Fathers.\n\nCritics caution that it might be possible for the entire Church to be wrong.",
+            "category": "History",
+            "references": [
+                ""
+            ]
+        }
+    ]
+}
