@@ -227,7 +227,7 @@
     <!-- hvis knapper dersom publishJson.evidence har minst én evidens -->
     <div v-if="publishJson.evidence && publishJson.evidence.length" style="margin-top: 12px;">
       <div class="row right" style="margin-top: 10px; gap: 6px;">
-        <button class="btn btn-primary" @click="aiPrompt" title="After clicking on the button, paste result (CTRL-V) into AI to get advice">Copy AI-prompt</button>
+        <button class="btn btn-primary" @click="aiPrompt" title="After clicking on the button, paste result (CTRL/CMD-V) into AI to get advice">Copy AI-prompt</button>
         <button class="btn btn-primary" @click="publishToServer">Share with xTiber & friends</button>
         <button class="btn" @click="closePublish">Close</button>
       </div>

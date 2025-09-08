@@ -91,6 +91,12 @@
     color: #fff;
 }
 
+.btn-primary:disabled {
+    background-color: #6c757d !important; /* Bootstrap sin grå */
+    border-color: #6c757d !important;
+    cursor: default !important;
+}
+
 /* Størrelse */
 .btn-lg {
     font-size: 1.15rem;

@@ -73,7 +73,7 @@ class API {
             Files.createDirectories(dir);
             Path file = dir.resolve(id + ".json");
             MAPPER.writeValue(file.toFile(), root);
-            URI href = URI.create("/api/results/" + id);
+            URI href = URI.create("https://xtiber.no/results/name="+name+"&id=" + id);
             AverageCalculator.init();
             return ResponseEntity.status(HttpStatus.CREATED).body(Map.of(
                     "status", "ok",
