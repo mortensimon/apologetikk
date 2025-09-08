@@ -1,5 +1,5 @@
 /* =========================================================
-   bayes-utilities.css
+   utils.css
    Små hjelpeklasser som kan brukes på tvers av layout og komponenter.
    Skal ikke inneholde layout-struktur eller spesifikke komponentstiler.
    ========================================================= */
@@ -21,3 +21,4 @@
 .bg-yellow { background-color: #fff8b3; } /* lys gul */
 .bg-red    { background-color: #ffd6d6; } /* lys rød */
 .bg-green  { background-color: #d6ffd6; } /* lys grønn */
+.bg-gray   { background-color: #dddddd; } /* lys grå */

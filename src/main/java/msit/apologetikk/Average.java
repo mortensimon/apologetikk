@@ -62,9 +62,11 @@ public class Average {
                     existingEv.setWeight((int) Math.round(existingEv.getWeightD()));
                 }
             } else {
+                newEv.setWeightD(newEv.getWeight());
                 currentEvidenceMap.put(newEv.getId(), newEv);
             }
         }
+        this.evidence = new ArrayList<>(currentEvidenceMap.values());
 
     }
 

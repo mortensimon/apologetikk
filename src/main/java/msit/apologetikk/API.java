@@ -7,6 +7,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 import java.nio.file.Files;
@@ -19,7 +20,7 @@ import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 @RestController
-@RequestMapping(value= "/api", produces = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "/api", produces = MediaType.APPLICATION_JSON_VALUE)
 class API {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
@@ -60,12 +61,11 @@ class API {
     }
 
 
-
-
     @PostMapping(value = "/results", consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Map<String, Object>> saveResults(@RequestBody JsonNode root) {
         try {
             Files.createDirectories(ROOT);
+            boolean DEV = new File(ROOT + "/DEV").exists();
             String name = root.path("name").textValue();
             String denomination = getSanitizedField(root, "denomination");
             String id = UUID.randomUUID().toString();
@@ -73,7 +73,10 @@ class API {
             Files.createDirectories(dir);
             Path file = dir.resolve(id + ".json");
             MAPPER.writeValue(file.toFile(), root);
-            URI href = URI.create("https://xtiber.no/results/name="+name+"&id=" + id);
+            String url = "https://xtiber.no/results.html?";
+            if (DEV) url = "http://localhost:8080/results.html?";
+
+            URI href = URI.create(url + "name=" + name + "&id=" + id);
             AverageCalculator.init();
             return ResponseEntity.status(HttpStatus.CREATED).body(Map.of(
                     "status", "ok",

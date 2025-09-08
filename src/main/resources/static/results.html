@@ -1,4 +1,4 @@
-<!-- https://xtiber.no/results/name=theism&id=85af8fa7-b78f-4afd-89a6-5147a520162a skal kalle denne siden, og hente data for denne hypotesen (name) og id'en via
+<!-- https://xtiber.no/results.html?name=theism&id=85af8fa7-b78f-4afd-89a6-5147a520162a skal kalle denne siden, og hente data for denne hypotesen (name) og id'en via
       et REST API, og deretter vise resultatene i en tabell som skal se nokså lik ut som den i bayes.html - og som ser slik ut:
 
           <table class="table">
@@ -34,6 +34,7 @@
 
   <!-- Global CSS (samme som bayes.html) -->
   <link rel="stylesheet" href="./css/results.css"> <!-- kun for denne siden -->
+  <link rel="stylesheet" href="./css/utils.css"> <!-- kun for denne siden -->
 
   <!-- Vue 3 (CDN) -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
@@ -44,8 +45,32 @@
 </head>
 <body>
 <div id="results-js" v-cloak>
-
   <h1>Results for hypothesis {{ name }} and ID {{ id }}</h1>
+  <div v-if="publishJson" class="row" style="justify-content:center; margin: 8px 0 6px; text-align:center; display:flex; gap:20px;">
+    <div><strong>Initial Gut-feeling:</strong> {{ fmtPct(publishJson.aprioriPct) }}</div>
+    <div><strong>Result:</strong> {{ fmtPct(publishJson.posteriorPct) }}</div>
+  </div>
+  <table class="table" v-if="publishJson && publishJson.evidence">
+    <thead>
+      <tr>
+        <th>Evidence</th>
+        <th>P(E|H)</th>
+        <th>P(E|¬H)</th>
+        <th>Importance</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="(ev,idx) in publishJson.evidence" :key="ev.id" :class="backgroundClassEv(idx)">
+        <td>{{ ev.head }}</td>
+        <td class="num">{{ ev.pehPct }}%</td>
+        <td class="num">{{ ev.penhPct }}%</td>
+        <td class="num">{{ ev.weight }}</td>
+      </tr>
+    </tbody>
+  </table>
+  <a :href="testLink" class="test-link">You want to test this hypothesis?</a>
+  <div v-if="error" class="error">{{ error }}</div>
 </div>
+<script src="./js/results.js"></script>
 </body>
 </html>
