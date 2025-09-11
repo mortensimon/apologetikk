@@ -2,7 +2,7 @@
     "title": "Praying for the Dead",
     "intro": "Hypothesis: It is permissible for Christians to pray for the dead.",
     "evidence": [
-            {
+        {
             "id": 1,
             "head": "Paul prays for Onesiphorus",
             "short": "In 2 Timothy 1:16-18 (cf. 4:19), Paul prays for Onesiphorus and his household, speaking of him in the past tense.",
@@ -15,12 +15,11 @@
             {
             "id": 2,
             "head": "God of the Living",
-            "short": "In Mark 12:27 and Luke 20:38, to refute the Sadducees on the resurrection of the dead, Jesus says God is not the God of the dead, but of the living.",
+            "short": "In the gospel accounts of Mark and Luke Jesus refutes the Sadducees on the resurrection of the dead by saying God is not the God of the dead, but of the living.",
             "details": "Proponents argue that this indicates that, even when people die, they aren't really gone, just no longer living on earth, and so our prayers can still help them. Alternatively, they could benefit from our prayers once they are resurrected.\n\nCritics generally agree that God will raise them up again, but that doesn't mean they are conscious and \"alive\" in the meantime. Also, at the resurrection, everyone will face judgement, but their fate is thought to be sealed at death, which suggests prayers won't help at that point.",
             "category": "Biblical",
             "references": [
-                "Mark 12:27: https://biblehub.com/mark/12-27.htm",
-                "Luke 20:35–38: https://www.biblegateway.com/passage/?search=Luke%2020%3A35-38&version=NRSVCE"
+                "Mark 12:18–27, Luke 20:27–40: https://www.biblegateway.com/passage/?search=Mark%2012%3A18-27%2CLuke%2020%3A27-40&version=NRSVCE"
             ]
         },
         {

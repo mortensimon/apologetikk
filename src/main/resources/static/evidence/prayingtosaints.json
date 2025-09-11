@@ -1,0 +1,80 @@
+{
+    "title": "Praying to Saints",
+    "intro": "Hypothesis: Christians can to pray to saints in Heaven.",
+    "evidence": [
+        {
+            "id": 1,
+            "head": "No Biblical Precedent",
+            "short": "The Bible only records prayers to God the Father and Jesus.",
+            "details": "Critics argue that there is no precedent in the Bible for praying to the saints. The closest we get on the permissive side is when people talk to angels, but in all cases, the angels approach them first. However, on the restrictive side, there are examples of people praying to idols, which is strictly forbidden.\n\nProponents argue that not everything needs to be found in the Bible, as long as it is consistent with it. If the Bible doesn't tell us not to pray to the saints, then there is nothing inherently wrong with doing it.",
+            "category": "Biblical",
+            "references": [
+                "Matthew 6:9–13: https://www.biblegateway.com/passage/?search=Matthew%206:9-13&version=NRSVCE",
+                "Acts 7:59: https://biblehub.com/acts/7-59.htm"
+            ]
+        },
+        {
+            "id": 2,
+            "head": "The Great Cloud of Witnesses",
+            "short": "Hebrews speaks of the Old Testament patriarchs, prophets, and heroes as a \"great cloud of witnesses\".",
+            "details": "Proponents argue that if they are \"witnesses\", then they can see and hear us, which means we can talk to them and ask them to help us.\n\nCritics suggest other interpretations, like that they are metaphorical witnesses instead.",
+            "category": "Biblical",
+            "references": [
+                "Hebrews 11:1–12:1: https://www.biblegateway.com/passage/?search=Hebrews%2011%3A1-12%3A1&version=NRSVCE"
+            ]
+        },
+        {
+            "id": 3,
+            "head": "Inscriptions In Support",
+            "short": "Inscriptions (e.g. in the catacombs of Rome) from the 3rd–4th centuries include prayers to the saints.",
+            "details": "Proponents argue that these show the widespread practice of praying to the saints.\n\nCritics argue that the prayers are rather late and may be an accretion.",
+            "category": "History",
+            "references": [
+                "Wikipedia, Sub tuum præsidium: https://en.wikipedia.org/wiki/Sub_tuum_praesidium",
+                "Philip Schaff (1997 AD), History of the Christian Church, Volume II, Chapter IX, § 86: https://www.ccel.org/ccel/schaff/hcc2.v.ix.v.html",
+                "Rev. John McCaul, Christian Epitaphs of the First Six Centuries: https://dn790001.ca.archive.org/0/items/cihm_09381/cihm_09381.pdf"
+            ]
+        },
+        {
+            "id": 4,
+            "head": "Iconoclast Opposition",
+            "short": "Some of the iconoclasts also opposed veneration and invocation of saints.",
+            "details": "Critics argue that this may have simmered under the surface for all of Church history, but surfaced during the iconoclast controversy.\n\nProponents argue that this is speculative, and point out that the seventh ecumenical council affirmed the veneration and invocation of saints.",
+            "category": "Councils",
+            "references": [
+                "Iconoclastic Council (754 AD): https://sourcebooks.web.fordham.edu/source/icono-cncl754.asp"
+            ]
+        },
+        {
+            "id": 5,
+            "head": "Relics In Altars",
+            "short": "There is a longstanding tradition of placing relics of saints in or under altars.",
+            "details": "Proponents argue that this ties into the practice of asking saints for their intercession, as well as the martyrs under the altar in Revelation 6:9–11.\n\nCritics caution that relics can be considered reminders of the saints and their intercession, and are not, properly speaking, evidence for prayers to the saints.",
+            "category": "Tradition",
+            "references": [
+                "Revelation 6:9–11: https://www.biblegateway.com/passage/?search=Revelation%206:9-11&version=NRSVCE"
+            ]
+        },
+        {
+            "id": 6,
+            "head": "Hymns In Support",
+            "short": "St. Ephrem the Syrian (4th century) composed hymns asking the saints for intercession.",
+            "details": "Proponents see this as evidence that the tradition had taken deep roots and was widespread already.\n\nCritics argue that it could still be an innovation even if it caught on.",
+            "category": "Patristic",
+            "references": [
+                "St. Ephrem the Syrian (4th century), A Prayer of Praise to the Blessed Virgin Mary: https://www.catholiccompany.com/pages/prayer-of-praise-to-blessed-virgin-mary",
+                "Erick Ybarra (02.08.2008 AD), Holy Ephrem the Syrian on The Blessed Virgin Mary, 306-373 AD: https://erickybarra.wordpress.com/2018/08/02/holy-ephrem-the-syrian-on-the-blessed-virgin-mary-306-373-ad/"
+            ]
+        },
+        {
+            "id": 7,
+            "head": "Liturgical Support",
+            "short": "Early liturgical prayers invoke saints.",
+            "details": "For example, the Anaphora of Addai and Mari came to include hymns by St. Ephrem.\n\nProponents argue that this shows that he was not operating on his own, but lived in an environment where prayers to saints was normal.\n\nCritics argue that this doesn't mean it was an apostolic practice, just that it became widespread.",
+            "category": "Tradition",
+            "references": [
+                ""
+            ]
+        }
+    ]
+}

@@ -40,7 +40,11 @@
   xJordan -- Investigate\ndoctrines --> InfantBaptism[Infant\nBaptism]
   InfantBaptism -- Yes --> DeathRemarriage[Death and\nRemarriage]
   DeathRemarriage -- Yes --> DivorceRemarriage[Divorce and\nRemarriage]
-  DivorceRemarriage -- No --> PerpetualVirginity[Perpetual Virginity\nof Mary]
+  DivorceRemarriage -- No --> SoulSleep[Soul\nSleep]
+  SoulSleep -- No --> PrayersForDead[Praying for\nthe Dead]
+  PrayersForDead -- Yes --> IntercessionofSaints[Intercession of\nthe Saints]
+  IntercessionofSaints -- Yes --> PrayingToSaints[Praying to\nSaints]
+  PrayingToSaints -- Yes --> PerpetualVirginity[Perpetual Virginity\nof Mary]
   PerpetualVirginity -- Yes --> Assumption[Assumption/\nDormition]
   Assumption -- Yes --> MarySinlessness[Mary's\nSinlessness]
   MarySinlessness -- Yes --> SolaScriptura
@@ -66,6 +70,10 @@
   click DivorceRemarriage "bayes.html?id=divorceremarriage" "Open Divorce and Remarriage"
   click DeathRemarriage "bayes.html?id=deathremarriage" "Open Death and Remarriage"
   click Indefectibility "bayes.html?id=indefectibility" "Open Indefectibility of the Church"
+  click SoulSleep "bayes.html?id=soulsleep" "Open Soul Sleep"
+  click PrayersForDead "bayes.html?id=prayingfordead" "Open Praying for the Dead"
+  click PrayersToSaints "bayes.html?id=prayingtosaints" "Open Praying to Saints"
+  click IntercessionofSaints "bayes.html?id=intercessionofsaints" "Open Intercession of the Saints"
 </div>
 
 <p>
