@@ -93,18 +93,21 @@
     </div>
 
     <div v-for="(ev, idx) in evidences" :key="ev.id" class="card evidence" :class="backgroundClassEv(idx)">
-      <div class="row-fixed">
-        <div>
-          <h3 class="evidence-heading">{{ hypJson.evidence[idx].head }}</h3>
-        </div>
-        <div>
+      <div class="row-fixed-2col">
+        <h3 class="evidence-heading">{{ hypJson.evidence[idx].head }}</h3>
 
-          <div style="font-size: 1.0em; font-weight: 800; font-color: #666; text-align: right;">
+        <div class="row-right">
+          <div class="evidence-count">
             {{ idx + 1 }}/{{ hypJson.evidence.length }}
           </div>
-        </div>
-        <div style="justify-content:flex-end" v-if="idx === evidences.length - 1">
-          <button class="btn" title="Remove" @click="removeEvidence(idx)">Remove</button>
+          <button
+            class="btn"
+            title="Remove"
+            v-if="idx === evidences.length - 1"
+            @click="removeEvidence(idx)"
+          >
+            Remove
+          </button>
         </div>
       </div>
       <div>
@@ -117,7 +120,8 @@
         <summary class="btn small">More info to explain the evidence better</summary>
         <!-- Detaljer -->
         <div style="margin-top: 6px;">
-          {{ hypJson.evidence[idx].details }}
+          <!-- hypJson.evidence[idx].details inneholder tegn som angir linjeskift (newline) som skal vises som linjeskift i HTML -->
+          <div v-html="formatDetails(hypJson.evidence[idx].details)"></div>
         </div>
         <!-- Referanser -->
         <div v-if="hypJson.evidence[idx].references && hypJson.evidence[idx].references.length" style="margin-top: 8px;">
@@ -235,8 +239,11 @@
     <div v-if="publishJson.evidence && publishJson.evidence.length" style="margin-top: 12px;">
       <div class="row right" style="margin-top: 10px; gap: 6px;">
         <button class="btn btn-primary" @click="aiPrompt" title="After clicking on the button, paste result (CTRL/CMD-V) into AI to get advice">Copy AI-prompt</button>
-        <button class="btn btn-primary" @click="publishToServer">Share with xTiber & friends</button>
+        <button class="btn btn-primary" @click="handlePublish" :class="{ 'btn-published': publishedUrl }">{{ publishButtonText }}</button>
         <button class="btn" @click="closePublish">Close</button>
+      </div>
+      <div>
+        <p v-if="publishStatus" class="status-text">{{ publishStatus }}</p>
       </div>
     </div>
     <div v-else style="margin-top: 12px;">

@@ -28,6 +28,11 @@ createApp({
       'Spiritual', 'Agnostic', 'Atheist', 'Other'
     ];
 
+    const publishedUrl = ref(null);
+    const publishDisabled = ref(false);
+    const publishButtonText = ref("Share results");
+    const publishStatus = ref("");
+
     /****************************************************
      * Logikk knyttet til å publisere/dele resultater
      ****************************************************/
@@ -63,6 +68,63 @@ createApp({
       resultsDialog.value?.showModal();
     }
 
+    // Hjelpefunksjon: sørg for at publishJson er bygd
+    function ensurePublishPayload() {
+      const answered = evidences.filter(ev =>
+        (ev.pehPct !== null && ev.penhPct !== null && ev.weight > 0) || ev.weight === 0
+      );
+      publishJson.value = {
+        name: hypJson.value?.name ?? '',
+        title: hypJson.value?.title ?? '',
+        denomination: denomination.value || null,
+        aprioriPct: priorPct.value,
+        posteriorPct: Number.isFinite(posterior.value) ? +(posterior.value * 100).toFixed(2) : null,
+        evidence: answered
+      };
+    }
+
+
+    async function handlePublish() {
+      // Etter publisering: kopier lenke
+      if (publishedUrl.value) {
+        await navigator.clipboard.writeText(publishedUrl.value);
+        return;
+      }
+
+      // Publisering
+      const res = await fetch('/api/results', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(publishJson.value)
+      });
+      const data = await res.json().catch(() => ({}));
+
+      // Oppdater tilstand
+      publishedUrl.value = data.href || null;
+      publishStatus.value = "Copy link and share your results!";
+      publishButtonText.value = publishedUrl.value ? "Copy link" : "Published";
+    }
+
+
+    async function publishToServer() {
+      try {
+        const res = await fetch('/api/results', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify(publishJson.value)
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) {
+          alert(`Failed to publish: ${data.message || res.statusText}`);
+          return;
+        }
+        alert('Results published successfully. File: ' + (data.href || 'n/a'));
+      } catch (e) {
+        alert('Failed to publish: ' + (e && e.message ? e.message : String(e)));
+      }
+    }
+
+
     function fmtPct(v) {
       if (v == null || isNaN(v)) return '—';
       return `${(+v).toFixed(2)}%`;
@@ -97,25 +159,6 @@ createApp({
       }
     }
 
-    async function publishToServer() {
-      try {
-        const res = await fetch('/api/results', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify(publishJson.value)
-        });
-        const data = await res.json().catch(() => ({}));
-        if (!res.ok) {
-          alert(`Failed to publish: ${data.message || res.statusText}`);
-          return;
-        }
-        alert('Results published successfully. File: ' + (data.href || 'n/a'));
-      } catch (e) {
-        alert('Failed to publish: ' + (e && e.message ? e.message : String(e)));
-      }
-    }
-
-
     /****************************************************
      * Logikk knyttet til å hente ut individuelle resultater
      ****************************************************/
@@ -142,6 +185,17 @@ createApp({
     }
 
     /****************************************************
+     * Logikk knyttet til å printe detaljer om evidens
+     * Details kommer fra {{ hypJson.evidence[idx].details }}
+     ****************************************************/
+    function formatDetails(details) {
+      // Sørg for at linjeskift i details vises som <br> i HTML
+      if (!details) return '';
+      return details.replace(/\n/g, '<br>');
+    }
+
+
+    /****************************************************
      * Logikk knyttet til å farger på rader i tabeller
      ****************************************************/
 
@@ -155,6 +209,7 @@ createApp({
 
     // Brukes i publiser-dialogen (man viser tabellen med alle evidensene der)
     function backgroundClassEv(evidenceIndex) {
+      if (evidences[evidenceIndex].weight === 0) return 'bg-gray';
       const totalPct = evidences[evidenceIndex].pehPct - evidences[evidenceIndex].penhPct;
       if (Math.abs(totalPct) < 0.01) return "bg-yellow";
       else if (totalPct < 0) return "bg-red";
@@ -349,7 +404,6 @@ createApp({
       window.open(url, '_blank', 'noopener,noreferrer');
     }
 
-
     // Eksponer til template
     return {
       priorPct, evidences, errorMsg,
@@ -361,7 +415,15 @@ createApp({
       checkAutoAppendEvidence, extractUrl, makeRefIntoTextWithLink,
       openPublish, closePublish, aiPrompt, publishToServer, publishJson, resultsDialog,
       fmtPct, startPublish, cancelDenomination, confirmDenomination,
-      denomination, denominations, denomDialog, openView, openUrl, openUrlNewTab
+      denomination, denominations, denomDialog, openView, openUrl, openUrlNewTab,
+      publishDisabled,
+      publishedUrl,
+      publishButtonText,
+      publishStatus,
+      handlePublish,
+      formatDetails
     };
   }
 }).mount('#app');
+
+

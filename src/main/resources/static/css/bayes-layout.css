@@ -18,6 +18,41 @@
     flex-wrap: wrap;
 }
 
+.row-fixed-2col {
+    display: grid;
+    grid-template-columns: 1fr auto;  /* venstre=title, høyre=pakket teller+knapp */
+    gap: 12px;
+    align-items: end;
+}
+
+/* pakk høyresiden horisontalt og skyv helt ut til høyre */
+.row-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+/* sørg for at tittelen faktisk kan ta plassen sin og ellipses om nødvendig */
+.evidence-heading {
+    margin: 0;
+    white-space: normal;             /* allow wrapping */
+    overflow-wrap: anywhere;         /* break long words/unbroken strings */
+    word-break: break-word;          /* fallback for older browsers */
+    hyphens: auto;                   /* optional: nicer hyphenation */
+}
+.row-fixed > .evidence-heading { min-width: 0; } /* viktig for grid */
+
+.evidence-count {
+    font-size: 1em;
+    font-weight: 800;
+    color: #666;           /* NB: bruk 'color', ikke 'font-color' */
+    text-align: right;
+    white-space: nowrap;
+}
+
+
+
 /* Fast trekolonne-grid (1fr 1fr auto) */
 .row-fixed {
     display: grid;
@@ -25,6 +60,8 @@
     gap: 12px;
     align-items: end;
 }
+
+
 
 /* =========================
    Alignment utilities

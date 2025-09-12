@@ -97,6 +97,11 @@
     cursor: default !important;
 }
 
+.btn-published {
+    background-color: #006a77; /* mary-blue-color */
+    color: #fff;
+}
+
 /* Størrelse */
 .btn-lg {
     font-size: 1.15rem;
@@ -187,4 +192,8 @@ button:focus,
 .table th { text-align: left; background: rgba(0,0,0,.03); }
 .table td.num { text-align: right; }
 
-
+.status-text {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
