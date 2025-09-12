@@ -1,8 +1,10 @@
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f8f9fa;
-  margin: 0;
-  padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #fff;
+    margin: 3rem auto;
+    padding: 1rem;
+    max-width: 900px;
+    line-height: 1.6;
 }
 
 h1 {

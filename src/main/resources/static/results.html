@@ -49,7 +49,12 @@
       </tr>
     </tbody>
   </table>
+  <!-- make sure the text below is centerd -->
+  <div class="row" style="justify-content:center; margin: 16px 0 8px; text-align:center; display:flex; gap:10px;">
+    Results for id:  {{ id }}
+  </div>
   <a :href="testLink" class="test-link">You want to test this hypothesis?</a>
+
   <div v-if="error" class="error">{{ error }}</div>
 </div>
 <script src="./js/results.js"></script>
