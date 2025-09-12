@@ -1,0 +1,27 @@
+/* Hovedtittel og logo */
+.header-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.logo-link {
+    margin-right: 16px;
+    position: static;
+}
+
+.logo-img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    vertical-align: middle;
+}
+
+.header-title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.1;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.02em;
+}

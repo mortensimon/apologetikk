@@ -6,6 +6,7 @@
   <title>xTiber</title>
   <link rel="icon" href="./img/favicon-16x16.png" type="image/png">
 
+  <link rel="stylesheet" href="./css/head.css">
   <link rel="stylesheet" href="css/bayes-base.css">
   <link rel="stylesheet" href="css/bayes-layout.css">
   <link rel="stylesheet" href="css/bayes-components.css">
@@ -16,7 +17,13 @@
 <body>
 
 <div id="app" class="wrap" v-if="hypJson">
-  <h1>{{ hypJson.title }} (<a :href="'stats.html?hyp=' + (hypJson.name || '')">Statistics</a>)</h1>
+  <div class="header-row">
+    <a href="index.html" class="logo-link">
+      <img src="./img/favicon-32x32.png" alt="Logo" class="logo-img">
+    </a>
+    <span class="header-title">{{ hypJson.title }} (<a :href="'stats.html?hyp=' + (hypJson.name || '')">Statistics</a>)</span>
+  </div>
+
   <p class="lead">{{ hypJson.intro }}</p>
 
   <details class="help-text">

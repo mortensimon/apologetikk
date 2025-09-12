@@ -7,7 +7,8 @@
   <link rel="icon" href="./img/favicon-16x16.png" type="image/png">
 
   <!-- Global CSS (samme som bayes.html) -->
-  <link rel="stylesheet" href="./css/stats.css"> <!-- kun for denne siden -->
+  <link rel="stylesheet" href="./css/head.css">
+  <link rel="stylesheet" href="./css/stats.css">
 
   <!-- Vue 3 (CDN) -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
@@ -17,9 +18,15 @@
   }</style>
 </head>
 <body>
+
 <div id="stats-js" v-cloak>
 
-  <h1>Collected statistics</h1>
+  <div class="header-row">
+    <a href="index.html" class="logo-link">
+      <img src="./img/favicon-32x32.png" alt="Logo" class="logo-img">
+    </a>
+    <span class="header-title">Collected statistics</span>
+  </div>
 
   <div v-if="stats.averages.length">
     <p>
