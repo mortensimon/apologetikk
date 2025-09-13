@@ -188,7 +188,7 @@ createApp({
      * Logikk knyttet til å printe detaljer om evidens
      * Details kommer fra {{ hypJson.evidence[idx].details }}
      ****************************************************/
-    function formatDetails(details) {
+    function formatNewline(details) {
       // Sørg for at linjeskift i details vises som <br> i HTML
       if (!details) return '';
       return details.replace(/\n/g, '<br>');
@@ -421,7 +421,7 @@ createApp({
       publishButtonText,
       publishStatus,
       handlePublish,
-      formatDetails
+      formatNewline
     };
   }
 }).mount('#app');

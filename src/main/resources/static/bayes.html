@@ -24,7 +24,7 @@
     <span class="header-title">{{ hypJson.title }} (<a :href="'stats.html?hyp=' + (hypJson.name || '')">Statistics</a>)</span>
   </div>
 
-  <p class="lead">{{ hypJson.intro }}</p>
+  <div class="lead" v-html="formatNewline(hypJson.intro)"></div>
 
   <details class="help-text">
     <summary class="btn">Explanation of Bayes - optional read</summary>
@@ -120,8 +120,7 @@
         <summary class="btn small">More info to explain the evidence better</summary>
         <!-- Detaljer -->
         <div style="margin-top: 6px;">
-          <!-- hypJson.evidence[idx].details inneholder tegn som angir linjeskift (newline) som skal vises som linjeskift i HTML -->
-          <div v-html="formatDetails(hypJson.evidence[idx].details)"></div>
+          <div v-html="formatNewline(hypJson.evidence[idx].details)"></div>
         </div>
         <!-- Referanser -->
         <div v-if="hypJson.evidence[idx].references && hypJson.evidence[idx].references.length" style="margin-top: 8px;">
@@ -136,7 +135,7 @@
       </details>
       <div class="row-fixed">
         <div>
-          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}" (0–100)</label>
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}?" (0–100)</label>
           <input
             class="input-number"
             type="number" min="0" max="100" step="any" inputmode="numeric"
@@ -147,7 +146,7 @@
           />
         </div>
         <div>
-          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}" (0–100)</label>
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}?" (0–100)</label>
           <input
             class="input-number"
             type="number" min="0" max="100" step="any" inputmode="numeric"
