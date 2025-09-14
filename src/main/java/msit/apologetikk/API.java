@@ -73,7 +73,7 @@ class API {
             Files.createDirectories(dir);
             Path file = dir.resolve(id + ".json");
             MAPPER.writeValue(file.toFile(), root);
-            String url = "https://xtiber.no/results.html?";
+            String url = "https://reasonableroad.com/results.html?";
             if (DEV) url = "http://localhost:8080/results.html?";
 
             URI href = URI.create(url + "name=" + name + "&id=" + id);
