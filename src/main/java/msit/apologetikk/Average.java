@@ -39,7 +39,7 @@ public class Average {
         if (newData == null) {
             return;
         }
-        this.count++;
+        this.count += newData.count;
         this.aprioriPct = calcAverage(this.aprioriPct, this.count, newData.aprioriPct);
         this.posteriorPct = calcAverage(this.posteriorPct, this.count, newData.posteriorPct);
 

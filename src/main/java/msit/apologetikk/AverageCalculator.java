@@ -10,12 +10,18 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Component
 public class AverageCalculator implements Runnable {
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
+
+    private static final Logger log = LoggerFactory.getLogger(AverageCalculator.class);
 
     public static void init() {
         AverageCalculator job = new AverageCalculator();
@@ -35,13 +41,16 @@ public class AverageCalculator implements Runnable {
     public void run() {
 
         try {
-            System.out.println("Kjører bakgrunnsjobb for å beregne gjennomsnitt...");
+            // Print to stdout on the form of 2025-09-21T14:15:40.187Z Text
+            log.info("AverageCalculator.run() starter...");
             File dataDir = new File("data");
             if (!dataDir.exists()) {
                 dataDir.mkdirs();
             }
 
             for (File hypotesemappe : dataDir.listFiles(File::isDirectory)) {
+                int fileCount = 0;
+                int variantCount = 0;
                 List<Average> variantAverages = new ArrayList<>();
                 for (File variantmappe : hypotesemappe.listFiles(File::isDirectory)) {
                     Average variantAvg = null;
@@ -49,6 +58,7 @@ public class AverageCalculator implements Runnable {
                         if (jsonFile.getName().equals("average.json")) {
                             continue; // Hopp over tidligere genererte average.json filer
                         }
+                        fileCount++;
                         try {
                             JsonNode newJson = MAPPER.readTree(jsonFile);
                             Average newData = MAPPER.convertValue(newJson, Average.class);
@@ -71,10 +81,13 @@ public class AverageCalculator implements Runnable {
                         }
                     }
                     if (variantAvg != null) {
+                        variantCount++;
                         writeAverageToFileAsJson(variantmappe, variantAvg);
                         variantAverages.add(variantAvg);
                     }
                 }
+                // Print to stdout on the form of 2025-09-21T14:15:40.187Z Text
+                log.info("Har behandlet " + fileCount + " filer i " + variantCount + " varianter i hypotesemappen " + hypotesemappe.getName());
 
                 // På dette tidspunktet har vi laget gjennomsnitt for hver variant i hypotesemappen. Vi skal nå
                 // lage et gjennomsnitt for hele hypotesemappen basert på variant-gjennomsnittene - altså et
@@ -95,8 +108,9 @@ public class AverageCalculator implements Runnable {
                 }
             }
         } catch (Exception e) {
-            System.err.println("Feil under beregning av gjennomsnitt: " + e.getMessage());
-            e.printStackTrace();
+            String stacktrace = Arrays.stream(e.getStackTrace()).map(StackTraceElement::toString).reduce("", (a, b) -> a + "\n    at " + b);
+            // Print to stderr on the form of 2025-09-21T14:15:40.187Z Text
+            log.error("Feil under beregning av gjennomsnitt: " + e.getMessage() + "\n" + stacktrace);
         }
     }
 
@@ -112,9 +126,11 @@ public class AverageCalculator implements Runnable {
                 ev.setWeight((int) Math.round(ev.getWeightD()));
             }
             MAPPER.writerWithDefaultPrettyPrinter().writeValue(averagePath.toFile(), variantAvg);
-            System.out.println("Laget " + averagePath);
+            // Print to stdout on the form of 2025-09-21T14:15:40.187Z Text
+            log.info("\tLaget " + averagePath);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
+
 }
