@@ -62,6 +62,7 @@ public class AverageCalculator implements Runnable {
                         try {
                             JsonNode newJson = MAPPER.readTree(jsonFile);
                             Average newData = MAPPER.convertValue(newJson, Average.class);
+                            newData.setCount(1);
 
                             if (variantAvg == null) { // Lager gjennomsnitt av *første* fil => samme som den filen
                                 variantAvg = MAPPER.convertValue(newJson, Average.class);
