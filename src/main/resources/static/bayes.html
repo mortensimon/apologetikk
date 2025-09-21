@@ -128,7 +128,7 @@
           <ul>
             <li v-for="(ref, refIdx) in hypJson.evidence[idx].references" :key="refIdx">
               <!-- ref inneholder en tekst med URL. Vi skal lage en tekst hvor *bare* URL-en er klikkbar -->
-              <div v-html="makeRefIntoTextWithLink(ref)"></div>
+              <div v-html="formatNewline(ref)"></div>
             </li>
           </ul>
         </div>
