@@ -127,11 +127,62 @@
           <strong>References:</strong>
           <ul>
             <li v-for="(ref, refIdx) in hypJson.evidence[idx].references" :key="refIdx">
-              <!-- ref inneholder en tekst med URL. Vi skal lage en tekst hvor *bare* URL-en er klikkbar -->
-              <div v-html="formatNewline(ref)"></div>
+              <div v-html="ref"></div>
             </li>
           </ul>
         </div>
+        <!-- Bible ref -->
+        <div v-if="hypJson.evidence[idx].bible?.length" style="margin-top: 8px;">
+          <strong>Bible references:</strong>
+          <ul class="ref-list">
+            <li v-for="(ref, refIdx) in hypJson.evidence[idx].bible" :key="refIdx">
+              <details class="ref-item">
+                <summary>
+                  <span class="chev">▶</span>
+                  <span v-html="ref.summary"></span>
+                </summary>
+                <div class="ref-text" v-html="ref.text"></div>
+              </details>
+            </li>
+          </ul>
+        </div>
+        <!-- Ancient ref -->
+        <div v-if="hypJson.evidence[idx].ancient?.length" style="margin-top: 8px;">
+          <strong>Ancient references:</strong>
+          <ul class="ref-list">
+            <li v-for="(ref, refIdx) in hypJson.evidence[idx].ancient" :key="refIdx">
+              <details class="ref-item">
+                <summary>
+                  <span class="chev">▶</span>
+                  <span v-html="ref.summary"></span>
+                </summary>
+                <div class="ref-text">Year: {{ ref.year }}</div>
+                <div class="ref-text">Author: {{ ref.author }}</div>
+                <div class="ref-text" v-html="makeRefIntoTextWithLink(ref.url)"></div>
+                <div class="ref-text" v-html="ref.text"></div>
+              </details>
+            </li>
+          </ul>
+        </div>
+        <!-- Modern ref -->
+        <div v-if="hypJson.evidence[idx].modern?.length" style="margin-top: 8px;">
+          <strong>Modern references:</strong>
+          <ul class="ref-list">
+            <li v-for="(ref, refIdx) in hypJson.evidence[idx].modern" :key="refIdx">
+              <details class="ref-item">
+                <summary>
+                  <span class="chev">▶</span>
+                  <span v-html="ref.summary"></span>
+                </summary>
+                <div class="ref-text">Year: {{ ref.year }}</div>
+                <div class="ref-text" v-html="makeRefIntoTextWithLink(ref.url)"></div>
+              </details>
+            </li>
+          </ul>
+        </div>
+
+
+
       </details>
       <div class="row-fixed">
         <div>

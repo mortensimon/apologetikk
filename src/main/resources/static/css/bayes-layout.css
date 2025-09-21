@@ -69,3 +69,36 @@
 .right {
     text-align: right;
 }
+
+/* =========================
+   Reference 
+   ========================= */
+
+.ref-item summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    gap: .3rem;
+    align-items: baseline;
+    font-weight: normal !important;   /* fjerner bold */
+}
+
+.chev {
+    font-size: 0.8em;      /* gjør pilen litt mindre */
+    display: inline-block;
+    transition: transform .15s ease;
+    color: #555;           /* evt. gjør den litt dusere */
+}
+
+.ref-list {
+    list-style: none;
+    margin: 0.4rem 0;
+    padding-left: 0;
+}
+.ref-list li {
+    margin-bottom: 0.4rem;
+}
+.ref-item summary::-webkit-details-marker { display: none; } /* Safari/Chrome */
+.chev { display: inline-block; transition: transform .15s ease; }
+.ref-item[open] .chev { transform: rotate(90deg); }
+.ref-text { margin: .4rem 0 0 1.2rem; }
