@@ -1,0 +1,120 @@
+{
+  "title": "Theism",
+  "intro": "Hypothesis: God exists.\n\nIn classical theism, God is the ultimate reality: existence, truth, goodness, and beauty itself. However, much of the evidence included here will still be relevant even if you conceptualize God differently.",
+  "evidence": [
+    {
+      "id": "Divine Hiddenness",
+      "short": "God seems to be hidden even from sincere seekers.",
+      "details": "Critics argue that we would expect a good God to make Himself known to us, especially if (as many religions say) God wants a relationship with every individual.\n\nProponents suggest various reasons for why this might be. Maybe it is important for the choice to believe to be genuinely free, or maybe the mystery is valuable for spiritual growth, or maybe God just has really good reasons that we are currently unaware of.",
+      "category": "Philosophy",
+      "bible": [
+        {
+          "summary": "Mark 4:11-12",
+          "text": "<a style=\"superscript\" url=\"http://bible.com/mark/4.11\">11</url>How unsearchable are my ways and my thoughts! As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts."
+        }
+      ],
+      "ancient": [
+        {
+          "summary": "Book XX, Chapter YY",
+          "year": "c. 410-412 AD",
+          "author": "St Augustin",
+          "url": "https://www.youtube.com/watch?v=IBIsLTQ-GKQ",
+          "text": "For it is better to seek God in the darkness of faith than to behold him in the light of the senses; and it is better to find him by the labor of love than to enjoy him by the fullness of joy."
+        }
+      ],
+      "modern": [
+        {
+          "summary": "A possible reason for hiddenness (4:20)",
+          "year": "2020",
+          "url": "https://www.youtube.com/watch?v=IBIsLTQ-GKQ"
+        },
+        {
+          "summary": "A debate between atheist & theist (1:01:58)",
+          "year": "2021",
+          "url": "https://www.youtube.com/watch?v=1Vc1AiY_0Ts"
+        }
+      ]
+    },
+    {
+      "id": "The Problem of Evil",
+      "short": "Evil and suffering exist.",
+      "details": "Critics often argue that a good and omnipotent God would be able and willing to prevent evil and/or suffering, but since evil and suffering exist, God's existence is improbable.\n\nProponents argue that it is entirely possible that God allows evil and suffering to exist for good reason, even if we don't know what those reasons are.",
+      "category": "Philosophy",
+      "references": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "Contingent Existence",
+      "short": "Something must have its existence from itself rather than from something else.",
+      "details": "Proponents often make an argument from contingency: it is impossible that everything should depend on something else for its existence, which means there must be at least one reality that does not depend on anything else for its existence. Since it can't be dependent on space, time, or matter, it must necessarily be spaceless, timeless, and immaterial, which sounds a lot like God in classical theism.\n\nCritics often concede the necessity of a non-contingent reality, but suggest that it may be something other than what we might call \"God\", like the universe itself. This invites questions like how the universe, which seems to be dependent on laws and other complexities, can itself be the most fundamental reality.",
+      "category": "Philosophy",
+      "references": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "Physical Models Break Down",
+      "short": "The best physical models break down in the past.",
+      "details": "Proponents argue that if reality were entirely physical, we should expect physical reality to have neither beginning nor end, but our best models of how reality works point towards a beginning of the universe, which suggests there is something beyond the physical universe that could get it started.\n\nCritics often argue that it is possible for this to be the case even if reality is entirely physical too, but that the explanation is not yet known.",
+      "category": "Science",
+      "references": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "Infinite Information",
+      "short": "Our physical universe is finite, but mathematics shows that an infinite amount of information exists.",
+      "details": "Proponents argue that, because mathematics does not depend on anything natural and exists in minds, it may have come from a mind.\n\nCritics often argue that the origins of mathematics is simply unknowable, and any suggested origin is mere speculation.",
+      "category": "Philosophy",
+      "references": [
+        "Proving God exists using Math: https://www.youtube.com/watch?v=z0hxb5UVaNE"
+      ]
+    },
+    {
+      "id": "Moral Realism",
+      "short": "Morality seems to be objective.",
+      "details": "Proponents argue that everybody acts as if there is some sort of objective moral law that we owe some degree of obedience to, which only makes sense if there is an objective lawgiver.\n\nCritics sometimes argue that morality is merely a brute fact that needs no further explanation, or they may simply concede that it seems like there is a moral law and say that it is an intersubjective (rather than strictly objective) experience that is grounded in something like evolutionary history.",
+      "category": "Philosophy",
+      "references": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "Purpose and Teleology",
+      "short": "Creatures and objects seem to have purposes.",
+      "details": "Proponents argue that artifacts are made with specific purposes in mind, and that creatures likewise have natural purposes like growing and reproducing.\n\nCritics argue that it merely seems to us that there is purpose, and that what we observe is rather just a complex chain of causes and effects that our brains interpret as purposes.",
+      "category": "Philosophy",
+      "references": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "Consciousness",
+      "short": "Consciousness exists.",
+      "details": "Critics tend to see consciousness as something that is generated by the physical brain, but it has proven difficult to say anything satisfactory about how or why.\n\nProponents often argue that consciousness is fundamentally non-physical in some way. While this avoids the aforementioned mind-body problem, it also invites questions of how the mind interacts with the physical world.",
+      "category": "Philosophy",
+      "references": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "Encounters with God",
+      "short": "There are credible reports of encounters with the divine.",
+      "details": "Proponents argue that once we filter out spurious reports that include attention-seeking, drugs, and profit motives, we are left with credible individuals who have no reason to lie about their experiences.\n\nCritics often argue that there may well be other explanations for things like near-death experiences and fulfilled prophecies, but that we simply haven't found them yet.",
+      "category": "Experiential",
+      "references": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "Personal Experience",
+      "short": "Your own personal experience may be relevant.",
+      "details": "Critics argue that personal experiences are anecdotes, not data.\n\nProponents argue that, although personal experiences may not sway anyone else, they do count for one's personal beliefs.",
+      "category": "Philosophy",
+      "references": [
+        "N/A"
+      ]
+    }
+  ]
+}
