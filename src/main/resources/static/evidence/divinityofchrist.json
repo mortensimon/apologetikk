@@ -1,97 +1,179 @@
 {
-    "title": "Divinity of Jesus",
-    "intro": "Hypothesis: Jesus is God incarnate.",
+    "title": "Divinity of Christ",
+    "intro": "Hypothesis: Jesus Christ, the Messiah, is God.",
     "evidence": [
         {
             "id": 1,
-            "head": "Stephen Prayed to Jesus as Lord",
-            "short": "While he was being stoned to death, St. Stephen the Protomartyr prayed, \"Lord Jesus, receive my spirit\".",
-            "details": "Proponents argue that not only did he pray to Jesus — he called him \"Lord\" as well. This is a title which is usually used for God in the Septuagint and the New Testament.\n\nCritics argue that it is possible for people in the Second Temple period to use \"Lord\" as a title more generally, and also to call on people believed to be in Heaven, such as when people wonder if Jesus called out to Elijah in Matthew 27:45–49.",
-            "category": "Biblical",
-            "references": [
-                "Acts 7:59: https://biblehub.com/acts/7-59.htm",
-                "Matthew 27:45–49: https://www.biblegateway.com/passage/?search=Matthew%2027%3A45-49&version=NRSVCE"
-            ]
+            "head": "Claims to Divinity",
+            "short": "Jesus seems to have claimed divinity. This is a <a href=\"https://reasonableroad.com/bayes.html?id=divinityclaims\" target=\"_blank\" rel=\"noopener noreferrer\">hypothesis</a> in its own right.",
+            "details": "Proponents argue that Jesus actually did claim to be God.\n\nCritics argue that Jesus may simply have made divine-sounding claims that were misunderstood by the early Church.",
+            "category": "History"
         },
         {
             "id": 2,
-            "head": "Jesus Walked on Water",
-            "short": "Jesus walked on water and invited St. Peter to join him.",
-            "details": "Proponents argue that Job says only God walks on the waves (in the Septuagint, \"as on dry land\"), and so this is good evidence in favour of a claim to divinity. Also, crossing the sea to show one's divinity was also an idea recognized in the Greco-Roman world, which is why the emperor Caligula rode a chariot across a bridge he had instructed to be built, so he could claim divinity while he was alive. Also, there is a likely allusion to Job 9:11 (and/or Exodus 33:22, 1 Kings 19:11) in Mark 6:48.\n\nCritics argue that water miracles were done by Moses (Exodus 14:21–22) and Elisha (2 Kings 2:14) as well, and they were mere prophets acting with God's permission.",
+            "head": "And the Word Was God",
+            "short": "John opens his gospel account with a theological reflection on the Word of God: The Word was with God, and the Word was God.",
+            "details": "Proponents take this to mean that Jesus is the Word who became flesh and dwelt among us, and so Jesus is God.\n\nCritics generally see this as some sort of non-literal affirmation. Some see it as an affirmation that Jesus is *a god* in a limited sense, but not *God* in the absolute sense. They often invoke John 10:34, where Jesus quotes Psalm 82:6, to point out that \"god\" is used more broadly.",
             "category": "Biblical",
-            "references": [
-                "Mark 6:48: https://biblehub.com/mark/6-48.htm",
-                "Job 9:8: https://biblehub.com/job/9-8.htm",
-                "Job 9:11: https://biblehub.com/job/9-11.htm",
-                "Exodus 14:21–22: https://biblehub.com/exodus/14-21.htm",
-                "Exodus 33:22: https://biblehub.com/exodus/33-22.htm",
-                "1 Kings 19:11: https://biblehub.com/1_kings/19-11.htm",
-                "2 Kings 2:14: https://biblehub.com/2_kings/2-14.htm"
+            "bible": [
+                {
+                    "summary": "John 1:1–3 (Theological reflection on the Word)",
+                    "text": "<sup><a href=\"https://biblehub.com/john/1-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>In the beginning was the Word, and the Word was with God, and the Word was God. <sup><a href=\"https://biblehub.com/john/1-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>The same was in the beginning with God. <sup><a href=\"https://biblehub.com/john/1-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>All things were made through him. Without him, nothing was made that has been made."
+                },
+                {
+                    "summary": "John 10:34 (Jesus quotes Psalm 82:6)",
+                    "text": "<sup><a href=\"https://biblehub.com/john/10-34.htm\"target=\"_blank\"rel=\"noopener noreferrer\">34</a></sup>Jesus answered them, “Isn’t it written in your law, ‘I said, you are gods’?"
+                },
+                {
+                    "summary": "Psalm 82:6 (The psalm that says \"Ye are gods\")",
+                    "text": "<sup><a href=\"https://biblehub.com/psalm/82-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>I said, “You are gods, all of you are sons of the Most High."
+                }
             ]
         },
         {
             "id": 3,
-            "head": "Jesus as a Disciple of John the Baptist",
-            "short": "Jesus is baptized by St. John the Baptist and seems to take over for him after his death. Jesus speaks of those believing in him doing even greater works than what he did, possibly speaking of Peter and the other apostles, and St. John speaks of someone coming after him who is greater than him, generally taken to be Jesus.",
-            "details": "Critics argue that Jesus keeps giving his disciples the ability to do what he does, e.g. forgiving sins and walking on water (Matthew 14:29–31).\n\nProponents don't necessarily disagree with this, because Jesus was also fully man. He was Mary's son, and he grew in wisdom (Luke 2:52), so it is possible that he was, in some sense, a disciple of St. John the Baptist.",
+            "head": "Jesus Walked on Water",
+            "short": "Jesus walked on water and invited St. Peter to join him.",
+            "details": "Proponents argue that Job says only God walks on the waves (in the Septuagint, \"as on dry land\"), and so this is good evidence in favour of a claim to divinity. Also, crossing the sea to show one's divinity was also an idea recognized in the Greco-Roman world, which is why the emperor Caligula rode a chariot across a bridge he had instructed to be built, so he could claim divinity while he was alive. Also, there is a likely allusion to Job 9:11 (and/or Exodus 33:22, 1 Kings 19:11) in Mark 6:48.\n\nCritics argue that water miracles were done by Moses (Exodus 14:21–22) and Elisha (2 Kings 2:14) as well, and they were mere prophets acting with God's permission.",
             "category": "Biblical",
-            "references": [
-                "Matthew 14:29–31: https://biblehub.com/matthew/14-29.htm",
-                "Luke 2:52: https://biblehub.com/luke/2-52.htm",
-                "Luke 6:40: https://biblehub.com/luke/6-40.htm",
-                "John 14:12: https://biblehub.com/john/14-12.htm",
-                "John 17:20–23: https://biblehub.com/john/17-20.htm"
+            "bible": [
+                {
+                    "summary": "Matthew 14:22–33 (Jesus walks on water)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/14-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>Immediately Jesus made the disciples get into the boat and go ahead of him to the other side, while he sent the multitudes away. <sup><a href=\"https://biblehub.com/matthew/14-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>After he had sent the multitudes away, he went up into the mountain by himself to pray. When evening had come, he was there alone. <sup><a href=\"https://biblehub.com/matthew/14-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>But the boat was now in the middle of the sea, distressed by the waves, for the wind was contrary. <sup><a href=\"https://biblehub.com/matthew/14-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>In the fourth watch of the night, Jesus came to them, walking on the sea. <sup><a href=\"https://biblehub.com/matthew/14-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>When the disciples saw him walking on the sea, they were troubled, saying, “It’s a ghost!” and they cried out for fear. <sup><a href=\"https://biblehub.com/matthew/14-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>But immediately Jesus spoke to them, saying, “Cheer up! It is I! Don’t be afraid.” <sup><a href=\"https://biblehub.com/matthew/14-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>Peter answered him and said, “Lord, if it is you, command me to come to you on the waters.” <sup><a href=\"https://biblehub.com/matthew/14-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>He said, “Come!” Peter stepped down from the boat and walked on the waters to come to Jesus. <sup><a href=\"https://biblehub.com/matthew/14-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>But when he saw that the wind was strong, he was afraid, and beginning to sink, he cried out, saying, “Lord, save me!” <sup><a href=\"https://biblehub.com/matthew/14-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>Immediately Jesus stretched out his hand, took hold of him, and said to him, “You of little faith, why did you doubt?” <sup><a href=\"https://biblehub.com/matthew/14-32.htm\"target=\"_blank\"rel=\"noopener noreferrer\">32</a></sup>When they got up into the boat, the wind ceased. <sup><a href=\"https://biblehub.com/matthew/14-33.htm\"target=\"_blank\"rel=\"noopener noreferrer\">33</a></sup>Those who were in the boat came and worshiped him, saying, “You are truly the Son of God!”"
+                },
+                {
+                    "summary": "Mark 6:45–52 (Jesus walks on water)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/6-45.htm\"target=\"_blank\"rel=\"noopener noreferrer\">45</a></sup>Immediately he made his disciples get into the boat and go ahead to the other side, to Bethsaida, while he himself sent the multitude away. <sup><a href=\"https://biblehub.com/mark/6-46.htm\"target=\"_blank\"rel=\"noopener noreferrer\">46</a></sup>After he had taken leave of them, he went up the mountain to pray. <sup><a href=\"https://biblehub.com/mark/6-47.htm\"target=\"_blank\"rel=\"noopener noreferrer\">47</a></sup>When evening had come, the boat was in the middle of the sea, and he was alone on the land. <sup><a href=\"https://biblehub.com/mark/6-48.htm\"target=\"_blank\"rel=\"noopener noreferrer\">48</a></sup>Seeing them distressed in rowing, for the wind was contrary to them, about the fourth watch of the night he came to them, walking on the sea; and he would have passed by them, <sup><a href=\"https://biblehub.com/mark/6-49.htm\"target=\"_blank\"rel=\"noopener noreferrer\">49</a></sup>but they, when they saw him walking on the sea, supposed that it was a ghost, and cried out; <sup><a href=\"https://biblehub.com/mark/6-50.htm\"target=\"_blank\"rel=\"noopener noreferrer\">50</a></sup>for they all saw him and were troubled. But he immediately spoke with them and said to them, “Cheer up! It is I! Don’t be afraid.” <sup><a href=\"https://biblehub.com/mark/6-51.htm\"target=\"_blank\"rel=\"noopener noreferrer\">51</a></sup>He got into the boat with them; and the wind ceased, and they were very amazed among themselves, and marveled; <sup><a href=\"https://biblehub.com/mark/6-52.htm\"target=\"_blank\"rel=\"noopener noreferrer\">52</a></sup>for they hadn’t understood about the loaves, but their hearts were hardened."
+                },
+                {
+                    "summary": "John 6:16–21 (Jesus walks on water)",
+                    "text": "<sup><a href=\"https://biblehub.com/john/6-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>When evening came, his disciples went down to the sea. <sup><a href=\"https://biblehub.com/john/6-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>They entered into the boat, and were going over the sea to Capernaum. It was now dark, and Jesus had not come to them. <sup><a href=\"https://biblehub.com/john/6-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>The sea was tossed by a great wind blowing. <sup><a href=\"https://biblehub.com/john/6-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>When therefore they had rowed about twenty-five or thirty stadia, they saw Jesus walking on the sea and drawing near to the boat; and they were afraid. <sup><a href=\"https://biblehub.com/john/6-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>But he said to them, “It is I. Don’t be afraid.” <sup><a href=\"https://biblehub.com/john/6-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>They were willing therefore to receive him into the boat. Immediately the boat was at the land where they were going."
+                },
+                {
+                    "summary": "Job 9:8 (Masoretic Text)",
+                    "text": "<sup><a href=\"https://biblehub.com/job/9-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>He alone stretches out the heavens, and treads on the waves of the sea."
+                },
+                {
+                    "summary": "Job 9:8 (Septuagint)",
+                    "text": "<sup><a href=\"https://biblehub.com/sep/job/9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Who alone has stretched out the heavens, and walks on the sea as on firm ground."
+                },
+                {
+                    "summary": "Job 9:11 (Mentions God passing by)",
+                    "text": "<sup><a href=\"https://biblehub.com/job/9-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>Behold, he goes by me, and I don’t see him. He passes on also, but I don’t perceive him."
+                },
+                {
+                    "summary": "Exodus 14:21–22 (Moses and the parting of the sea)",
+                    "text": "<sup><a href=\"https://biblehub.com/exodus/14-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>Moses stretched out his hand over the sea, and YHWH caused the sea to go back by a strong east wind all night, and made the sea dry land, and the waters were divided. <sup><a href=\"https://biblehub.com/exodus/14-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>The children of Israel went into the middle of the sea on the dry ground; and the waters were a wall to them on their right hand and on their left."
+                },
+                {
+                    "summary": "Exodus 33:21–23 (God passes by Moses)",
+                    "text": "<sup><a href=\"https://biblehub.com/exodus/33-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>YHWH also said, “Behold, there is a place by me, and you shall stand on the rock. <sup><a href=\"https://biblehub.com/exodus/33-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>It will happen, while my glory passes by, that I will put you in a cleft of the rock, and will cover you with my hand until I have passed by; <sup><a href=\"https://biblehub.com/exodus/33-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>then I will take away my hand, and you will see my back; but my face shall not be seen.”"
+                },
+                {
+                    "summary": "1 Kings 19:11 (God passes by Elijah)",
+                    "text": "<sup><a href=\"https://biblehub.com/1_kings/19-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>He said, “Go out and stand on the mountain before YHWH.” Behold, YHWH passed by, and a great and strong wind tore the mountains and broke in pieces the rocks before YHWH; but YHWH was not in the wind. After the wind there was an earthquake; but YHWH was not in the earthquake."
+                },
+                {
+                    "summary": "2 Kings 2:8 (Elijah and Elisha cross the parted Jordan)",
+                    "text": "<sup><a href=\"https://biblehub.com/2_kings/2-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Elijah took his mantle, and rolled it up, and struck the waters; and they were divided here and there, so that they both went over on dry ground."
+                },
+                {
+                    "summary": "2 Kings 2:14 (Elisha crosses the parted Jordan)",
+                    "text": "<sup><a href=\"https://biblehub.com/2_kings/2-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>He took Elijah’s mantle that fell from him, and struck the waters, and said, “Where is YHWH, the God of Elijah?” When he also had struck the waters, they were divided apart, and Elisha went over."
+                }
             ]
         },
         {
             "id": 4,
-            "head": "Matthew's Changes",
-            "short": "The line where the scribes think only God can forgive sins is missing, and the crowd says God has given such authority to man, in Matthew's account, even though his gospel almost always overlaps with Mark's.",
-            "details": "Critics argue that if Mark's account is earlier, Matthew's removal of this part could indicate that an understanding had developed that it wasn't the case that only God could forgive sins, and that Jesus was not God, but rather a man with authority *from* God.\n\nProponents argue that God has given the authority to man, but that Jesus is not *merely* a man, although the crowd would not know this. Why Matthew left out the part about forgiving sins, he could have had any number of reasons for it (e.g. copying error), and Matthew doesn't always copy Mark verbatim, even though he includes almost all of the same episodes, though often shortened.",
+            "head": "Jesus as a Prophet and Disciple of John the Baptist",
+            "short": "Jesus acted like a prophet and was baptized by St. John the Baptist, another prophet, and seems to sort of \"take over\" for him after his death, much like Elisha after Elijah.",
+            "details": "Critics argue that St. John speaks of someone coming after him who is greater than him, and Jesus similarly speaks of those believing in him doing even greater works than he did. Also, just like St. John giving his disciples the ability to baptize for repentance, Jesus gave *his* disciples the ability to do what he does, e.g. forgive sins, heal people, see the future, and walk on water (Matthew 14:29–31). This seems to suggest a human line of prophets, similar to Elijah passing the torch to Elisha.\n\nProponents don't necessarily disagree with this, because Jesus was also fully man: He was Mary's son, and he grew in wisdom (Luke 2:52), so it is possible that he was, in *some* sense, a disciple of St. John the Baptist. However, Jesus and St. John were also baptizing people seperately and at the same time, so it doesn't look like Jesus was under his authority, at least not in the way St. John's other disciples were. And even if he were, this would not take away from his divine nature, because divine or not, Jesus was also a human prophet.",
             "category": "Biblical",
-            "references": [
-                "Matthew 9:3: https://biblehub.com/matthew/9-3.htm",
-                "Matthew 9:7–8: https://biblehub.com/matthew/9-7.htm"
+            "bible": [
+                {
+                    "summary": "Matthew 14:29–31 (Peter walks on the water with Jesus)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/14-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>He said, “Come!” Peter stepped down from the boat and walked on the waters to come to Jesus. <sup><a href=\"https://biblehub.com/matthew/14-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>But when he saw that the wind was strong, he was afraid, and beginning to sink, he cried out, saying, “Lord, save me!” <sup><a href=\"https://biblehub.com/matthew/14-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>Immediately Jesus stretched out his hand, took hold of him, and said to him, “You of little faith, why did you doubt?”"
+                },
+                {
+                    "summary": "Luke 2:52 (Jesus increased in wisdom and stature)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/2-52.htm\"target=\"_blank\"rel=\"noopener noreferrer\">52</a></sup>And Jesus increased in wisdom and stature, and in favor with God and men."
+                },
+                {
+                    "summary": "Luke 6:40 (Everyone will be like his teacher once trained)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/6-40.htm\"target=\"_blank\"rel=\"noopener noreferrer\">40</a></sup>A disciple is not above his teacher, but everyone when he is fully trained will be like his teacher."
+                },
+                {
+                    "summary": "John 14:12 (Greater works than Jesus)",
+                    "text": "<sup><a href=\"https://biblehub.com/john/14-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>Most certainly I tell you, he who believes in me, the works that I do, he will do also; and he will do greater works than these, because I am going to my Father."
+                },
+                {
+                    "summary": "John 17:20–26 (Jesus prays for all believers)",
+                    "text": "<sup><a href=\"https://biblehub.com/john/17-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>“Not for these only do I pray, but for those also who will believe in me through their word, <sup><a href=\"https://biblehub.com/john/17-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>that they may all be one; even as you, Father, are in me, and I in you, that they also may be one in us; that the world may believe that you sent me. <sup><a href=\"https://biblehub.com/john/17-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>The glory which you have given me, I have given to them, that they may be one, even as we are one, <sup><a href=\"https://biblehub.com/john/17-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>I in them, and you in me, that they may be perfected into one, that the world may know that you sent me and loved them, even as you loved me. <sup><a href=\"https://biblehub.com/john/17-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>Father, I desire that they also whom you have given me be with me where I am, that they may see my glory which you have given me, for you loved me before the foundation of the world. <sup><a href=\"https://biblehub.com/john/17-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>Righteous Father, the world hasn’t known you, but I knew you; and these knew that you sent me. <sup><a href=\"https://biblehub.com/john/17-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>I made known to them your name, and will make it known; that the love with which you loved me may be in them, and I in them.”"
+                },
+                {
+                    "summary": "2 Kings 2:8–15 (Elijah is taken up to Heaven, and Elisha carries on his prophetic legacy.)",
+                    "text": "<sup><a href=\"https://biblehub.com/2_kings/2-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Elijah took his mantle, and rolled it up, and struck the waters; and they were divided here and there, so that they both went over on dry ground. <sup><a href=\"https://biblehub.com/2_kings/2-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>When they had gone over, Elijah said to Elisha, “Ask what I shall do for you, before I am taken from you.” Elisha said, “Please let a double portion of your spirit be on me.” <sup><a href=\"https://biblehub.com/2_kings/2-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>He said, “You have asked a hard thing. If you see me when I am taken from you, it will be so for you; but if not, it will not be so.” <sup><a href=\"https://biblehub.com/2_kings/2-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>As they continued on and talked, behold, a chariot of fire and horses of fire separated them; and Elijah went up by a whirlwind into heaven. <sup><a href=\"https://biblehub.com/2_kings/2-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>Elisha saw it, and he cried, “My father, my father, the chariots of Israel and its horsemen!” He saw him no more. Then he took hold of his own clothes and tore them in two pieces. <sup><a href=\"https://biblehub.com/2_kings/2-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>He also took up Elijah’s mantle that fell from him, and went back and stood by the bank of the Jordan. <sup><a href=\"https://biblehub.com/2_kings/2-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>He took Elijah’s mantle that fell from him, and struck the waters, and said, “Where is YHWH, the God of Elijah?” When he also had struck the waters, they were divided apart, and Elisha went over. <sup><a href=\"https://biblehub.com/2_kings/2-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>When the sons of the prophets who were at Jericho facing him saw him, they said, “The spirit of Elijah rests on Elisha.” They came to meet him, and bowed themselves to the ground before him."
+                }
             ]
         },
         {
             "id": 5,
-            "head": "God and Jesus",
-            "short": "Many passages in the New Testament seem to distinguish between \"God\" and \"Jesus\", with the former referring to the Father alone.",
-            "details": "Critics argue that this suggests Jesus is not God, because if the writers considered him to be divine, they wouldn't have made this distinction.\n\nProponents argue that the New Testament authors are used to speaking of the Father as \"God\" and Jesus by name, but because the same authors also display high christology elsewhere, we should understand this \"accidental distinction\" as an informal expression rather than a statement indicating that Jesus is not God.",
+            "head": "Matthew's Changes",
+            "short": "The line where the scribes think only God can forgive sins is missing in Matthew, and the crowd says God has given such authority to man, even though his gospel almost always overlaps with Mark's.",
+            "details": "Critics argue that if Mark's account is earlier, Matthew's removal of this part could indicate that an understanding had developed that it wasn't the case that only God could forgive sins, and that Jesus was not God, but rather a man with authority *from* God.\n\nProponents argue that God has given the authority to man, but that Jesus is not *merely* a man, although the crowd would not know this. Why Matthew left out the part about forgiving sins, he could have had any number of reasons for it (e.g. copying error), and Matthew doesn't always copy Mark verbatim, even though he includes almost all of the same episodes, though often shortened.",
             "category": "Biblical",
-            "references": [
-                "1 Cor 8:6: https://biblehub.com/1_corinthians/8-6.htm"
+            "bible": [
+                {
+                    "summary": "Matthew 9:1–8 (Jesus heals the paralytic)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/9-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>He entered into a boat and crossed over, and came into his own city. <sup><a href=\"https://biblehub.com/matthew/9-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Behold, they brought to him a man who was paralyzed, lying on a bed. Jesus, seeing their faith, said to the paralytic, “Son, cheer up! Your sins are forgiven you.” <sup><a href=\"https://biblehub.com/matthew/9-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>Behold, some of the scribes said to themselves, “This man blasphemes.” <sup><a href=\"https://biblehub.com/matthew/9-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>Jesus, knowing their thoughts, said, “Why do you think evil in your hearts? <sup><a href=\"https://biblehub.com/matthew/9-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>For which is easier, to say, ‘Your sins are forgiven;’ or to say, ‘Get up, and walk’? <sup><a href=\"https://biblehub.com/matthew/9-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>But that you may know that the Son of Man has authority on earth to forgive sins—” (then he said to the paralytic), “Get up, and take up your mat, and go to your house.” <sup><a href=\"https://biblehub.com/matthew/9-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>He arose and departed to his house. <sup><a href=\"https://biblehub.com/matthew/9-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>But when the multitudes saw it, they marveled and glorified God, who had given such authority to men."
+                },
+                {
+                    "summary": "Mark 2:1–12 (Jesus heals the paralytic)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/2-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>When he entered again into Capernaum after some days, it was heard that he was at home. <sup><a href=\"https://biblehub.com/mark/2-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Immediately many were gathered together, so that there was no more room, not even around the door; and he spoke the word to them. <sup><a href=\"https://biblehub.com/mark/2-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>Four people came, carrying a paralytic to him. <sup><a href=\"https://biblehub.com/mark/2-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>When they could not come near to him for the crowd, they removed the roof where he was. When they had broken it up, they let down the mat that the paralytic was lying on. <sup><a href=\"https://biblehub.com/mark/2-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>Jesus, seeing their faith, said to the paralytic, “Son, your sins are forgiven you.” <sup><a href=\"https://biblehub.com/mark/2-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>But there were some of the scribes sitting there and reasoning in their hearts, <sup><a href=\"https://biblehub.com/mark/2-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>“Why does this man speak blasphemies like that? Who can forgive sins but God alone?” <sup><a href=\"https://biblehub.com/mark/2-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Immediately Jesus, perceiving in his spirit that they so reasoned within themselves, said to them, “Why do you reason these things in your hearts? <sup><a href=\"https://biblehub.com/mark/2-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>Which is easier, to tell the paralytic, ‘Your sins are forgiven;’ or to say, ‘Arise, and take up your bed, and walk’? <sup><a href=\"https://biblehub.com/mark/2-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>But that you may know that the Son of Man has authority on earth to forgive sins”—he said to the paralytic— <sup><a href=\"https://biblehub.com/mark/2-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>“I tell you, arise, take up your mat, and go to your house.” <sup><a href=\"https://biblehub.com/mark/2-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>He arose, and immediately took up the mat and went out in front of them all, so that they were all amazed and glorified God, saying, “We never saw anything like this!”"
+                },
+                {
+                    "summary": "Luke 5:17–26 (Jesus heals the paralytic)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/5-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>On one of those days, he was teaching; and there were Pharisees and teachers of the law sitting by who had come out of every village of Galilee, Judea, and Jerusalem. The power of the Lord was with him to heal them. <sup><a href=\"https://biblehub.com/luke/5-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Behold, men brought a paralyzed man on a cot, and they sought to bring him in to lay before Jesus. <sup><a href=\"https://biblehub.com/luke/5-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>Not finding a way to bring him in because of the multitude, they went up to the housetop and let him down through the tiles with his cot into the middle before Jesus. <sup><a href=\"https://biblehub.com/luke/5-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>Seeing their faith, he said to him, “Man, your sins are forgiven you.” <sup><a href=\"https://biblehub.com/luke/5-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>The scribes and the Pharisees began to reason, saying, “Who is this who speaks blasphemies? Who can forgive sins, but God alone?” <sup><a href=\"https://biblehub.com/luke/5-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>But Jesus, perceiving their thoughts, answered them, “Why are you reasoning so in your hearts? <sup><a href=\"https://biblehub.com/luke/5-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>Which is easier to say, ‘Your sins are forgiven you,’ or to say, ‘Arise and walk’? <sup><a href=\"https://biblehub.com/luke/5-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>But that you may know that the Son of Man has authority on earth to forgive sins,” he said to the paralyzed man, “I tell you, arise, take up your cot, and go to your house.” <sup><a href=\"https://biblehub.com/luke/5-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>Immediately he rose up before them, and took up that which he was laying on, and departed to his house, glorifying God. <sup><a href=\"https://biblehub.com/luke/5-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>Amazement took hold on all, and they glorified God. They were filled with fear, saying, “We have seen strange things today.”"
+                }
             ]
         },
         {
             "id": 6,
-            "head": "",
-            "short": "",
-            "details": "",
-            "category": "",
-            "references": [
-                ""
+            "head": "God and Jesus",
+            "short": "Many passages in the New Testament seem to distinguish between \"God\" and \"Jesus\", with the former referring to the Father alone.",
+            "details": "Critics argue that this suggests Jesus is not God, because if the writers considered him to be divine, they wouldn't have made this distinction.\n\nProponents argue that the New Testament authors are used to speaking of the Father as \"God\" and Jesus by name, but because the same authors also display high christology elsewhere, we should understand this \"accidental distinction\" as an informal expression rather than a statement indicating that Jesus is not God.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "1 Corinthians 8:5–6 (\"God\" and \"Lord\" contrast with pagan deities)",
+                    "text": "<sup><a href=\"https://biblehub.com/1_corinthians/8-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>For though there are things that are called “gods”, whether in the heavens or on earth—as there are many “gods” and many “lords”— <sup><a href=\"https://biblehub.com/1_corinthians/8-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>yet to us there is one God, the Father, of whom are all things, and we for him; and one Lord, Jesus Christ, through whom are all things, and we live through him."
+                }
             ]
         },
         {
             "id": 7,
-            "head": "",
-            "short": "",
-            "details": "",
-            "category": "",
-            "references": [
-                ""
+            "head": "\"My Lord and My God\"",
+            "short": "St. Thomas, who doubted that it was the resurrected Jesus he was looking at, was convinced when invited to touch his wounds, and he exclaimed, \"My lord and my God\".",
+            "details": "Proponents argue that, because nobody corrects Thomas, this is a tacit claim by Jesus to being God.\n\nSome critics point out that this statement is not in the vocative case, so it may not be talking about Jesus at all. Rather, St. Thomas could be directing his exclamation *to* God, rather than Jesus.\n\nProponents generally don't see the use of the nominative here as a problem, because the exclamation doesn't have to be directed *at* Jesus even if it is *about* him.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "John 20:24–29 (Jesus appears to Thomas)",
+                    "text": "<sup><a href=\"https://biblehub.com/john/20-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>But Thomas, one of the twelve, called Didymus, wasn’t with them when Jesus came. <sup><a href=\"https://biblehub.com/john/20-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>The other disciples therefore said to him, “We have seen the Lord!” But he said to them, “Unless I see in his hands the print of the nails, put my finger into the print of the nails, and put my hand into his side, I will not believe.” <sup><a href=\"https://biblehub.com/john/20-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>After eight days, again his disciples were inside and Thomas was with them. Jesus came, the doors being locked, and stood in the middle, and said, “Peace be to you.” <sup><a href=\"https://biblehub.com/john/20-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>Then he said to Thomas, “Reach here your finger, and see my hands. Reach here your hand, and put it into my side. Don’t be unbelieving, but believing.” <sup><a href=\"https://biblehub.com/john/20-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>Thomas answered him, “My Lord and my God!” <sup><a href=\"https://biblehub.com/john/20-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>Jesus said to him, “Because you have seen me, you have believed. Blessed are those who have not seen and have believed.”"
+                }
             ]
         },
         {
             "id": 8,
-            "head": "",
-            "short": "",
-            "details": "",
-            "category": "",
-            "references": [
-                ""
+            "head": "Stephen Prayed to Jesus as Lord",
+            "short": "While he was being stoned to death, St. Stephen the Protomartyr prayed, \"Lord Jesus, receive my spirit\".",
+            "details": "Proponents argue that not only did he pray to Jesus — he called him \"Lord\" as well. This is a title which is usually used for God in the Septuagint and the New Testament.\n\nCritics argue that it is possible for people in the Second Temple period to use \"Lord\" as a title more generally, and also to call on people believed to be in Heaven, such as when people wonder if Jesus called out to Elijah in Matthew 27:45–49.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "Acts 7:54–60 (The stoning of Stephen)",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/7-54.htm\"target=\"_blank\"rel=\"noopener noreferrer\">54</a></sup>Now when they heard these things, they were cut to the heart, and they gnashed at him with their teeth. <sup><a href=\"https://biblehub.com/acts/7-55.htm\"target=\"_blank\"rel=\"noopener noreferrer\">55</a></sup>But he, being full of the Holy Spirit, looked up steadfastly into heaven and saw the glory of God, and Jesus standing on the right hand of God, <sup><a href=\"https://biblehub.com/acts/7-56.htm\"target=\"_blank\"rel=\"noopener noreferrer\">56</a></sup>and said, “Behold, I see the heavens opened and the Son of Man standing at the right hand of God!” <sup><a href=\"https://biblehub.com/acts/7-57.htm\"target=\"_blank\"rel=\"noopener noreferrer\">57</a></sup>But they cried out with a loud voice and stopped their ears, then rushed at him with one accord. <sup><a href=\"https://biblehub.com/acts/7-58.htm\"target=\"_blank\"rel=\"noopener noreferrer\">58</a></sup>They threw him out of the city and stoned him. The witnesses placed their garments at the feet of a young man named Saul. <sup><a href=\"https://biblehub.com/acts/7-59.htm\"target=\"_blank\"rel=\"noopener noreferrer\">59</a></sup>They stoned Stephen as he called out, saying, “Lord Jesus, receive my spirit!” <sup><a href=\"https://biblehub.com/acts/7-60.htm\"target=\"_blank\"rel=\"noopener noreferrer\">60</a></sup>He kneeled down and cried with a loud voice, “Lord, don’t hold this sin against them!” When he had said this, he fell asleep."
+                }
             ]
         },
         {
@@ -116,6 +198,16 @@
         },
         {
             "id": 11,
+            "head": "",
+            "short": "",
+            "details": "",
+            "category": "",
+            "references": [
+                ""
+            ]
+        },
+        {
+            "id": 12,
             "head": "",
             "short": "",
             "details": "",
