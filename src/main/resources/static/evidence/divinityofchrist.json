@@ -215,6 +215,23 @@
             "references": [
                 ""
             ]
+        },
+        {
+            "id": 18,
+            "head": "The Qur'an Denies Jesus's Divinity",
+            "short": "The Qur'an explicitly denies that Jesus is God or the Son of God.",
+            "details": "Proponents generally see the Qur'an as a divinely inspired book, which would make it the final word on the matter.\n\nCritics generally question the Qur'an's authenticity.",
+            "category": "Islamic",
+            "quran": [
+                {
+                    "summary": "Surah 3:45",
+                    "text": "<sup><a href=\"https://quran.com/3/45\" target=\"_blank\" rel=\"noopener noreferrer\">45</a></sup>(And remember) when the angels said: O Mary! Lo! Allah giveth thee glad tidings of a word from him, whose name is the Messiah, Jesus, son of Mary, illustrious in the world and the Hereafter, and one of those brought near (unto Allah)."
+                },
+                {
+                    "summary": "Surah 4:171",
+                    "text": "<sup><a href=\"https://quran.com/4/171\" target=\"_blank\" rel=\"noopener noreferrer\">171</a></sup>O People of the Scripture! Do not exaggerate in your religion nor utter aught concerning Allah save the truth. The Messiah, Jesus son of Mary, was only a messenger of Allah, and His word which He conveyed unto Mary, and a spirit from Him. So believe in Allah and His messengers, and say not \"Three\" - Cease! (it is) better for you! - Allah is only One Allah. Far is it removed from His Transcendent Majesty that He should have a son. His is all that is in the heavens and all that is in the earth. And Allah is sufficient as Defender."
+                }
+            ]
         }
     ]
 }

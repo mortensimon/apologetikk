@@ -75,6 +75,43 @@
             "references": [
                 ""
             ]
+        },
+        {
+            "id": 8,
+            "head": "Consensus of the Church",
+            "short": "The Catholic Church, the Eastern Orthodox Church, the Oriental Orthodox Church, the Assyrian Church of the East, as well as most of their splinter groups, pray to the saints.",
+            "details": "Proponents argue that the Church has already decided this.\n\nCritics caution that it might be possible for the entire Church to be wrong.",
+            "category": "History",
+            "references": [
+                ""
+            ]
+        },
+        {
+            "id": 9,
+            "head": "Protestant Opposition",
+            "short": "Most Protestant groups do not pray to the saints, and many of them actively discourage or condemn it.",
+            "details": "Critics argue that this shows that it is not a necessary practice.\n\nProponents argue that most Protestant groups are simply reacting against the Catholic Church and may be wrong on this issue.",
+            "category": "History",
+            "references": [
+                ""
+            ]
+        },
+        {
+            "id": 10,
+            "head": "The Qur'an Forbids It",
+            "short": "The Qur'an forbids praying to anyone other than God.",
+            "details": "Some critics argue that this is sufficient to show that praying to saints is wrong.\n\nProponents generally question the Qur'an's authenticity.",
+            "category": "Islamic",
+            "references": [
+                {
+                    "summary": "Surah 10:18",
+                    "text": "<sup><a href=\"https://quran.com/10/18\" target=\"_blank\" rel=\"noopener noreferrer\">18</a></sup>They worship beside Allah that which neither hurteth them nor profiteth them, and they say: These are our intercessors with Allah. Say: Would ye inform Allah of (something) that He knoweth not in the heavens or in the earth? Praised be He and High Exalted above all that ye associate (with Him)!"
+                },
+                {
+                    "summary": "Surah 72:18",
+                    "text": "<sup><a href=\"https://quran.com/72/18\" target=\"_blank\" rel=\"noopener noreferrer\">18</a></sup>And the places of worship are only for Allah, so pray not unto anyone along with Allah."
+                }
+            ]
         }
     ]
 }

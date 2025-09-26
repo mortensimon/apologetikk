@@ -92,6 +92,23 @@
             "short": "In 1858, Bernadette Soubirous, a 14-year-old peasant girl, reportedly met a lady who called herself \"the Immaculate Conception\" 18 times at Lourdes in France, four years after that Catholic dogma was defined.",
             "details": "Proponents point to her lack of education and her sincerity to argue for the Immaculate Conception (taught in the Catholic and Ethiopian Orthodox churches), which presupposes Mary's sinlessness.\n\nCritics argue that supernatural encounters can be explained in other ways, like maybe she had heard the name of the newly defined dogma somewhere and was sincerely mistaken about the encounter.",
             "category": "History"
+        },
+        {
+            "id": 14,
+            "head": "The Qur'an Holds Mary to be Specially Chosen",
+            "short": "The Qur'an describes Mary as \"chosen above all women\" and \"pure\".",
+            "details": "Proponents argue that, whether one accepts the Qur'an's inspiration or not, this indicates that Christians in Arabia held Mary in very high regard.\n\nCritics generally question the Qur'an's value as a witness because it was written several centuries after the New Testament.",
+            "category": "Islamic",
+            "quran": [
+                {
+                    "summary": "Surah 3:42–43",
+                    "text": "<sup><a href=\"https://quran.com/3/42\" target=\"_blank\" rel=\"noopener noreferrer\">42</a></sup>And when the angels said: O Mary! Lo! Allah hath chosen thee and made thee pure, and hath preferred thee above (all) the women of creation. <sup><a href=\"https://quran.com/3/43\" target=\"_blank\" rel=\"noopener noreferrer\">43</a></sup>O Mary! Be obedient to thy Lord, prostrate thyself and bow with those who bow (in worship)."
+                },
+                {
+                    "summary": "Surah 66:12",
+                    "text": "<sup><a href=\"https://quran.com/66/12\" target=\"_blank\" rel=\"noopener noreferrer\">12</a></sup>And Mary, daughter of 'Imran, whose body was chaste, therefor We breathed therein something of Our Spirit. And she put faith in the words of her Lord and His scriptures, and was of the obedient."
+                }
+            ]
         }
     ]
 }

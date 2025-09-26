@@ -168,6 +168,31 @@
                 "Westminster Confession of Faith, Chapter 32: http://www.covenantofgrace.com/westminster_chapter32.htm",
                 "Catechism of St. Philaret of Moscow, §§ 366-377: https://www.pravoslavieto.com/docs/eng/Orthodox_Catechism_of_Philaret.htm (\"The souls of the righteous are in light and rest, with a foretaste of eternal happiness; but the souls of the wicked are in a state the reverse of this. \")"
             ]
+        },
+        {
+            "id": 16,
+            "head": "The Qur'an on the Afterlife",
+            "short": "The Qur'an describes the dead as being conscious in the afterlife.",
+            "details": "Some critics argue that the Qur'an is divinely inspired, and so soul sleep must be false.\n\nProponents generally reject the Qur'an's divine inspiration, but some point out that the Qur'an sometimes describes death as \"sleep\" as well, which could suggest that those who are not martyrs do sleep.",
+            "category": "Islamic",
+            "quran": [
+                {
+                    "summary": "Surah 3:169 (Martyrs are alive)",
+                    "text": "<sup><a href=\"https://quran.com/3/169\" target=\"_blank\" rel=\"noopener noreferrer\">169</a></sup>Think not of those, who are slain in the way of Allah, as dead. Nay, they are living. With their Lord they have provision."
+                },
+                {
+                    "summary": "Surah 23:99–100 (Souls seem to speak)",
+                    "text": "<sup><a href=\"https://quran.com/23/99\" target=\"_blank\" rel=\"noopener noreferrer\">99</a></sup>Until, when death cometh unto one of them, he saith: My Lord! Send me back, <sup><a href=\"https://quran.com/23/100\" target=\"_blank\" rel=\"noopener noreferrer\">100</a></sup>That I may do right in that which I have left behind! But nay! It is but a word that he speaketh; and behind them is a barrier until the day when they are raised."
+                },
+                {
+                    "summary": "Surah 6:60 (Death as sleep)",
+                    "text": "<sup><a href=\"https://quran.com/6/60\" target=\"_blank\" rel=\"noopener noreferrer\">60</a></sup>He it is Who gathereth you at night and knoweth that which ye commit by day. Then He raiseth you again to life therein, that the term appointed (for you) may be accomplished. And afterward unto Him is your return. Then He will proclaim unto you what ye used to do."
+                },
+                {
+                    "summary": "Surah 39:42 (Death as sleep)",
+                    "text": "<sup><a href=\"https://quran.com/39/42\" target=\"_blank\" rel=\"noopener noreferrer\">42</a></sup>Allah receiveth (men's) souls at the time of their death, and that (soul) which dieth not (yet) in its sleep. He keepeth that (soul) for which He hath ordained death and dismisseth the rest till an appointed term. Lo! herein verily are portents for people who take thought."
+                }
+            ]
         }
     ]
 }

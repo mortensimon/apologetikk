@@ -475,6 +475,23 @@
             "modern": [
                 "Alex O'Connor, Jesus DID Claim to be God - Brant Pitre: https://youtu.be/CNZkadmhjWo?t=4131 (01:08:51)"
             ]
-        }
+        },
+        {
+            "id": 18,
+            "head": "The Qur'an Denies That Jesus Claimed to Be God",
+            "short": "The Qur'an explicitly denies that Jesus claimed to be God or the Son of God.",
+            "details": "Proponents generally see the Qur'an as a divinely inspired book, which would make it the final word on the matter.\n\nCritics generally question the Qur'an's authenticity.",
+            "category": "Islamic",
+            "quran": [
+                {
+                    "summary": "Surah 5:72",
+                    "text": "<sup><a href=\"https://quran.com/5/72\" target=\"_blank\" rel=\"noopener noreferrer\">72</a></sup>They surely disbelieve who say: Lo! Allah is the Messiah, son of Mary. The Messiah (himself) said: O Children of Israel, worship Allah, my Lord and your Lord. Lo! whoso ascribeth partners unto Allah, for him Allah hath forbidden paradise. His abode is the Fire. For evil-doers there will be no helpers."
+                },
+                {
+                    "summary": "Surah 5:116",
+                    "text": "<sup><a href=\"https://quran.com/5/116\" target=\"_blank\" rel=\"noopener noreferrer\">116</a></sup>And when Allah saith: O Jesus, son of Mary! Didst thou say unto mankind: Take me and my mother for two gods beside Allah? he saith: Be glorified! It was not mine to utter that to which I had no right. If I used to say it, then Thou knewest it. Thou knowest what is in my mind, and I know not what is in Thy Mind. Lo! Thou, only Thou, art the Knower of Things Hidden?"
+                }
+            ]
+        }        
     ]
 }

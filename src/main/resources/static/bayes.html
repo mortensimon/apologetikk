@@ -146,6 +146,21 @@
             </li>
           </ul>
         </div>
+        <!-- Quran ref -->
+        <div v-if="hypJson.evidence[idx].quran?.length" style="margin-top: 8px;">
+          <strong>Qur'an references:</strong>
+          <ul class="ref-list">
+            <li v-for="(ref, refIdx) in hypJson.evidence[idx].quran" :key="refIdx">
+              <details class="ref-item">
+                <summary>
+                  <span class="chev">▶</span>
+                  <span v-html="ref.summary"></span>
+                </summary>
+                <div class="ref-text" v-html="ref.text"></div>
+              </details>
+            </li>
+          </ul>
+        </div>
         <!-- Ancient ref -->
         <div v-if="hypJson.evidence[idx].ancient?.length" style="margin-top: 8px;">
           <strong>Ancient references:</strong>
