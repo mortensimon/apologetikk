@@ -21,7 +21,12 @@
     <a href="index.html" class="logo-link">
       <img src="./img/favicon-32x32.png" alt="Logo" class="logo-img">
     </a>
-    <span class="header-title">{{ hypJson.title }} (<a :href="'stats.html?hyp=' + (hypJson.name || '')">Statistics</a>)</span>
+    <span class="header-title">
+      {{ hypJson.title }}
+      <span style="font-size: 0.5em">
+       (<a :href="'stats.html?hyp=' + (hypJson.name || '')">Collected stats</a>)
+      </span>
+    </span>
   </div>
 
   <div class="lead" v-html="formatNewline(hypJson.intro)"></div>
@@ -111,7 +116,7 @@
         </div>
       </div>
       <div>
-        <b>Summary:</b> {{ hypJson.evidence[idx].short }}
+        <b>Summary:</b> <span v-html="hypJson.evidence[idx].short"></span>
       </div>
       <div>
         <b>Category:</b> {{ hypJson.evidence[idx].category }}
@@ -127,7 +132,7 @@
           <strong>References:</strong>
           <ul>
             <li v-for="(ref, refIdx) in hypJson.evidence[idx].references" :key="refIdx">
-              <div v-html="ref"></div>
+              <div v-html="makeRefIntoTextWithLink(ref)"></div>
             </li>
           </ul>
         </div>
