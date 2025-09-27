@@ -14,40 +14,28 @@
             "head": "Varying Accounts",
             "short": "Accounts vary considerably.",
             "details": "Critics argue that the accounts are unlikely to stem from a common source. They are also late and could simply contain legendary developments.\n\nProponents argue that this does not mean there isn't a historical core based on oral tradition.",
-            "category": "History",
-            "references": [
-                ""
-            ]
+            "category": "History"
         },
         {
             "id": 3,
             "head": "Absence of relics",
             "short": "There are no known relics of Mary's bodyparts, only items she supposedly touched.",
             "details": "Critics argue that this does not mean there weren't such relics at some point, and that they have been lost to history. The idea of Mary's assumption could even have contributed to discourage accepting supposed relics as genuine.\n\nProponents argue that, with all the interest in both Mary and relics, it is inconceivable that her relics should be unknown in the early Church.",
-            "category": "History",
-            "references": [
-                ""
-            ]
+            "category": "History"
         },
         {
             "id": 4,
             "head": "Church Consensus",
             "short": "Mary's bodily assumption is affirmed in the Catholic Church, the Eastern Orthodox Church, the Oriental Orthodox Church, and in their splinter groups.",
             "details": "Critics argue that this could simply be a widespread belief that is nevertheless false, and now it is so ancient that it's too late for these traditionalist communions to change it.\n\nProponents argue that the Church is divinely guided, and although there may be disagreements among these communions, they are probably right when they all agree.",
-            "category": "History",
-            "references": [
-                ""
-            ]
+            "category": "History"
         },
         {
             "id": 5,
             "head": "Missing in the Assyrian Church of the East",
             "short": "Mary's bodily assumption is merely a matter of pious opinion in the Assyrian Church of the East.",
             "details": "Critics argue that this indicates the belief is an innovation.\n\nProponents argue that the Church of the East merely did not define it as a doctrine, but that doesn't mean it isn't true.",
-            "category": "History",
-            "references": [
-                ""
-            ]
+            "category": "History"
         },
         {
             "id": 6,
@@ -55,8 +43,15 @@
             "short": "Revelation 11–12 seems to imply that Mary was taken up to Heaven.",
             "details": "Critics argue that Revelation is notoriously difficult to interpret, and this woman could mean Israel or the Church, not necessarily Mary in particular.\n\nProponents argue that the woman gives birth to the Messiah, and only Mary has ever given birth to the one true Messiah.",
             "category": "Biblical",
-            "references": [
-                "Read online: https://biblehub.com/revelation/11-19.htm and https://biblehub.com/bsb/revelation/12.htm"
+            "bible": [
+                {
+                    "summary": "Revelation 11:19–12:6 (First half, before the dragon appears)",
+                    "text": "<sup><a href=\"https://biblehub.com/revelation/11-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>God’s temple that is in heaven was opened, and the ark of the Lord’s covenant was seen in his temple. Lightnings, sounds, thunders, an earthquake, and great hail followed.\n\n<sup><a href=\"https://biblehub.com/revelation/12-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12:1</a></sup>A great sign was seen in heaven: a woman clothed with the sun, and the moon under her feet, and on her head a crown of twelve stars. <sup><a href=\"https://biblehub.com/revelation/12-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>She was with child. She cried out in pain, laboring to give birth. <sup><a href=\"https://biblehub.com/revelation/12-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>Another sign was seen in heaven. Behold, a great red dragon, having seven heads and ten horns, and on his heads seven crowns. <sup><a href=\"https://biblehub.com/revelation/12-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>His tail drew one third of the stars of the sky, and threw them to the earth. The dragon stood before the woman who was about to give birth, so that when she gave birth he might devour her child. <sup><a href=\"https://biblehub.com/revelation/12-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>She gave birth to a son, a male child, who is to rule all the nations with a rod of iron. Her child was caught up to God and to his throne. <sup><a href=\"https://biblehub.com/revelation/12-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>The woman fled into the wilderness, where she has a place prepared by God, that there they may nourish her one thousand two hundred sixty days."
+                },
+                {
+                    "summary": "Revelation 12:13–18 (Second half, after the dragon appears)",
+                    "text": "<sup><a href=\"https://biblehub.com/revelation/12-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>When the dragon saw that he was thrown down to the earth, he persecuted the woman who gave birth to the male child. <sup><a href=\"https://biblehub.com/revelation/12-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>Two wings of the great eagle were given to the woman, that she might fly into the wilderness to her place, so that she might be nourished for a time, times, and half a time, from the face of the serpent. <sup><a href=\"https://biblehub.com/revelation/12-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>The serpent spewed water out of his mouth after the woman like a river, that he might cause her to be carried away by the stream. <sup><a href=\"https://biblehub.com/revelation/12-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>The earth helped the woman, and the earth opened its mouth and swallowed up the river which the dragon spewed out of his mouth. <sup><a href=\"https://biblehub.com/revelation/12-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>The dragon grew angry with the woman, and went away to make war with the rest of her offspring, who keep God’s commandments and hold Jesus’ testimony."
+                }
             ]
         },
         {
@@ -65,8 +60,15 @@
             "short": "Mary was at least as holy as Enoch and Elijah, who were assumed.",
             "details": "Critics argue that this is speculative at best.\n\nProponents argue that this at least makes it more probable.",
             "category": "Biblical",
-            "references": [
-                "Read online: https://biblehub.com/genesis/5-24.htm and https://biblehub.com/2_kings/2-11.htm"
+            "bible": [
+                {
+                    "summary": "Genesis 5:24",
+                    "text": "<sup><a href=\"https://biblehub.com/genesis/5-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>Enoch walked with God, and he was not found, for God took him."
+                },
+                {
+                    "summary": "2 Kings 2:11",
+                    "text": "<sup><a href=\"https://biblehub.com/2_kings/2-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>As they continued on and talked, behold, a chariot of fire and horses of fire separated them; and Elijah went up by a whirlwind into heaven."
+                }
             ]
         }
     ]

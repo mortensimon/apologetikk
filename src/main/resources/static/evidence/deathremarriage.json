@@ -8,8 +8,11 @@
             "short": "St. Paul recommends that younger widows marry and have children.",
             "details": "Proponents see this as proof that remarriage is permissible for a widow.\n\nCritics may argue that this is only explicitly for young women, so it may not be allowed for everyone.",
             "category": "Biblical",
-            "references": [
-                "1 Timothy 5:14: https://biblehub.com/1_timothy/5-14.htm"
+            "bible": [
+                {
+                    "summary": "1 Timothy 5:14",
+                    "text": "<sup><a href=\"https://biblehub.com/1_timothy/5-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>I desire therefore that the younger widows marry, bear children, rule the household, and give no occasion to the adversary for insulting."
+                }
             ]
         },
         {
@@ -18,9 +21,15 @@
             "short": "In the Old Testament, an unmarried man who lives with his brother's family is required to marry his late brother's widow.",
             "details": "Proponents argue that this gives widows a precedent for remarrying.\n\nCritics argue that the Old Testament law is generally more permissive than that of the New Testament when it comes to divorce and remarriage, so it is not surprising that it should also allow remarriage for widows.",
             "category": "Biblical",
-            "references": [
-                "Genesis 38:6–11: https://www.biblegateway.com/passage/?search=Genesis%2038%3A6-11&version=NRSVUE",
-                "Deuteronomy 25:5–10: https://www.biblegateway.com/passage/?search=Deuteronomy%2025:5-10&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Genesis 38:6–11",
+                    "text": "<sup><a href=\"https://biblehub.com/genesis/38-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>Judah took a wife for Er, his firstborn, and her name was Tamar. <sup><a href=\"https://biblehub.com/genesis/38-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>Er, Judah’s firstborn, was wicked in YHWH’s sight. So YHWH killed him. <sup><a href=\"https://biblehub.com/genesis/38-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Judah said to Onan, “Go in to your brother’s wife, and perform the duty of a husband’s brother to her, and raise up offspring for your brother.” <sup><a href=\"https://biblehub.com/genesis/38-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>Onan knew that the offspring wouldn’t be his; and when he went in to his brother’s wife, he spilled his semen on the ground, lest he should give offspring to his brother. <sup><a href=\"https://biblehub.com/genesis/38-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>The thing which he did was evil in YHWH’s sight, and he killed him also. <sup><a href=\"https://biblehub.com/genesis/38-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>Then Judah said to Tamar, his daughter-in-law, “Remain a widow in your father’s house, until Shelah, my son, is grown up;” for he said, “Lest he also die, like his brothers.” Tamar went and lived in her father’s house."
+                },
+                {
+                    "summary": "Deuteronomy 25:5–10",
+                    "text": "<sup><a href=\"https://biblehub.com/deuteronomy/25-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>If brothers dwell together, and one of them dies and has no son, the wife of the dead shall not be married outside to a stranger. Her husband’s brother shall go in to her, and take her as his wife, and perform the duty of a husband’s brother to her. <sup><a href=\"https://biblehub.com/deuteronomy/25-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>It shall be that the firstborn whom she bears shall succeed in the name of his brother who is dead, that his name not be blotted out of Israel. <sup><a href=\"https://biblehub.com/deuteronomy/25-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>If the man doesn’t want to take his brother’s wife, then his brother’s wife shall go up to the gate to the elders, and say, “My husband’s brother refuses to raise up to his brother a name in Israel. He will not perform the duty of a husband’s brother to me.” <sup><a href=\"https://biblehub.com/deuteronomy/25-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Then the elders of his city shall call him, and speak to him. If he stands and says, “I don’t want to take her,” <sup><a href=\"https://biblehub.com/deuteronomy/25-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>then his brother’s wife shall come to him in the presence of the elders, and loose his sandal from off his foot, and spit in his face. She shall answer and say, “So shall it be done to the man who does not build up his brother’s house.” <sup><a href=\"https://biblehub.com/deuteronomy/25-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>His name shall be called in Israel, “The house of him who had his sandal removed.”"
+                }
             ]
         },
         {
@@ -29,8 +38,19 @@
             "short": "Jesus implies that the woman who married seven brothers in succession will no longer be married at the resurrection.",
             "details": "Proponents argue that this is because people are only married until death doth them part, so a widow is no longer married.\n\nCritics may argue that the obligation for a man to marry his brother's widow shows that the obligations of a marriage doesn't simply disappear once one of the spouses dies, and that Jesus is talking about the resurrection from the dead, not death itself.",
             "category": "Biblical",
-            "references": [
-                "Matthew 22:23–34; Mark 12:18–27; Luke 20:27–40: https://www.biblegateway.com/passage/?search=Matthew%2022%3A23-34%2CMark%2012%3A18-27%2CLuke%2020%3A27-40&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Matthew 22:23–34",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/22-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>On that day Sadducees (those who say that there is no resurrection) came to him. They asked him, <sup><a href=\"https://biblehub.com/matthew/22-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>saying, “Teacher, Moses said, ‘If a man dies, having no children, his brother shall marry his wife and raise up offspring for his brother.’ <sup><a href=\"https://biblehub.com/matthew/22-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>Now there were with us seven brothers. The first married and died, and having no offspring left his wife to his brother. <sup><a href=\"https://biblehub.com/matthew/22-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>In the same way, the second also, and the third, to the seventh. <sup><a href=\"https://biblehub.com/matthew/22-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>After them all, the woman died. <sup><a href=\"https://biblehub.com/matthew/22-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>In the resurrection therefore, whose wife will she be of the seven? For they all had her.” <sup><a href=\"https://biblehub.com/matthew/22-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>But Jesus answered them, “You are mistaken, not knowing the Scriptures, nor the power of God. <sup><a href=\"https://biblehub.com/matthew/22-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>For in the resurrection they neither marry nor are given in marriage, but are like God’s angels in heaven. <sup><a href=\"https://biblehub.com/matthew/22-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>But concerning the resurrection of the dead, haven’t you read that which was spoken to you by God, saying, <sup><a href=\"https://biblehub.com/matthew/22-32.htm\"target=\"_blank\"rel=\"noopener noreferrer\">32</a></sup>‘I am the God of Abraham, and the God of Isaac, and the God of Jacob’? God is not the God of the dead, but of the living.” <sup><a href=\"https://biblehub.com/matthew/22-33.htm\"target=\"_blank\"rel=\"noopener noreferrer\">33</a></sup>When the multitudes heard it, they were astonished at his teaching. <sup><a href=\"https://biblehub.com/matthew/22-34.htm\"target=\"_blank\"rel=\"noopener noreferrer\">34</a></sup>But the Pharisees, when they heard that he had silenced the Sadducees, gathered themselves together."
+                },
+                {
+                    "summary": "Mark 12:18–27",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/12-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Some Sadducees, who say that there is no resurrection, came to him. They asked him, saying, <sup><a href=\"https://biblehub.com/mark/12-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>“Teacher, Moses wrote to us, ‘If a man’s brother dies and leaves a wife behind him, and leaves no children, that his brother should take his wife and raise up offspring for his brother.’ <sup><a href=\"https://biblehub.com/mark/12-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>There were seven brothers. The first took a wife, and dying left no offspring. <sup><a href=\"https://biblehub.com/mark/12-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>The second took her, and died, leaving no children behind him. The third likewise; <sup><a href=\"https://biblehub.com/mark/12-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>and the seven took her and left no children. Last of all the woman also died. <sup><a href=\"https://biblehub.com/mark/12-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>In the resurrection, when they rise, whose wife will she be of them? For the seven had her as a wife.” <sup><a href=\"https://biblehub.com/mark/12-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>Jesus answered them, “Isn’t this because you are mistaken, not knowing the Scriptures nor the power of God? <sup><a href=\"https://biblehub.com/mark/12-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>For when they will rise from the dead, they neither marry nor are given in marriage, but are like angels in heaven. <sup><a href=\"https://biblehub.com/mark/12-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>But about the dead, that they are raised, haven’t you read in the book of Moses about the Bush, how God spoke to him, saying, ‘I am the God of Abraham, the God of Isaac, and the God of Jacob’? <sup><a href=\"https://biblehub.com/mark/12-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>He is not the God of the dead, but of the living. You are therefore badly mistaken.”"
+                },
+                {
+                    "summary": "Luke 20:27–40",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/20-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>Some of the Sadducees came to him, those who deny that there is a resurrection. <sup><a href=\"https://biblehub.com/luke/20-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>They asked him, “Teacher, Moses wrote to us that if a man’s brother dies having a wife, and he is childless, his brother should take the wife and raise up children for his brother. <sup><a href=\"https://biblehub.com/luke/20-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>There were therefore seven brothers. The first took a wife, and died childless. <sup><a href=\"https://biblehub.com/luke/20-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>The second took her as wife, and he died childless. <sup><a href=\"https://biblehub.com/luke/20-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>The third took her, and likewise the seven all left no children, and died. <sup><a href=\"https://biblehub.com/luke/20-32.htm\"target=\"_blank\"rel=\"noopener noreferrer\">32</a></sup>Afterward the woman also died. <sup><a href=\"https://biblehub.com/luke/20-33.htm\"target=\"_blank\"rel=\"noopener noreferrer\">33</a></sup>Therefore in the resurrection whose wife of them will she be? For the seven had her as a wife.” <sup><a href=\"https://biblehub.com/luke/20-34.htm\"target=\"_blank\"rel=\"noopener noreferrer\">34</a></sup>Jesus said to them, “The children of this age marry and are given in marriage. <sup><a href=\"https://biblehub.com/luke/20-35.htm\"target=\"_blank\"rel=\"noopener noreferrer\">35</a></sup>But those who are considered worthy to attain to that age and the resurrection from the dead neither marry nor are given in marriage. <sup><a href=\"https://biblehub.com/luke/20-36.htm\"target=\"_blank\"rel=\"noopener noreferrer\">36</a></sup>For they can’t die any more, for they are like the angels and are children of God, being children of the resurrection. <sup><a href=\"https://biblehub.com/luke/20-37.htm\"target=\"_blank\"rel=\"noopener noreferrer\">37</a></sup>But that the dead are raised, even Moses showed at the bush, when he called the Lord ‘The God of Abraham, the God of Isaac, and the God of Jacob.’ <sup><a href=\"https://biblehub.com/luke/20-38.htm\"target=\"_blank\"rel=\"noopener noreferrer\">38</a></sup>Now he is not the God of the dead, but of the living, for all are alive to him.” <sup><a href=\"https://biblehub.com/luke/20-39.htm\"target=\"_blank\"rel=\"noopener noreferrer\">39</a></sup>Some of the scribes answered, “Teacher, you speak well.” <sup><a href=\"https://biblehub.com/luke/20-40.htm\"target=\"_blank\"rel=\"noopener noreferrer\">40</a></sup>They didn’t dare to ask him any more questions."
+                }
             ]
         },
         {
@@ -39,8 +59,15 @@
             "short": "St. Paul explains that wives are bound by the law to their husband as long as he lives, but after his death, she can marry another without being called an adultress.",
             "details": "Proponents see this as supporting a widow's right to remarry.\n\nCritics may concede this for women, but may still argue that men can't. Others may argue that the law is irrelevant to Christian morality, and that the permanence of marriage trumps it.",
             "category": "Biblical",
-            "references": [
-                "Romans 7:2–3: https://www.biblegateway.com/passage/?search=Romans%207:2-3&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Romans 7:2–3",
+                    "text": "<sup><a href=\"https://biblehub.com/romans/7-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>For the woman that has a husband is bound by law to the husband while he lives, but if the husband dies, she is discharged from the law of the husband. <sup><a href=\"https://biblehub.com/romans/7-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>So then if, while the husband lives, she is joined to another man, she would be called an adulteress. But if the husband dies, she is free from the law, so that she is no adulteress, though she is joined to another man."
+                },
+                {
+                    "summary": "1 Corinthians 7:39–40",
+                    "text": "<sup><a href=\"https://biblehub.com/1_corinthians/7-39.htm\"target=\"_blank\"rel=\"noopener noreferrer\">39</a></sup>A wife is bound by law for as long as her husband lives; but if the husband is dead, she is free to be married to whomever she desires, only in the Lord. <sup><a href=\"https://biblehub.com/1_corinthians/7-40.htm\"target=\"_blank\"rel=\"noopener noreferrer\">40</a></sup>But she is happier if she stays as she is, in my judgment, and I think that I also have God’s Spirit."
+                }
             ]
         },
         {
@@ -49,8 +76,15 @@
             "short": "St. Paul expresses a preference for celibacy over marriage.",
             "details": "Proponents are generally comfortable with this, because a preference is not a command, and Paul allows remarriage in the same chapter.\n\nCritics may argue that we ought to strive for the best, not settle for whatever liberty we can get away with, and so celibacy should trump the licence to remarry.",
             "category": "Biblical",
-            "references": [
-                "1 Corinthians 7: https://www.biblegateway.com/passage/?search=1%20Corinthians%207&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "1 Corinthians 7:8–9",
+                    "text": "<sup><a href=\"https://biblehub.com/1_corinthians/7-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>But I say to the unmarried and to widows, it is good for them if they remain even as I am. <sup><a href=\"https://biblehub.com/1_corinthians/7-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>But if they don’t have self-control, let them marry. For it’s better to marry than to burn with passion."
+                },
+                {
+                    "summary": "1 Corinthians 7:39–40",
+                    "text": "<sup><a href=\"https://biblehub.com/1_corinthians/7-39.htm\"target=\"_blank\"rel=\"noopener noreferrer\">39</a></sup>A wife is bound by law for as long as her husband lives; but if the husband is dead, she is free to be married to whomever she desires, only in the Lord. <sup><a href=\"https://biblehub.com/1_corinthians/7-40.htm\"target=\"_blank\"rel=\"noopener noreferrer\">40</a></sup>But she is happier if she stays as she is, in my judgment, and I think that I also have God’s Spirit."
+                }
             ]
         },
         {
@@ -59,8 +93,11 @@
             "short": "St. Paul uses marriage as a metaphor for Christ and the Church.",
             "details": "Critics argue that this suggests one marriage is enough, because there is only one bridegroom, and remarriage would distort this pattern.\n\nProponents generally agree that one marriage is the ideal, but caution that the metaphor should not be taken too far.",
             "category": "Biblical",
-            "references": [
-                "Ephesians 5:22–32: https://www.biblegateway.com/passage/?search=Ephesians%205%3A22-32&version=NKJV"
+            "bible": [
+                {
+                    "summary": "Ephesians 5:22–32",
+                    "text": "<sup><a href=\"https://biblehub.com/ephesians/5-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>Wives, be subject to your own husbands, as to the Lord. <sup><a href=\"https://biblehub.com/ephesians/5-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>For the husband is the head of the wife, as Christ also is the head of the assembly, being himself the savior of the body. <sup><a href=\"https://biblehub.com/ephesians/5-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>But as the assembly is subject to Christ, so let the wives also be to their own husbands in everything. <sup><a href=\"https://biblehub.com/ephesians/5-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>Husbands, love your wives, even as Christ also loved the assembly and gave himself up for her, <sup><a href=\"https://biblehub.com/ephesians/5-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>that he might sanctify her, having cleansed her by the washing of water with the word, <sup><a href=\"https://biblehub.com/ephesians/5-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>that he might present the assembly to himself gloriously, not having spot or wrinkle or any such thing, but that she should be holy and without defect. <sup><a href=\"https://biblehub.com/ephesians/5-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>Even so husbands also ought to love their own wives as their own bodies. He who loves his own wife loves himself. <sup><a href=\"https://biblehub.com/ephesians/5-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>For no man ever hated his own flesh, but nourishes and cherishes it, even as the Lord also does the assembly, <sup><a href=\"https://biblehub.com/ephesians/5-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>because we are members of his body, of his flesh and bones. <sup><a href=\"https://biblehub.com/ephesians/5-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>“For this cause a man will leave his father and mother and will be joined to his wife. Then the two will become one flesh.” <sup><a href=\"https://biblehub.com/ephesians/5-32.htm\"target=\"_blank\"rel=\"noopener noreferrer\">32</a></sup>This mystery is great, but I speak concerning Christ and the assembly."
+                }
             ]
         },
         {
@@ -69,8 +106,14 @@
             "short": "St. Justin Martyr (c. 155–157 AD) mentions that \"those who make second marriages according to human law are sinners in the sight of our Teacher\".",
             "details": "Critics argue that this forbids remarriage for widows and widowers.\n\nProponents take it to be a prohibition on remarriage after divorce.",
             "category": "Patristic",
-            "references": [
-                "First Apology, Chapter 15: https://biblehub.com/library/richardson/early_christian_fathers/the_first_apology_of_justin.htm"
+            "ancient": [
+                {
+                    "summary": "First Apology, Chapter 15",
+                    "year": "155–157 AD",
+                    "author": "St. Justin Martyr",
+                    "url": "https://biblehub.com/library/richardson/early_christian_fathers/the_first_apology_of_justin.htm",
+                    "text": "\"And so those who make second marriages according to human law are sinners in the sight of our Teacher, and those who look on a woman to lust after her.\""
+                }
             ]
         },
         {
@@ -79,10 +122,28 @@
             "short": "Some Church Fathers don't allow remarriage at all.",
             "details": "Critics argue that these Fathers show the mind of the early Church to be against remarriage.\n\nProponents argue that these Fathers were overly zealous and simply wrong on this issue.",
             "category": "Patristic",
-            "references": [
-                "Athenagoras (176–177 AD): A Plea for the Christians, Chapter 33: https://www.logoslibrary.org/athenagoras/plea/33.html",
-                "Tertullian (c. 200 AD): On Modesty, Chapter XVI: https://www.tertullian.org/works/de_pudicitia.htm",
-                "Tertullian (c. 217 AD): On Monogamy, Chapter 13: https://www.newadvent.org/fathers/0406.htm"
+            "ancient": [
+                {
+                    "summary": "A Plea for the Christians, Chapter 33",
+                    "year": "176–177 AD",
+                    "author": "Athenagoras",
+                    "url": "https://www.logoslibrary.org/athenagoras/plea/33.html",
+                    "text": "\"For we bestow our attention, not on the study of words, but on the exhibition and teaching of actions,—that a person should either remain as he was born, or be content with one marriage; for a second marriage is only a specious adultery. “For whosoever puts away his wife,” says He, “and marries another, commits adultery;” not permitting a man to send her away whose virginity he has brought to an end, nor to marry again. For he who deprives himself of his first wife, even though she be dead, is a cloaked adulterer, resisting the hand of God, because in the beginning God made one man and one woman, and dissolving the strictest union of flesh with flesh, formed for the intercourse of the race.\""
+                },
+                {
+                    "summary": "On Modesty, Chapter XVI",
+                    "year": "c. 200 AD",
+                    "author": "Tertullian",
+                    "url": "https://www.tertullian.org/works/de_pudicitia.htm",
+                    "text": "\"But we, the montanists, want to prevent the greatest or the most serious sins even in that manner, that we do not allow the existence of a second marriage after taking the Creed, (...)\""
+                },
+                {
+                    "summary": "On Monogamy, Chapter 13",
+                    "year": "c. 217 AD",
+                    "author": "Tertullian",
+                    "url": "https://www.newadvent.org/fathers/0406.htm",
+                    "text": "\"Therefore, if he bids us \"be made dead to the law through the body of Christ,\" (which is the Church, which consists in the spirit of newness,) not \"through the letter of oldness,\" (that is, of the law,)— taking you away from the law, which does not keep a wife, when her husband is dead, from becoming (wife) to another husband — he reduces you to (subjection to) the contrary condition, that you are not to marry when you have lost your husband; and in as far as you would not be accounted an adulteress if you became (wife) to a second husband after the death of your (first) husband, if you were still bound to act in (subjection to) the law, in so far as a result of the diversity of (your) condition, he does prejudge you (guilty) of adultery if, after the death of your husband, you do marry another: inasmuch as you have now been made dead to the law, it cannot be lawful for you, now that you have withdrawn from that (law) in the eye of which it was lawful for you.\""
+                }
             ]
         },
         {
@@ -91,12 +152,42 @@
             "short": "Some Church Fathers do allow remarriage for widows and widowers, many of them reluctantly.",
             "details": "Proponents argue that these fathers show the mind of the early Church to be in favour of remarriage after the death of one's spouse.\n\nCritics argue that these Fathers were overly permissive.",
             "category": "Patristic",
-            "references": [
-                "Tertullian (c. 200 AD): To My Wife, Book II: https://tertullian.org/works/ad_uxorem.htm",
-                "Tertullian (c. 207–208 AD): Against Marcion, Book IV, Chapter 34: https://www.tertullian.org/articles/evans_marc/evans_marc_10book4_eng.htm",
-                "St. Jerome (c. 394 AD): Letter 55: https://www.newadvent.org/fathers/3001055.htm",
-                "St. Augustine (late 4th century): https://biblehub.com/library/schaff/the_seven_ecumenical_councils/excursus_on_second_marriages_called.htm",
-                "Clement of Alexandria (c. 199 AD – c.201 AD): Stromata, Book III, Chapter XII: https://www.newadvent.org/fathers/02103.htm (in Latin for some reason)"
+            "ancient": [
+                {
+                    "summary": "To My Wife, Book II",
+                    "year": "c. 200 AD",
+                    "author": "Tertullian",
+                    "url": "https://tertullian.org/works/ad_uxorem.htm",
+                    "text": "\"Add to this the fact that the apostle, with regard to widows and the unmarried, advises them to remain permanently in that state, when he says, \"But I desire all to persevere in (imitation of) my example:\" but touching marrying \"in the Lord,\" he no longer advises, but plainly bids.\""
+                },
+                {
+                    "summary": "Letter 55",
+                    "year": "c. 394 AD",
+                    "author": "St. Jerome",
+                    "url": "https://www.newadvent.org/fathers/3001055.htm",
+                    "text": "\"The apostle has thus cut away every plea and has clearly declared that, if a woman marries again while her husband is living, she is an adulteress.\""
+                },
+                {
+                    "summary": "Adulterous Marriages",
+                    "year": "late 4th century",
+                    "author": "St. Augustine of Hippo",
+                    "url": "https://www.anglican.net/works/augustine-concerning-adulterous-marriages-to-pollentius-1550/",
+                    "text": "\"The Apostle spake, I would wish that the younger widows marry, bring forth children, be housewives, & give no occasion for slander to the Enemy.  For some are already turned back after Satan.\""
+                },
+                {
+                    "summary": "Stromata, Book III, Chapter XII (this part in Latin for some reason)",
+                    "year": "c. 199 AD – c.201 AD",
+                    "author": "Clement of Alexandria",
+                    "url": "https://www.newadvent.org/fathers/02103.htm",
+                    "text": "\"Et rursus: \"Mulletest alligata, quandiu vivit vir ejus; sin autem mortuus fuerit, libera est ut nubat, modo in Domino. Beata est autem si sic permanserit, mea quidem sententia.\"\""
+                },
+                {
+                    "summary": "The Seven Ecumenical Councils: Excursus on Second Marriages, Called Digamy",
+                    "year": "late 1800s",
+                    "author": "Philip Schaff",
+                    "url": "https://biblehub.com/library/schaff/the_seven_ecumenical_councils/excursus_on_second_marriages_called.htm",
+                    "text": "\"But if a widow marry again, she does not commit adultery; for it is written, 'A wife is bound by law as long as her husband lives; but if her husband be dead, she is free to be married to whom she will, only in the Lord.'\""
+                }
             ]
         },
         {
@@ -104,10 +195,7 @@
             "head": "Consensus of the Church",
             "short": "The Catholic Church, the Eastern Orthodox Church, the Oriental Orthodox Church, the Assyrian Church of the East, as well as most Protestant groups, all allow widows and widowers to remarry.",
             "details": "Proponents argue that this weighs heavily in favour, because the judgement of the Church trumps individual Fathers.\n\nCritics caution that it might be possible for the entire Church to be wrong.",
-            "category": "History",
-            "references": [
-                ""
-            ]
+            "category": "History"
         },
         {
             "id": 11,
