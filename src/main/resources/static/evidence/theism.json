@@ -8,9 +8,19 @@
             "short": "God seems to be hidden even from sincere seekers.",
             "details": "Critics argue that we would expect a good God to make Himself known to us, especially if (as many religions say) God wants a relationship with every individual.\n\nProponents suggest various reasons for why this might be. Maybe it is important for the choice to believe to be genuinely free, or maybe the mystery is valuable for spiritual growth, or maybe God just has really good reasons that we are currently unaware of.",
             "category": "Philosophy",
-            "references": [
-              "https://www.youtube.com/watch?v=IBIsLTQ-GKQ (short YouTube-video) (A possible reason for hiddenness)",
-              "https://www.youtube.com/watch?v=1Vc1AiY_0Ts (long YoutTube-video) (A debate between atheist & theist)"
+            "modern": [
+                {
+                    "summary": " Why doesn't God physically reveal Himself? (A short YouTube-video)",
+                    "year": "2013 AD",
+                    "url": "https://www.youtube.com/watch?v=IBIsLTQ-GKQ",
+                    "text": "A possible reason for hiddenness."
+                },
+                {
+                    "summary": " Why Is God Hidden From Us? Lukas Ruegger vs Alex O'Connor (A debate between atheist & theist)",
+                    "year": "2020 AD",
+                    "url": "https://www.youtube.com/watch?v=1Vc1AiY_0Ts",
+                    "text": "A debate on divine hiddenness."
+                }
             ]
         },
         {
@@ -40,8 +50,13 @@
             "short": "Our physical universe is finite, but mathematics shows that an infinite amount of information exists.",
             "details": "Proponents argue that, because mathematics does not depend on anything natural and exists in minds, it may have come from a mind.\n\nCritics often argue that the origins of mathematics is simply unknowable, and any suggested origin is mere speculation.",
             "category": "Philosophy",
-            "references": [
-                "Proving God exists using Math: https://www.youtube.com/watch?v=z0hxb5UVaNE"
+            "modern": [
+                {
+                    "summary": "Proving God exists using Math",
+                    "year": "2023 AD",
+                    "url": "https://www.youtube.com/watch?v=z0hxb5UVaNE",
+                    "text": "A short video arguing theism using math."
+                }
             ]
         },
         {
