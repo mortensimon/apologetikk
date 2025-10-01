@@ -1,0 +1,408 @@
+{
+    "title": "Dating of the Gospel of Matthew",
+    "intro": "Hypothesis: The Gospel of Matthew was written between 62 and 67 AD.",
+    "evidence": [
+        {
+            "id": 1,
+            "head": "The Temple Prophecy",
+            "short": "Luke records Jesus predicting that the Second Temple would be destroyed, which did happen in 70 AD.",
+            "details": "Critics argue that a later date would make this prediction would have been easy to make after 70 AD, but difficult before that. On this basis, many suggest that Mark, which is thought to be the earliest account, should be dated to shortly after 70 AD. Since Matthew and Luke both seem to use Mark as a source, they must then be dated later still.\n\nMany proponents take issue with denying that the prediction was simply accurate. Some suggest that predicting that the Romans would destroy the Temple would have been possible even without supernatural prophecy, because destroying enemy temples was not uncommon in the ancient world. Proponents often point out that none of the Synoptic Gospels says anything about the prediction coming true, which suggests they all wrote before 70 AD. Besides, Jesus of Nazareth is not the only one to predict this.",
+            "category": "History",
+            "bible": [
+                {
+                    "summary": "Matthew 24:1–2 (Matthew's account)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/24-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>Jesus went out from the temple, and was going on his way. His disciples came to him to show him the buildings of the temple. <sup><a href=\"https://biblehub.com/matthew/24-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>But he answered them, “You see all of these things, don’t you? Most certainly I tell you, there will not be left here one stone on another, that will not be thrown down.”"
+                },
+                {
+                    "summary": "Mark 13:1–2 (Mark's account, presumably the earliest)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/13-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>As he went out of the temple, one of his disciples said to him, “Teacher, see what kind of stones and what kind of buildings!” <sup><a href=\"https://biblehub.com/mark/13-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Jesus said to him, “Do you see these great buildings? There will not be left here one stone on another, which will not be thrown down.”"
+                },
+                {
+                    "summary": "Luke 21:5–6 (Luke's account)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/21-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>As some were talking about the temple and how it was decorated with beautiful stones and gifts, he said, <sup><a href=\"https://biblehub.com/luke/21-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>“As for these things which you see, the days will come in which there will not be left here one stone on another that will not be thrown down.”"
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "Jewish War 6:5:3",
+                    "year": "c. 75–80 AD",
+                    "author": "Flavius Josephus",
+                    "url": "https://en.wikisource.org/wiki/The_War_of_the_Jews/Book_VI#Chapter_5",
+                    "text": "\"But, what is still more terrible, there was one Jesus, the son of Ananus, a plebeian and a husbandman, who, four years before the war began, and at a time when the city was in very great peace and prosperity, came to that feast whereon it is our custom for every one to make tabernacles to God in the temple, began on a sudden to cry aloud, \"A voice from the east, a voice from the west, a voice from the four winds, a voice against Jerusalem and the holy house, a voice against the bridegrooms and the brides, and a voice against this whole people!\" This was his cry, as he went about by day and by night, in all the lanes of the city.\""
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Who Says Jesus Couldn’t Predict the Fall of Jerusalem?\"",
+                    "year": "2012",
+                    "url": "https://jimmyakin.com/2012/11/who-says-jesus-couldnt-predict-the-fall-of-jerusalem.html"
+                },
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written AFTER A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-after-a-d-70.html"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "head": "The Triple Tradition",
+            "short": "Matthew, Mark, and Luke overlap considerably.",
+            "details": "There is almost universal agreement among scholars that both Matthew and Luke used Mark as a source, as evidenced by agreement in wording, sentence structure, order of events, and signs of editorial fatigue. It is also more plausible that Mark's shorter account was added to than that he subtracted events from an existing one.\n\nProponents argue that there is good evidence the Gospel of Mark was written between 50 and 59 AD, so Matthew must have been written at least a few years after that to allow for copying and spreading of Mark's work.\n\nCritics generally agree that Mark predates Matthew, but they argue that this means *both* Gospel accounts must have been written after 70 AD, when the Second Temple in Jerusalem was destroyed.\n\nOther critics point out that St. Augustine says Matthew wrote first, and so it was actually Mark using Matthew as a source, which means Matthew must have written before the 50's AD.\n\nProponents answer that this is unlikely, because Matthew includes more episodes than Mark, and they are arranged thematically. Mark and Luke had no reason to change the order, since neither of them follow a strict chronology either, but Matthew would have a reason if he wanted to organize it better.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 8:2–3 (The healing of the leper)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/8-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Behold, a leper came to him and worshiped him, saying, “Lord, if you want to, you can make me clean.” <sup><a href=\"https://biblehub.com/matthew/8-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>Jesus stretched out his hand and touched him, saying, “I want to. Be made clean.” Immediately his leprosy was cleansed."
+                },
+                {
+                    "summary": "Mark 1:40–42 (The healing of the leper)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/1-40.htm\"target=\"_blank\"rel=\"noopener noreferrer\">40</a></sup>A leper came to him, begging him, kneeling down to him, and saying to him, “If you want to, you can make me clean.” <sup><a href=\"https://biblehub.com/mark/1-41.htm\"target=\"_blank\"rel=\"noopener noreferrer\">41</a></sup>Being moved with compassion, he stretched out his hand, and touched him, and said to him, “I want to. Be made clean.” <sup><a href=\"https://biblehub.com/mark/1-42.htm\"target=\"_blank\"rel=\"noopener noreferrer\">42</a></sup>When he had said this, immediately the leprosy departed from him and he was made clean."
+                },
+                {
+                    "summary": "Luke 5:12–13 (The healing of the leper)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/5-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>While he was in one of the cities, behold, there was a man full of leprosy. When he saw Jesus, he fell on his face and begged him, saying, “Lord, if you want to, you can make me clean.” <sup><a href=\"https://biblehub.com/luke/5-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>He stretched out his hand and touched him, saying, “I want to. Be made clean.” Immediately the leprosy left him."
+                },
+                {
+                    "summary": "Luke 1:1 (Luke refers to several prior writings)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/1-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>Since many have undertaken to set in order a narrative concerning those matters which have been fulfilled among us, <sup><a href=\"https://biblehub.com/luke/1-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>even as those who from the beginning were eyewitnesses and servants of the word delivered them to us, <sup><a href=\"https://biblehub.com/luke/1-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>it seemed good to me also, having traced the course of all things accurately from the first, to write to you in order, most excellent Theophilus;"
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "The Harmony of the Gospels, Book I, Chapter 2",
+                    "year": "c. 400 AD",
+                    "author": "St. Augustine of Hippo",
+                    "url": "https://www.newadvent.org/fathers/1602102.htm",
+                    "text": "\"Now, these four evangelists (...) are believed to have written in the order which follows: first Matthew, then Mark, thirdly Luke, lastly John.\""
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "What evidence supports the theory that Matthew and Luke used Mark as a source for their gospels?",
+                    "year": "2024",
+                    "url": "https://www.bibleanalysis.org/what-evidence-supports-the-theory-that-matthew-and-luke-used-mark-as-a-source-for-their-gospels/"
+                },
+                {
+                    "summary": "Wikipedia: Augustinian Hypothesis",
+                    "url": "https://en.wikipedia.org/wiki/Augustinian_hypothesis"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "head": "\"For All the Nations\"",
+            "short": "Mark and Luke include \"for all the nations\" when Jesus quotes Isaiah 56:7, but Matthew doesn't.",
+            "details": "Some critics suggest that this is because Matthew is writing after 70 AD and has a newly acquired resentment towards the gentiles (i.e. nations), and so leaves this part out.\n\nProponents answer that Matthew's gospel elsewhere embraces the gentile faithful, especially in the Great Commission. He does often leave out parts of Mark's work for brevity, though, and that is probably the case here as well.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 21:13 (House of prayer)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/21-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>He said to them, “It is written, ‘My house shall be called a house of prayer,’ but you have made it a den of robbers!”"
+                },
+                {
+                    "summary": "Mark 11:17 (House of prayer for all the nations)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/11-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>He taught, saying to them, “Isn’t it written, ‘My house will be called a house of prayer for all the nations’? But you have made it a den of robbers!”"
+                },
+                {
+                    "summary": "Luke 19:46 (House of prayer for all the nations)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/19-46.htm\"target=\"_blank\"rel=\"noopener noreferrer\">46</a></sup>saying to them, “It is written, ‘My house is a house of prayer,’ but you have made it a ‘den of robbers’!”"
+                },
+                {
+                    "summary": "John 2:16 (Similar)",
+                    "text": "<sup><a href=\"https://biblehub.com/john/2-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>To those who sold the doves, he said, “Take these things out of here! Don’t make my Father’s house a marketplace!”"
+                },
+                {
+                    "summary": "Isaiah 56:7 (House of prayer for all the nations)",
+                    "text": "<sup><a href=\"https://biblehub.com/isaiah/56-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>I will bring these to my holy mountain, and make them joyful in my house of prayer. Their burnt offerings and their sacrifices will be accepted on my altar; for my house will be called a house of prayer for all peoples.”"
+                },
+                {
+                    "summary": "Jeremiah 7:11 (Den of robbers)",
+                    "text": "<sup><a href=\"https://biblehub.com/jeremiah/7-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>Has this house, which is called by my name, become a den of robbers in your eyes? Behold, I myself have seen it,” says YHWH."
+                },
+                {
+                    "summary": "Matthew 28:16–20 (The Great Commission)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/28-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>But the eleven disciples went into Galilee, to the mountain where Jesus had sent them. <sup><a href=\"https://biblehub.com/matthew/28-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>When they saw him, they bowed down to him; but some doubted. <sup><a href=\"https://biblehub.com/matthew/28-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Jesus came to them and spoke to them, saying, “All authority has been given to me in heaven and on earth. <sup><a href=\"https://biblehub.com/matthew/28-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>Go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, <sup><a href=\"https://biblehub.com/matthew/28-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.” Amen."
+                },
+                {
+                    "summary": "Mark 16:14–18 (The Great Commission)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/16-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>Afterward he was revealed to the eleven themselves as they sat at the table; and he rebuked them for their unbelief and hardness of heart, because they didn’t believe those who had seen him after he had risen. <sup><a href=\"https://biblehub.com/mark/16-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>He said to them, “Go into all the world and preach the Good News to the whole creation. <sup><a href=\"https://biblehub.com/mark/16-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>He who believes and is baptized will be saved; but he who disbelieves will be condemned. <sup><a href=\"https://biblehub.com/mark/16-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>These signs will accompany those who believe: in my name they will cast out demons; they will speak with new languages; <sup><a href=\"https://biblehub.com/mark/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>they will take up serpents; and if they drink any deadly thing, it will in no way hurt them; they will lay hands on the sick, and they will recover.”"
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written AFTER A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-after-a-d-70.html",
+                    "text": "\"If we want an explanation for why he would delete this phrase, we need look no further than the fact Matthew incorporates 90% of the material in Mark and thus needs to shorten it so that he can fit in all of the additional material he wants to include in his Gospel.\""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "head": "\"And Burned Their City\"",
+            "short": "Matthew's version of the banquet parable has the king burning the city of those who would not come.",
+            "details": "Some critics suggest that this is because Jerusalem had recently been burned by the Romans.\n\nProponents answer that *any* army would be liable to burn a besieged city. Also, the description is so simple that some proponents suggest it is actually evidence *against* a post-70 AD date.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 22:7",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/22-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>When the king heard that, he was angry, and sent his armies, destroyed those murderers, and burned their city."
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written AFTER A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-after-a-d-70.html",
+                    "text": "\"(...) Robinson goes so far as to argue that the synoptic prophecies about the fall of Jerusalem, including Matthew 22:7, are so restrained that they must have been written before 70.\""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "head": "The Church",
+            "short": "Matthew, unlike the other Gospels, speaks of the Church.",
+            "details": "Some critics argue that this must mean it was written late, because the concept of the Church needed time to develop first.\n\nProponents answer that Paul's letters, which constitute the earliest part of the New Testament, also refer to the Church, as does Luke in Acts of the Apostles.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 16:18",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it."
+                },
+                {
+                    "summary": "Matthew 18:17",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/18-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>If he refuses to listen to them, tell it to the assembly. If he refuses to hear the assembly also, let him be to you as a Gentile or a tax collector."
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written AFTER A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-after-a-d-70.html",
+                    "text": "\"St. Paul uses the Greek word for church—ekklesia—61 times in his epistles, all of which were written before A.D. 70.\n\nSt. Luke uses it a further 23 times in Acts, which was also written before A.D. 70 (...).\""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "head": "The Synagogue",
+            "short": "Matthew speaks of beatings in synagogues.",
+            "details": "Some critics argue that Matthew displays knowledge of the final separation between the Church and the Synagogue, which would mean he was writing later on.\n\nProponents answer that he actually speaks of \"your\" synagogues, meaning people were to be beaten in the synagogues they regularly attended, as we read in Acts.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 10:17",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/10-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>But beware of men, for they will deliver you up to councils, and in their synagogues they will scourge you."
+                },
+                {
+                    "summary": "Matthew 23:34",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/23-34.htm\"target=\"_blank\"rel=\"noopener noreferrer\">34</a></sup>Therefore, behold, I send to you prophets, wise men, and scribes. Some of them you will kill and crucify; and some of them you will scourge in your synagogues and persecute from city to city,"
+                },
+                {
+                    "summary": "Acts 9:1–2",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/9-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>But Saul, still breathing threats and slaughter against the disciples of the Lord, went to the high priest <sup><a href=\"https://biblehub.com/acts/9-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>and asked for letters from him to the synagogues of Damascus, that if he found any who were of the Way, whether men or women, he might bring them bound to Jerusalem."
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written AFTER A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-after-a-d-70.html",
+                    "text": "\"Fifth, the persecution of Christians attending synagogues, including beatings, is precisely what we see in the book of Acts (9:2, 20-23, 13:43-50, 14:1-6, 17:1-5, 10-13, 18:17, 22:19, 26:11), and the events it records took place between A.D. 33 and 60.\""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "head": "\"To This Day\"",
+            "short": "Matthew says the field where Judas died was called \"the field of blood\" and the story about the disciples stealing Jesus's body circulated \"to this day\".",
+            "details": "Some critics argue that this indicates that Matthew was writing many decades after the events he described, which makes more sense with a late date.\n\nProponents answer that this does not say anything about how many decades had passed, only that these things still held true when Matthew was writing.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 27:8",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/27-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Therefore that field has been called “The Field of Blood” to this day."
+                },
+                {
+                    "summary": "Matthew 28:15",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/28-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>So they took the money and did as they were told. This saying was spread abroad among the Jews, and continues until today."
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written AFTER A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-after-a-d-70.html",
+                    "text": "\"All that the phrase indicates is that some period of time which the author deems significant has passed, and a distance of 30 years—quite long in the lifetime of an ancient person—would be quite sufficient.\""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "head": "\"Matthæan Authorship\"",
+            "short": "The traditional Matthæan authorship is unanimously attested to in the early sources, meaning the author was young during Jesus's ministry, but old during the destruction of Jerusalem.",
+            "details": "Some proponents argue that this makes an early date more likely, because the earlier he wrote, the easier it would have been.\n\nCritics answer that old men can still write, and may even have more time for it than when they were young and had to work.",
+            "category": "History",
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"When were the apostles born?\"",
+                    "year": "2016",
+                    "url": "https://jimmyakin.com/2016/04/when-were-the-apostles-born.html",
+                    "text": "\"It’s hardly likely that Jesus was leading around teenagers—people around half his age—so the twenties are the correct time. Let us suppose that they were, on average, twenty-five years of age at the time Jesus’ ministry began.\n\nIf so, the average apostle would have been born around A.D. 4.\""
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "head": "The Functioning Temple",
+            "short": "Several passages in Matthew seem to assume the temple is still functioning.",
+            "details": "Proponents argue that this means Matthew was probably writing before the destruction of the temple.\n\nCritics argue that this could just be because he was quoting what Jesus said at a time when the temple was indeed functioning.\n\nProponents answer that these quotes would have been irrelevant to Matthew's Jewish audience after 70 AD, so he must have written earlier.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 5:23–24",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/5-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>“If therefore you are offering your gift at the altar, and there remember that your brother has anything against you, <sup><a href=\"https://biblehub.com/matthew/5-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>leave your gift there before the altar, and go your way. First be reconciled to your brother, and then come and offer your gift."
+                },
+                {
+                    "summary": "Matthew 12:5",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/12-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>Or have you not read in the law that on the Sabbath day the priests in the temple profane the Sabbath and are guiltless?"
+                },
+                {
+                    "summary": "Matthew 23:20–21",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/23-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>He therefore who swears by the altar, swears by it and by everything on it. <sup><a href=\"https://biblehub.com/matthew/23-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>He who swears by the temple, swears by it and by him who has been living in it."
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written BEFORE A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-before-a-d-70.html",
+                    "text": "\"The first and the last, especially, would be more relevant to his audience of Jewish Christians if the temple were standing, because otherwise they could not go to Jerusalem and offer a gift at the altar—nor would they be tempted to swear by an altar or a temple that had been demolished as a result of God’s judgment.\""
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "head": "The Temple Tax",
+            "short": "Matthew includes a passage about paying the temple tax, which went to a pagan Roman temple after 70 AD.",
+            "details": "Proponents argue that this only makes sense before 70 AD, when Jewish Christians had to deal with whether to get out of paying that tax or not, and it could be scandalous to include it after 70 AD.\n\nCritics argue that Matthew could have included it anyway.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 17:24–27",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/17-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>When they had come to Capernaum, those who collected the didrachma coins came to Peter, and said, “Doesn’t your teacher pay the didrachma?” <sup><a href=\"https://biblehub.com/matthew/17-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>He said, “Yes.” When he came into the house, Jesus anticipated him, saying, “What do you think, Simon? From whom do the kings of the earth receive toll or tribute? From their children, or from strangers?” <sup><a href=\"https://biblehub.com/matthew/17-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>Peter said to him, “From strangers.” Jesus said to him, “Therefore the children are exempt. <sup><a href=\"https://biblehub.com/matthew/17-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you.”"
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written BEFORE A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-before-a-d-70.html",
+                    "text": "\"The inclusion of the passage in his Gospel is far more understandable if Matthew were writing before 70, when Jewish Christians still needed to wrestle with the question of whether to support the temple whose officials had rejected and crucified Jesus and whose destruction he had prophesied.\""
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "head": "Prayer For Flight",
+            "short": "Matthew includes a passage about praying that one's flight may not be in the winter or on a sabbath.",
+            "details": "Proponents argue that Matthew would have skipped this if he were writing after 70 AD, when the Christian community in Jerusalem had already fled, since he tends to skip parts of Mark that are not strictly necessary.\n\nCritics argue that he may have included it anyway, for example because he anticipated it having a long-term prophetic meaning too.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 24:15–16",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/24-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>“When, therefore, you see the abomination of desolation, which was spoken of through Daniel the prophet, standing in the holy place (let the reader understand), <sup><a href=\"https://biblehub.com/matthew/24-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>then let those who are in Judea flee to the mountains."
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written BEFORE A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-before-a-d-70.html",
+                    "text": "\"So why would he preserve this exhortation to Judean Christians to pray that their flight not take place in winter or on a sabbath (when travel would be difficult) if the flight had already occurred and the need to pray no longer existed?\""
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "head": "Second Coming Confusion",
+            "short": "Matthew doesn't disentangle the destruction of the temple from the Second Coming.",
+            "details": "Proponents argue that Matthew would have done this if he wrote after 70 AD, because otherwise, he would have risked making Jesus look like a failed prophet who didn't come back after all.\n\nCritics argue that it's possible that Matthew expected people to understand this on their own.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 24:30",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/24-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>and then the sign of the Son of Man will appear in the sky. Then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of the sky with power and great glory."
+                },
+                {
+                    "summary": "Mark 13:26",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/13-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>Then they will see the Son of Man coming in clouds with great power and glory."
+                },
+                {
+                    "summary": "Luke 21:27",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/21-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>Then they will see the Son of Man coming in a cloud with power and great glory."
+                },
+                {
+                    "summary": "Psalm 104:3",
+                    "text": "<sup><a href=\"https://biblehub.com/psalms/104-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>He lays the beams of his rooms in the waters. He makes the clouds his chariot. He walks on the wings of the wind."
+                },
+                {
+                    "summary": "Isaiah 19:1–2",
+                    "text": "<sup><a href=\"https://biblehub.com/isaiah/19-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>The burden of Egypt. “Behold, YHWH rides on a swift cloud, and comes to Egypt. The idols of Egypt will tremble at his presence; and the heart of Egypt will melt within it. <sup><a href=\"https://biblehub.com/isaiah/19-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>I will stir up the Egyptians against the Egyptians, and they will fight everyone against his brother, and everyone against his neighbor; city against city, and kingdom against kingdom."
+                },
+                {
+                    "summary": "Jeremiah 4:13–14",
+                    "text": "<sup><a href=\"https://biblehub.com/jeremiah/4-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>Behold, he will come up as clouds, and his chariots will be as the whirlwind. His horses are swifter than eagles. Woe to us! For we are ruined. <sup><a href=\"https://biblehub.com/jeremiah/4-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>Jerusalem, wash your heart from wickedness, that you may be saved. How long will your evil thoughts lodge within you?"
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Was Matthew Written BEFORE A.D. 70?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/was-matthew-written-before-a-d-70.html",
+                    "text": "\"We would thus expect the Evangelists—if they were writing after 70—either to drop the references to this coming from the discourse or to somehow clarify for the audience that it wasn’t the Second Coming.\""
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "head": "The Synoptic Problem",
+            "short": "Matthew and Luke borrow from Mark, but one of them may have borrowed from the other as well.",
+            "details": "Proponents argue that Matthew organizes the information that Luke leaves in a \"messy\" order, and that both Matthew and Luke sometimes differ from Mark in the same way, which is best explained not by a hypothetical fourth source, but by Matthew using Luke as a source.\n\nCritics argue that, by the time Luke was widely distributed, Matthew might not have had time to write his Gospel account before 70 AD, even if Luke wrote before that.",
+            "category": "Textual",
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"When Was Matthew Written? (Final Answer!)\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/when-was-matthew-written-final-answer.html",
+                    "text": "\"(...) given the problems with the Q Hypothesis and the fact that it’s easier to explain Matthew’s use of Luke rather than the reverse, I come to the tentative conclusion that Luke wrote before Matthew.\""
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "head": "Irenæus on Matthew",
+            "short": "St. Irenæus of Lyons writes in Against Heresies that Matthew wrote his account while Peter and Paul were preaching at Rome.",
+            "details": "Proponents argue that Paul arrived in Rome c. 58 AD, and that Sts. Peter and Paul were martyred during the 60's AD, likely 64–65 and 67, respectively, making St. Irenæus a witness in favour of the hypothesis.\n\nCritics generally consider St. Irenæus an unreliable witness in this regard. They emphasize that he also says Matthew wrote before Mark, and that he wrote \"among the Hebrews in their own dialect\", which seems to mean he wrote in Aramaic, which seems unlikely.",
+            "category": "Textual",
+            "ancient": [
+                {
+                    "summary": "Against Heresies 3:1",
+                    "year": "c. 180 AD",
+                    "author": "St. Irenæus of Lyons",
+                    "url": "https://www.newadvent.org/fathers/0103301.htm",
+                    "text": "\"Matthew also issued a written Gospel among the Hebrews in their own dialect, while Peter and Paul were preaching at Rome, and laying the foundations of the Church. After their departure, Mark, the disciple and interpreter of Peter, did also hand down to us in writing what had been preached by Peter. Luke also, the companion of Paul, recorded in a book the Gospel preached by him. Afterwards, John, the disciple of the Lord, who also had leaned upon His breast, did himself publish a Gospel during his residence at Ephesus in Asia.\""
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"When Was Matthew Written? (Final Answer!)\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/when-was-matthew-written-final-answer.html",
+                    "text": "\"(...) given the problems with the Q Hypothesis and the fact that it’s easier to explain Matthew’s use of Luke rather than the reverse, I come to the tentative conclusion that Luke wrote before Matthew.\""
+                }
+            ]
+        }
+    ]
+}

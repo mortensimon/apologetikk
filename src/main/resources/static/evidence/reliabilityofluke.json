@@ -1,0 +1,69 @@
+{
+    "title": "Reliability of the Gospel of Luke",
+    "intro": "Hypothesis: The Gospel of Luke is historically reliable.",
+    "evidence": [
+        {
+            "id": 1,
+            "head": "Luke's Authorship",
+            "short": "The early Church unanimously attributed the Gospel of Luke to Luke, a companion of Paul.",
+            "details": "Proponents argue that the early Church had access to traditions and information that we do not have today, and so would be in a good position to know this. Many proponents point out that the authorship of Hebrews was unclear, but the gospels are never attributed to anyone else.\n\nCritics argue that the early Church could have been mistaken, and that the attribution to Luke could have been a later development.",
+            "category": "History"
+        },
+        {
+            "id": 2,
+            "head": "Luke's Profession",
+            "short": "Luke's Gospel account contains many medical details.",
+            "details": "Proponents argue that this supports the tradition that Luke was a physician, which strengthens the case for his account being reliable.\n\nCritics question the significance of this, because despite his education, Luke was not himself a witness to the events he describes.",
+            "category": "History"
+        },
+        {
+            "id": 3,
+            "head": "Geographical Accuracy",
+            "short": "Luke's gospel contains many accurate geographical details.",
+            "details": "Proponents argue that this shows that Luke had access to reliable sources and was careful in his writing. They point to specific examples, such as Luke's accurate description of the way one would take to travel from Galilee to Jerusalem.\n\nCritics argue that some of these details could have been known to anyone living in the area at the time, and that Luke could have simply included them to make his gospel seem more credible.",
+            "category": "History"
+        },
+        {
+            "id": 4,
+            "head": "Cultural Accuracy",
+            "short": "Luke's gospel contains many accurate cultural details.",
+            "details": "Proponents argue that this shows that Luke was familiar with the customs and practices of the time, which supports the idea that he had access to reliable sources. They point to specific examples, such as Luke's accurate description of Jewish festivals and customs.\n\nCritics argue that some of these details could have been known to anyone living in the area at the time, and that Luke could have simply included them to make his gospel seem more credible.",
+            "category": "History"
+        },
+        {
+            "id": 5,
+            "head": "Historical Accuracy",
+            "short": "Many of the events and people mentioned in Luke's gospel are corroborated by other historical sources.",
+            "details": "Proponents argue that this shows that Luke's account is consistent with what we know from other sources, which supports its reliability. They point to specific examples, such as Luke's mention of the titles of local rulers and ability to keep track of the messy political situation in and around Judæa at the time.\n\nCritics argue that Luke also seems to have made mistakes, such as the dating of the census.\n\nProponents respond that this detail is disputed, and that it is possible to read the Greek more ways than one. Besides, it is equally possible that Josephus made an error, as he is known to have done on occasion.",
+            "category": "History"
+        },
+        {
+            "id": 6,
+            "head": "Use of Sources",
+            "short": "Luke appears to have used written sources, including the Gospel of Mark.",
+            "details": "Proponents argue that this shows that Luke was a careful historian who sought to corroborate his information from multiple sources. They also point out that Luke's use of sources is consistent with the practices of ancient historians.\n\nCritics argue that Luke's reliance on Mark could mean that he simply copied Mark's errors.",
+            "category": "History"
+        },
+        {
+            "id": 7,
+            "head": "Eyewitness Accounts",
+            "short": "Luke claims to have based his gospel on eyewitness accounts.",
+            "details": "Proponents argue that this shows that Luke had access to reliable information about Jesus' life and ministry. They point to Luke 1:1-4, where Luke states his intention to provide an orderly account based on eyewitness testimony.\n\nCritics argue that Luke does not name any specific eyewitnesses besides Mary, and that it is possible that he could have been mistaken or misled by his sources.",
+            "category": "History"
+        },
+        {
+            "id": 8,
+            "head": "Dating of Luke's Gospel",
+            "short": "Some scholars date Luke's gospel to within a few decades of Jesus' life.",
+            "details": "Proponents argue that an early date supports the idea that Luke's account is based on reliable information, as there would have been many eyewitnesses still alive at the time. They also point out that an early date is consistent with the practices of ancient historians.\n\nCritics argue that the dating of Luke's gospel is uncertain, and that it could have been written much later.",
+            "category": "History"
+        },
+        {
+            "id": 9,
+            "head": "Consistency with Other Gospels",
+            "short": "Luke's gospel is generally consistent with the other synoptic gospels (Matthew and Mark).",
+            "details": "Proponents argue that this shows that Luke's account is part of a broader tradition of gospel writing, which supports its reliability. They point to specific examples, such as the shared stories and teachings found in all three gospels.\n\nCritics argue that the differences between the synoptic gospels could indicate that they are not all equally reliable.",
+            "category": "History"
+        }
+    ]
+}

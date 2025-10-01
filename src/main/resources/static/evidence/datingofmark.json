@@ -1,0 +1,102 @@
+{
+    "title": "Dating of the Gospel of Luke",
+    "intro": "Hypothesis: The Gospel of Mark was written between 50 and 59 AD.\n\nThe Gospel of Mark is usually considered to be the earliest of the Gospel accounts, and it must thus be earlier than the other three:\n<a href=\"https://reasonableroad.com/bayes.html?id=datingofmatthew\"target=\"_blank\"rel=\"noopener noreferrer\">Matthew</a>, <a href=\"https://reasonableroad.com/bayes.html?id=datingofluke\"target=\"_blank\"rel=\"noopener noreferrer\">Luke</a>, <a href=\"https://reasonableroad.com/bayes.html?id=datingofjohn\"target=\"_blank\"rel=\"noopener noreferrer\">John</a>.",
+    "evidence": [
+        {
+            "id": 1,
+            "head": "The Temple Prophecy",
+            "short": "Luke records Jesus predicting that the Second Temple would be destroyed, which did happen in 70 AD.",
+            "details": "Critics argue that a later date would make this prediction would have been easy to make after 70 AD, but difficult before that. On this basis, many suggest that Mark, which is thought to be the earliest account, should be dated to shortly after 70 AD. Since Matthew and Luke both seem to use Mark as a source, they must then be dated later still.\n\nMany proponents take issue with denying that the prediction was simply accurate. Some suggest that predicting that the Romans would destroy the Temple would have been possible even without supernatural prophecy, because destroying enemy temples was not uncommon in the ancient world. Proponents often point out that none of the Synoptic Gospels says anything about the prediction coming true, which suggests they all wrote before 70 AD.",
+            "category": "History",
+            "bible": [
+                {
+                    "summary": "Matthew 24:1–2 (Matthew's account)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/24-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>Jesus went out from the temple, and was going on his way. His disciples came to him to show him the buildings of the temple. <sup><a href=\"https://biblehub.com/matthew/24-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>But he answered them, “You see all of these things, don’t you? Most certainly I tell you, there will not be left here one stone on another, that will not be thrown down.”"
+                },
+                {
+                    "summary": "Mark 13:1–2 (Mark's account, presumably the earliest)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/13-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>As he went out of the temple, one of his disciples said to him, “Teacher, see what kind of stones and what kind of buildings!” <sup><a href=\"https://biblehub.com/mark/13-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Jesus said to him, “Do you see these great buildings? There will not be left here one stone on another, which will not be thrown down.”"
+                },
+                {
+                    "summary": "Luke 21:5–6 (Luke's account)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/21-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>As some were talking about the temple and how it was decorated with beautiful stones and gifts, he said, <sup><a href=\"https://biblehub.com/luke/21-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>“As for these things which you see, the days will come in which there will not be left here one stone on another that will not be thrown down.”"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "head": "The Triple Tradition",
+            "short": "Matthew, Mark, and Luke overlap considerably.",
+            "details": "There is almost universal agreement among scholars that both Matthew and Luke used Mark as a source, as evidenced by agreement in wording, sentence structure, order of events, and signs of editorial fatigue. It is also more plausible that Mark's shorter account was added to than that he subtracted events from an existing one.\n\nProponents argue that there is good evidence the Gospel of Luke was written in or before 61 AD, so Mark must have been written at most a few years before that to allow for copying and spreading of Mark's work.\n\nCritics agree that Mark predates Luke, but they argue that this means *both* Gospel accounts must have been written after 70 AD, when the Second Temple in Jerusalem was destroyed.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Matthew 8:2–3 (The healing of the leper)",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/8-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Behold, a leper came to him and worshiped him, saying, “Lord, if you want to, you can make me clean.” <sup><a href=\"https://biblehub.com/matthew/8-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>Jesus stretched out his hand and touched him, saying, “I want to. Be made clean.” Immediately his leprosy was cleansed."
+                },
+                {
+                    "summary": "Mark 1:40–42 (The healing of the leper)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/1-40.htm\"target=\"_blank\"rel=\"noopener noreferrer\">40</a></sup>A leper came to him, begging him, kneeling down to him, and saying to him, “If you want to, you can make me clean.” <sup><a href=\"https://biblehub.com/mark/1-41.htm\"target=\"_blank\"rel=\"noopener noreferrer\">41</a></sup>Being moved with compassion, he stretched out his hand, and touched him, and said to him, “I want to. Be made clean.” <sup><a href=\"https://biblehub.com/mark/1-42.htm\"target=\"_blank\"rel=\"noopener noreferrer\">42</a></sup>When he had said this, immediately the leprosy departed from him and he was made clean."
+                },
+                {
+                    "summary": "Luke 5:12–13 (The healing of the leper)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/5-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>While he was in one of the cities, behold, there was a man full of leprosy. When he saw Jesus, he fell on his face and begged him, saying, “Lord, if you want to, you can make me clean.” <sup><a href=\"https://biblehub.com/luke/5-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>He stretched out his hand and touched him, saying, “I want to. Be made clean.” Immediately the leprosy left him."
+                },
+                {
+                    "summary": "Luke 1:1 (Luke refers to several prior writings)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/1-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>Since many have undertaken to set in order a narrative concerning those matters which have been fulfilled among us, <sup><a href=\"https://biblehub.com/luke/1-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>even as those who from the beginning were eyewitnesses and servants of the word delivered them to us, <sup><a href=\"https://biblehub.com/luke/1-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>it seemed good to me also, having traced the course of all things accurately from the first, to write to you in order, most excellent Theophilus;"
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "What evidence supports the theory that Matthew and Luke used Mark as a source for their gospels?",
+                    "year": "2024",
+                    "url": "https://www.bibleanalysis.org/what-evidence-supports-the-theory-that-matthew-and-luke-used-mark-as-a-source-for-their-gospels/"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "head": "Peter's Companion",
+            "short": "Mark accompanied Peter, and his account often focuses on Peter.",
+            "details": "Proponents argue that Mark's account is substantially Peter's eyewitness account, which means it was likely written *after* Mark became Peter's travelling companion. This happened after his trip to Cyprus with Barnabas, which is usually dated to 49 AD. That would push the earliest date for at least his complete account into the 50s AD.\n\nCritics generally agree that the 50s would be the earliest possible, but that this is irrelevant because other evidence suggests it was written much later.",
+            "category": "History",
+            "bible": [
+                {
+                    "summary": "Acts 15:37–39 (The dispute over Mark)",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/15-37.htm\"target=\"_blank\"rel=\"noopener noreferrer\">37</a></sup>Barnabas planned to take John, who was called Mark, with them also. <sup><a href=\"https://biblehub.com/acts/15-38.htm\"target=\"_blank\"rel=\"noopener noreferrer\">38</a></sup>But Paul didn’t think that it was a good idea to take with them someone who had withdrawn from them in Pamphylia, and didn’t go with them to do the work. <sup><a href=\"https://biblehub.com/acts/15-39.htm\"target=\"_blank\"rel=\"noopener noreferrer\">39</a></sup>Then the contention grew so sharp that they separated from each other. Barnabas took Mark with him and sailed away to Cyprus,"
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "Church History 3:39:15 (The writings of Papias)",
+                    "year": "c. 324 AD",
+                    "author": "Eusebius of Cæsarea",
+                    "url": "https://www.newadvent.org/fathers/250103.htm",
+                    "text": "\"This also the presbyter said: Mark, having become the interpreter of Peter, wrote down accurately, though not in order, whatsoever he remembered of the things said or done by Christ. For he neither heard the Lord nor followed him, but afterward, as I said, he followed Peter, who adapted his teaching to the needs of his hearers, but with no intention of giving a connected account of the Lord's discourses, so that Mark committed no error while he thus wrote some things as he remembered them. For he was careful of one thing, not to omit any of the things which he had heard, and not to state any of them falsely.\" These things are related by Papias concerning Mark."
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"When Was the Gospel of Mark Written?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/11/when-was-the-gospel-of-mark-written.html",
+                    "text": "\"We do not know when this began, but the journey that Mark took with Barnabas would have occurred in A.D. 49, and it would have taken some time. Mark thus likely became a companion of Peter in the 50s.\""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "head": "The Brother Whose Praise Is in the Gospel",
+            "short": "In 2 Corinthians, written c. 54–55 AD, St. Paul mentions a \"brother whose praise is in the Gospel\".",
+            "details": "Some proponents argue that this must be St. Mark, and so his Gospel account must be from the very early 50's AD.\n\nCritics (and many proponents) are generally skeptical of this, and it's often translated \"the preaching of the Gospel\" instead.",
+            "category": "History",
+            "bible": [
+                {
+                    "summary": "2 Corinthians 8:18",
+                    "text": "<sup><a href=\"https://biblehub.com/2_corinthians/8-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>We have sent together with him the brother whose praise in the Good News is known throughout all the assemblies."
+                }
+            ]
+        }
+    ]
+}
