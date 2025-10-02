@@ -4,11 +4,65 @@
     "evidence": [
         {
             "id": 1,
-            "head": "The Temple Prophecy",
-            "short": "",
-            "details": "",
+            "head": "Peter's Martyrdom",
+            "short": "John seems to display knowledge of Peter's martyrdom.",
+            "details": "Peter's martyrdom is usually dated to 64 AD, though some date it slightly later, to 65–67 AD. However, John 21:19 in Greek is in the future tense, which could suggest that John wrote before it actually happened, though he likely knew it was going to happen.\n\nProponents argue that this suggests John wrote his gospel shortly before or perhaps just after Peter's death, likely no latter than 67 AD.\n\nCritics argue that most translations render this in the past tense, which suggests that it is not unheard of to use the simple future tense like that.",
             "category": "History",
             "bible": [
+                {
+                    "summary": "John 21:18–19",
+                    "text": "<sup><a href=\"https://biblehub.com/john/21-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Most certainly I tell you, when you were young, you dressed yourself and walked where you wanted to. But when you are old, you will stretch out your hands, and another will dress you and carry you where you don’t want to go.” <sup><a href=\"https://biblehub.com/john/21-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>Now he said this, signifying by what kind of death he would glorify God. When he had said this, he said to him, “Follow me.”"
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"When Was John Written?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/12/when-was-john-written.html",
+                    "text": "\"In a currently unpublished study, I have dated the martyrdom of Peter to the mid 60s. It likely took place in mid 65 or mid 66. If so, then the Gospel would have been written in a very short time frame, say in 66 or 67.\""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "head": "John and Matthew",
+            "short": "John seems to display knowledge of Mark and Luke, but not necessarily of Matthew.",
+            "details": "Many scholars have noted that John seems to be aware of Mark and Luke's accounts, but few think he was aware of Matthew's.\n\nProponents argue that this suggests John wrote around the same time as Matthew. If he knew of Matthew's account, as some scholars think, he was probably less familiar with it, which suggests he was writing soon after Matthew.\n\nCritics generally date Matthew's gospel later than 70 AD, so while they would generally agree that John was less familiar with Matthew's account, they would still end up dating his gospel to the 90's AD.",
+            "category": "Textual",
+            "bible": [
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"When Was John Written?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/12/when-was-john-written.html",
+                    "text": "\"If Matthew was written in this period, and if it had come into John’s hands, then he may have had little time to assimilate it, resulting in the lesser impact it had on his Gospel compared to Mark and Luke.\""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "head": "John and Revelation",
+            "short": "John and Revelation seem to be written by the same person, but in different styles of Greek.",
+            "details": "Some scholars think the two authors were different because of the different language, but many think the differences are because John used a secretary or editor for at least one of them. The early Church consensus is in favour of John the Apostle writing both.\n\nProponents argue that Revelation was written in 68–69 AD, during the reign of Emperor Galba, when John was in exile on Patmos. He probably wrote his gospel in Ephesus shortly before this.\n\nCritics generally date Revelation to the 90's AD, though still after the Gospel account. However, they still tend to date the gospel to a couple of decades after 70 AD.",
+            "category": "Textual",
+            "bible": [
+                {
+                    "summary": "Revelation 1:9 (John on Patmos)",
+                    "text": "<sup><a href=\"https://biblehub.com/revelation/1-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>I John, your brother and partner with you in the oppression, Kingdom, and perseverance in Christ Jesus, was on the isle that is called Patmos because of God’s Word and the testimony of Jesus Christ."
+                },
+                {
+                    "summary": "Revelation 17:10 (Galba may be the one who \"is\" after the five have fallen)",
+                    "text": "<sup><a href=\"https://biblehub.com/revelation/17-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>They are seven kings. Five have fallen, the one is, and the other has not yet come. When he comes, he must continue a little while."
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"When Was John Written?\"",
+                    "year": "2018",
+                    "url": "https://jimmyakin.com/2018/12/when-was-john-written.html",
+                    "text": "\"He thus was likely in exile during at least the last two years of the 60s, meaning the Gospel would have been written in the early or mid 60s.\""
+                }
             ]
         }
     ]
