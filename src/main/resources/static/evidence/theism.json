@@ -20,6 +20,12 @@
                     "year": "2020 AD",
                     "url": "https://www.youtube.com/watch?v=1Vc1AiY_0Ts",
                     "text": "A debate on divine hiddenness."
+                },
+                {
+                    "summary": "Divine Hiddenness (Stanford Encyclopedia of Philosophy entry)",
+                    "year": "2016 AD",
+                    "url": "https://plato.stanford.edu/entries/divine-hiddenness/",
+                    "text": "A detailed scholarly overview of the problem of divine hiddenness, including historical background and criticisms."
                 }
             ]
         },
@@ -27,22 +33,97 @@
             "id": 2,
             "head": "The Problem of Evil",
             "short": "Evil and suffering exist.",
-            "details": "Critics often argue that a good and omnipotent God would be able and willing to prevent evil and/or suffering, but since evil and suffering exist, God's existence is improbable.\n\nProponents argue that it is entirely possible that God allows evil and suffering to exist for good reason, even if we don't know what those reasons are.",
-            "category": "Philosophy"
+            "details": "Critics often argue that a good and omnipotent God would be able and willing to prevent evil and/or suffering, but since evil and suffering exist, God's existence is improbable.\n\nProponents argue that it is entirely possible that God allows evil and suffering to exist for good reason, even if we don't know what those reasons are.\n\nIt should be notead that 'bad theists' is included into this category - not a separate evidence. Bad theists are those who profess theism but behave badly or hypocritically.",
+            "category": "Philosophy",
+            "modern": [
+                {
+                    "summary": "The Problem of Evil explained (10 min Youtube-video)",
+                    "year": "2016 AD",
+                    "url": "https://www.youtube.com/watch?v=9AzNEG1GB-k",
+                    "text": "A video discussing the problem of evil, and possible solutions and their issues."
+                },
+                {
+                    "summary": "The Problem of Evil - A Christian response (10 min Youtube-video)",
+                    "year": "2012 AD",
+                    "url": "https://www.youtube.com/watch?v=vx8ZMkWL8hw"
+                },
+                {
+                    "summary": "The Problem of Evil - An islamic response (1h 11m Youtube-video)",
+                    "year": "2022 AD",
+                    "url": "https://www.youtube.com/watch?v=p2h4eTlwz1k"
+                },
+                {
+                    "summary": "The Problem of Evil (Stanford Encyclopedia of Philosophy entry)",
+                    "year": "2002 AD",
+                    "url": "https://plato.stanford.edu/entries/evil/",
+                    "text": "A detailed scholarly overview of the problem of evil, including historical background and criticisms."
+                }
+            ]
         },
         {
             "id": 3,
             "head": "Contingent Existence",
             "short": "Something must have its existence from itself rather than from something else.",
             "details": "Proponents often make an argument from contingency: it is impossible that everything should depend on something else for its existence, which means there must be at least one reality that does not depend on anything else for its existence. Since it can't be dependent on space, time, or matter, it must necessarily be spaceless, timeless, and immaterial, which sounds a lot like God in classical theism.\n\nCritics often concede the necessity of a non-contingent reality, but suggest that it may be something other than what we might call \"God\", like the universe itself. This invites questions like how the universe, which seems to be dependent on laws and other complexities, can itself be the most fundamental reality.",
-            "category": "Philosophy"
+            "category": "Philosophy",
+            "modern": [
+                {
+                    "summary": "The Contingency Argument (49 sec)",
+                    "year": "2020 AD",
+                    "url": "https://www.youtube.com/watch?v=JODU2zvHy1I",
+                    "text": "A short, accessible introduction to the classical argument from contingency."
+                },
+                {
+                    "summary": "Leibniz Contingency Argument (5 min)",
+                    "year": "2015 AD",
+                    "url": "https://www.youtube.com/watch?v=FPCzEP0oD7I",
+                    "text": "Craig lays out the Leibnizian form of the argument, emphasizing why the universe itself cannot be the necessary being."
+                },
+                {
+                    "summary": "Debunking the Contingency Argument (12 min)",
+                    "year": "2021 AD",
+                    "url": "https://www.youtube.com/watch?v=7pbtpWoE3eU",
+                    "text": "Dr Davies argues against the argument from contingency, suggesting that the universe could be 'brute fact'."
+                },
+                {
+                    "summary": "The Contingency Argument for God's Existence (Stanford Encyclopedia of Philosophy entry)",
+                    "year": "2004 AD",
+                    "url": "https://plato.stanford.edu/entries/cosmological-argument/",
+                    "text": "A detailed scholarly overview of cosmological and contingency arguments, including historical background and criticisms."
+                }
+            ]
         },
         {
             "id": 4,
             "head": "Physical Models Break Down",
             "short": "The best physical models break down in the past.",
             "details": "Proponents argue that if reality were entirely physical, we should expect physical reality to have neither beginning nor end, but our best models of how reality works point towards a beginning of the universe, which suggests there is something beyond the physical universe that could get it started.\n\nCritics often argue that it is possible for this to be the case even if reality is entirely physical too, but that the explanation is not yet known.",
-            "category": "Science"
+            "category": "Science",
+            "modern": [
+                {
+                    "summary": "Why the Big Bang Definitely Happened (12 min Youtube-video)",
+                    "year": "2016 AD",
+                    "url": "https://www.youtube.com/watch?v=aPStj2ZuXug",
+                    "text": "A short video explaining we can be certain back to 10^-32 seconds after the Big Bang."
+                },
+                {
+                    "summary": "Energy cannot be created or destroyed (1 min Youtube-video)",
+                    "year": "2023 AD",
+                    "url": "https://www.youtube.com/shorts/AI47l4tmUdA"
+                },
+                {
+                    "summary": "Stephen Meyer on Big Bang Cosmology & The Origin of the Universe (15m Youtube-video)",
+                    "year": "2025 AD",
+                    "url": "https://www.youtube.com/watch?v=ILTIBNbDtgE",
+                    "text": "Does the Big Bang point to God?"
+                },
+                {
+                    "summary": "The Kalam Cosmological Argument (Stanford Encyclopedia of Philosophy entry)",
+                    "year": "2004 AD",
+                    "url": "https://plato.stanford.edu/entries/cosmological-argument/",
+                    "text": "A detailed scholarly overview of the Kalam Cosmological Argument, including historical background and criticisms."
+                }
+            ]
         },
         {
             "id": 5,
@@ -56,6 +137,24 @@
                     "year": "2023 AD",
                     "url": "https://www.youtube.com/watch?v=z0hxb5UVaNE",
                     "text": "A short video arguing theism using math."
+                },
+                {
+                    "summary": "Eugene Wigner – The Unreasonable Effectiveness of Mathematics in the Natural Sciences",
+                    "year": "1960 AD",
+                    "url": "https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf",
+                    "text": "Classic essay highlighting the mysterious way mathematics, an abstract system, so effectively describes the physical world."
+                },
+                {
+                    "summary": "Roger Penrose – Is Mathematics Invented or Discovered (13 min Youtube-video)",
+                    "year": "2020 AD",
+                    "url": "https://www.youtube.com/watch?v=ujvS2K06dg4",
+                    "text": "Nobel prize physicist Penrose argues for a Platonic realm of mathematical truths beyond the physical."
+                },
+                {
+                    "summary": "Max Tegmark – Our Mathematical Universe (1h 30m Youtube-video)",
+                    "year": "2014 AD",
+                    "url": "https://www.youtube.com/watch?v=Gu28y7vZmrI",
+                    "text": "Physicist argues that reality itself is a mathematical structure, offering a naturalistic counterpoint to theism."
                 }
             ]
         },
@@ -64,7 +163,49 @@
             "head": "Moral Realism",
             "short": "Morality seems to be objective.",
             "details": "Proponents argue that everybody acts as if there is some sort of objective moral law that we owe some degree of obedience to, which only makes sense if there is an objective lawgiver.\n\nCritics sometimes argue that morality is merely a brute fact that needs no further explanation, or they may simply concede that it seems like there is a moral law and say that it is an intersubjective (rather than strictly objective) experience that is grounded in something like evolutionary history.",
-            "category": "Philosophy"
+            "category": "Philosophy",
+            "modern": [
+                {
+                    "summary": "Moral Realism vs Anti-Realism (1 min Youtube-video)",
+                    "year": "2022 AD",
+                    "url": "https://www.youtube.com/watch?v=N7_a2CXRCTI",
+                    "text": "A short, accessible introduction to moral realism and its alternatives."
+                },
+                {
+                    "summary": "Jordan Peterson on moral realism (Youtube-short)",
+                    "year": "2014 AD",
+                    "url": "https://www.youtube.com/shorts/XmOQuQBoVmE"
+                },
+                {
+                    "summary": "Two atheists discuss moral realism (18 min Youtube-video)",
+                    "year": "2024 AD",
+                    "url": "https://www.youtube.com/watch?v=OdFudjrdTMY",
+                    "text": "Alex O'Connor and Jon Folley discuss moral realism from an atheistic perspective."
+                },
+                {
+                    "summary": "Moral Realism (Stanford Encyclopedia of Philosophy entry)",
+                    "year": "2015 AD",
+                    "url": "https://plato.stanford.edu/entries/moral-realism/",
+                    "text": "A detailed scholarly overview of moral realism, including historical background and criticisms."
+                },
+                {
+                    "summary": "Emmanuel Kant on the necessity of categorical imperatives",
+                    "year": "1785 AD",
+                    "url": "https://www.gutenberg.org/files/5682/5682-h/5682-h.htm#link2H_4_0003",
+                    "text": "All imperatives command either hypothetically or categorically. The former represent the practical necessity of a possible action as a means to something else that is willed (or at least possible to will). The categorical imperative would be one which represented an action as objectively necessary of itself, without reference to another end."
+                },
+                {
+                    "summary": "C.S. Lewis on the necessity of objective morality in Abolition of Man",
+                    "year": "1943 AD",
+                    "url": "https://www.gutenberg.org/files/18144/18144-h/18144-h.htm",
+                    "text": "If nothing is self-evident, nothing can be proved. Similarly if\nnothing is obligatory for its own sake, nothing is obligatory at all."
+                },
+                {
+                    "summary": "Bishop Barron on moral realism without religion (1 min Youtube-video)",
+                    "year": "2021 AD",
+                    "url": "https://www.youtube.com/watch?v=wN0QZ8nE-bU"
+                }
+            ]
         },
         {
             "id": 7,
