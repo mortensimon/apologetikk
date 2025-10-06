@@ -8,9 +8,15 @@
             "short": "The Bible only records prayers to God the Father and Jesus.",
             "details": "Critics argue that there is no precedent in the Bible for praying to the saints. The closest we get on the permissive side is when people talk to angels, but in all cases, the angels approach them first. However, on the restrictive side, there are examples of people praying to idols, which is strictly forbidden.\n\nProponents argue that not everything needs to be found in the Bible, as long as it is consistent with it. If the Bible doesn't tell us not to pray to the saints, then there is nothing inherently wrong with doing it.",
             "category": "Biblical",
-            "references": [
-                "Matthew 6:9–13: https://www.biblegateway.com/passage/?search=Matthew%206:9-13&version=NRSVCE",
-                "Acts 7:59: https://biblehub.com/acts/7-59.htm"
+            "bible": [
+                {
+                    "summary": "Matthew 6:9–13",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/6-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>Pray like this: “‘Our Father in heaven, may your name be kept holy. <sup><a href=\"https://biblehub.com/matthew/6-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>Let your Kingdom come. Let your will be done on earth as it is in heaven. <sup><a href=\"https://biblehub.com/matthew/6-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>Give us today our daily bread. <sup><a href=\"https://biblehub.com/matthew/6-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>Forgive us our debts, as we also forgive our debtors. <sup><a href=\"https://biblehub.com/matthew/6-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>Bring us not into temptation, but deliver us from the evil one. For yours is the Kingdom, the power, and the glory forever. Amen.’"
+                },
+                {
+                    "summary": "Acts 7:59",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/7-59.htm\"target=\"_blank\"rel=\"noopener noreferrer\">59</a></sup>They stoned Stephen as he called out, saying, “Lord Jesus, receive my spirit!”"
+                }
             ]
         },
         {
@@ -19,8 +25,11 @@
             "short": "Hebrews speaks of the Old Testament patriarchs, prophets, and heroes as a \"great cloud of witnesses\".",
             "details": "Proponents argue that if they are \"witnesses\", then they can see and hear us, which means we can talk to them and ask them to help us.\n\nCritics suggest other interpretations, like that they are metaphorical witnesses instead.",
             "category": "Biblical",
-            "references": [
-                "Hebrews 11:1–12:1: https://www.biblegateway.com/passage/?search=Hebrews%2011%3A1-12%3A1&version=NRSVCE"
+            "bible": [
+                {
+                    "summary": "Hebrews 11:1–12:1",
+                    "text": "<sup><a href=\"https://biblehub.com/hebrews/11-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>Now faith is assurance of things hoped for, proof of things not seen. <sup><a href=\"https://biblehub.com/hebrews/12-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12:1</a></sup>Therefore let’s also, seeing we are surrounded by so great a cloud of witnesses, lay aside every weight and the sin which so easily entangles us, and let’s run with perseverance the race that is set before us,"
+                }
             ]
         },
         {
@@ -29,10 +38,25 @@
             "short": "Inscriptions (e.g. in the catacombs of Rome) from the 3rd–4th centuries include prayers to the saints.",
             "details": "Proponents argue that these show the widespread practice of praying to the saints.\n\nCritics argue that the prayers are rather late and may be an accretion.",
             "category": "History",
-            "references": [
-                "Wikipedia, Sub tuum præsidium: https://en.wikipedia.org/wiki/Sub_tuum_praesidium",
-                "Philip Schaff (1997 AD), History of the Christian Church, Volume II, Chapter IX, § 86: https://www.ccel.org/ccel/schaff/hcc2.v.ix.v.html",
-                "Rev. John McCaul, Christian Epitaphs of the First Six Centuries: https://dn790001.ca.archive.org/0/items/cihm_09381/cihm_09381.pdf"
+            "modern": [
+                {
+                    "summary": "Wikipedia: \"Sub tuum praesidium\"",
+                    "year": "accessed 2025",
+                    "url": "https://en.wikipedia.org/wiki/Sub_tuum_praesidium",
+                    "text": "\"\""
+                },
+                {
+                    "summary": "Philip Schaff: \"History of the Christian Church\", Volume II, Chapter IX, § 86",
+                    "year": "1910",
+                    "url": "https://www.ccel.org/ccel/schaff/hcc2.v.ix.v.html",
+                    "text": "\"\""
+                },
+                {
+                    "summary": "Rev. John McCaul: \"Christian Epitaphs of the First Six Centuries\"",
+                    "year": "1869",
+                    "url": "https://dn790001.ca.archive.org/0/items/cihm_09381/cihm_09381.pdf",
+                    "text": "\"\""
+                }
             ]
         },
         {
@@ -41,8 +65,14 @@
             "short": "Some of the iconoclasts also opposed veneration and invocation of saints.",
             "details": "Critics argue that this may have simmered under the surface for all of Church history, but surfaced during the iconoclast controversy.\n\nProponents argue that this is speculative, and point out that the seventh ecumenical council affirmed the veneration and invocation of saints.",
             "category": "Councils",
-            "references": [
-                "Iconoclastic Council (754 AD): https://sourcebooks.web.fordham.edu/source/icono-cncl754.asp"
+            "ancient": [
+                {
+                    "summary": "Iconoclastic Council",
+                    "year": "754",
+                    "author": "council",
+                    "url": "https://sourcebooks.web.fordham.edu/source/icono-cncl754.asp",
+                    "text": "\"\""
+                }
             ]
         },
         {
@@ -51,8 +81,11 @@
             "short": "There is a longstanding tradition of placing relics of saints in or under altars.",
             "details": "Proponents argue that this ties into the practice of asking saints for their intercession, as well as the martyrs under the altar in Revelation 6:9–11.\n\nCritics caution that relics can be considered reminders of the saints and their intercession, and are not, properly speaking, evidence for prayers to the saints.",
             "category": "Tradition",
-            "references": [
-                "Revelation 6:9–11: https://www.biblegateway.com/passage/?search=Revelation%206:9-11&version=NRSVCE"
+            "bible": [
+                {
+                    "summary": "Revelation 6:9–11",
+                    "text": "<sup><a href=\"https://biblehub.com/revelation/6-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>When he opened the fifth seal, I saw underneath the altar the souls of those who had been killed for the Word of God, and for the testimony of the Lamb which they had. <sup><a href=\"https://biblehub.com/revelation/6-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>They cried with a loud voice, saying, “How long, Master, the holy and true, until you judge and avenge our blood on those who dwell on the earth?” <sup><a href=\"https://biblehub.com/revelation/6-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>A long white robe was given to each of them. They were told that they should rest yet for a while, until their fellow servants and their brothers, who would also be killed even as they were, should complete their course."
+                }
             ]
         },
         {
@@ -61,9 +94,22 @@
             "short": "St. Ephrem the Syrian (4th century) composed hymns asking the saints for intercession.",
             "details": "Proponents see this as evidence that the tradition had taken deep roots and was widespread already.\n\nCritics argue that it could still be an innovation even if it caught on.",
             "category": "Patristic",
-            "references": [
-                "St. Ephrem the Syrian (4th century), A Prayer of Praise to the Blessed Virgin Mary: https://www.catholiccompany.com/pages/prayer-of-praise-to-blessed-virgin-mary",
-                "Erick Ybarra (02.08.2008 AD), Holy Ephrem the Syrian on The Blessed Virgin Mary, 306-373 AD: https://erickybarra.wordpress.com/2018/08/02/holy-ephrem-the-syrian-on-the-blessed-virgin-mary-306-373-ad/"
+            "ancient": [
+                {
+                    "summary": "A Prayer of Praise to the Blessed Virgin Mary",
+                    "year": "306–373 AD",
+                    "author": "St. Ephrem the Syrian",
+                    "url": "https://www.catholiccompany.com/pages/prayer-of-praise-to-blessed-virgin-mary",
+                    "text": "\"\""
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Erick Ybarra: \"Holy Ephrem the Syrian on The Blessed Virgin Mary, 306-373 AD\"",
+                    "year": "2008",
+                    "url": "https://erickybarra.wordpress.com/2018/08/02/holy-ephrem-the-syrian-on-the-blessed-virgin-mary-306-373-ad/",
+                    "text": "\"\""
+                }
             ]
         },
         {
@@ -71,30 +117,21 @@
             "head": "Liturgical Support",
             "short": "Early liturgical prayers invoke saints.",
             "details": "For example, the Anaphora of Addai and Mari came to include hymns by St. Ephrem.\n\nProponents argue that this shows that he was not operating on his own, but lived in an environment where prayers to saints was normal.\n\nCritics argue that this doesn't mean it was an apostolic practice, just that it became widespread.",
-            "category": "Tradition",
-            "references": [
-                ""
-            ]
+            "category": "Tradition"
         },
         {
             "id": 8,
             "head": "Consensus of the Church",
             "short": "The Catholic Church, the Eastern Orthodox Church, the Oriental Orthodox Church, the Assyrian Church of the East, as well as most of their splinter groups, pray to the saints.",
             "details": "Proponents argue that the Church has already decided this.\n\nCritics caution that it might be possible for the entire Church to be wrong.",
-            "category": "History",
-            "references": [
-                ""
-            ]
+            "category": "History"
         },
         {
             "id": 9,
             "head": "Protestant Opposition",
             "short": "Most Protestant groups do not pray to the saints, and many of them actively discourage or condemn it.",
             "details": "Critics argue that this shows that it is not a necessary practice.\n\nProponents argue that most Protestant groups are simply reacting against the Catholic Church and may be wrong on this issue.",
-            "category": "History",
-            "references": [
-                ""
-            ]
+            "category": "History"
         },
         {
             "id": 10,
@@ -102,7 +139,7 @@
             "short": "The Qur'an forbids praying to anyone other than God.",
             "details": "Some critics argue that this is sufficient to show that praying to saints is wrong.\n\nProponents generally question the Qur'an's authenticity.",
             "category": "Islamic",
-            "references": [
+            "bible": [
                 {
                     "summary": "Surah 10:18",
                     "text": "<sup><a href=\"https://quran.com/10/18\" target=\"_blank\" rel=\"noopener noreferrer\">18</a></sup>They worship beside Allah that which neither hurteth them nor profiteth them, and they say: These are our intercessors with Allah. Say: Would ye inform Allah of (something) that He knoweth not in the heavens or in the earth? Praised be He and High Exalted above all that ye associate (with Him)!"

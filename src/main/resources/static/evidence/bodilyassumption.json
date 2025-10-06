@@ -70,6 +70,22 @@
                     "text": "<sup><a href=\"https://biblehub.com/2_kings/2-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>As they continued on and talked, behold, a chariot of fire and horses of fire separated them; and Elijah went up by a whirlwind into heaven."
                 }
             ]
+        },
+        {
+            "id": 8,
+            "head": "Church Fathers Against",
+            "short": "Some Church Fathers might be expected to mention Mary's bodily assumption, but don't.",
+            "details": "Critics point out that some Church Fathers, principally St. Irenæus of Lyons, would be expected to mention Mary when he brings up Enoch and Elijah, but he doesn't.\n\nProponents chalk this up to him simply not knowing about it. It likely happened after the last book of the New Testament was written, after all.",
+            "category": "Patristic",
+            "ancient": [
+                {
+                    "summary": "Against Heresies 5:5:1",
+                    "year": "c. 180 AD",
+                    "author": "St. Irenæus of Lyons",
+                    "url": "https://www.newadvent.org/fathers/0103505.htm",
+                    "text": "\"For Enoch, when he pleased God, was translated in the same body in which he did please Him, thus pointing out by anticipation the translation of the just. Elijah, too, was caught up [when he was yet] in the substance of the [natural] form; thus exhibiting in prophecy the assumption of those who are spiritual, and that nothing stood in the way of their body being translated and caught up.\""
+                }
+            ]
         }
     ]
 }

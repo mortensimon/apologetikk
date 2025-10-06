@@ -1,345 +1,547 @@
 {
     "title": "Papal Supremacy",
-    "intro": "Hypothesis: The bishop of Rome is the highest earthly leader in the Church and has supreme and immediate universal jurisdiction.<br><br>The Catholic Church is often called \"Roman\" because it holds that the bishop of Rome is the Vicar of Christ on earth. In Catholic teaching on the Papacy, the most controversial point is probably that of Universal Jurisdiction: the Pope has supreme and immediate jurisdiction over the whole Church. Because his word is final and Jesus's promises to the Church indicate that God will preserve her from error, one could say that Papal Infallibility follows logically if we accept Universal Jurisdiction.<br><br>It is important to note that Vatican I, which dogmatized both these teachings, and Pope Pius IX, who convened it, did not understand the Church as a \"Papal dictatorship\". Rather, it is understood that while the Pope has the final word on questions of faith and morals and can exercise his authority without the \"consent\" (meaning \"express permission\") of his brother bishop, he still has the moral obligation of listening to them to ensure his decision has the \"consent\" (meaning \"common agreement\") of the Church.",
+    "intro": "Hypothesis: The bishop of Rome is the highest earthly leader in the Church and has supreme and immediate universal jurisdiction.\n\nThe Catholic Church is often called \"Roman\" because it holds that the bishop of Rome is the Vicar of Christ on earth. In Catholic teaching on the Papacy, the most controversial point is probably that of Universal Jurisdiction: the Pope has supreme and immediate jurisdiction over the whole Church. Because his word is final and Jesus's promises to the Church indicate that God will preserve her from error, one could say that Papal Infallibility follows logically if we accept Universal Jurisdiction.\n\nIt is important to note that Vatican I, which dogmatized both these teachings, and Pope Pius IX, who convened it, did not understand the Church as a \"Papal dictatorship\". Rather, it is understood that while the Pope has the final word on questions of faith and morals and can exercise his authority without the \"consent\" (meaning \"express permission\") of his brother bishop, he still has the moral obligation of listening to them to ensure his decision has the \"consent\" (meaning \"common agreement\") of the Church.",
     "evidence": [
         {
             "id": 1,
             "head": "Petrine Succession",
             "short": "The bishop of Rome is Peter's successor in the strictest sense.",
-            "details": "Proponents argue that, because Peter had a leadership role over the whole Church, so does his successors.<br><br>Critics argue that the leadership role over the entire Church was only a feature of the Apostolic Age and doesn't transfer to his successors.",
-            "category": "History",
-            "references": [
-                ""
-            ]
+            "details": "Proponents argue that, because Peter had a leadership role over the whole Church, so does his successors.\n\nCritics argue that the leadership role over the entire Church was only a feature of the Apostolic Age and doesn't transfer to his successors.",
+            "category": "History"
         },
         {
             "id": 2,
             "head": "God-Given Rights",
             "short": "Moses, David, Jesus, and Paul rightly asserted their God-given rights against those who opposed them",
-            "details": "Proponents argue that Korah rebelled against Moses; Saul, Absalom, and many others opposed David; the Jewish leaders opposed Jesus and got Him executed; Paul was opposed by the Judaizers. In all these cases, those whom God had commissioned were in the right, but to an onlooker, that might not always be that clear.<br><br>Critics see this as irrelevant to the case of Peter and his successors.",
+            "details": "Proponents argue that Korah rebelled against Moses; Saul, Absalom, and many others opposed David; the Jewish leaders opposed Jesus and got Him executed; Paul was opposed by the Judaizers. In all these cases, those whom God had commissioned were in the right, but to an onlooker, that might not always be that clear.\n\nCritics see this as irrelevant to the case of Peter and his successors.",
             "category": "Biblical",
-            "references": [
-                "Korah's rebellion: https://biblehub.com/numbers/16.htm",
-                "David and Saul: https://biblehub.com/numbers/16.htm",
-                "David and Absalom: https://biblehub.com/2_samuel/15.htm",
-                "Paul vs. the Judaizers: https://biblehub.com/nkjv/2_samuel/15.htm"
+            "bible": [
+                {
+                    "summary": "Numbers 16:1–35 (Korah's rebellion)",
+                    "text": "<sup><a href=\"https://biblehub.com/numbers/16-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>Now Korah, the son of Izhar, the son of Kohath, the son of Levi, with Dathan and Abiram, the sons of Eliab, and On, the son of Peleth, sons of Reuben, took some men. <sup><a href=\"https://biblehub.com/numbers/16-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>They rose up before Moses, with some of the children of Israel, two hundred fifty princes of the congregation, called to the assembly, men of renown. <sup><a href=\"https://biblehub.com/numbers/16-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>They assembled themselves together against Moses and against Aaron, and said to them, “You take too much on yourself, since all the congregation are holy, everyone of them, and YHWH is among them! Why do you lift yourselves up above YHWH’s assembly?” <sup><a href=\"https://biblehub.com/numbers/16-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>When Moses heard it, he fell on his face. <sup><a href=\"https://biblehub.com/numbers/16-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>He said to Korah and to all his company, “In the morning, YHWH will show who are his, and who is holy, and will cause him to come near to him. Even him whom he shall choose, he will cause to come near to him. <sup><a href=\"https://biblehub.com/numbers/16-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>Do this: have Korah and all his company take censers, <sup><a href=\"https://biblehub.com/numbers/16-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>put fire in them, and put incense on them before YHWH tomorrow. It shall be that the man whom YHWH chooses, he shall be holy. You have gone too far, you sons of Levi!” <sup><a href=\"https://biblehub.com/numbers/16-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Moses said to Korah, “Hear now, you sons of Levi! <sup><a href=\"https://biblehub.com/numbers/16-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>Is it a small thing to you that the God of Israel has separated you from the congregation of Israel, to bring you near to himself, to do the service of YHWH’s tabernacle, and to stand before the congregation to minister to them; <sup><a href=\"https://biblehub.com/numbers/16-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>and that he has brought you near, and all your brothers the sons of Levi with you? Do you seek the priesthood also? <sup><a href=\"https://biblehub.com/numbers/16-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>Therefore you and all your company have gathered together against YHWH! What is Aaron that you complain against him?” <sup><a href=\"https://biblehub.com/numbers/16-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>Moses sent to call Dathan and Abiram, the sons of Eliab; and they said, “We won’t come up! <sup><a href=\"https://biblehub.com/numbers/16-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>Is it a small thing that you have brought us up out of a land flowing with milk and honey, to kill us in the wilderness, but you must also make yourself a prince over us? <sup><a href=\"https://biblehub.com/numbers/16-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>Moreover you haven’t brought us into a land flowing with milk and honey, nor given us inheritance of fields and vineyards. Will you put out the eyes of these men? We won’t come up.” <sup><a href=\"https://biblehub.com/numbers/16-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>Moses was very angry, and said to YHWH, “Don’t respect their offering. I have not taken one donkey from them, neither have I hurt one of them.” <sup><a href=\"https://biblehub.com/numbers/16-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>Moses said to Korah, “You and all your company go before YHWH, you, and they, and Aaron, tomorrow. <sup><a href=\"https://biblehub.com/numbers/16-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>Each man take his censer and put incense on it, and each man bring before YHWH his censer, two hundred fifty censers; you also, and Aaron, each with his censer.” <sup><a href=\"https://biblehub.com/numbers/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>They each took his censer, and put fire in it, and laid incense on it, and stood at the door of the Tent of Meeting with Moses and Aaron. <sup><a href=\"https://biblehub.com/numbers/16-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>Korah assembled all the congregation opposite them to the door of the Tent of Meeting. YHWH’s glory appeared to all the congregation. <sup><a href=\"https://biblehub.com/numbers/16-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>YHWH spoke to Moses and to Aaron, saying, <sup><a href=\"https://biblehub.com/numbers/16-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>“Separate yourselves from among this congregation, that I may consume them in a moment!” <sup><a href=\"https://biblehub.com/numbers/16-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>They fell on their faces, and said, “God, the God of the spirits of all flesh, shall one man sin, and will you be angry with all the congregation?” <sup><a href=\"https://biblehub.com/numbers/16-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>YHWH spoke to Moses, saying, <sup><a href=\"https://biblehub.com/numbers/16-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>“Speak to the congregation, saying, ‘Get away from around the tent of Korah, Dathan, and Abiram!’” <sup><a href=\"https://biblehub.com/numbers/16-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>Moses rose up and went to Dathan and Abiram; and the elders of Israel followed him. <sup><a href=\"https://biblehub.com/numbers/16-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>He spoke to the congregation, saying, “Depart, please, from the tents of these wicked men, and touch nothing of theirs, lest you be consumed in all their sins!” <sup><a href=\"https://biblehub.com/numbers/16-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>So they went away from the tent of Korah, Dathan, and Abiram, on every side. Dathan and Abiram came out, and stood at the door of their tents with their wives, their sons, and their little ones. <sup><a href=\"https://biblehub.com/numbers/16-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>Moses said, “Hereby you shall know that YHWH has sent me to do all these works; for they are not from my own mind. <sup><a href=\"https://biblehub.com/numbers/16-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>If these men die the common death of all men, or if they experience what all men experience, then YHWH hasn’t sent me. <sup><a href=\"https://biblehub.com/numbers/16-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>But if YHWH makes a new thing, and the ground opens its mouth, and swallows them up with all that belong to them, and they go down alive into Sheol, then you shall understand that these men have despised YHWH.” <sup><a href=\"https://biblehub.com/numbers/16-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>As he finished speaking all these words, the ground that was under them split apart. <sup><a href=\"https://biblehub.com/numbers/16-32.htm\"target=\"_blank\"rel=\"noopener noreferrer\">32</a></sup>The earth opened its mouth and swallowed them up with their households, all of Korah’s men, and all their goods. <sup><a href=\"https://biblehub.com/numbers/16-33.htm\"target=\"_blank\"rel=\"noopener noreferrer\">33</a></sup>So they, and all that belonged to them went down alive into Sheol. The earth closed on them, and they perished from among the assembly. <sup><a href=\"https://biblehub.com/numbers/16-34.htm\"target=\"_blank\"rel=\"noopener noreferrer\">34</a></sup>All Israel that were around them fled at their cry; for they said, “Lest the earth swallow us up!” <sup><a href=\"https://biblehub.com/numbers/16-35.htm\"target=\"_blank\"rel=\"noopener noreferrer\">35</a></sup>Fire came out from YHWH, and devoured the two hundred fifty men who offered the incense."
+                },
+                {
+                    "summary": "1 Samuel 19:1 (David and Saul)",
+                    "text": "<sup><a href=\"https://biblehub.com/1_samuel/19-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>Saul spoke to Jonathan his son and to all his servants, that they should kill David. But Jonathan, Saul’s son, greatly delighted in David."
+                },
+                {
+                    "summary": "2 Samuel 15:13–14 (David and Absalom)",
+                    "text": "<sup><a href=\"https://biblehub.com/2_samuel/15-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>A messenger came to David, saying, “The hearts of the men of Israel are after Absalom.” <sup><a href=\"https://biblehub.com/2_samuel/15-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>David said to all his servants who were with him at Jerusalem, “Arise! Let’s flee, or else none of us will escape from Absalom. Hurry to depart, lest he overtake us quickly and bring down evil on us, and strike the city with the edge of the sword.”"
+                },
+                {
+                    "summary": "Acts 15:1–2 (Paul and the Judaizers)",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/15-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>Some men came down from Judea and taught the brothers, “Unless you are circumcised after the custom of Moses, you can’t be saved.” <sup><a href=\"https://biblehub.com/acts/15-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Therefore when Paul and Barnabas had no small discord and discussion with them, they appointed Paul, Barnabas, and some others of them to go up to Jerusalem to the apostles and elders about this question."
+                }
             ]
         },
         {
             "id": 3,
             "head": "Nicæa I's Regional Jurisdiction",
             "short": "The canons of Nicæa I suggest a regional jurisdiction",
-            "details": "The canons of the First Council of Nicaea (325), particularly Canon 6, suggest a model of regional jurisdiction, affirming the authority of major bishops (like those of Rome, Alexandria, and Antioch) over their own territories.<br><br>Critics argue this shows that early Church structure might have lacked a centralized authority.<br><br>Proponents argue that this is true of the Pope as Patriarch of the West, but not in his capacity of head of the entire Church.",
+            "details": "The canons of the First Council of Nicaea (325), particularly Canon 6, suggest a model of regional jurisdiction, affirming the authority of major bishops (like those of Rome, Alexandria, and Antioch) over their own territories.\n\nCritics argue this shows that early Church structure might have lacked a centralized authority.\n\nProponents argue that this is true of the Pope as Patriarch of the West, but not in his capacity of head of the entire Church.",
             "category": "History",
-            "references": [
-                "https://www.newadvent.org/fathers/3801.htm"
+            "ancient": [
+                {
+                    "summary": "Nicæa I",
+                    "year": "325 AD",
+                    "author": "Council",
+                    "url": "https://www.newadvent.org/fathers/3801.htm",
+                    "text": "\"Let the ancient customs in Egypt, Libya and Pentapolis prevail, that the Bishop of Alexandria have jurisdiction in all these, since the like is customary for the Bishop of Rome also. Likewise in Antioch and the other provinces, let the Churches retain their privileges. And this is to be universally understood, that if any one be made bishop without the consent of the Metropolitan, the great Synod has declared that such a man ought not to be a bishop. If, however, two or three bishops shall from natural love of contradiction, oppose the common suffrage of the rest, it being reasonable and in accordance with the ecclesiastical law, then let the choice of the majority prevail.\""
+                }
             ]
         },
         {
             "id": 4,
             "head": "Arabic Canons of Nicæa",
             "short": "Arabic Canons of Nicæa (c. 10th century): Peter is head of Patriarchs and Vicar of Christ",
-            "details": "The Arabic Canons of Nicaea (c. 10th century), a later and non-original text attributed to the First Council of Nicaea, state that Peter is the head of the Patriarchs and the Vicar of Christ.<br><br>Proponents argue that, though not part of the authentic 4th-century Nicene canons, this reflects a later Christian tradition emphasizing the primacy of Peter and, by extension, the authority of the bishop of Rome.<br><br>Critics usually dismiss it as an irrelevant forgery.",
+            "details": "The Arabic Canons of Nicaea (c. 10th century), a later and non-original text attributed to the First Council of Nicaea, state that Peter is the head of the Patriarchs and the Vicar of Christ.\n\nProponents argue that, though not part of the authentic 4th-century Nicene canons, this reflects a later Christian tradition emphasizing the primacy of Peter and, by extension, the authority of the bishop of Rome.\n\nCritics usually dismiss it as an irrelevant forgery.",
             "category": "History",
-            "references": [
-                "https://biblehub.com/library/schaff/the_seven_ecumenical_councils/the_captions_of_the_arabic.htm"
+            "ancient": [
+                {
+                    "summary": "Arabic Canons of Nicæa",
+                    "year": "c. 10th century",
+                    "author": "unknown",
+                    "url": "https://biblehub.com/library/schaff/the_seven_ecumenical_councils/the_captions_of_the_arabic.htm",
+                    "text": "\"Let the patriarch consider what things are done by the archbishops and bishops in their provinces; and if he shall find anything done by them otherwise than it should be, let him change it, and order it, as seemeth him fit: for he is the father of all, and they are his sons. And although the archbishop be among the bishops as an elder brother, who hath the care of his brethren, and to whom they owe obedience because he is over them; yet the patriarch is to all those who are under his power, just as he who holds the seat of Rome, is the head and prince of all patriarchs; inasmuch as he is first, as was Peter, to whom power is given over all Christian princes, and over all their peoples, as he who is the Vicar of Christ our Lord over all peoples and over the whole Christian Church, and whoever shall contradict this, is excommunicated by the Synod.\""
+                }
             ]
         },
         {
             "id": 5,
             "head": "Primus Inter Pares",
             "short": "Eastern Churches consider the Pope \"primus inter pares\"",
-            "details": "The Eastern Churches view the Pope as \"primus inter pares\", meaning \"first among equals\".<br><br>Critics argue that this acknowledges the Pope's honorary primacy among bishops but rejects his supreme authority over the entire Church, emphasizing a collegial and conciliar model of leadership.<br><br>Proponents argue that \"primus inter pares\" was understood to come with actual authority, and that the \"primacy of honour\" is more of a convenient way to deny this",
-            "category": "History",
-            "references": [
-                "Will add source later."
-            ]
+            "details": "The Eastern Churches view the Pope as \"primus inter pares\", meaning \"first among equals\".\n\nCritics argue that this acknowledges the Pope's honorary primacy among bishops but rejects his supreme authority over the entire Church, emphasizing a collegial and conciliar model of leadership.\n\nProponents argue that \"primus inter pares\" was understood to come with actual authority, and that the \"primacy of honour\" is more of a convenient way to deny this",
+            "category": "History"
         },
         {
             "id": 6,
             "head": "Eastern Appeals to Rome",
             "short": "There were appeals to Rome early on, even in the East",
-            "details": "Proponents argue that appeals to Rome, especially from the Eastern Church, show a recognition of the bishop of Rome's authority or moral weight in resolving disputes.<br><br>Critics argue that appeals were submitted when one thought they would help, and Rome was an important see, but that doesn't mean it had binding authority over the others.",
+            "details": "Proponents argue that appeals to Rome, especially from the Eastern Church, show a recognition of the bishop of Rome's authority or moral weight in resolving disputes.\n\nCritics argue that appeals were submitted when one thought they would help, and Rome was an important see, but that doesn't mean it had binding authority over the others.",
             "category": "History",
-            "references": [
-                "Athanasius of Alexandria (c. 296–373) sought the support of the Pope when he was exiled: https://www.newadvent.org/fathers/28081.htm",
-                "Basil of Cæsarea (c.  371–372) valued Roman orthodoxy and criticized its passivity in Eastern disputes: https://www.newadvent.org/fathers/3202243.htm",
-                "Basil of Cæsarea (c.  371–372) sought Roman aid against heretics: https://www.newadvent.org/fathers/3202066.htm",
-                "Cyril of Alexandria (c. 376–444 AD) sought the aid of Pope Celestine against Nestorius: https://www.fourthcentury.com/cyrils-ep-11-letter-to-celestine-cpg-5310-8636/",
-                "John Chrysostom (c. 404) appealed to Pope Innocent, who supported him against his usurpers: https://www.newadvent.org/fathers/1918.htm"
+            "ancient": [
+                {
+                    "summary": "Apology Against the Arians",
+                    "year": "c. 350 AD",
+                    "author": "St. Athanasius of Alexandria",
+                    "url": "https://www.newadvent.org/fathers/28081.htm",
+                    "text": "St. Athanasius sought the support of the Pope when he was exiled."
+                },
+                {
+                    "summary": "Letter 243",
+                    "year": "c. 371–372",
+                    "author": "St. Basil the Great",
+                    "url": "https://www.newadvent.org/fathers/3202243.htm",
+                    "text": "St. Basil valued Roman orthodoxy and criticized its passivity in Eastern disputes."
+                },
+                {
+                    "summary": "Letter 66",
+                    "year": "c. 371–372",
+                    "author": "St. Basil the Great",
+                    "url": "https://www.newadvent.org/fathers/3202066.htm",
+                    "text": "St. Basil sought Roman aid against heretics."
+                },
+                {
+                    "summary": "Epistle 11",
+                    "year": "430 AD",
+                    "author": "St. Cyril of Alexandria",
+                    "url": "https://www.fourthcentury.com/cyrils-ep-11-letter-to-celestine-cpg-5310-8636/",
+                    "text": "St. Cyril sought the aid of Pope Celestine against Nestorius."
+                },
+                {
+                    "summary": "Chrysostom's Letters to Innocent I",
+                    "year": "404",
+                    "author": "St. John Chrysostom",
+                    "url": "https://www.newadvent.org/fathers/1918.htm",
+                    "text": "St. John appealed to Pope Innocent, who supported him against his usurpers."
+                }
             ]
         },
         {
             "id": 7,
             "head": "Eastern Appeals to Patriarchs or Emperors",
             "short": "Eastern bishops often appealed to patriarchs or emperors instead of Rome",
-            "details": "Critics argue that Eastern bishops often appealed to local patriarchs or the Byzantine emperor rather than to Rome, suggesting the choice of whom to appeal to was more pragmatic than anything else.<br><br>Proponents concede this, but see it as irrelevant.",
-            "category": "History",
-            "references": [
-                "Will add sources later."
-            ]
+            "details": "Critics argue that Eastern bishops often appealed to local patriarchs or the Byzantine emperor rather than to Rome, suggesting the choice of whom to appeal to was more pragmatic than anything else.\n\nProponents concede this, but see it as irrelevant.",
+            "category": "History"
         },
         {
             "id": 8,
             "head": "Pope Victor I",
             "short": "Pope Victor I threatened to excommunicate Asia Minor",
-            "details": "In the late 2nd century, Pope Victor I threatened to excommunicate the churches of Asia Minor over a dispute about the date of Easter (the Quartodeciman controversy). Many bishops, including Irenæus of Lyons, urged him to reconsider.<br><br>Proponents argue that this shows Victor I understood his jurisdiction as extending beyond the West.<br><br>Critics argue that he was rebuked for it and that this stopped him from going through with it, suggesting conciliarity won the day.",
+            "details": "In the late 2nd century, Pope Victor I threatened to excommunicate the churches of Asia Minor over a dispute about the date of Easter (the Quartodeciman controversy). Many bishops, including Irenæus of Lyons, urged him to reconsider.\n\nProponents argue that this shows Victor I understood his jurisdiction as extending beyond the West.\n\nCritics argue that he was rebuked for it and that this stopped him from going through with it, suggesting conciliarity won the day.",
             "category": "History",
-            "references": [
-                "Eusebius of Cæsarea (c. 313–325 AD): https://www.earlychurchtexts.com/public/eusebius_quartodeciman_controversy.htm"
+            "ancient": [
+                {
+                    "summary": "Church History, Book V, Chapters 23–25",
+                    "year": "c. 324 AD",
+                    "author": "Eusebius of Cæsarea",
+                    "url": "https://www.newadvent.org/fathers/250105.htm",
+                    "text": "\"<sup>9</sup>Thereupon Victor, who presided over the church at Rome, immediately <b>attempted to cut off from the common unity</b> the parishes of all Asia, with the churches that agreed with them, as heterodox; and he wrote letters and <b>declared all the brethren there wholly excommunicate</b>. <sup>10</sup>But this did not please all the bishops. And they besought him to consider the things of peace, and of neighborly unity and love. Words of theirs are extant, <b>sharply rebuking Victor</b>.\""
+                }
             ]
         },
         {
             "id": 9,
             "head": "The Test of Time",
             "short": "The Papacy has endured the test of time",
-            "details": "Proponents argue that the Papacy is one of the oldest current institutions in the world. It has survived centuries of political, religious, and social challenges to its existence and authority, and remains influential to this day.<br><br>Critics argue that this does not mean its claims of universal jurisdiction and infallibility are true.",
-            "category": "History",
-            "references": [
-                "Will add source later. I think."
-            ]
+            "details": "Proponents argue that the Papacy is one of the oldest current institutions in the world. It has survived centuries of political, religious, and social challenges to its existence and authority, and remains influential to this day.\n\nCritics argue that this does not mean its claims of universal jurisdiction and infallibility are true.",
+            "category": "History"
         },
         {
             "id": 10,
             "head": "Papal Forgeries",
             "short": "Various forgeries were produced to buttress papal claims historically",
-            "details": "Throughout history, various forgeries, like the Donation of Constantine and the Symmachian Forgeries, were produced to support and strengthen papal claims to religious authority and even temporal power.<br><br>Critics argue that, though eventually discredited, some of them have directly influenced things like Canon Law and possibly even doctrine.<br><br>Proponents argue that forgeries are made to provide \"proof\" for a position that is already in existence, just not universally accepted.",
-            "category": "History",
-            "references": [
-                "Will add source later."
-            ]
+            "details": "Throughout history, various forgeries, like the Donation of Constantine and the Symmachian Forgeries, were produced to support and strengthen papal claims to religious authority and even temporal power.\n\nCritics argue that, though eventually discredited, some of them have directly influenced things like Canon Law and possibly even doctrine.\n\nProponents argue that forgeries are made to provide \"proof\" for a position that is already in existence, just not universally accepted.",
+            "category": "History"
         },
         {
             "id": 11,
             "head": "Papal Depositions",
             "short": "Various rulers and mobs have arguably deposed valid popes",
-            "details": "Critics argue that, throughout history, various rulers and mobs have at times deposed or forced the resignation of valid popes, showing a certain disregard for papal authority.<br><br>Proponents argue that, just like a monarch in exile is often considered the rightfull king of his homeland, so too the Pope remains Pope until he dies if his resignation was made under duress, making the objection irrelevant.",
-            "category": "History",
-            "references": [
-                "Will add source later."
-            ]
+            "details": "Critics argue that, throughout history, various rulers and mobs have at times deposed or forced the resignation of valid popes, showing a certain disregard for papal authority.\n\nProponents argue that, just like a monarch in exile is often considered the rightfull king of his homeland, so too the Pope remains Pope until he dies if his resignation was made under duress, making the objection irrelevant.",
+            "category": "History"
         },
         {
             "id": 12,
             "head": "Conciliar Movement and Gallicanism",
             "short": "The Conciliar Movement and Gallicanism show Catholic skepticism of papal claims",
-            "details": "The Conciliar Movement and Gallicanism reflect periods of skepticism toward papal authority in the Catholic West.<br><br>Critics argue that their emphasis on the authority of Church councils or national churches over the pope in the 14th to 18th centuries demonstrate that Papal Supremacy is a late development.<br><br>Proponents argue that there have always been those who hesitate to acknowledge authority, sometimes to the point of heresy, but that this does not nullify legitimate authority.",
-            "category": "History",
-            "references": [
-                "Will add source later."
-            ]
+            "details": "The Conciliar Movement and Gallicanism reflect periods of skepticism toward papal authority in the Catholic West.\n\nCritics argue that their emphasis on the authority of Church councils or national churches over the pope in the 14th to 18th centuries demonstrate that Papal Supremacy is a late development.\n\nProponents argue that there have always been those who hesitate to acknowledge authority, sometimes to the point of heresy, but that this does not nullify legitimate authority.",
+            "category": "History"
         },
         {
             "id": 13,
             "head": "Clement of Rome",
-            "short": "Clement of Rome (c. 70–96 AD) asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
-            "details": "Proponents often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead.<br><br>Critics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice.",
+            "short": "St. Clement of Rome (c. 70–96 AD) asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
+            "details": "Proponents often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead.\n\nCritics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice.",
             "category": "Patristic",
-            "references": [
-                "Clement of Rome (c. 70–96 AD): https://www.newadvent.org/fathers/1010.htm"
+            "ancient": [
+                {
+                    "summary": "1 Clement",
+                    "year": "c. 96 AD",
+                    "author": "St. Clement of Rome",
+                    "url": "https://www.newadvent.org/fathers/1010.htm",
+                    "text": "\"Owing, dear brethren, to the sudden and successive calamitous events which have happened to ourselves, we feel that we have been somewhat tardy in turning our attention to the points respecting which <b>you consulted us</b>; and especially to that shameful and detestable sedition, utterly abhorrent to the elect of God, which a few rash and self-confident persons have kindled to such a pitch of frenzy, that your venerable and illustrious name, worthy to be universally loved, has suffered grievous injury.\""
+                }
             ]
         },
         {
             "id": 14,
             "head": "Ignatius of Antioch",
-            "short": "Ignatius of Antioch (c. 107–108 AD), who generally speaks \"down\" to the churches he writes on the way to his martyrdom, speaks \"up\" to the Romans, going so far as to say that Rome \"presides over love\" (i.e. the Eucharist).",
-            "details": "Proponents often argue that the reason Ignatius shows such respect for Rome is that St. Peter's office continues there, as evidenced by \"presiding over love\". \"Love feast\" is a common name for the Eucharist, so this fits very well with the modern Catholic understanding of being in communion with the Pope.<br><br>Critics often counter that Rome was an important city, Peter or no Peter, and Ignatius is writing to request that the Christians there avoid helping him escape martyrdom, so it is natural that he should be more polite.",
+            "short": "St. Ignatius of Antioch (c. 107–108 AD), who generally speaks \"down\" to the churches he writes on the way to his martyrdom, speaks \"up\" to the Romans, going so far as to say that Rome \"presides over love\" (i.e. the Eucharist).",
+            "details": "Proponents often argue that the reason Ignatius shows such respect for Rome is that St. Peter's office continues there, as evidenced by \"presiding over love\". \"Love feast\" is a common name for the Eucharist, so this fits very well with the modern Catholic understanding of being in communion with the Pope.\n\nCritics often counter that Rome was an important city, Peter or no Peter, and Ignatius is writing to request that the Christians there avoid helping him escape martyrdom, so it is natural that he should be more polite.",
             "category": "Patristic",
-            "references": [
-                "Ignatius of Antioch: https://www.newadvent.org/fathers/0107.htm"
+            "ancient": [
+                {
+                    "summary": "Letter to the Romans (Greeting)",
+                    "year": "c. 107–108 AD",
+                    "author": "St. Ignatius of Antioch",
+                    "url": "https://www.newadvent.org/fathers/0107.htm",
+                    "text": "\"Ignatius, who is also called Theophorus, to the Church which has obtained mercy, through the majesty of the Most High Father, and Jesus Christ, His only-begotten Son; the Church which is beloved and enlightened by the will of Him that wills all things which are according to the love of Jesus Christ our God, which also presides in the place of the region of the Romans, worthy of God, worthy of honour, worthy of the highest happiness, worthy of praise, worthy of obtaining her every desire, worthy of being deemed holy, and which <b>presides over love</b>, is named from Christ, and from the Father, which I also salute in the name of Jesus Christ, the Son of the Father: to those who are united, both according to the flesh and spirit, to every one of His commandments; who are filled inseparably with the grace of God, and are purified from every strange taint, [I wish] abundance of happiness unblameably, in Jesus Christ our God.\""
+                }
             ]
         },
         {
             "id": 15,
             "head": "Polycarp of Smyrna",
             "short": "Polycarp of Smyrna visited Rome to attempt a resolution of the Quartodeciman Controversy.",
-            "details": "Many of the (presumably Johannine) churches in Asia Minor celebrated Easter according to the Jewish calendar, no matter what day of the week it landed on, whereas the rest of the Church celebrated on a Sunday. This caused some controversy in the second century because it was felt that there should be a common Easter date for the whole Church.<br><br>Proponents argue that Polycarp travelling to Rome fits the Petrine leadership hypothesis.<br><br>Critics argue that Rome was the see complaining about this in the first place, which explains why Polycarp felt a need to travel there.",
+            "details": "Many of the (presumably Johannine) churches in Asia Minor celebrated Easter according to the Jewish calendar, no matter what day of the week it landed on, whereas the rest of the Church celebrated on a Sunday. This caused some controversy in the second century because it was felt that there should be a common Easter date for the whole Church.\n\nProponents argue that Polycarp travelling to Rome fits the Petrine leadership hypothesis.\n\nCritics argue that Rome was the see complaining about this in the first place, which explains why Polycarp felt a need to travel there.",
             "category": "Patristic",
-            "references": [
-                "Polycarp of Smyrna: https://www.earlychurchtexts.com/public/eusebius_quartodeciman_controversy.htm"
+            "ancient": [
+                {
+                    "summary": "Church History, Book V, Chapters 23–25",
+                    "year": "c. 324 AD",
+                    "author": "Eusebius of Cæsarea",
+                    "url": "https://www.newadvent.org/fathers/250105.htm",
+                    "text": "\"<sup>16</sup>And when the blessed Polycarp was at Rome in the time of Anicetus, and they disagreed a little about certain other things, they immediately made peace with one another, not caring to quarrel over this matter. For neither could Anicetus persuade Polycarp not to observe what he had always observed with John the disciple of our Lord, and the other apostles with whom he had associated; neither could Polycarp persuade Anicetus to observe it as he said that he ought to follow the customs of the presbyters that had preceded him. <sup>17</sup>But though matters were in this shape, they communed together, and Anicetus conceded the administration of the eucharist in the church to Polycarp, manifestly as a mark of respect. And they parted from each other in peace, both those who observed, and those who did not, maintaining the peace of the whole church.\""
+                }
             ]
         },
         {
             "id": 16,
             "head": "Dionysius of Corinth",
             "short": "Dionysius of Corinth (c. 171 AD) praises Rome for uniting the churches of Rome and Corinth.",
-            "details": "Proponents argue that this shows the Pope's role as a uniter of the Church.<br><br>Critics argue that Corinth was a Roman colony and had a close relationship with Rome because of that.",
+            "details": "Proponents argue that this shows the Pope's role as a uniter of the Church.\n\nCritics argue that Corinth was a Roman colony and had a close relationship with Rome because of that.",
             "category": "Patristic",
-            "references": [
-                "Dionysius of Corinth: https://4marksofthechurch.com/cf-st-dionysius-of-corinth/"
+            "ancient": [
+                {
+                    "summary": "Letter to Pope Soter (Fragments)",
+                    "year": "c. 171 AD",
+                    "author": "St. Dionysius of Corinth",
+                    "url": "https://4marksofthechurch.com/cf-st-dionysius-of-corinth/",
+                    "text": "\"We passed this holy Lord’s day, in which we read your letter, from the constant reading of which we shall be able to draw admonition, even as from the reading of the former one you sent us written through Clement.\""
+                }
             ]
         },
         {
             "id": 17,
             "head": "Irenæus of Lyons",
             "short": "Irenæus (c. 180 AD): All churches must agree with Rome.",
-            "details": "Proponents argue that this shows the central role of Rome in doctrinal questions, maybe even a precedent for Papal Infallibility.<br><br>Critics argue that this is merely an expression of respect for Rome's evident orthodoxy, not a belief that Rome is infallible.",
+            "details": "Proponents argue that this shows the central role of Rome in doctrinal questions, maybe even a precedent for Papal Infallibility.\n\nCritics argue that this is merely an expression of respect for Rome's evident orthodoxy, not a belief that Rome is infallible.",
             "category": "Patristic",
-            "references": [
-                "Irenæus of Lyons: https://www.newadvent.org/fathers/0103303.htm"
+            "ancient": [
+                {
+                    "summary": "Against Heresies 3.3.2",
+                    "year": "c. 180 AD",
+                    "author": "St. Irenæus of Lyons",
+                    "url": "https://www.newadvent.org/fathers/0103303.htm",
+                    "text": "\"Since, however, it would be very tedious, in such a volume as this, to reckon up the successions of all the Churches, we do put to confusion all those who, in whatever manner, whether by an evil self-pleasing, by vainglory, or by blindness and perverse opinion, assemble in unauthorized meetings; [we do this, I say,] by indicating that tradition derived from the apostles, of the very great, the very ancient, and universally known Church founded and organized at Rome by the two most glorious apostles, Peter and Paul; as also [by pointing out] the faith preached to men, which comes down to our time by means of the successions of the bishops. For it is a matter of necessity that every Church should agree with this Church, on account of its preeminent authority [potiorem principalitatem].\""
+                }
             ]
         },
         {
             "id": 18,
             "head": "Tertullian Mocks the Pope",
             "short": "Tertullian, after becoming a Montanist heretic, mocks the Pope (or possibly an African bishop) by sarcastically referring to him as \"Pontifex Maximus\" and \"bishop of bishops\".",
-            "details": "Proponents argue that Tertullian, as a heretic, would mock the Pope's authority because he didn't recognize it anymore.<br><br>Critics argue that this shows that the Pope was not the undisputed leader of the early Church.",
+            "details": "Proponents argue that Tertullian, as a heretic, would mock the Pope's authority because he didn't recognize it anymore.\n\nCritics argue that this shows that the Pope was not the undisputed leader of the early Church.",
             "category": "Patristic",
-            "references": [
-                "Tertullian (c. 220–240 AD): https://www.newadvent.org/fathers/0407.htm",
-                "https://ubipetrusibiecclesia.com/wp-content/uploads/2024/01/eno-the-work-of-optatus.pdf"
+            "ancient": [
+                {
+                    "summary": "On Modesty",
+                    "year": "c. 206–212 AD",
+                    "author": "Tertullian",
+                    "url": "https://www.newadvent.org/fathers/0407.htm",
+                    "text": "\"I hear that there has even been an edict set forth, and a peremptory one too. The Pontifex Maximus — that is, the bishop of bishops — issues an edict: 'I remit, to such as have discharged (the requirements of) repentance, the sins both of adultery and of fornication.'\""
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Robert B. Eno: \"The Work of Optatus as a Turning Point in the African Ecclesiology\"",
+                    "year": "1973",
+                    "url": "https://ubipetrusibiecclesia.com/wp-content/uploads/2024/01/eno-the-work-of-optatus.pdf",
+                    "text": "\"The Catholic Church of Latin North Africa consistently maintained an ambivalent attitude of simultaneous respect for Rome as a see whose apostolic credentials were most impressive, combined with a considerable sensitivity about its own autonomy and traditions.\""
+                }
             ]
         },
         {
             "id": 19,
             "head": "All Christians as Peters",
             "short": "Origen (ca. 225 AD) interpreted all Christians as a kind of Peter.",
-            "details": "Proponents argue that this is fine, because a passage can have several layers of meaning.<br><br>Critics argue that this undermines the papal aspects of identifying Peter as the rock.",
+            "details": "Proponents argue that this is fine, because a passage can have several layers of meaning.\n\nCritics argue that this undermines the papal aspects of identifying Peter as the rock.",
             "category": "Patristic",
-            "references": [
-                "Origen (c. 225 AD): https://www.newadvent.org/fathers/101505.htm"
+            "bible": [
+                {
+                    "summary": "Matthew 16:18",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it."
+                },
+                {
+                    "summary": "1 Corinthians 10:4",
+                    "text": "<sup><a href=\"https://biblehub.com/1_corinthians/10-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>and all drank the same spiritual drink. For they drank of a spiritual rock that followed them, and the rock was Christ."
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "Origen's Commentary on the Gospel of Matthew, Book XII, Chapter 10",
+                    "year": "c. 244–245 AD",
+                    "author": "Origen of Alexandria",
+                    "url": "https://www.newadvent.org/fathers/101612.htm",
+                    "text": "\"And if we too have said like Peter, \"You are the Christ, the Son of the living God,\" not as if flesh and blood had revealed it unto us, but by light from the Father in heaven having shone in our heart, we become a Peter, and to us there might be said by the Word, \"You are Peter,\" etc.<sup><a href=\"https://biblehub.com/matthew/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">(Matthew 16:18)</a></sup> For a rock is every disciple of Christ of whom those drank who drank of the spiritual rock which followed them,<sup><a href=\"https://biblehub.com/1_corinthians/10-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">(1 Corinthians 10:4)</a></sup> and upon every such rock is built every word of the church, and the polity in accordance with it; for in each of the perfect, who have the combination of words and deeds and thoughts which fill up the blessedness, is the church built by God.\""
+                }
             ]
         },
         {
             "id": 20,
             "head": "Firmilian and Rebaptism",
             "short": "Firmilian and many other Antiochene bishops opposed Pope Stephen I in the Rebaptism Controversy.",
-            "details": "Critics argue that this shows that the bishop of Rome is not above the other bishops and that they felt they did not have to accept his judgement.<br><br>Proponents argue that Popes can be wrong, but so can bishops, even if they have many others on their side. Since the Church ended up siding against the rebaptizers, Pope Stephen was vindicated, and the fact that some bishops did not accept his authority doesn't prove any more than the fact that some people left the Church entirely for a heresy of some sort.",
+            "details": "Critics argue that this shows that the bishop of Rome is not above the other bishops and that they felt they did not have to accept his judgement.\n\nProponents argue that Popes can be wrong, but so can bishops, even if they have many others on their side. Since the Church ended up siding against the rebaptizers, Pope Stephen was vindicated, and the fact that some bishops did not accept his authority doesn't prove any more than the fact that some people left the Church entirely for a heresy of some sort.",
             "category": "Patristic",
-            "references": [
-                "Firmilian of Cæsarea (256 AD): https://biblehub.com/library/cyprian/the_epistles_of_cyprian/epistle_lxxiv_firmilian_bishop_of.htm"
+            "ancient": [
+                {
+                    "summary": "Firmilian's Epistle 74",
+                    "year": "256 AD",
+                    "author": "Firmilian of Cæsarea",
+                    "url": "https://biblehub.com/library/cyprian/the_epistles_of_cyprian/epistle_lxxiv_firmilian_bishop_of.htm",
+                    "text": "\"But that they who are at <b>Rome</b> do not observe those things in all cases which are handed down from the beginning, and vainly <b>pretend the authority of the apostles</b>; any one may know also from the fact, that concerning the celebration of Easter, and concerning many other sacraments of divine matters, he may see that there are some diversities among them, and that all things are not observed among them alike, which are observed at Jerusalem, just as in very many other provinces also many things are varied because of the difference of the places and names. And yet on this account there is no departure at all from the peace and unity of the Catholic Church, such as Stephen has now dared to make; breaking the peace against you, which his predecessors have always kept with you in mutual love and honour, even herein defaming Peter and Paul the blessed apostles, as if the very men delivered this who in their epistles execrated heretics, and warned us to avoid them. Whence it appears that this tradition is of men which maintains heretics, and <b>asserts that they have baptism</b>, which belongs to the Church alone.\""
+                }
             ]
         },
         {
             "id": 21,
             "head": "Cyprian and the Equality of the Apostles",
             "short": "Cyprian of Carthage (c. 251–252 AD) says the apostles received equal power to bind and loose.",
-            "details": "Proponents argue that this is true, in the sense that the Pope is the leader of the college of bishops, but he doesn't replace the bishops.<br><br>Critics see this as incompatible with Papal Supremacy in general and Universal Jurisdiction in particular.",
+            "details": "Proponents argue that this is true, in the sense that the Pope is the leader of the college of bishops, but he doesn't replace the bishops.\n\nCritics see this as incompatible with Papal Supremacy in general and Universal Jurisdiction in particular.",
             "category": "Patristic",
-            "references": [
-                "Cyprian of Carthage (c. 251–252 AD): https://archive.org/details/TheUnityOfTheChurchByStCyprianOfCarthage/page/n9/mode/2up?view=theater"
-            ]
+            "ancient": [
+                {
+                    "summary": "The Unity of the Church, Chapter 4",
+                    "year": "c. 251–252 AD",
+                    "author": "St. Cyprian of Carthage",
+                    "url": "https://archive.org/details/TheUnityOfTheChurchByStCyprianOfCarthage/page/n9/mode/2up?view=theater",
+                    "text": "\"Upon him [Peter], being one, He builds His Church, and although after His resurrection He bestows equal power upon all the Apostles, and says: 'As the Father has sent me, I also send you. Receive ye the Holy Spirit: if you forgive the sins of anyone, they will be forgiven him; if you retain the sins of anyone, they will be retained,' yet that He might display unity, He established by His authority the origin of the same unity as beginning from one. Surely <b>the rest of the Apostles also were that which Peter was</b>, endowed with an <b>equal partnership of office and of power</b>, but the beginning proceeds from unity, that the Church of Christ may be shown to be one.\""
+                }
+            ] 
         },
         {
             "id": 22,
             "head": "Cyprian vs. Pope Stephen",
             "short": "Cyprian of Carthage (c. 256 AD) opposed Pope Stephen, who threatened to excommunicate him over his rebaptism of converts from heretic groups.",
-            "details": "Proponents argue that this is an example where a saint is simply in the wrong, both doctrinally and hierarchically.<br><br>Critics see this as suggesting Rome was not the highest authority in the Church at this point.",
+            "details": "Proponents argue that this is an example where a saint is simply in the wrong, both doctrinally and hierarchically.\n\nCritics see this as suggesting Rome was not the highest authority in the Church at this point.",
             "category": "Patristic",
-            "references": [
-                "Cyprian of Carthage (c. 256 AD): https://www.newadvent.org/fathers/050674.htm"
+            "ancient": [
+                {
+                    "summary": "Epistle 74",
+                    "year": "256 AD",
+                    "author": "Firmilian of Cæsarea",
+                    "url": "https://biblehub.com/library/cyprian/the_epistles_of_cyprian/epistle_lxxiv_firmilian_bishop_of.htm",
+                    "text": "This is not the first letter Firmilian of Cæsarea wrote to Cyprian, but it is the most strongly worded one."
+                }
             ]
         },
         {
             "id": 23,
             "head": "Cyprian and the Unity of the Faith",
             "short": "Cyprian of Carthage (c. 252 AD) says the unity of the faith derives from the seat of Peter.",
-            "details": "The first edition of this book sounds a lot more \"papal\", but Cyprian toned it down for the second edition, where Peter is more of a model for every bishop.<br><br>Proponents see the first edition as an admission that Cyprian did recognize the Pope's authority.<br><br>Critics argue that he toned it down in the second edition to clarify what his actual stance was.",
+            "details": "The first edition of this book sounds a lot more \"papal\", but Cyprian toned it down for the second edition, where Peter is more of a model for every bishop.\n\nProponents see the first edition as an admission that Cyprian did recognize the Pope's authority.\n\nCritics argue that he toned it down in the second edition to clarify what his actual stance was.",
             "category": "Patristic",
-            "references": [
-                "Cyprian of Carthage (c. 252 AD): https://www.newadvent.org/fathers/050654.htm"
+            "ancient": [
+                {
+                    "summary": "Cyprian's Epistle 54",
+                    "year": "c. 252 AD",
+                    "author": "St. Cyprian of Carthage",
+                    "url": "https://www.newadvent.org/fathers/050654.htm",
+                    "text": "\"After such things as these, moreover, they still dare — a false bishop having been appointed for them by, heretics— to set sail and to bear letters from schismatic and profane persons to the throne of Peter, and to the chief church whence priestly unity takes its source; and not to consider that these were the Romans whose faith was praised in the preaching of the apostle, to whom faithlessness could have no access. But what was the reason of their coming and announcing the making of the pseudo-bishop in opposition to the bishops? For either they are pleased with what they have done, and persist in their wickedness; or, if they are displeased and retreat, they know whither they may return.\""
+                }
             ]
         },
         {
             "id": 24,
             "head": "Ambrose, Peter, and the Church",
             "short": "Ambrose of Milan (c. 340–397): Where Peter is, there is the Church.",
-            "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.<br><br>Critics argue that this can be understood to refer to any local bishop, not just the Pope.",
+            "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.\n\nCritics argue that this can be understood to refer to any local bishop, not just the Pope.",
             "category": "Patristic",
-            "references": [
-                "Ambrose of Milan (c. 340–397 AD): https://archive.org/details/corpusscriptorum64ambruoft/page/250/mode/2up?view=theater"
+            "ancient": [
+                {
+                    "summary": "Explanatio Psalmorum XII",
+                    "year": "c. 374–397 AD",
+                    "author": "St. Ambrose of Milan",
+                    "url": "https://archive.org/details/corpusscriptorum64ambruoft/page/250/mode/2up?view=theater",
+                    "text": "\"Ubi Petrus, ibi ecclesia, ubi ecclesia, ibi nulla mors, sed uita aeterna. (...) Beatus Petrus, cui non inferorum porta praeualuit, non caeli porta se clausit, sed e contrario destruxit inferni uestibula, patefecit caelestia. In terris itaque positus caelum aperuit, inferos clausit.\""
+                }
             ]
         },
         {
             "id": 25,
             "head": "Augustine: Roma Locuta, Causa Finita",
             "short": "Augustine of Hippo expressed his opinion that the controversy was over because it had been settled by several councils and sent to Rome.",
-            "details": "Augustine is often quoted as saying \"Roma locuta est — causa finita est\" (\"Rome has spoken — the matter is finished\"), but that is a simplified paraphrase. He actually says that two councils have decided against the Pelagians and sent their decisions to the Apostolic See, who has sent their rescripts back to Africa, and that the matter is finished.<br><br>Proponents argue that this shows that Rome was to be informed when a local controversy was settled, which makes sense if the Pope is the highest authority in the Church.<br><br>Critics say Rome had the most prestige (and even then, not always) of the major sees.",
+            "details": "Augustine is often quoted as saying \"Roma locuta est — causa finita est\" (\"Rome has spoken — the matter is finished\"), but that is a simplified paraphrase. He actually says that two councils have decided against the Pelagians and sent their decisions to the Apostolic See, who has sent their rescripts back to Africa, and that the matter is finished.\n\nProponents argue that this shows that Rome was to be informed when a local controversy was settled, which makes sense if the Pope is the highest authority in the Church.\n\nCritics say Rome had the most prestige (and even then, not always) of the major sees.",
             "category": "Patristic",
-            "references": [
-                "Augustine of Hippo (c. 354–430 AD): https://archive.org/details/saint-augustine-sermons/Saint Augustine - Sermons 94A %3B 147a/page/322/mode/2up?view=theater"
+            "ancient": [
+                {
+                    "summary": "Sermon 131",
+                    "year": "c. 396–430 AD",
+                    "author": "St. Augustine of Hippo",
+                    "url": "https://archive.org/details/saint-augustine-sermons/Saint Augustine - Sermons 94A %3B 147a/page/322/mode/2up?view=theater",
+                    "text": "\"You see, there have already been two councils about this matter, and their decisions sent to the Apostolic See; from there rescripts have been sent back here. The case is finished; if only the error were finished too, sometime!\""
+                }
             ]
         },
         {
             "id": 26,
             "head": "Optatus of Milevis on the Chair of Peter",
             "short": "St. Optatus of Milevis (367 AD) affirmed Petrine primacy for unity and sole holding of keys.",
-            "details": "Proponents argue that this shows that the unity of the Church was already connected to the chair of Peter.<br><br>Critics argue that other African fathers from this period, especially Cyprian of Carthage, used similar language but were not afraid to risk excommunication by Pope Stephen I over the rebaptism of heretics. They see it as showing respect for Rome's orthodoxy and an optimistic hope that it would remain orthodox.",
+            "details": "Proponents argue that this shows that the unity of the Church was already connected to the chair of Peter.\n\nCritics argue that other African fathers from this period, especially Cyprian of Carthage, used similar language but were not afraid to risk excommunication by Pope Stephen I over the rebaptism of heretics. They see it as showing respect for Rome's orthodoxy and an optimistic hope that it would remain orthodox.",
             "category": "Patristic",
-            "references": [
-				"Optatus of Milevis (367 AD): https://tertullian.org/fathers/optatus_01_book1.htm"
+            "ancient": [
+                {
+                    "summary": "Against the Donatists",
+                    "year": "c. 367–368 AD",
+                    "author": "St. Optatus of Milevis",
+                    "url": "https://tertullian.org/fathers/optatus_01_book1.htm",
+                    "text": "\"Peter alone received the keys.\""
+                }
             ]
         },
         {
             "id": 27,
             "head": "Canon 28 of Chalcedon",
             "short": "Canon 28 of Chalcedon (451 AD): New Rome shall have equal privileges.",
-            "details": "Critics argue that this is scathing evidence against Papal Primacy.<br><br>Proponents argue that Papal approval is required for canons to be binding, and no Pope ever approved this canon.",
+            "details": "Critics argue that this is scathing evidence against Papal Primacy.\n\nProponents argue that Papal approval is required for canons to be binding, and no Pope ever approved this canon.",
             "category": "Patristic",
-            "references": [
-                "Canons of Chalcedon (451 AD): https://earlychurchtexts.com/main/chalcedon/canons_of_chalcedon_03.shtml",
-				"Leo I and subsequent popes did not accept this canon: https://www.newadvent.org/fathers/3604104.htm"
+            "ancient": [
+                {
+                    "summary": "Canon 28 of Chalcedon",
+                    "year": "451 AD",
+                    "author": "council",
+                    "url": "https://www.newadvent.org/fathers/3811.htm",
+                    "text": "\"Following in all things the decisions of the holy Fathers, and acknowledging the canon, which has been just read, of the One Hundred and Fifty Bishops beloved-of-God (who assembled in the imperial city of Constantinople, which is New Rome, in the time of the Emperor Theodosius of happy memory), we also do enact and decree the same things concerning the privileges of the most holy Church of Constantinople, which is New Rome. For the Fathers rightly granted privileges to the throne of old Rome, because it was the royal city. And the One Hundred and Fifty most religious Bishops, actuated by the same consideration, gave equal privileges (ἴσα πρεσβεῖα) to the most holy throne of New Rome, justly judging that the city which is honoured with the Sovereignty and the Senate, and enjoys equal privileges with the old imperial Rome, should in ecclesiastical matters also be magnified as she is, and rank next after her; so that, in the Pontic, the Asian, and the Thracian dioceses, the metropolitans only and such bishops also of the Dioceses aforesaid as are among the barbarians, should be ordained by the aforesaid most holy throne of the most holy Church of Constantinople; every metropolitan of the aforesaid dioceses, together with the bishops of his province, ordaining his own provincial bishops, as has been declared by the divine canons; but that, as has been above said, the metropolitans of the aforesaid Dioceses should be ordained by the archbishop of Constantinople, after the proper elections have been held according to custom and have been reported to him.\""
+                },
+                {
+                    "summary": "Canon 28 of Calcedon (Greek)",
+                    "year": "451 AD",
+                    "author": "council",
+                    "url": "https://earlychurchtexts.com/main/chalcedon/canons_of_chalcedon_03.shtml",
+                    "text": "\"Πανταχοῦ τοῖς τῶν ἁγίων πατέρων ὅροις ἑπόμενοι, καὶ τὸν ἀρτίως ἀναγνωσθέντα κανόνα τῶν ἑκατὸν πεντήκοντα θεοφιλεστάτων ἐπισκόπων, τῶν συναχθέντων ἐπὶ τοῦ τῆς εὐσεβοῦς μνήμης μεγάλου Θεοδοσίου τοῦ γενομένου βασιλέως ἐν τῇ βασιλίδι Κωνσταντινουπόλει, νέᾳ Ῥὼμῃ, γνωρίζοντες, τὰ αὐτὰ καὶ ἡμεῖς ὁρίζομέν τε καὶ ψηφιζόμεθα περὶ τῶν πρεσβείων τῆς ἁγιωτάτης ἐκκλησίας τῆς αὐτῆς Κωνσταντινουπόλεως, νέας Ῥώμης. Καὶ γὰρ τῷ θρόνῳ τῆς πρεσβυτέρας Ῥώμης, διὰ τὸ βασιλεύειν τὴν πόλιν ἐκείνην, οἱ πατέρες εἰκότως ἀποδεδώκασι τὰ πρεσβεῖα· καὶ τῷ αὐτῷ σκοπῷ κινούμενοι οἱ ἑκατὸν πεντήκοντα θεοφιλέστατοι ἐπίσκοποι, τὰ ἶσα πρεσβεῖα ἀπένειμαν τῷ τῆς νέας Ῥώμης ἁγιωτάτῳ θρόνῳ, εὐλόγως κρίναντες τὴν βασιλείᾳ καὶ συγκλήτῳ τιμηθεῖσαν πόλιν, καὶ τῶν ἴσων ἀπολαύουσαν πρεσβείων τῇ πρεσβυτέρᾳ βασιλίδι Ῥώμῃ, καὶ ἐν τοῖς ἐκκλησιαστικοῖς ὡς ἐκείνην μεγαλύνεσθαι πράγμασι, δευτέραν μετ᾽ ἐκείνην ὑπάρχουσαν· καὶ ὥστε τοὺς τῆς Ποντικῆς καὶ τῆς Ἀσιανῆς καὶ τῆς Θρᾳκικῆς διοικήσεως μητροπολίτας μόνους, ἔτι δὲ καὶ τοὺς ἐν τοῖς βαρβαρικοῖς ἐπισκόπους τῶν προειρημένων διοικήσεων, χειροτονεῖσθαι ὑπὸ τοῦ προειρημένου ἁγιωτάτου θρόνου τῆς κατὰ Κωνσταντινούπολιν ἁγιωτάτης ἐκκλησίας, δηλαδὴ ἑκάστου μητροπολίτου τῶν προειρημένων διοικήσεων μετὰ τῶν τῆς ἐπαρχίας ἐπισκόπων χειροτονοῦντος τοὺς τῆς ἐπαρχίας ἐπισκόπους, καθὼς τοῖς θείοις κανόσι διηγόρευται· χειροτονεῖσθαι δὲ, καθὼς εἴρηται, τοὺς μητροπολίτας τῶν προειρημένων διοικήσεων παρὰ τοῦ Κωνσταντινουπόλεως ἀρχιεπισκόπου, ψηφισμάτων συμφώνων κατὰ τὸ ἔθος γενομένων, καὶ ἐπ᾽ αὐτὸν ἀναφερομένων.\""
+                },
+                {
+                    "summary": "Letter 104 (Leo I and subsequent popes did not accept this canon)",
+                    "year": "452 AD",
+                    "author": "Pope St. Leo the Great",
+                    "url": "https://www.newadvent.org/fathers/3604104.htm",
+                    "text": "\"Let the city of Constantinople have, as we desire, its high rank, and under the protection of God's right hand, long enjoy your clemency's rule. Yet things secular stand on a different basis from things divine: and there can be no sure building save on that rock which the Lord has laid for a foundation. He that covets what is not his due, loses what is his own. Let it be enough for Anatolius that by the aid of your piety and by my favour and approval he has obtained the bishopric of so great a city. Let him not disdain a city which is royal, though he cannot make it an Apostolic See ; and let him on no account hope that he can rise by doing injury to others. For the privileges of the churches determined by the canons of the holy Fathers, and fixed by the decrees of the Nicene Synod, cannot be overthrown by any unscrupulous act, nor disturbed by any innovation. And in the faithful execution of this task by the aid of Christ I am bound to display an unflinching devotion; for it is a charge entrusted to me, and it tends to my condemnation if the rules sanctioned by the Fathers and drawn up under the guidance of God's Spirit at the Synod of Nicæa for the government of the whole Church are violated with my connivance (which God forbid), and if the wishes of a single brother have more weight with me than the common good of the Lord's whole house.\""
+                }
             ]
         },
         {
             "id": 28,
             "head": "Peter Chrysologus and Roman Agreement",
             "short": "Peter Chrysologus (481 AD), in his letter to Eutyches: \"we cannot decide upon cases of faith without the harmonious agreement of the Bishop of Rome.\"",
-            "details": "Proponents see this as good evidence that the Pope was seen as the highest authority on matters of faith.<br><br>Critics caution that Peter Chrysologus may be overstating this because the Pope was an important bishop who happened to agree with him in this case.",
+            "details": "Proponents see this as good evidence that the Pope was seen as the highest authority on matters of faith.\n\nCritics caution that Peter Chrysologus may be overstating this because the Pope was an important bishop who happened to agree with him in this case.",
             "category": "Patristic",
-            "references": [
-                "https://eternalchristendom.com/becoming-catholic/articles/number-42/"
+            "ancient": [
+                {
+                    "summary": "Chrysologus' Letter to Eutyches",
+                    "year": "448 AD",
+                    "author": "St. Peter Chrysologus",
+                    "url": "https://eternalchristendom.com/becoming-catholic/articles/number-42/",
+                    "text": "\"However, we give you this exhortation in regard to everything, honorable brother: obediently heed these matters which the most blessed Pope of the City of Rome has written, because blessed Peter who lives and presides in his own see proffers the truth of faith to those who seek it. For, in accordance with our pursuit of peace and of faith, <b>we cannot decide upon cases of faith without the harmonious agreement of the Bishop of Rome</b>.\""
+                }
             ]
         },
         {
             "id": 29,
             "head": "Universal Jurisdiction",
-            "short": "Leo the Great and Gregory the Great claim universal jurisdiction.",
-            "details": "Proponents argue that this shows that the Pope understood himself to have this jurisdiction all along.<br><br>Critics argue that this evidence is somewhat late, and that this idea thus had time to develop.",
+            "short": "Pope St. Leo the Great and Pope St. Gregory the Great claim universal jurisdiction.",
+            "details": "Proponents argue that this shows that the Pope understood himself to have this jurisdiction all along.\n\nCritics argue that this evidence is somewhat late, and that this idea thus had time to develop.",
             "category": "Patristic",
-            "references": [
-                "Leo the Great (r. 440–461 AD) explicitly affirms it: https://erickybarra.wordpress.com/2017/01/22/pope-st-leo-the-great-universal-jurisdiction/",
-				"Gregory the Great (598–599 AD) supports it to some extent: https://www.newadvent.org/fathers/360209059.htm"
+            "ancient": [
+                {
+                    "summary": "Letter 59",
+                    "year": "598–599 AD",
+                    "author": "Pope St. Gregory the Great",
+                    "url": "https://www.newadvent.org/fathers/360209059.htm",
+                    "text": "\"And it is exceedingly doubtful whether he says such things to us sincerely, or in fact because he is being attacked by his fellow bishops: for, as to his saying that he is subject to the Apostolic See, if any fault is found in bishops, I know not what bishop is not subject to it. But when no fault requires it to be otherwise, all according to the principle of humility are equal.\""
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Erick Ybarra: \"Pope St. Leo the Great – Universal Jurisdiction\"",
+                    "year": "2017",
+                    "url": "https://erickybarra.wordpress.com/2017/01/22/pope-st-leo-the-great-universal-jurisdiction/",
+                    "text": "“Through the most blessed Peter, chief of the Apostles, the holy Roman church holds the principiate over all the churches of the whole world” (Epistle #65, M.P.L. 54.879)"
+                }
             ]
         },
         {
             "id": 30,
             "head": "The \"Universal Bishop\" Controversy",
             "short": "Gregory the Great (593 AD) condemned the title \"universal bishop\" for the Patriarch of Constantinople.",
-            "details": "Critics see this as strong evidence against universal jurisdiction, because Pope Gregory the Great comes along relatively late and is considered one of the \"strong\" Popes.<br><br>Proponents argue that Pope Gregory did not mean that nobody had universal jurisdiction in every sense, but that he saw the Patriarch of Constantinople as trying to claim for himself what was not rightfully his.",
+            "details": "Critics see this as strong evidence against universal jurisdiction, because Pope Gregory the Great comes along relatively late and is considered one of the \"strong\" Popes.\n\nProponents argue that Pope Gregory did not mean that nobody had universal jurisdiction in every sense, but that he saw the Patriarch of Constantinople as trying to claim for himself what was not rightfully his.",
             "category": "Patristic",
-            "references": [
-                "https://www.newadvent.org/fathers/360205018.htm"
+            "ancient": [
+                {
+                    "summary": "Letter 18",
+                    "year": "593 AD",
+                    "author": "Pope St. Gregory the Great",
+                    "url": "https://www.newadvent.org/fathers/360205018.htm",
+                    "text": "\"If then he shunned the subjecting of the members of Christ partially to certain heads, as if beside Christ, though this were to the apostles themselves, what will you say to Christ, who is the Head of the universal Church, in the scrutiny of the last judgment, having attempted to put all his members under yourself by the appellation of Universal?\""
+                }
             ]
         },
         {
             "id": 31,
             "head": "Pope Gregory and Synods",
             "short": "Gregory the Great (598–599 AD): synods have no force without the authority and consent of Rome.",
-            "details": "Proponents argue that this shows that Rome has always held that it has the final say in any conciliar matter.<br><br>Critics see this as Pope Gregory going beyond his jurisdiction and trying to increase his own power.",
+            "details": "Proponents argue that this shows that Rome has always held that it has the final say in any conciliar matter.\n\nCritics see this as Pope Gregory going beyond his jurisdiction and trying to increase his own power.",
             "category": "Patristic",
-            "references": [
-                "https://www.newadvent.org/fathers/360209068.htm"
+            "ancient": [
+                {
+                    "summary": "Gregory's Letter 68",
+                    "year": "595–600 AD",
+                    "author": "Pope St. Gregory the Great",
+                    "url": "https://www.newadvent.org/fathers/360209068.htm",
+                    "text": "\"(...) though without the authority and consent of the Apostolic See nothing that might be passed would have any force (...)\""
+                }
             ]
         },
         {
             "id": 32,
             "head": "All Societies Have a Head",
             "short": "Whether inherited, elected, or installed by force, all societies end up having one office holder who holds more authority than anyone else.",
-            "details": "Critics argue that there can't be a head other than Jesus Himself, because He is the bridegroom and the Church His bride, and she can't have two heads.<br><br>Proponents argue that Jesus is ultimately behind all the sacraments, but He always uses ministers to administer them. Likewise, we should expect Him to administer the sacrament of the Church through a minister.",
+            "details": "Critics argue that there can't be a head other than Jesus Himself, because He is the bridegroom and the Church His bride, and she can't have two heads.\n\nProponents argue that Jesus is ultimately behind all the sacraments, but He always uses ministers to administer them. Likewise, we should expect Him to administer the sacrament of the Church through a minister.",
             "category": "Philosohical",
-            "references": [
-                "https://aquinas.cc/la/en/~SCG4.C76.8"
+            "ancient": [
+                {
+                    "summary": "Summa Contra Gentiles, Book 4, Chapter 76, Article 8",
+                    "year": "1259–1265 AD",
+                    "author": "St. Thomas Aquinas",
+                    "url": "https://aquinas.cc/la/en/~SCG4.C76.8",
+                    "text": "\"Now the best form of government is when a people is governed by one: for it is clear that government’s end is peace, for peace and unity of the subjects is the end of the governing authority, and unity is more fittingly ensured by one than by many. Therefore, the government of the Church is so arranged that one presides over the whole.\""
+                }
             ]
         },
         {
             "id": 33,
             "head": "Disputes Require Resolution",
             "short": "When two equals dispute and there is no resolution in sight, a tiebreaker is needed.",
-            "details": "Proponents argue that, at the very least, a tiebreaker is morally necessary to preserve peace and unity in the Church.<br><br>Critics sometimes argue that God will preserve the Church without such a tiebreaker, or that Church consensus is the tiebreaker, slow though it may be.",
+            "details": "Proponents argue that, at the very least, a tiebreaker is morally necessary to preserve peace and unity in the Church.\n\nCritics sometimes argue that God will preserve the Church without such a tiebreaker, or that Church consensus is the tiebreaker, slow though it may be.",
             "category": "Philosohical",
-            "references": [
-                "https://aquinas.cc/la/en/~SCG4.C76.8"
+            "ancient": [
+                {
+                    "summary": "Summa Contra Gentiles, Book 4, Chapter 76, Article 8",
+                    "year": "1259–1265 AD",
+                    "author": "St. Thomas Aquinas",
+                    "url": "https://aquinas.cc/la/en/~SCG4.C76.8",
+                    "text": "\"The unity of the Church requires that all the faithful be of one faith. Now, questions tend to arise about matters of faith, and the Church would be divided by differences of opinion unless its unity were safeguarded by the pronouncement of one. Therefore, in order to safeguard the unity of the Church, it is necessary that there be one who presides over the whole Church.\""
+                }
             ]
         }
     ]

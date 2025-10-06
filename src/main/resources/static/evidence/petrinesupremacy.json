@@ -1,290 +1,567 @@
 {
-    "title": "Petrine Primacy",
+    "title": "Petrine Supremacy",
     "intro": "Hypothesis: Peter was the leader of the early Church and had supreme and immediate universal jurisdiction.",
     "evidence": [
         {
             "id": 1,
             "head": "On This Rock",
             "short": "Matthew 16:18, Jesus: You are Peter, and on this rock I will build my Church",
-            "details": "Proponents see this as Jesus's strongest proclamation of the Papacy. Peter's identity as the rock can be established by noticing the pattern Jesus is using: He makes a statement about Peter, then elaborates on it, three times. This makes it difficult to deny that Peter is also being spoken about in the middle elaboration. Several Church Fathers and ecclesiastical writers also support this, like Tertullian (before he became a Montanist), Origen, Augustine (before he changed his mind and interpreted the rock as Christ instead), Epiphanius of Salamis, and Gregory of Nyssa.<br><br>Proponents see the rock as allowing us to know where the Church properly is (in communion with Peter's successors).<br><br>Some critics argue that the rock is something other than Peter, like his confession of Jesus or Jesus Himself (both of which have patristic support), but proponents usually acknowledge these as compatible understandings. More sophisticated critics concede that Peter is the rock, but deny that this establishes a Papacy.",
+            "details": "Proponents see this as Jesus's strongest proclamation of the Papacy. Peter's identity as the rock can be established by noticing the pattern Jesus is using: He makes a statement about Peter, then elaborates on it, three times. This makes it difficult to deny that Peter is also being spoken about in the middle elaboration. Several Church Fathers and ecclesiastical writers also support this, like Tertullian (before he became a Montanist), Origen, Augustine (before he changed his mind and interpreted the rock as Christ instead), Epiphanius of Salamis, and Gregory of Nyssa.\n\nProponents see the rock as allowing us to know where the Church properly is (in communion with Peter's successors).\n\nSome critics argue that the rock is something other than Peter, like his confession of Jesus or Jesus Himself (both of which have patristic support), but proponents usually acknowledge these as compatible understandings. More sophisticated critics concede that Peter is the rock, but deny that this establishes a Papacy.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2016:18&version=NRSVUE",
-                "Tertullian (c. 200) mentions Peter as the rock and holder of the keys: https://www.newadvent.org/fathers/0311.htm",
-				"Tertullian (c. 208–212 AD) admits the Church was built on Peter: https://www.newadvent.org/fathers/0406.htm",
-				"Origen (c. 225 AD) calls Peter the rock the Church is built on: https://www.newadvent.org/fathers/101505.htm",
-				"Origen (c. 248 AD) calls Peter the rock the Church is built on: https://www.churchfathers.org/origins-of-peter-as-pope",
-                "Epiphanius of Salamis (c. 375 AD) says Peter is the rock the Church was built on: http://khazarzar.skeptik.net/books/panariog.htm",
-                "Gregory of Nyssa (c. 395 AD) says Peter is the rock the Church was built on: https://www.sacredheartchristian.com/papacy/st.-gregory-of-nyssa"
+            "bible": [
+                {
+                    "summary": "Matthew 16:18",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it."
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "Prescription Against Heretics, Chapter 22",
+                    "year": "c. 200 AD",
+                    "author": "Tertullian",
+                    "url": "https://www.newadvent.org/fathers/0311.htm",
+                    "text": "\"Was anything withheld from the knowledge of Peter, who is called 'the rock on which the church should be built,' who also obtained 'the keys of the kingdom of heaven,' with the power of 'loosing and binding in heaven and on earth?'\""
+                },
+                {
+                    "summary": "Commentary on the Gospel of John, Book V, Chapter 3",
+                    "year": "c. 244–245 AD",
+                    "author": "Origen of Alexandria",
+                    "url": "https://www.newadvent.org/fathers/101505.htm",
+                    "text": "\"And Peter, on whom the Church of Christ is built, against which the gates of hell shall not prevail, left only one epistle of acknowledged genuineness.\""
+                },
+                {
+                    "summary": "Homily 5 on Exodus, § 4",
+                    "year": "c. 248 AD",
+                    "author": "Origen",
+                    "url": "https://www.amazon.com/Commentary-Gospel-According-Fathers-Patristic/dp/0813210291",
+                    "text": "\"But who is so blessed, who so dispatches the weight of temptations that no uncertainty creeps up on his mind? Look at that great foundation of the Church, its most solid rock upon which Christ founded the Church.<sup>(<a href=\"https://biblehub.com/matthew/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">Matthew 16:18</a>)</sup> What does the Lord say [to Peter]? “Why did you doubt, O you of little faith?”<sup>(<a href=\"https://biblehub.com/matthew/14-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">Matthew 14:31</a>)</sup>.\""
+                }
+            ],
+            "modern": [
+                {
+                    "summary": "Jimmy Akin: \"Is St. Peter REALLY the Rock? | The Jimmy Akin Podcast\" (22:22)",
+                    "year": "2025",
+                    "url": "https://www.youtube.com/watch?v=ZWMfxDCUbbs&pp=ygUVamltbXkgYWtpbiBwZXRlciByb2Nr",
+                    "text": "Jimmy Akin argues from the structure of the passage that Peter is indeed the rock."
+                }
             ]
         },
         {
             "id": 2,
             "head": "The Keys of the Kingdom of Heaven",
             "short": "Matthew 16:19, Jesus: And I will give you the keys of the Kingdom of Heaven",
-            "details": "Proponents see this as indicating Peter's special leadership role, since he alone is promised the keys. This also has support in early writers like Tertullian (pre-Montanism), Origen, and St. Optatus of Milevis.<br><br>Critics argue that, although the keys are not mentioned in Matthew 18, the power to bind and loose is, and that this is an elaboration on the keys in Matthew 16, and thus means the same thing. That would mean that Peter receives the keys first, but all the other apostles also receive them.",
+            "details": "Proponents see this as indicating Peter's special leadership role, since he alone is promised the keys. This also has support in early writers like Tertullian (pre-Montanism), Origen, and St. Optatus of Milevis.\n\nCritics argue that, although the keys are not mentioned in Matthew 18, the power to bind and loose is, and that this is an elaboration on the keys in Matthew 16, and thus means the same thing. That would mean that Peter receives the keys first, but all the other apostles also receive them.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2016%3A19&version=NRSVUE",
-                "Tertullian (c. 200) mentions Peter as the rock and holder of the keys: https://www.newadvent.org/fathers/0311.htm",
-				"Tertullian (c. 203–206 AD) reiterates that Peter holds the keys: https://www.newadvent.org/fathers/0318.htm",
-				"Origen (c. 233–244 AD) makes Peter as the holder of the keys distinct from the others: https://www.newadvent.org/fathers/101613.htm",
-				"Optatus of Milevis (367 AD) says Peter alone received the keys: https://tertullian.org/fathers/optatus_01_book1.htm"
+            "bible": [
+                {
+                    "summary": "Matthew 16:19",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/16-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>I will give to you the keys of the Kingdom of Heaven, and whatever you bind on earth will have been bound in heaven; and whatever you release on earth will have been released in heaven.”"
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "Prescription Against Heretics, Chapter 22",
+                    "year": "c. 200 AD",
+                    "author": "Tertullian",
+                    "url": "https://www.newadvent.org/fathers/0311.htm",
+                    "text": "\"Was anything withheld from the knowledge of Peter, who is called 'the rock on which the church should be built,' who also obtained 'the keys of the kingdom of heaven,' with the power of 'loosing and binding in heaven and on earth?'\""
+                },
+                {
+                    "summary": "Commentary on the Gospel of Matthew, Book XII, Chapter 31",
+                    "year": "c. 248 AD",
+                    "author": "Origen of Alexandria",
+                    "url": "https://www.newadvent.org/fathers/1016.htm",
+                    "text": "\"But since it was necessary, even if something in common had been said in the case of Peter and those who had thrice admonished the brethren, that Peter should have some element superior to those who thrice admonished, in the case of Peter, this saying 'I will give to you the keys of the kingdom of the heavens,' Matthew 16:19 has been specially set before the words, 'And whatever things you shall bind on earth,' etc. And, indeed, if we were to attend carefully to the evangelical writings, we would also find here, and in relation to those things which seem to be common to Peter and those who have thrice admonished the brethren, a great difference and a pre-eminence in the things said to Peter, compared with the second class. For it is no small difference that Peter received the keys not of one heaven but of more, and in order that whatsoever things he binds on the earth may be bound not in one heaven but in them all, as compared with the many who bind on earth and loose on earth, so that these things are bound and loosed not in the heavens, as in the case of Peter, but in one only; for they do not reach so high a stage, with power as Peter to bind and loose in all the heavens.\""
+                },
+                {
+                    "summary": "Against the Donatists",
+                    "year": "c. 367–368 AD",
+                    "author": "St. Optatus of Milevis",
+                    "url": "https://tertullian.org/fathers/optatus_01_book1.htm",
+                    "text": "\"Peter alone received the keys.\""
+                }
             ]
         },
         {
             "id": 3,
             "head": "A Steward like Eliakim",
             "short": "Isaiah 22:15–25: Peter can be considered a steward like Eliakim, but also like Adam, Joseph, and Daniel",
-            "details": "Proponents argue that there are clear parallels between Isaiah 22 and Matthew 16 (especially with the keys), but also that the stewardship image is present already in Genesis, where Adam is given stewardship over the world and Joseph over Egypt. We also see Shebna and Eliakim as stewards in the Davidic kingdom, and Daniel in Babylon.<br><br>Critics argue that, while there might be something to such typology, we shouldn't base such an important doctrine on speculative types and antitypes.",
+            "details": "Proponents argue that there are clear parallels between Isaiah 22 and Matthew 16 (especially with the keys), but also that the stewardship image is present already in Genesis, where Adam is given stewardship over the world and Joseph over Egypt. We also see Shebna and Eliakim as stewards in the Davidic kingdom, and Daniel in Babylon.\n\nCritics argue that, while there might be something to such typology, we shouldn't base such an important doctrine on speculative types and antitypes.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Isaiah%2022:15%E2%80%9325&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Matthew 16:18–19",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it. <sup><a href=\"https://biblehub.com/matthew/16-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>I will give to you the <b>keys of the Kingdom of Heaven, and whatever you bind on earth will have been bound in heaven; and whatever you release on earth will have been released in heaven</b>.”"
+                },
+                {
+                    "summary": "Isaiah 22:15–25 (Eliakim as a steward with the key of David)",
+                    "text": "<sup><a href=\"https://biblehub.com/isaiah/22-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>The Lord, YHWH of Armies says, “Go, get yourself to this treasurer, even to Shebna, who is over the house, and say, <sup><a href=\"https://biblehub.com/isaiah/22-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>‘What are you doing here? Who has you here, that you have dug out a tomb here?’ Cutting himself out a tomb on high, chiseling a habitation for himself in the rock!” <sup><a href=\"https://biblehub.com/isaiah/22-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>Behold, YHWH will overcome you and hurl you away violently. Yes, he will grasp you firmly. <sup><a href=\"https://biblehub.com/isaiah/22-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>He will surely wind you around and around, and throw you like a ball into a large country. There you will die, and there the chariots of your glory will be, you disgrace of your lord’s house. <sup><a href=\"https://biblehub.com/isaiah/22-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>I will thrust you from your office. You will be pulled down from your station. <sup><a href=\"https://biblehub.com/isaiah/22-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>It will happen in that day that I will call my servant Eliakim the son of Hilkiah, <sup><a href=\"https://biblehub.com/isaiah/22-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>and I will clothe him with your robe, and strengthen him with your belt. I will commit your government into his hand; and he will be a father to the inhabitants of Jerusalem, and to the house of Judah. <sup><a href=\"https://biblehub.com/isaiah/22-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>I will lay the <b>key of David’s house on his shoulder. He will open, and no one will shut. He will shut, and no one will open</b>. <sup><a href=\"https://biblehub.com/isaiah/22-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>I will fasten him like a nail in a sure place. He will be for a throne of glory to his father’s house. <sup><a href=\"https://biblehub.com/isaiah/22-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>They will hang on him all the glory of his father’s house, the offspring and the issue, every small vessel, from the cups even to all the pitchers. <sup><a href=\"https://biblehub.com/isaiah/22-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>“In that day,” says YHWH of Armies, “the nail that was fastened in a sure place will give way. It will be cut down and fall. The burden that was on it will be cut off, for YHWH has spoken it.”"
+                },
+                {
+                    "summary": "Genesis 1:25–26",
+                    "text": "<sup><a href=\"https://biblehub.com/genesis/1-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>God made the animals of the earth after their kind, and the livestock after their kind, and everything that creeps on the ground after its kind. God saw that it was good. <sup><a href=\"https://biblehub.com/genesis/1-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>God said, “Let’s make man in our image, after our likeness. Let them have <b>dominion over the fish of the sea, and over the birds of the sky, and over the livestock, and over all the earth, and over every creeping thing that creeps on the earth</b>.”"
+                },
+                {
+                    "summary": "Genesis 41:39–44",
+                    "text": "<sup><a href=\"https://biblehub.com/genesis/41-39.htm\"target=\"_blank\"rel=\"noopener noreferrer\">39</a></sup>Pharaoh said to Joseph, “Because God has shown you all of this, there is no one so discreet and wise as you. <sup><a href=\"https://biblehub.com/genesis/41-40.htm\"target=\"_blank\"rel=\"noopener noreferrer\">40</a></sup>You shall be <b>over my house. All my people will be ruled according to your word. Only in the throne I will be greater than you</b>.” <sup><a href=\"https://biblehub.com/genesis/41-41.htm\"target=\"_blank\"rel=\"noopener noreferrer\">41</a></sup>Pharaoh said to Joseph, “Behold, I have set you over all the land of Egypt.” <sup><a href=\"https://biblehub.com/genesis/41-42.htm\"target=\"_blank\"rel=\"noopener noreferrer\">42</a></sup>Pharaoh took off his signet ring from his hand, and put it on Joseph’s hand, and arrayed him in robes of fine linen, and put a gold chain about his neck. <sup><a href=\"https://biblehub.com/genesis/41-43.htm\"target=\"_blank\"rel=\"noopener noreferrer\">43</a></sup>He made him ride in the second chariot which he had. They cried before him, “Bow the knee!” He set him over all the land of Egypt. <sup><a href=\"https://biblehub.com/genesis/41-44.htm\"target=\"_blank\"rel=\"noopener noreferrer\">44</a></sup>Pharaoh said to Joseph, “I am Pharaoh. Without you, no man shall lift up his hand or his foot in all the land of Egypt.”"
+                },
+                {
+                    "summary": "Daniel 2:48",
+                    "text": "<sup><a href=\"https://biblehub.com/daniel/2-48.htm\"target=\"_blank\"rel=\"noopener noreferrer\">48</a></sup>Then the king made Daniel great and gave him many great gifts, and <b>made him rule over the whole province of Babylon and to be chief governor over all the wise men of Babylon</b>."
+                }
             ]
         },
         {
             "id": 4,
             "head": "The Temple Tax",
             "short": "Matthew 17:24–27 (and Clement of Alexandria): Jesus paid the temple tax only for himself and Peter",
-            "details": "Proponents argue that this is further evidence for Peter's special role as leader of the entire Church.<br><br>Critics argue that this does not mean his successors are.",
+            "details": "Proponents argue that this is further evidence for Peter's special role as leader of the entire Church.\n\nCritics argue that this does not mean his successors are.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2017:24%E2%80%9327&version=NRSVUE",
-                "Clement of Alexandria (200 AD): https://www.sacredheartchristian.com/papacy/st.-clement-of-alexandria"
+            "bible": [
+                {
+                    "summary": "Matthew 17:24–27",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/17-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>When they had come to Capernaum, those who collected the didrachma coins came to Peter, and said, “Doesn’t your teacher pay the didrachma?” <sup><a href=\"https://biblehub.com/matthew/17-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>He said, “Yes.” When he came into the house, Jesus anticipated him, saying, “What do you think, Simon? From whom do the kings of the earth receive toll or tribute? From their children, or from strangers?” <sup><a href=\"https://biblehub.com/matthew/17-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>Peter said to him, “From strangers.” Jesus said to him, “Therefore the children are exempt. <sup><a href=\"https://biblehub.com/matthew/17-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you.”"
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "Who is the Rich Man That Shall Be Saved?",
+                    "year": "c. 200 AD",
+                    "author": "St. Clement of Alexandria",
+                    "url": "https://www.newadvent.org/fathers/0207.htm",
+                    "text": "\"Therefore on hearing those words, the blessed Peter, the chosen, the pre-eminent, the first of the disciples, for whom alone and Himself the Saviour paid tribute,<sup>(<a href=\"https://biblehub.com/matthew/17-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">Matthew 17:27</a>)</sup> quickly seized and comprehended the saying. And what does he say? \"Lo, we have left all and followed You.'\""
+                }
             ]
         },
         {
             "id": 5,
             "head": "\"We\"",
             "short": "Matthew 17:27: Peter is the only one Jesus ever includes in a \"we\" or \"us\"",
-            "details": "Proponents argue that this also bolsters the case for Peter's special role.<br><br>Critics see it as irrelevant or at least not indicative of a continuing office.",
+            "details": "Proponents argue that this also bolsters the case for Peter's special role.\n\nCritics see it as irrelevant or at least not indicative of a continuing office.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2017:27&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Matthew 17:27",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/17-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>But, lest we cause them to stumble, go to the sea, cast a hook, and take up the first fish that comes up. When you have opened its mouth, you will find a stater coin. Take that, and give it to them for me and you.”"
+                }
             ]
         },
         {
             "id": 6,
             "head": "Authority to Bind and Loose",
             "short": "Matthew 18:18: All the apostles received the authority to bind and loose",
-            "details": "Critics point to this as evidence that all the apostles had the same authority and that Peter was not as special as one might think.<br><br>Proponents argue that this merely indicates the conciliar approach the Pope is supposed to take in working with his brother bishops.",
+            "details": "Critics point to this as evidence that all the apostles had the same authority and that Peter was not as special as one might think.\n\nProponents argue that this merely indicates the conciliar approach the Pope is supposed to take in working with his brother bishops.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Matthew%2018:18&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Matthew 18:18",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/18-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Most certainly I tell you, whatever things you bind on earth will have been bound in heaven, and whatever things you release on earth will have been released in heaven."
+                }
             ]
         },
         {
             "id": 7,
             "head": "I Have Prayed for Thee",
             "short": "Luke 22:24–34, Jesus: And I have prayed for you [thee], that your faith may not fail",
-            "details": "Proponents argue that it is conspicuous that Peter should be singled out here, and that it shows that he had a special role as leader of the apostles.<br><br>Critics usually concede that Peter is the leader, but deny that this applies to his successors as well.",
+            "details": "Proponents argue that it is conspicuous that Peter should be singled out here, and that it shows that he had a special role as leader of the apostles.\n\nCritics usually concede that Peter is the leader, but deny that this applies to his successors as well.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Luke 22:24–34",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/22-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>A dispute also arose among them, which of them was considered to be greatest. <sup><a href=\"https://biblehub.com/luke/22-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>He said to them, “The kings of the nations lord it over them, and those who have authority over them are called ‘benefactors.’ <sup><a href=\"https://biblehub.com/luke/22-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>But not so with you. Rather, the one who is greater among you, let him become as the younger, and one who is governing, as one who serves. <sup><a href=\"https://biblehub.com/luke/22-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>For who is greater, one who sits at the table, or one who serves? Isn’t it he who sits at the table? But I am among you as one who serves. <sup><a href=\"https://biblehub.com/luke/22-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>“But you are those who have continued with me in my trials. <sup><a href=\"https://biblehub.com/luke/22-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>I confer on you a kingdom, even as my Father conferred on me, <sup><a href=\"https://biblehub.com/luke/22-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>that you may eat and drink at my table in my Kingdom. You will sit on thrones, judging the twelve tribes of Israel.” <sup><a href=\"https://biblehub.com/luke/22-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>The Lord said, “Simon, Simon, behold, Satan asked to have all of you, that he might sift <b>you [plural]</b> as wheat, <sup><a href=\"https://biblehub.com/luke/22-32.htm\"target=\"_blank\"rel=\"noopener noreferrer\">32</a></sup>but I prayed for <b>you [singular]</b>, that <b>your [singular]</b> faith wouldn’t fail. <b>You [singular]</b>, when once <b>you [singular]</b> have turned again, establish your brothers.” <sup><a href=\"https://biblehub.com/luke/22-33.htm\"target=\"_blank\"rel=\"noopener noreferrer\">33</a></sup>He said to him, “Lord, I am ready to go with you both to prison and to death!” <sup><a href=\"https://biblehub.com/luke/22-34.htm\"target=\"_blank\"rel=\"noopener noreferrer\">34</a></sup>He said, “I tell you, Peter, the rooster will by no means crow today until you deny that you know me three times.”"
+                }
             ]
         },
         {
             "id": 8,
             "head": "Strengthen Your Brothers",
             "short": "Luke 22:24–34, Jesus: Strengthen your brothers",
-            "details": "Proponents see this as indicating how the Pope is supposed to rule: in conciliarity with his brother bishops, yet as a leader with real authority.<br><br>Critics see it as merely indicating Peter's special mission and conciliarity.",
+            "details": "Proponents see this as indicating how the Pope is supposed to rule: in conciliarity with his brother bishops, yet as a leader with real authority.\n\nCritics see it as merely indicating Peter's special mission and conciliarity.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Luke 22:24–34",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/22-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>A dispute also arose among them, which of them was considered to be greatest. <sup><a href=\"https://biblehub.com/luke/22-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>He said to them, “The kings of the nations lord it over them, and those who have authority over them are called ‘benefactors.’ <sup><a href=\"https://biblehub.com/luke/22-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>But not so with you. Rather, the one who is greater among you, let him become as the younger, and one who is governing, as one who serves. <sup><a href=\"https://biblehub.com/luke/22-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>For who is greater, one who sits at the table, or one who serves? Isn’t it he who sits at the table? But I am among you as one who serves. <sup><a href=\"https://biblehub.com/luke/22-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>“But you are those who have continued with me in my trials. <sup><a href=\"https://biblehub.com/luke/22-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>I confer on you a kingdom, even as my Father conferred on me, <sup><a href=\"https://biblehub.com/luke/22-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>that you may eat and drink at my table in my Kingdom. You will sit on thrones, judging the twelve tribes of Israel.” <sup><a href=\"https://biblehub.com/luke/22-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>The Lord said, “Simon, Simon, behold, Satan asked to have all of you, that he might sift you as wheat, <sup><a href=\"https://biblehub.com/luke/22-32.htm\"target=\"_blank\"rel=\"noopener noreferrer\">32</a></sup>but I prayed for you, that your faith wouldn’t fail. You, when once you have turned again, <b>establish your brothers</b>.” <sup><a href=\"https://biblehub.com/luke/22-33.htm\"target=\"_blank\"rel=\"noopener noreferrer\">33</a></sup>He said to him, “Lord, I am ready to go with you both to prison and to death!” <sup><a href=\"https://biblehub.com/luke/22-34.htm\"target=\"_blank\"rel=\"noopener noreferrer\">34</a></sup>He said, “I tell you, Peter, the rooster will by no means crow today until you deny that you know me three times.”"
+                }
             ]
         },
         {
             "id": 9,
             "head": "The Greatest Among You",
             "short": "Luke 22:24–34, Jesus: The greatest among you must be like one who serves",
-            "details": "Proponents argue that this shows how the Pope is supposed to rule: as the servant of the servants of God, in unity with his brother bishops.<br><br>Critics tend to view it as applying only to other leaders in the Church, rather than the Pope specifically.",
+            "details": "Proponents argue that this shows how the Pope is supposed to rule: as the servant of the servants of God, in unity with his brother bishops.\n\nCritics tend to view it as applying only to other leaders in the Church, rather than the Pope specifically.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Luke%2022:24%E2%80%9334&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Luke 22:24–34",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/22-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>A dispute also arose among them, which of them was considered to be greatest. <sup><a href=\"https://biblehub.com/luke/22-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>He said to them, “The kings of the nations lord it over them, and those who have authority over them are called ‘benefactors.’ <sup><a href=\"https://biblehub.com/luke/22-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>But not so with you. Rather, <b>the one who is greater among you, let him become as the younger, and one who is governing, as one who serves</b>. <sup><a href=\"https://biblehub.com/luke/22-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>For who is greater, one who sits at the table, or one who serves? Isn’t it he who sits at the table? But <b>I am among you as one who serves</b>. <sup><a href=\"https://biblehub.com/luke/22-28.htm\"target=\"_blank\"rel=\"noopener noreferrer\">28</a></sup>“But you are those who have continued with me in my trials. <sup><a href=\"https://biblehub.com/luke/22-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup><b>I confer on you a kingdom, even as my Father conferred on me</b>, <sup><a href=\"https://biblehub.com/luke/22-30.htm\"target=\"_blank\"rel=\"noopener noreferrer\">30</a></sup>that you may eat and drink at my table in my Kingdom. <b>You will sit on thrones, judging the twelve tribes of Israel</b>.” <sup><a href=\"https://biblehub.com/luke/22-31.htm\"target=\"_blank\"rel=\"noopener noreferrer\">31</a></sup>The Lord said, “<b>Simon, Simon</b>, behold, Satan asked to have all of you, that he might sift you as wheat, <sup><a href=\"https://biblehub.com/luke/22-32.htm\"target=\"_blank\"rel=\"noopener noreferrer\">32</a></sup>but I prayed for you, that your faith wouldn’t fail. You, when once you have turned again, establish your brothers.” <sup><a href=\"https://biblehub.com/luke/22-33.htm\"target=\"_blank\"rel=\"noopener noreferrer\">33</a></sup>He said to him, “Lord, I am ready to go with you both to prison and to death!” <sup><a href=\"https://biblehub.com/luke/22-34.htm\"target=\"_blank\"rel=\"noopener noreferrer\">34</a></sup>He said, “I tell you, Peter, the rooster will by no means crow today until you deny that you know me three times.”"
+                }
             ]
         },
         {
             "id": 10,
             "head": "The Good Shepherd and the Gate",
             "short": "John 10:1–18, Jesus: The Good Shepherd and the gate the shepherd will enter by, and says there will be \"one shepherd\".",
-            "details": "Proponents argue that Jesus indicates that someone will take his place as the earthly shepherd, and since Jesus is naturally the leader of the entire Church, so will his \"vicar\" be.<br><br>Critics argue that this is speculative typology and could just as easily apply to the pastors of the Church more generally.",
+            "details": "Proponents argue that Jesus indicates that someone will take his place as the earthly shepherd, and since Jesus is naturally the leader of the entire Church, so will his \"vicar\" be.\n\nCritics argue that this is speculative typology and could just as easily apply to the pastors of the Church more generally.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2010:1%E2%80%9318&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "John 10:1–18",
+                    "text": "<sup><a href=\"https://biblehub.com/john/10-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>“Most certainly, I tell you, one who <b>doesn’t enter by the door</b> into the sheep fold, but climbs up some other way, is a thief and a robber. <sup><a href=\"https://biblehub.com/john/10-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>But one who <b>enters in by the door</b> is the <b>shepherd</b> of the sheep. <sup><a href=\"https://biblehub.com/john/10-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>The <b>gatekeeper</b> opens the gate for him, and the sheep listen to his voice. He calls his own sheep by name and leads them out. <sup><a href=\"https://biblehub.com/john/10-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>Whenever he brings out his own sheep, he goes before them; and the sheep follow him, for they know his voice. <sup><a href=\"https://biblehub.com/john/10-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>They will by no means follow a stranger, but will flee from him; for they don’t know the voice of strangers.” <sup><a href=\"https://biblehub.com/john/10-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>Jesus spoke this parable to them, but they didn’t understand what he was telling them. <sup><a href=\"https://biblehub.com/john/10-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>Jesus therefore said to them again, “Most certainly, I tell you, <b>I am the sheep’s door</b>. <sup><a href=\"https://biblehub.com/john/10-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>All who came before me are thieves and robbers, but the sheep didn’t listen to them. <sup><a href=\"https://biblehub.com/john/10-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup><b>I am the door</b>. If anyone enters in by me, he will be saved, and will go in and go out and will find pasture. <sup><a href=\"https://biblehub.com/john/10-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>The thief only comes to steal, kill, and destroy. I came that they may have life, and may have it abundantly. <sup><a href=\"https://biblehub.com/john/10-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>“<b>I am the good shepherd</b>. The good shepherd lays down his life for the sheep. <sup><a href=\"https://biblehub.com/john/10-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>He who is a hired hand, and not a shepherd, who doesn’t own the sheep, sees the wolf coming, leaves the sheep, and flees. The wolf snatches the sheep and scatters them. <sup><a href=\"https://biblehub.com/john/10-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>The hired hand flees because he is a hired hand and doesn’t care for the sheep. <sup><a href=\"https://biblehub.com/john/10-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>I am the good shepherd. I know my own, and I’m known by my own; <sup><a href=\"https://biblehub.com/john/10-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>even as the Father knows me, and I know the Father. I lay down my life for the sheep. <sup><a href=\"https://biblehub.com/john/10-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>I have other sheep which are not of this fold. I must bring them also, and they will hear my voice. They will become <b>one flock with one shepherd</b>. <sup><a href=\"https://biblehub.com/john/10-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>Therefore the Father loves me, because I lay down my life, that I may take it again. <sup><a href=\"https://biblehub.com/john/10-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>No one takes it away from me, but I lay it down by myself. I have power to lay it down, and I have power to take it again. I received this commandment from my Father.”"
+                }
             ]
         },
         {
             "id": 11,
             "head": "The Untorn Net",
             "short": "John 21:11: Peter pulls ashore the fishing net without it tearing (cf. Matthew 13:47)",
-            "details": "Proponents see this as an indication of Peter's role as \"custodian of unity\".<br><br>Critics caution against speculative typology.",
+            "details": "Proponents see this as an indication of Peter's role as \"custodian of unity\".\n\nCritics caution against speculative typology.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2021:11&version=NRSVUE",
-                "https://biblehub.com/matthew/13-47.htm"
+            "bible": [
+                {
+                    "summary": "Matthew 13:47",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/13-47.htm\"target=\"_blank\"rel=\"noopener noreferrer\">47</a></sup>“Again, the Kingdom of Heaven is like a <b>dragnet</b> that was cast into the sea and gathered some <b>fish of every kind</b>,"
+                },
+                {
+                    "summary": "John 21:11",
+                    "text": "<sup><a href=\"https://biblehub.com/john/21-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>Simon Peter went up, and drew the <b>net</b> to land, full of <b>one hundred fifty-three great fish</b>. Even though there were so many, <b>the net wasn’t torn</b>."
+                }
             ]
         },
         {
             "id": 12,
             "head": "Feed My Sheep",
             "short": "John 21:15–19, Jesus: Feed my sheep",
-            "details": "Proponents argue that this is the fulfilment of John 10's shepherd who enters by the gate.<br><br>Critics see this as merely restoring Peter after he denied Jesus three times.",
+            "details": "Proponents argue that this is the fulfillment of John 10's shepherd who enters by the gate, because Jesus is the good shepherd, whom the the entire flock of sheep (usually understood to be Christians) naturally belong to, but here Peter is told to tend and feed Jesus's sheep.\n\nCritics see this as merely restoring Peter after he denied Jesus three times.\n\nProponents generally agree that it is a restoration, but argue that it also has a broader significance.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=John%2021:15%E2%80%9319&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "John 21:15–19",
+                    "text": "<sup><a href=\"https://biblehub.com/john/21-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>So when they had eaten their breakfast, Jesus said to Simon Peter, “Simon, son of Jonah, do you love me more than these?” He said to him, “Yes, Lord; you know that I have affection for you.” He said to him, “<b>Feed my lambs</b>.” <sup><a href=\"https://biblehub.com/john/21-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>He said to him again a second time, “Simon, son of Jonah, do you love me?” He said to him, “Yes, Lord; you know that I have affection for you.” He said to him, “<b>Tend my sheep</b>.” <sup><a href=\"https://biblehub.com/john/21-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>He said to him the third time, “Simon, son of Jonah, do you have affection for me?” Peter was grieved because he asked him the third time, “Do you have affection for me?” He said to him, “Lord, you know everything. You know that I have affection for you.” Jesus said to him, “<b>Feed my sheep</b>. <sup><a href=\"https://biblehub.com/john/21-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Most certainly I tell you, when you were young, you dressed yourself and walked where you wanted to. But when you are old, you will stretch out your hands, and another will dress you and carry you where you don’t want to go.” <sup><a href=\"https://biblehub.com/john/21-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>Now he said this, signifying by what kind of death he would glorify God. When he had said this, he said to him, “Follow me.”"
+                }
             ]
         },
         {
             "id": 13,
             "head": "Authority of the Holy Spirit",
             "short": "Acts 5:1–11: Peter exercises authority on behalf of the Holy Spirit",
-            "details": "Proponents argue that Peter is clearly presented as the leader of the early Church here.<br><br>Critics usually concede that he is, but argue that this does not necessarily mean his successors are.",
+            "details": "Proponents argue that Peter is clearly presented as the leader of the early Church here.\n\nCritics usually concede that he is, but argue that this does not necessarily mean his successors are.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%205:1%E2%80%9311&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Acts 5:1–11",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/5-1.htm\"target=\"_blank\"rel=\"noopener noreferrer\">1</a></sup>But a certain man named Ananias, with Sapphira his wife, sold a possession, <sup><a href=\"https://biblehub.com/acts/5-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>and kept back part of the price, his wife also being aware of it, then brought a certain part and laid it at the apostles’ feet. <sup><a href=\"https://biblehub.com/acts/5-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>But Peter said, “Ananias, why has Satan filled your heart to lie to the Holy Spirit and to keep back part of the price of the land? <sup><a href=\"https://biblehub.com/acts/5-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>While you kept it, didn’t it remain your own? After it was sold, wasn’t it in your power? How is it that you have conceived this thing in your heart? You haven’t lied to men, but to God.” <sup><a href=\"https://biblehub.com/acts/5-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>Ananias, hearing these words, fell down and died. Great fear came on all who heard these things. <sup><a href=\"https://biblehub.com/acts/5-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>The young men arose and wrapped him up, and they carried him out and buried him. <sup><a href=\"https://biblehub.com/acts/5-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>About three hours later, his wife, not knowing what had happened, came in. <sup><a href=\"https://biblehub.com/acts/5-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Peter answered her, “Tell me whether you sold the land for so much.” She said, “Yes, for so much.” <sup><a href=\"https://biblehub.com/acts/5-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>But Peter asked her, “How is it that you have agreed together to tempt the Spirit of the Lord? Behold, the feet of those who have buried your husband are at the door, and they will carry you out.” <sup><a href=\"https://biblehub.com/acts/5-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>She fell down immediately at his feet and died. The young men came in and found her dead, and they carried her out and buried her by her husband. <sup><a href=\"https://biblehub.com/acts/5-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>Great fear came on the whole assembly, and on all who heard these things."
+                }
             ]
         },
         {
             "id": 14,
             "head": "Gentile Inclusion",
             "short": "Acts 10:9–16: God abolished Jewish dietary laws and gentile exclusion through Peter",
-            "details": "Proponents see this as an early example of Peter's special jurisdiction over the whole Church.<br><br>Critics argue that this is more so a case of God using someone to accomplish His mission, and that it could easily have been someone else too. Some concede that Peter had a special role, but deny that this role could be passed down to his successors.",
+            "details": "Proponents see this as an early example of Peter's special jurisdiction over the whole Church.\n\nCritics argue that this is more so a case of God using someone to accomplish His mission, and that it could easily have been someone else too. Some concede that Peter had a special role, but deny that this role could be passed down to his successors.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%2010:9-16&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Acts 10:9–16",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/10-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>Now on the next day as they were on their journey and got close to the city, Peter went up on the housetop to pray at about noon. <sup><a href=\"https://biblehub.com/acts/10-10.htm\"target=\"_blank\"rel=\"noopener noreferrer\">10</a></sup>He became hungry and desired to eat, but while they were preparing, he fell into a trance. <sup><a href=\"https://biblehub.com/acts/10-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>He saw heaven opened and a certain container descending to him, like a great sheet let down by four corners on the earth, <sup><a href=\"https://biblehub.com/acts/10-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>in which were all kinds of four-footed animals of the earth, wild animals, reptiles, and birds of the sky. <sup><a href=\"https://biblehub.com/acts/10-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>A voice came to him, “Rise, Peter, kill and eat!” <sup><a href=\"https://biblehub.com/acts/10-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>But Peter said, “Not so, Lord; for I have never eaten anything that is common or unclean.” <sup><a href=\"https://biblehub.com/acts/10-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>A voice came to him again the second time, “What God has cleansed, you must not call unclean.” <sup><a href=\"https://biblehub.com/acts/10-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>This was done three times, and immediately the thing was received up into heaven."
+                }
             ]
         },
         {
             "id": 15,
             "head": "Council of Jerusalem",
-            "short": "Acts 15:13–21: James presided over the Council of Jerusalem",
-            "details": "Critics argue that if Peter had jurisdiction over the entire Church, surely he should be the one to preside at this council. The Pope does usually preside when he is personally present at later councils, after all. Also, it is James that gets the final word and seems to make the decision, not Peter.<br><br>Proponents see this as a good example of Papal conciliarity, with Peter intervening only when necessary and when everyone has had their say. Still, they emphasize that it looks like Peter's contribution is what settles the question, and that James is merely agreeing with him.",
+            "short": "Acts 15:13–21: James seems to preside over the Council of Jerusalem",
+            "details": "Critics argue that if Peter had jurisdiction over the entire Church, surely he should be the one to preside at this council. The Pope does usually preside when he is personally present at later councils, after all. Also, it is James that gets the final word and seems to make the decision, not Peter.\n\nProponents see this as a good example of Papal conciliarity, with Peter intervening only when necessary and when everyone has had their say. Still, they emphasize that it looks like Peter's contribution is what settles the question, and that James is merely agreeing with him.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Acts%2015:13-21&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Acts 15:13–21",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/15-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>After they were silent, James answered, “Brothers, listen to me. <sup><a href=\"https://biblehub.com/acts/15-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>Simeon has reported how God first visited the nations to take out of them a people for his name. <sup><a href=\"https://biblehub.com/acts/15-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>This agrees with the words of the prophets. As it is written, <sup><a href=\"https://biblehub.com/acts/15-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>‘After these things I will return. I will again build the tabernacle of David, which has fallen. I will again build its ruins. I will set it up <sup><a href=\"https://biblehub.com/acts/15-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>that the rest of men may seek after the Lord: all the Gentiles who are called by my name, says the Lord, who does all these things.’ <sup><a href=\"https://biblehub.com/acts/15-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>“All of God’s works are known to him from eternity. <sup><a href=\"https://biblehub.com/acts/15-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>Therefore my judgment is that we don’t trouble those from among the Gentiles who turn to God, <sup><a href=\"https://biblehub.com/acts/15-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>but that we write to them that they abstain from the pollution of idols, from sexual immorality, from what is strangled, and from blood. <sup><a href=\"https://biblehub.com/acts/15-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>For Moses from generations of old has in every city those who preach him, being read in the synagogues every Sabbath.”"
+                }
             ]
         },
         {
             "id": 16,
             "head": "Paul Rebukes Peter",
             "short": "Galatians 2:11–13: Paul rebuked Peter",
-            "details": "Critics see this as suggesting that all the apostles, or at least Paul, saw themselves as Peter's equals, at least in authority, if not in honour.<br><br>Proponents argue that Paul was justified in his rebuke, even if Peter was his superior, and that this does not invalidate Peter's special leadership.",
+            "details": "Critics see this as suggesting that all the apostles, or at least Paul, saw themselves as Peter's equals, at least in authority, if not in honour.\n\nProponents argue that Paul was justified in his rebuke, even if Peter was his superior, and that this does not invalidate Peter's special leadership.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Galatians%202:11%E2%80%9313&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Galatians 2:11–13",
+                    "text": "<sup><a href=\"https://biblehub.com/galatians/2-11.htm\"target=\"_blank\"rel=\"noopener noreferrer\">11</a></sup>But when Peter came to Antioch, I resisted him to his face, because he stood condemned. <sup><a href=\"https://biblehub.com/galatians/2-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>For before some people came from James, he ate with the Gentiles. But when they came, he drew back and separated himself, fearing those who were of the circumcision. <sup><a href=\"https://biblehub.com/galatians/2-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>And the rest of the Jews joined him in his hypocrisy, so that even Barnabas was carried away with their hypocrisy."
+                }
             ]
         },
         {
             "id": 17,
             "head": "Apostle to the Jews or Gentiles",
             "short": "Galatians 2:8: Peter was called the Apostle to the Jews, and Paul was the Apostle to the Gentiles",
-            "details": "Critics argue that this suggests Peter's jurisdiction was limited to the Jews.<br><br>Proponents counter that both Peter and Paul witness to both Jews and gentiles alike, even though they may have focused more on one or the other, but also, the bishop of Rome is the successor of both, which actually helps the Papal claims.",
+            "details": "Critics argue that this suggests Peter's jurisdiction was limited to the Jews.\n\nProponents counter that both Peter and Paul witness to both Jews and gentiles alike, even though they may have focused more on one or the other. Some also argue that the bishop of Rome is the successor of both in a special way, which actually *bolsters* the Papal claims.",
             "category": "Biblical",
-            "references": [
-                "https://www.biblegateway.com/passage/?search=Galatians%202:8&version=NRSVUE"
+            "bible": [
+                {
+                    "summary": "Galatians 2:8–9",
+                    "text": "<sup><a href=\"https://biblehub.com/galatians/2-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>for he who worked through Peter in the apostleship with the <b>circumcised</b> also worked through me with the <b>Gentiles</b>— <sup><a href=\"https://biblehub.com/galatians/2-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>and when they perceived the grace that was given to me, James and Cephas and John, those who were reputed to be pillars, gave to Barnabas and me the right hand of fellowship, that we should go to the <b>Gentiles</b>, and they to the <b>circumcision</b>."
+                }
             ]
         },
         {
             "id": 18,
             "head": "Peter is Always First",
             "short": "In lists of the Twelve, Peter is always listed first (and Judas last).",
-            "details": "Proponents argue that the order the Twelve are listed in varies, but Simon Peter is always first, and Judas Iscariot always last.<br><br>Critics concede this, but see it as irrelevant or at most as indicating a primacy of honour.",
+            "details": "Proponents argue that the order the Twelve are listed in varies, but Simon Peter is always first, and Judas Iscariot always last (when included at all).\n\nCritics concede this, but see it as irrelevant or at most as indicating a primacy of honour. They also point out that Peter is only mentioned first in lists of the Twelve, but is second in Paul's list of the \"pillars\" of the Church, after James.",
             "category": "Biblical",
-            "references": [
-                "Several verses. Will add later."
+            "bible": [
+                {
+                    "summary": "Matthew 10:2–4",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/10-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Now the names of the twelve apostles are these. <b>The first, Simon, who is called Peter</b>; Andrew, his brother; James the son of Zebedee; John, his brother; <sup><a href=\"https://biblehub.com/matthew/10-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>Philip; Bartholomew; Thomas; Matthew the tax collector; James the son of Alphaeus; Lebbaeus, who was also called Thaddaeus; <sup><a href=\"https://biblehub.com/matthew/10-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>Simon the Zealot; and Judas Iscariot, who also betrayed him."
+                },
+                {
+                    "summary": "Mark 3:16–19",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/3-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup><b>Simon (to whom he gave the name Peter)</b>; <sup><a href=\"https://biblehub.com/mark/3-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>James the son of Zebedee; and John, the brother of James, (whom he called Boanerges, which means, Sons of Thunder); <sup><a href=\"https://biblehub.com/mark/3-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Andrew; Philip; Bartholomew; Matthew; Thomas; James, the son of Alphaeus; Thaddaeus; Simon the Zealot; <sup><a href=\"https://biblehub.com/mark/3-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>and Judas Iscariot, who also betrayed him. Then he came into a house."
+                },
+                {
+                    "summary": "Luke 6:14–16",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/6-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup><b>Simon, whom he also named Peter</b>; Andrew, his brother; James; John; Philip; Bartholomew; <sup><a href=\"https://biblehub.com/luke/6-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>Matthew; Thomas; James the son of Alphaeus; Simon who was called the Zealot; <sup><a href=\"https://biblehub.com/luke/6-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>Judas the son of James; and Judas Iscariot, who also became a traitor."
+                },
+                {
+                    "summary": "Acts 1:13",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/1-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a></sup>When they had come in, they went up into the upper room where they were staying, that is <b>Peter</b>, John, James, Andrew, Philip, Thomas, Bartholomew, Matthew, James the son of Alphaeus, Simon the Zealot, and Judas the son of James."
+                },
+                {
+                    "summary": "1 Corinthians 15:5",
+                    "text": "<sup><a href=\"https://biblehub.com/1_corinthians/15-5.htm\"target=\"_blank\"rel=\"noopener noreferrer\">5</a></sup>and that he appeared to <b>Cephas</b>, then to the twelve."
+                },
+                {
+                    "summary": "Galatians 2:9",
+                    "text": "<sup><a href=\"https://biblehub.com/galatians/2-9.htm\"target=\"_blank\"rel=\"noopener noreferrer\">9</a></sup>and when they perceived the grace that was given to me, James and <b>Cephas</b> and John, those who were reputed to be pillars, gave to Barnabas and me the right hand of fellowship, that we should go to the Gentiles, and they to the circumcision."
+                }
             ]
         },
         {
             "id": 19,
             "head": "Peter as the Leader",
             "short": "Peter seems to be the leader of the apostles in particular and the early Church in general",
-            "details": "This is supported by several Church Fathers, ecclesiastical writers, and ancient inscriptions.<br><br>Proponents argue that this function of Peter's office is passed on to his successors.<br><br>Critics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
+            "details": "This is supported by several Church Fathers, ecclesiastical writers, and ancient inscriptions.\n\nProponents argue that this function of Peter's office is passed on to his successors.\n\nCritics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
             "category": "Biblical",
-            "references": [
-                "Several verses. Will add later.",
-                "The Bethsaida Inscription (c. 100) calls Peter \"chief and commander of the Heavenly Apostles\": https://www.smithsonianmag.com/smart-news/did-archaeologists-find-st-peters-birthplace-180980607/",
-                "Peter of Alexandria (d. 311) calls Peter \"first of the apostles\": https://www.newadvent.org/fathers/360209068.htm",
-                "John Cassian (c. 429–430) calls Peter \"chief and head of the apostles\": https://www.ccel.org/ccel/schaff/npnf211.iv.vii.iv.xii.html"
+            "bible": [
+                {
+                    "summary": "Acts 1:15–26",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/1-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>In these days, Peter stood up in the middle of the disciples (and the number of names was about one hundred twenty), and said, <sup><a href=\"https://biblehub.com/acts/1-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>“Brothers, it was necessary that this Scripture should be fulfilled, which the Holy Spirit spoke before by the mouth of David concerning Judas, who was guide to those who took Jesus. <sup><a href=\"https://biblehub.com/acts/1-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>For he was counted with us, and received his portion in this ministry. <sup><a href=\"https://biblehub.com/acts/1-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Now this man obtained a field with the reward for his wickedness; and falling headlong, his body burst open and all his intestines gushed out. <sup><a href=\"https://biblehub.com/acts/1-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>It became known to everyone who lived in Jerusalem that in their language that field was called ‘Akeldama,’ that is, ‘The field of blood.’ <sup><a href=\"https://biblehub.com/acts/1-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>For it is written in the book of Psalms, ‘Let his habitation be made desolate. Let no one dwell in it;’ and, ‘Let another take his office.’ <sup><a href=\"https://biblehub.com/acts/1-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>“Of the men therefore who have accompanied us all the time that the Lord Jesus went in and out among us, <sup><a href=\"https://biblehub.com/acts/1-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>beginning from the baptism of John to the day that he was received up from us, of these one must become a witness with us of his resurrection.” <sup><a href=\"https://biblehub.com/acts/1-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>They put forward two: Joseph called Barsabbas, who was also called Justus, and Matthias. <sup><a href=\"https://biblehub.com/acts/1-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>They prayed and said, “You, Lord, who know the hearts of all men, show which one of these two you have chosen <sup><a href=\"https://biblehub.com/acts/1-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>to take part in this ministry and apostleship from which Judas fell away, that he might go to his own place.” <sup><a href=\"https://biblehub.com/acts/1-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>They drew lots for them, and the lot fell on Matthias; and he was counted with the eleven apostles."
+                },
+                {
+                    "summary": "Acts 2:14",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/2-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>But Peter, standing up with the eleven, lifted up his voice and spoke out to them, “You men of Judea and all you who dwell at Jerusalem, let this be known to you, and listen to my words."
+                },
+                {
+                    "summary": "Acts 3:12",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/3-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>When Peter saw it, he responded to the people, “You men of Israel, why do you marvel at this man? Why do you fasten your eyes on us, as though by our own power or godliness we had made him walk?"
+                },
+                {
+                    "summary": "Acts 4:8",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/4-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Then Peter, filled with the Holy Spirit, said to them, “You rulers of the people and elders of Israel,"
+                },
+                {
+                    "summary": "Acts 5:29",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/5-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>But Peter and the apostles answered, “We must obey God rather than men."
+                },
+                {
+                    "summary": "Acts 15:7",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/15-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>When there had been much discussion, Peter rose up and said to them, “Brothers, you know that a good while ago God made a choice among you that by my mouth the nations should hear the word of the Good News and believe."
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "Bethsaida inscription",
+                    "year": "c. 100",
+                    "author": "unknown",
+                    "url": "https://www.smithsonianmag.com/smart-news/did-archaeologists-find-st-peters-birthplace-180980607/",
+                    "text": "\"chief and commander of the heavenly apostles\""
+                },
+                {
+                    "summary": "Genuine Acts of Peter",
+                    "year": "c. 306",
+                    "author": "St. Peter of Alexandria",
+                    "url": "https://ccel.org/ccel/peter_alexandria/epistle/anf06.ix.iii.html",
+                    "text": "\"[H]e was so hurried on by giving the rein to his madness, that, rending asunder the Catholic Church not only in the cities of Egypt, but even in its villages, he ordained bishops of his own party, nor cared he aught for Peter, nor for Christ, who was in the person of Peter. (...) Then a certain virgin dedicated to God, who had her cell adjoining to the tomb of the evangelist, as she was spending the night in prayer, heard a voice from heaven, saying: “Peter was the first of the apostles, Peter is the last of the martyred bishops of Alexandria.”\""
+                },
+                {
+                    "summary": "Book Three Against Nestorius",
+                    "year": "c. 429–430 AD",
+                    "author": "St. John Cassian",
+                    "url": "https://www.ccel.org/ccel/schaff/npnf211.iv.vii.iv.xii.html",
+                    "text": "\"But if you prefer the authority of a greater person (...) that greatest of disciples among disciples, and of teachers among teachers, who presided and ruled over the Roman Church, and held the chief place in the priesthood as he did in the faith. Tell us then, tell us, we pray, O Peter, thou chief of Apostles, tell us how the Churches ought to believe in God. For it is right that you should teach us, as you were taught by the Lord, and that you should open to us the gate, of which you received the key. Shut out all those who try to overthrow the heavenly house: and those who are endeavouring to enter by secret holes and unlawful approaches: as it is clear that none can enter the gate of the kingdom save one to whom the key bestowed on the Churches is revealed by you.\""
+                }
             ]
         },
         {
             "id": 20,
             "head": "Peter Speaks for the Apostles",
             "short": "Peter often speaks on behalf of all the apostles",
-            "details": "Proponents see this as Peter acting like a leader with actual authority, often without checking with the others first.<br><br>Critics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
+            "details": "Proponents see this as Peter acting like a leader with actual authority, often without checking with the others first.\n\nCritics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
             "category": "Biblical",
-            "references": [
-                "Several verses. Will add later."
+            "bible": [
+                {
+                    "summary": "Acts 1:15–26",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/1-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>In these days, Peter stood up in the middle of the disciples (and the number of names was about one hundred twenty), and said, <sup><a href=\"https://biblehub.com/acts/1-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>“Brothers, it was necessary that this Scripture should be fulfilled, which the Holy Spirit spoke before by the mouth of David concerning Judas, who was guide to those who took Jesus. <sup><a href=\"https://biblehub.com/acts/1-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>For he was counted with us, and received his portion in this ministry. <sup><a href=\"https://biblehub.com/acts/1-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Now this man obtained a field with the reward for his wickedness; and falling headlong, his body burst open and all his intestines gushed out. <sup><a href=\"https://biblehub.com/acts/1-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>It became known to everyone who lived in Jerusalem that in their language that field was called ‘Akeldama,’ that is, ‘The field of blood.’ <sup><a href=\"https://biblehub.com/acts/1-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>For it is written in the book of Psalms, ‘Let his habitation be made desolate. Let no one dwell in it;’ and, ‘Let another take his office.’ <sup><a href=\"https://biblehub.com/acts/1-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>“Of the men therefore who have accompanied us all the time that the Lord Jesus went in and out among us, <sup><a href=\"https://biblehub.com/acts/1-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>beginning from the baptism of John to the day that he was received up from us, of these one must become a witness with us of his resurrection.” <sup><a href=\"https://biblehub.com/acts/1-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>They put forward two: Joseph called Barsabbas, who was also called Justus, and Matthias. <sup><a href=\"https://biblehub.com/acts/1-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>They prayed and said, “You, Lord, who know the hearts of all men, show which one of these two you have chosen <sup><a href=\"https://biblehub.com/acts/1-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>to take part in this ministry and apostleship from which Judas fell away, that he might go to his own place.” <sup><a href=\"https://biblehub.com/acts/1-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>They drew lots for them, and the lot fell on Matthias; and he was counted with the eleven apostles."
+                },
+                {
+                    "summary": "Acts 2:14",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/2-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>But Peter, standing up with the eleven, lifted up his voice and spoke out to them, “You men of Judea and all you who dwell at Jerusalem, let this be known to you, and listen to my words."
+                },
+                {
+                    "summary": "Acts 3:12",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/3-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>When Peter saw it, he responded to the people, “You men of Israel, why do you marvel at this man? Why do you fasten your eyes on us, as though by our own power or godliness we had made him walk?"
+                },
+                {
+                    "summary": "Acts 4:8",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/4-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Then Peter, filled with the Holy Spirit, said to them, “You rulers of the people and elders of Israel,"
+                },
+                {
+                    "summary": "Acts 5:29",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/5-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>But Peter and the apostles answered, “We must obey God rather than men."
+                },
+                {
+                    "summary": "Acts 15:7",
+                    "text": "<sup><a href=\"https://biblehub.com/acts/15-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>When there had been much discussion, Peter rose up and said to them, “Brothers, you know that a good while ago God made a choice among you that by my mouth the nations should hear the word of the Good News and believe."
+                }
             ]
         },
         {
             "id": 21,
             "head": "Clement of Rome",
             "short": "Clement of Rome (c. 70–96 AD) asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
-            "details": "Proponents often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead. Clement knew Peter personally, so if he believed Peter's successors could intervene elsewhere, how much more Peter himself?<br><br>Critics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice. Clement is also writing on behalf of the Roman church and doesn't appeal to a Petrine authority, which suggests he may not have been thinking in terms of Petrine succession at all.",
+            "details": "Proponents often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead. Clement knew Peter personally, so if he believed Peter's successors could intervene elsewhere, how much more Peter himself?\n\nCritics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice. Clement is also writing on behalf of the Roman church and doesn't appeal to a Petrine authority, which suggests he may not have been thinking in terms of Petrine succession at all.",
             "category": "Patristic",
-            "references": [
-                "Clement of Rome (c. 70–96 AD): https://www.newadvent.org/fathers/1010.htm"
+            "ancient": [
+                {
+                    "summary": "1 Clement",
+                    "year": "c. 96 AD",
+                    "author": "St. Clement of Rome",
+                    "url": "https://www.newadvent.org/fathers/1010.htm",
+                    "text": "\"Owing, dear brethren, to the sudden and successive calamitous events which have happened to ourselves, we feel that we have been somewhat tardy in turning our attention to the points respecting which <b>you consulted us</b>; and especially to that shameful and detestable sedition, utterly abhorrent to the elect of God, which a few rash and self-confident persons have kindled to such a pitch of frenzy, that your venerable and illustrious name, worthy to be universally loved, has suffered grievous injury.\""
+                }
             ]
         },
         {
             "id": 22,
             "head": "Irenæus of Lyons",
             "short": "Irenæus (c. 180 AD): All churches must agree with Rome.",
-            "details": "Proponents argue that this shows the central role of Rome in doctrinal questions, maybe even a precedent for Papal Infallibility. He grounds this in the Roman church's founding by Peter and Paul.<br><br>Critics argue that this is merely an expression of respect for Rome's evident orthodoxy, not a belief that Rome is infallible.",
+            "details": "Proponents argue that this shows the central role of Rome in doctrinal questions, maybe even a precedent for Papal Infallibility. He grounds this in the Roman church's founding by Peter and Paul.\n\nCritics argue that this is merely an expression of respect for Rome's evident orthodoxy, not a belief that Rome is infallible.",
             "category": "Patristic",
-            "references": [
-                "Irenæus of Lyons: https://www.newadvent.org/fathers/0103303.htm"
+            "ancient": [
+                {
+                    "summary": "Against Heresies 3.3.2",
+                    "year": "c. 180 AD",
+                    "author": "St. Irenæus of Lyons",
+                    "url": "https://www.newadvent.org/fathers/0103303.htm",
+                    "text": "\"Since, however, it would be very tedious, in such a volume as this, to reckon up the successions of all the Churches, we do put to confusion all those who, in whatever manner, whether by an evil self-pleasing, by vainglory, or by blindness and perverse opinion, assemble in unauthorized meetings; [we do this, I say,] by indicating that tradition derived from the apostles, of the very great, the very ancient, and universally known Church founded and organized at Rome by the two most glorious apostles, Peter and Paul; as also [by pointing out] the faith preached to men, which comes down to our time by means of the successions of the bishops. For it is a matter of necessity that every Church should agree with this Church, on account of its preeminent authority [potiorem principalitatem].\""
+                }
             ]
         },
         {
             "id": 23,
             "head": "All Christians as Peters",
             "short": "Origen (c. 225 AD) interpreted all Christians as a kind of Peter.",
-            "details": "Proponents argue that this is fine, because a passage can have several layers of meaning.<br><br>Critics argue that this undermines the papal aspects of identifying Peter as the rock.",
+            "details": "Proponents argue that this is fine, because a passage can have several layers of meaning.\n\nCritics argue that this undermines the papal aspects of identifying Peter as the rock.",
             "category": "Patristic",
-            "references": [
-                "Origen (c. 225 AD): https://www.newadvent.org/fathers/101505.htm"
+            "bible": [
+                {
+                    "summary": "Matthew 16:18",
+                    "text": "<sup><a href=\"https://biblehub.com/matthew/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it."
+                },
+                {
+                    "summary": "1 Corinthians 10:4",
+                    "text": "<sup><a href=\"https://biblehub.com/1_corinthians/10-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">4</a></sup>and all drank the same spiritual drink. For they drank of a spiritual rock that followed them, and the rock was Christ."
+                }
+            ],
+            "ancient": [
+                {
+                    "summary": "Origen's Commentary on the Gospel of Matthew, Book XII, Chapter 10",
+                    "year": "c. 244–245 AD",
+                    "author": "Origen of Alexandria",
+                    "url": "https://www.newadvent.org/fathers/101612.htm",
+                    "text": "\"And if we too have said like Peter, \"You are the Christ, the Son of the living God,\" not as if flesh and blood had revealed it unto us, but by light from the Father in heaven having shone in our heart, we become a Peter, and to us there might be said by the Word, \"You are Peter,\" etc.<sup><a href=\"https://biblehub.com/matthew/16-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">(Matthew 16:18)</a></sup> For a rock is every disciple of Christ of whom those drank who drank of the spiritual rock which followed them,<sup><a href=\"https://biblehub.com/1_corinthians/10-4.htm\"target=\"_blank\"rel=\"noopener noreferrer\">(1 Corinthians 10:4)</a></sup> and upon every such rock is built every word of the church, and the polity in accordance with it; for in each of the perfect, who have the combination of words and deeds and thoughts which fill up the blessedness, is the church built by God.\""
+                }
             ]
         },
         {
             "id": 24,
             "head": "Cyprian and the Equality of the Apostles",
             "short": "Cyprian of Carthage (c. 251–252 AD) says the apostles received equal power to bind and loose.",
-            "details": "Proponents argue that this is true, in the sense that the Pope is the leader of the college of bishops, but he doesn't replace the bishops.<br><br>Critics see this as incompatible with Papal Supremacy in general and Universal Jurisdiction in particular.",
+            "details": "Proponents argue that this is true, in the sense that the Pope is the leader of the college of bishops, but he doesn't replace the bishops.\n\nCritics see this as incompatible with Papal Supremacy in general and Universal Jurisdiction in particular.",
             "category": "Patristic",
-            "references": [
-                "Cyprian of Carthage (c. 251–252 AD): https://archive.org/details/TheUnityOfTheChurchByStCyprianOfCarthage/page/n9/mode/2up?view=theater"
+            "ancient": [
+                {
+                    "summary": "The Unity of the Church, Chapter 4",
+                    "year": "c. 251–252 AD",
+                    "author": "St. Cyprian of Carthage",
+                    "url": "https://archive.org/details/TheUnityOfTheChurchByStCyprianOfCarthage/page/n9/mode/2up?view=theater",
+                    "text": "\"Upon him [Peter], being one, He builds His Church, and although after His resurrection He bestows equal power upon all the Apostles, and says: 'As the Father has sent me, I also send you. Receive ye the Holy Spirit: if you forgive the sins of anyone, they will be forgiven him; if you retain the sins of anyone, they will be retained,' yet that He might display unity, He established by His authority the origin of the same unity as beginning from one. Surely <b>the rest of the Apostles also were that which Peter was</b>, endowed with an <b>equal partnership of office and of power</b>, but the beginning proceeds from unity, that the Church of Christ may be shown to be one.\""
+                }
             ]
         },
         {
             "id": 25,
             "head": "Ambrose, Peter, and the Church",
             "short": "Ambrose of Milan (c. 340–397): Where Peter is, there is the Church.",
-            "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.<br><br>Critics argue that this can be understood to refer to any local bishop, not just the Pope, and that he was speaking pastorally rather than juridically.",
+            "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.\n\nCritics argue that this can be understood to refer to any local bishop, not just the Pope, and that he was speaking pastorally rather than juridically.",
             "category": "Patristic",
-            "references": [
-                "Ambrose of Milan (c. 340–397 AD): https://archive.org/details/corpusscriptorum64ambruoft/page/250/mode/2up?view=theater"
+            "ancient": [
+                {
+                    "summary": "Explanatio Psalmorum XII",
+                    "year": "c. 374–397 AD",
+                    "author": "St. Ambrose of Milan",
+                    "url": "https://archive.org/details/corpusscriptorum64ambruoft/page/250/mode/2up?view=theater",
+                    "text": "\"Ubi Petrus, ibi ecclesia, ubi ecclesia, ibi nulla mors, sed uita aeterna. (...) Beatus Petrus, cui non inferorum porta praeualuit, non caeli porta se clausit, sed e contrario destruxit inferni uestibula, patefecit caelestia. In terris itaque positus caelum aperuit, inferos clausit.\""
+                }
             ]
         },
         {
             "id": 26,
             "head": "Ambrose and Peter's Confession",
-            "short": "Ambrose of Milan (c. 340–397) says the Petrine Primacy is one of confession, not of honor; a primacy of faith, not rank.",
-            "details": "Proponents argue that this is true in the sense that the Church is built on Peter because of his confession, and that the \"rank\" refers to the Pope's role as servant of the servants of God.<br><br>Critics argue that this indicates the Pope is not above the other bishops in any way.",
+            "short": "St. Ambrose of Milan sometimes emphasizes the Petrine Primacy as one of confession, and encourages all Christians to be rocks.",
+            "details": "Critics argue that this indicates the Pope is not above the other bishops in any way.\n\nProponents argue that this is true in the sense that the Church is built on Peter because of his confession, but they also point to very papal language elsewhere in St. Ambrose's writings.",
             "category": "Patristic",
-            "references": [
-                "Ambrose of Milan"
+            "ancient": [
+                {
+                    "summary": "Exposition of the Gospel According to Luke, 6:97",
+                    "year": "c. 374–397 AD",
+                    "author": "St. Ambrose of Milan",
+                    "url": "https://archive.org/details/expositioevange00schegoog/page/274/mode/2up",
+                    "text": "\"Etiam discipulo suo huius uocabuli giatiam non negauit, ut et ipse sit Petrus, quod de petra habeat soliditatem constantiae, fidei firmitatem. enitere ergo ut et tu petra sis.\"\n\n\"He did not deny the use of this word to his disciple, so that he himself might be Peter, because he has from the rock the solidity of constancy, the firmness of faith. Strive therefore, that you also may be a rock.\""
+                },
+                {
+                    "summary": "Exposition of the Christian Faith, 4:5:26, 57",
+                    "year": "c. 379 AD",
+                    "author": "St. Ambrose of Milan",
+                    "url": "https://www.newadvent.org/fathers/34044.htm",
+                    "text": "\"<sup>26</sup>Peter is an 'everlasting door,' against whom the gates of hell shall not prevail. (...) <sup>57</sup>Could He not, then, strengthen the faith of the man to whom, acting on His own authority, He gave the kingdom, whom He called the Rock, thereby declaring him to be the foundation of the Church?\""
+                },
+                {
+                    "summary": "Exposition of the Christian Faith, 5:1:1–2",
+                    "year": "c. 379 AD",
+                    "author": "St. Ambrose of Milan",
+                    "url": "https://www.newadvent.org/fathers/34045.htm",
+                    "text": "\"<sup>1</sup>'Who, then, is a faithful and wise servant, whom his lord has made ruler over his household, to give them meat in due season? Blessed is that servant, whom his lord when he comes shall find so doing.'<sup>(Matthew 24:<a href=\"https://biblehub.com/matthew/24-45.htm\"target=\"_blank\"rel=\"noopener noreferrer\">45</a>–<a href=\"https://biblehub.com/matthew/24-46.htm\"target=\"_blank\"rel=\"noopener noreferrer\">46</a>)</sup> Not worthless is this servant: some great one ought he to be. Let us think who he may be. <sup>1</sup>It is Peter, chosen by the Lord Himself to feed His flock, who merits thrice to hear the words: 'Feed My little lambs; feed My lambs; feed My sheep.' And so, by feeding well the flock of Christ with the food of faith, he effaced the sin of his former fall. For this reason is he thrice admonished to feed the flock; thrice is he asked whether he loves the Lord, in order that he may thrice confess Him, Whom he had thrice denied before His Crucifixion.\""
+                }
             ]
         },
         {
             "id": 27,
             "head": "Optatus of Milevis on the Chair of Peter",
             "short": "St. Optatus of Milevis (367 AD) affirmed Petrine primacy for unity and sole holding of keys.",
-            "details": "Proponents argue that this shows that the unity of the Church was already connected to the chair of Peter.<br><br>Critics argue that other African fathers from this period, especially Cyprian of Carthage, used similar language but were not afraid to risk excommunication by Pope Stephen I over the rebaptism of heretics. They see it as showing respect for Rome's orthodoxy and an optimistic hope that it would remain orthodox.",
+            "details": "Proponents argue that this shows that the unity of the Church was already connected to the chair of Peter.\n\nCritics argue that other African fathers from this period, especially Cyprian of Carthage, used similar language but were not afraid to risk excommunication by Pope Stephen I over the rebaptism of heretics. They see it as showing respect for Rome's orthodoxy and an optimistic hope that it would remain orthodox.",
             "category": "Patristic",
-            "references": [
-				"Optatus of Milevis (367 AD): https://tertullian.org/fathers/optatus_01_book1.htm"
+            "ancient": [
+                {
+                    "summary": "Against the Donatists",
+                    "year": "c. 367–368 AD",
+                    "author": "St. Optatus of Milevis",
+                    "url": "https://tertullian.org/fathers/optatus_01_book1.htm",
+                    "text": "\"Peter alone received the keys.\""
+                }
             ]
         }
     ]
