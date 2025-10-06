@@ -130,11 +130,25 @@
             "category": "Patristic",
             "bible": [
                 {
+                    "summary": "33rd homily on Acts",
+                    "year": "c. 386–404 AD",
+                    "author": "St. John Chrysostom",
+                    "url": "https://www.newadvent.org/fathers/210133.htm",
+                    "text": "\"There comes a heathen and says, 'I wish to become a Christian, but I know not whom to join: there is much fighting and faction among you, much confusion: which doctrine am I to choose?' How shall we answer him? 'Each of you' (says he) 'asserts, \"I speak the truth.\"' No doubt: this is in our favor. For if we told you to be persuaded by arguments, you might well be perplexed: but if we bid you believe the Scriptures, and these are simple and true, the decision is easy for you. If any agree with the Scriptures, he is the Christian; if any fight against them, he is far from this rule.\""
+                },
+                {
                     "summary": "Letter 82 (St. Augustine to St. Jerome)",
                     "year": "405 AD",
                     "author": "St. Augustine of Hippo",
                     "url": "https://www.newadvent.org/fathers/1102082.htm",
                     "text": "\"For I confess to your Charity that I have learned to yield this respect and honour only to the canonical books of Scripture: of these alone do I most firmly believe that the authors were completely free from error. And if in these writings I am perplexed by anything which appears to me opposed to truth, I do not hesitate to suppose that either the manuscript is faulty, or the translator has not caught the meaning of what was said, or I myself have failed to understand it. As to all other writings, in reading them, however great the superiority of the authors to myself in sanctity and learning, I do not accept their teaching as true on the mere ground of the opinion being held by them; but only because they have succeeded in convincing my judgment of its truth either by means of these canonical writings themselves, or by arguments addressed to my reason. I believe, my brother, that this is your own opinion as well as mine.\""
+                },
+                {
+                    "summary": "On Christian Doctrine 2:9",
+                    "year": "c. 397–426 AD",
+                    "author": "St. Augustine of Hippo",
+                    "url": "https://www.newadvent.org/fathers/12022.htm",
+                    "text": "\"Next, those matters that are plainly laid down in them, whether rules of life or rules of faith, are to be searched into more carefully and more diligently; and the more of these a man discovers, the more capacious does his understanding become. For among the things that are plainly laid down in Scripture are to be found all matters that concern faith and the manner of life — to wit, hope and love, of which I have spoken in the previous book. After this, when we have made ourselves to a certain extent familiar with the language of Scripture, we may proceed to open up and investigate the obscure passages, and in doing so draw examples from the plainer expressions to throw light upon the more obscure, and use the evidence of passages about which there is no doubt to remove all hesitation in regard to the doubtful passages. And in this matter memory counts for a great deal; but if the memory be defective, no rules can supply the want.\""
                 }
             ]
         },
