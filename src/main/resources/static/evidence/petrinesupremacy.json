@@ -342,8 +342,8 @@
         {
             "id": 19,
             "head": "Peter as the Leader",
-            "short": "Peter seems to be the leader of the apostles in particular and the early Church in general",
-            "details": "This is supported by several Church Fathers, ecclesiastical writers, and ancient inscriptions.\n\nProponents argue that this function of Peter's office is passed on to his successors.\n\nCritics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
+            "short": "Peter seems to be the leader of the early Church and to speak on the behalf of all of the apostles.",
+            "details": "Proponents argue that Peter doesn't seem to need to run his decisions by his colleagues first, and that his office is passed on to his successors.\n\nCritics generally concede that Peter had a special authority, but argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned. Some critics think Peter is merely an example for everyone, not a leader in the proper sense.",
             "category": "Biblical",
             "bible": [
                 {
@@ -397,39 +397,6 @@
         },
         {
             "id": 20,
-            "head": "Peter Speaks for the Apostles",
-            "short": "Peter often speaks on behalf of all the apostles",
-            "details": "Proponents see this as Peter acting like a leader with actual authority, often without checking with the others first.\n\nCritics argue that it may still be the case that he got the consent of the other apostles even where it isn't mentioned, but that he and the others had actual authority either way.",
-            "category": "Biblical",
-            "bible": [
-                {
-                    "summary": "Acts 1:15–26",
-                    "text": "<sup><a href=\"https://biblehub.com/acts/1-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a></sup>In these days, Peter stood up in the middle of the disciples (and the number of names was about one hundred twenty), and said, <sup><a href=\"https://biblehub.com/acts/1-16.htm\"target=\"_blank\"rel=\"noopener noreferrer\">16</a></sup>“Brothers, it was necessary that this Scripture should be fulfilled, which the Holy Spirit spoke before by the mouth of David concerning Judas, who was guide to those who took Jesus. <sup><a href=\"https://biblehub.com/acts/1-17.htm\"target=\"_blank\"rel=\"noopener noreferrer\">17</a></sup>For he was counted with us, and received his portion in this ministry. <sup><a href=\"https://biblehub.com/acts/1-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Now this man obtained a field with the reward for his wickedness; and falling headlong, his body burst open and all his intestines gushed out. <sup><a href=\"https://biblehub.com/acts/1-19.htm\"target=\"_blank\"rel=\"noopener noreferrer\">19</a></sup>It became known to everyone who lived in Jerusalem that in their language that field was called ‘Akeldama,’ that is, ‘The field of blood.’ <sup><a href=\"https://biblehub.com/acts/1-20.htm\"target=\"_blank\"rel=\"noopener noreferrer\">20</a></sup>For it is written in the book of Psalms, ‘Let his habitation be made desolate. Let no one dwell in it;’ and, ‘Let another take his office.’ <sup><a href=\"https://biblehub.com/acts/1-21.htm\"target=\"_blank\"rel=\"noopener noreferrer\">21</a></sup>“Of the men therefore who have accompanied us all the time that the Lord Jesus went in and out among us, <sup><a href=\"https://biblehub.com/acts/1-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>beginning from the baptism of John to the day that he was received up from us, of these one must become a witness with us of his resurrection.” <sup><a href=\"https://biblehub.com/acts/1-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>They put forward two: Joseph called Barsabbas, who was also called Justus, and Matthias. <sup><a href=\"https://biblehub.com/acts/1-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>They prayed and said, “You, Lord, who know the hearts of all men, show which one of these two you have chosen <sup><a href=\"https://biblehub.com/acts/1-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a></sup>to take part in this ministry and apostleship from which Judas fell away, that he might go to his own place.” <sup><a href=\"https://biblehub.com/acts/1-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a></sup>They drew lots for them, and the lot fell on Matthias; and he was counted with the eleven apostles."
-                },
-                {
-                    "summary": "Acts 2:14",
-                    "text": "<sup><a href=\"https://biblehub.com/acts/2-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">14</a></sup>But Peter, standing up with the eleven, lifted up his voice and spoke out to them, “You men of Judea and all you who dwell at Jerusalem, let this be known to you, and listen to my words."
-                },
-                {
-                    "summary": "Acts 3:12",
-                    "text": "<sup><a href=\"https://biblehub.com/acts/3-12.htm\"target=\"_blank\"rel=\"noopener noreferrer\">12</a></sup>When Peter saw it, he responded to the people, “You men of Israel, why do you marvel at this man? Why do you fasten your eyes on us, as though by our own power or godliness we had made him walk?"
-                },
-                {
-                    "summary": "Acts 4:8",
-                    "text": "<sup><a href=\"https://biblehub.com/acts/4-8.htm\"target=\"_blank\"rel=\"noopener noreferrer\">8</a></sup>Then Peter, filled with the Holy Spirit, said to them, “You rulers of the people and elders of Israel,"
-                },
-                {
-                    "summary": "Acts 5:29",
-                    "text": "<sup><a href=\"https://biblehub.com/acts/5-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>But Peter and the apostles answered, “We must obey God rather than men."
-                },
-                {
-                    "summary": "Acts 15:7",
-                    "text": "<sup><a href=\"https://biblehub.com/acts/15-7.htm\"target=\"_blank\"rel=\"noopener noreferrer\">7</a></sup>When there had been much discussion, Peter rose up and said to them, “Brothers, you know that a good while ago God made a choice among you that by my mouth the nations should hear the word of the Good News and believe."
-                }
-            ]
-        },
-        {
-            "id": 21,
             "head": "Clement of Rome",
             "short": "Clement of Rome (c. 70–96 AD) asserted authority over Corinth in the mid–late first century, intervening in a leadership crisis to tell the laity to follow the clergy.",
             "details": "Proponents often argue that this shows Rome's special leadership role even in the first century. The Apostle John was probably still alive on Patmos, which is much closer to Corinth than Rome is, but the Corinthians sought Rome's help instead. Clement knew Peter personally, so if he believed Peter's successors could intervene elsewhere, how much more Peter himself?\n\nCritics often point out that, although Corinth was in Greece, it was a Roman colony and enjoyed a close relationship to Rome itself. This means appealing to Rome might just have been the natural choice. Clement is also writing on behalf of the Roman church and doesn't appeal to a Petrine authority, which suggests he may not have been thinking in terms of Petrine succession at all.",
@@ -445,7 +412,7 @@
             ]
         },
         {
-            "id": 22,
+            "id": 21,
             "head": "Irenæus of Lyons",
             "short": "Irenæus (c. 180 AD): All churches must agree with Rome.",
             "details": "Proponents argue that this shows the central role of Rome in doctrinal questions, maybe even a precedent for Papal Infallibility. He grounds this in the Roman church's founding by Peter and Paul.\n\nCritics argue that this is merely an expression of respect for Rome's evident orthodoxy, not a belief that Rome is infallible.",
@@ -461,7 +428,7 @@
             ]
         },
         {
-            "id": 23,
+            "id": 22,
             "head": "All Christians as Peters",
             "short": "Origen (c. 225 AD) interpreted all Christians as a kind of Peter.",
             "details": "Proponents argue that this is fine, because a passage can have several layers of meaning.\n\nCritics argue that this undermines the papal aspects of identifying Peter as the rock.",
@@ -487,7 +454,7 @@
             ]
         },
         {
-            "id": 24,
+            "id": 23,
             "head": "Cyprian and the Equality of the Apostles",
             "short": "Cyprian of Carthage (c. 251–252 AD) says the apostles received equal power to bind and loose.",
             "details": "Proponents argue that this is true, in the sense that the Pope is the leader of the college of bishops, but he doesn't replace the bishops.\n\nCritics see this as incompatible with Papal Supremacy in general and Universal Jurisdiction in particular.",
@@ -503,7 +470,7 @@
             ]
         },
         {
-            "id": 25,
+            "id": 24,
             "head": "Ambrose, Peter, and the Church",
             "short": "Ambrose of Milan (c. 340–397): Where Peter is, there is the Church.",
             "details": "Proponents see this as clear evidence that the Pope is the locus of the Church's unity, and that being in communion with him is vital.\n\nCritics argue that this can be understood to refer to any local bishop, not just the Pope, and that he was speaking pastorally rather than juridically.",
@@ -519,7 +486,7 @@
             ]
         },
         {
-            "id": 26,
+            "id": 25,
             "head": "Ambrose and Peter's Confession",
             "short": "St. Ambrose of Milan sometimes emphasizes the Petrine Primacy as one of confession, and encourages all Christians to be rocks.",
             "details": "Critics argue that this indicates the Pope is not above the other bishops in any way.\n\nProponents argue that this is true in the sense that the Church is built on Peter because of his confession, but they also point to very papal language elsewhere in St. Ambrose's writings.",
@@ -549,7 +516,7 @@
             ]
         },
         {
-            "id": 27,
+            "id": 26,
             "head": "Optatus of Milevis on the Chair of Peter",
             "short": "St. Optatus of Milevis (367 AD) affirmed Petrine primacy for unity and sole holding of keys.",
             "details": "Proponents argue that this shows that the unity of the Church was already connected to the chair of Peter.\n\nCritics argue that other African fathers from this period, especially Cyprian of Carthage, used similar language but were not afraid to risk excommunication by Pope Stephen I over the rebaptism of heretics. They see it as showing respect for Rome's orthodoxy and an optimistic hope that it would remain orthodox.",
