@@ -44,7 +44,7 @@
                 {
                     "summary": "Nicæa I",
                     "year": "325 AD",
-                    "author": "Council",
+                    "author": "Nicæa I",
                     "url": "https://www.newadvent.org/fathers/3801.htm",
                     "text": "\"Let the ancient customs in Egypt, Libya and Pentapolis prevail, that the Bishop of Alexandria have jurisdiction in all these, since the like is customary for the Bishop of Rome also. Likewise in Antioch and the other provinces, let the Churches retain their privileges. And this is to be universally understood, that if any one be made bishop without the consent of the Metropolitan, the great Synod has declared that such a man ought not to be a bishop. If, however, two or three bishops shall from natural love of contradiction, oppose the common suffrage of the rest, it being reasonable and in accordance with the ecclesiastical law, then let the choice of the majority prevail.\""
                 }
@@ -109,7 +109,7 @@
                     "text": "St. Cyril sought the aid of Pope Celestine against Nestorius."
                 },
                 {
-                    "summary": "Chrysostom's Letters to Innocent I",
+                    "summary": "Correspondence with Pope Innocent I",
                     "year": "404",
                     "author": "St. John Chrysostom",
                     "url": "https://www.newadvent.org/fathers/1918.htm",
@@ -134,7 +134,7 @@
                 {
                     "summary": "Church History, Book V, Chapters 23–25",
                     "year": "c. 324 AD",
-                    "author": "Eusebius of Cæsarea",
+                    "author": "St. Eusebius of Cæsarea",
                     "url": "https://www.newadvent.org/fathers/250105.htm",
                     "text": "\"<sup>9</sup>Thereupon Victor, who presided over the church at Rome, immediately <b>attempted to cut off from the common unity</b> the parishes of all Asia, with the churches that agreed with them, as heterodox; and he wrote letters and <b>declared all the brethren there wholly excommunicate</b>. <sup>10</sup>But this did not please all the bishops. And they besought him to consider the things of peace, and of neighborly unity and love. Words of theirs are extant, <b>sharply rebuking Victor</b>.\""
                 }
@@ -178,7 +178,7 @@
                 {
                     "summary": "1 Clement",
                     "year": "c. 96 AD",
-                    "author": "St. Clement of Rome",
+                    "author": "Pope St. Clement I of Rome",
                     "url": "https://www.newadvent.org/fathers/1010.htm",
                     "text": "\"Owing, dear brethren, to the sudden and successive calamitous events which have happened to ourselves, we feel that we have been somewhat tardy in turning our attention to the points respecting which <b>you consulted us</b>; and especially to that shameful and detestable sedition, utterly abhorrent to the elect of God, which a few rash and self-confident persons have kindled to such a pitch of frenzy, that your venerable and illustrious name, worthy to be universally loved, has suffered grievous injury.\""
                 }
@@ -192,7 +192,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Letter to the Romans (Greeting)",
+                    "summary": "Letter to the Romans",
                     "year": "c. 107–108 AD",
                     "author": "St. Ignatius of Antioch",
                     "url": "https://www.newadvent.org/fathers/0107.htm",
@@ -210,7 +210,7 @@
                 {
                     "summary": "Church History, Book V, Chapters 23–25",
                     "year": "c. 324 AD",
-                    "author": "Eusebius of Cæsarea",
+                    "author": "St. Eusebius of Cæsarea",
                     "url": "https://www.newadvent.org/fathers/250105.htm",
                     "text": "\"<sup>16</sup>And when the blessed Polycarp was at Rome in the time of Anicetus, and they disagreed a little about certain other things, they immediately made peace with one another, not caring to quarrel over this matter. For neither could Anicetus persuade Polycarp not to observe what he had always observed with John the disciple of our Lord, and the other apostles with whom he had associated; neither could Polycarp persuade Anicetus to observe it as he said that he ought to follow the customs of the presbyters that had preceded him. <sup>17</sup>But though matters were in this shape, they communed together, and Anicetus conceded the administration of the eucharist in the church to Polycarp, manifestly as a mark of respect. And they parted from each other in peace, both those who observed, and those who did not, maintaining the peace of the whole church.\""
                 }
@@ -224,7 +224,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Letter to Pope Soter (Fragments)",
+                    "summary": "Letter to Pope Soter",
                     "year": "c. 171 AD",
                     "author": "St. Dionysius of Corinth",
                     "url": "https://4marksofthechurch.com/cf-st-dionysius-of-corinth/",
@@ -290,7 +290,7 @@
             ],
             "ancient": [
                 {
-                    "summary": "Origen's Commentary on the Gospel of Matthew, Book XII, Chapter 10",
+                    "summary": "Commentary on the Gospel of Matthew, Book XII, Chapter 10",
                     "year": "c. 244–245 AD",
                     "author": "Origen of Alexandria",
                     "url": "https://www.newadvent.org/fathers/101612.htm",
@@ -354,7 +354,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Cyprian's Epistle 54",
+                    "summary": "Epistle 54",
                     "year": "c. 252 AD",
                     "author": "St. Cyprian of Carthage",
                     "url": "https://www.newadvent.org/fathers/050654.htm",
@@ -370,7 +370,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Explanatio Psalmorum XII",
+                    "summary": "Explanation of Psalm 12",
                     "year": "c. 374–397 AD",
                     "author": "St. Ambrose of Milan",
                     "url": "https://archive.org/details/corpusscriptorum64ambruoft/page/250/mode/2up?view=theater",
@@ -418,21 +418,21 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Canon 28 of Chalcedon",
+                    "summary": "Council of Chalcedon",
                     "year": "451 AD",
-                    "author": "council",
+                    "author": "Chalcedon",
                     "url": "https://www.newadvent.org/fathers/3811.htm",
                     "text": "\"Following in all things the decisions of the holy Fathers, and acknowledging the canon, which has been just read, of the One Hundred and Fifty Bishops beloved-of-God (who assembled in the imperial city of Constantinople, which is New Rome, in the time of the Emperor Theodosius of happy memory), we also do enact and decree the same things concerning the privileges of the most holy Church of Constantinople, which is New Rome. For the Fathers rightly granted privileges to the throne of old Rome, because it was the royal city. And the One Hundred and Fifty most religious Bishops, actuated by the same consideration, gave equal privileges (ἴσα πρεσβεῖα) to the most holy throne of New Rome, justly judging that the city which is honoured with the Sovereignty and the Senate, and enjoys equal privileges with the old imperial Rome, should in ecclesiastical matters also be magnified as she is, and rank next after her; so that, in the Pontic, the Asian, and the Thracian dioceses, the metropolitans only and such bishops also of the Dioceses aforesaid as are among the barbarians, should be ordained by the aforesaid most holy throne of the most holy Church of Constantinople; every metropolitan of the aforesaid dioceses, together with the bishops of his province, ordaining his own provincial bishops, as has been declared by the divine canons; but that, as has been above said, the metropolitans of the aforesaid Dioceses should be ordained by the archbishop of Constantinople, after the proper elections have been held according to custom and have been reported to him.\""
                 },
                 {
-                    "summary": "Canon 28 of Calcedon (Greek)",
+                    "summary": "Canons of Calcedon",
                     "year": "451 AD",
-                    "author": "council",
+                    "author": "Chalcedon",
                     "url": "https://earlychurchtexts.com/main/chalcedon/canons_of_chalcedon_03.shtml",
                     "text": "\"Πανταχοῦ τοῖς τῶν ἁγίων πατέρων ὅροις ἑπόμενοι, καὶ τὸν ἀρτίως ἀναγνωσθέντα κανόνα τῶν ἑκατὸν πεντήκοντα θεοφιλεστάτων ἐπισκόπων, τῶν συναχθέντων ἐπὶ τοῦ τῆς εὐσεβοῦς μνήμης μεγάλου Θεοδοσίου τοῦ γενομένου βασιλέως ἐν τῇ βασιλίδι Κωνσταντινουπόλει, νέᾳ Ῥὼμῃ, γνωρίζοντες, τὰ αὐτὰ καὶ ἡμεῖς ὁρίζομέν τε καὶ ψηφιζόμεθα περὶ τῶν πρεσβείων τῆς ἁγιωτάτης ἐκκλησίας τῆς αὐτῆς Κωνσταντινουπόλεως, νέας Ῥώμης. Καὶ γὰρ τῷ θρόνῳ τῆς πρεσβυτέρας Ῥώμης, διὰ τὸ βασιλεύειν τὴν πόλιν ἐκείνην, οἱ πατέρες εἰκότως ἀποδεδώκασι τὰ πρεσβεῖα· καὶ τῷ αὐτῷ σκοπῷ κινούμενοι οἱ ἑκατὸν πεντήκοντα θεοφιλέστατοι ἐπίσκοποι, τὰ ἶσα πρεσβεῖα ἀπένειμαν τῷ τῆς νέας Ῥώμης ἁγιωτάτῳ θρόνῳ, εὐλόγως κρίναντες τὴν βασιλείᾳ καὶ συγκλήτῳ τιμηθεῖσαν πόλιν, καὶ τῶν ἴσων ἀπολαύουσαν πρεσβείων τῇ πρεσβυτέρᾳ βασιλίδι Ῥώμῃ, καὶ ἐν τοῖς ἐκκλησιαστικοῖς ὡς ἐκείνην μεγαλύνεσθαι πράγμασι, δευτέραν μετ᾽ ἐκείνην ὑπάρχουσαν· καὶ ὥστε τοὺς τῆς Ποντικῆς καὶ τῆς Ἀσιανῆς καὶ τῆς Θρᾳκικῆς διοικήσεως μητροπολίτας μόνους, ἔτι δὲ καὶ τοὺς ἐν τοῖς βαρβαρικοῖς ἐπισκόπους τῶν προειρημένων διοικήσεων, χειροτονεῖσθαι ὑπὸ τοῦ προειρημένου ἁγιωτάτου θρόνου τῆς κατὰ Κωνσταντινούπολιν ἁγιωτάτης ἐκκλησίας, δηλαδὴ ἑκάστου μητροπολίτου τῶν προειρημένων διοικήσεων μετὰ τῶν τῆς ἐπαρχίας ἐπισκόπων χειροτονοῦντος τοὺς τῆς ἐπαρχίας ἐπισκόπους, καθὼς τοῖς θείοις κανόσι διηγόρευται· χειροτονεῖσθαι δὲ, καθὼς εἴρηται, τοὺς μητροπολίτας τῶν προειρημένων διοικήσεων παρὰ τοῦ Κωνσταντινουπόλεως ἀρχιεπισκόπου, ψηφισμάτων συμφώνων κατὰ τὸ ἔθος γενομένων, καὶ ἐπ᾽ αὐτὸν ἀναφερομένων.\""
                 },
                 {
-                    "summary": "Letter 104 (Leo I and subsequent popes did not accept this canon)",
+                    "summary": "Letter 104",
                     "year": "452 AD",
                     "author": "Pope St. Leo the Great",
                     "url": "https://www.newadvent.org/fathers/3604104.htm",
@@ -448,7 +448,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Chrysologus' Letter to Eutyches",
+                    "summary": "Letter to Eutyches",
                     "year": "448 AD",
                     "author": "St. Peter Chrysologus",
                     "url": "https://eternalchristendom.com/becoming-catholic/articles/number-42/",
@@ -504,7 +504,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Gregory's Letter 68",
+                    "summary": "Letter 68",
                     "year": "595–600 AD",
                     "author": "Pope St. Gregory the Great",
                     "url": "https://www.newadvent.org/fathers/360209068.htm",
