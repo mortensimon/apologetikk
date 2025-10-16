@@ -43,7 +43,7 @@
                     "text": "Peter as holding the keys."
                 },
                 {
-                    "summary": "Origen's Commentary on the Gospel of Matthew",
+                    "summary": "Commentary on the Gospel of Matthew",
                     "year": "c. 248 AD",
                     "author": "Origen of Alexandria",
                     "url": "https://www.newadvent.org/fathers/101613.htm",
@@ -172,7 +172,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Explanatio Psalmorum XII",
+                    "summary": "Explanation of Psalm 12",
                     "year": "c. 374–397 AD",
                     "author": "St. Ambrose of Milan",
                     "url": "https://archive.org/details/corpusscriptorum64ambruoft/page/250/mode/2up?view=theater",
@@ -225,12 +225,20 @@
                 }
             ],
             "ancient": [
+                
                 {
                     "summary": "Leo's Tome",
-                    "year": "449 AD",
+                    "year": "451 AD",
                     "author": "Pope St. Leo the Great",
                     "url": "https://www.ccel.org/ccel/schaff/npnf214.xi.vii.html",
-                    "text": "\"\""
+                    "text": "\"Next was read a long catena of quotations from the Fathers sustaining the teaching of the Tome.\""
+                },
+                {
+                    "summary": "Council of Chalcedon, Session II",
+                    "year": "451 AD",
+                    "author": "Chalcedon",
+                    "url": "https://www.newadvent.org/fathers/3811.htm",
+                    "text": "\"After the reading of the foregoing epistle, the most reverend bishops cried out: This is the faith of the fathers, this is the faith of the Apostles. So we all believe, thus the orthodox believe. Anathema to him who does not thus believe. <b>Peter has spoken thus through Leo</b>. So taught the Apostles. Piously and truly did Leo teach, so taught Cyril. Everlasting be the memory of Cyril. Leo and Cyril taught the same thing, anathema to him who does not so believe. This is the true faith. Those of us who are orthodox thus believe. This is the faith of the fathers. Why were not these things read at Ephesus [i.e. at the heretical synod held there]? These are the things Dioscorus hid away.\""
                 }
             ]
         },
@@ -254,7 +262,7 @@
                     "summary": "Craig Truglia: \"Pope Agatho's Letter, Constantinople III, and Papal Claims\"",
                     "year": "2019",
                     "url": "https://orthodoxchristiantheology.com/2019/08/10/pope-agathos-letter-constantinople-iii-and-papal-claims/",
-                    "text": ""
+                    "text": "\"So, quote council fathers chanting “Peter spoke through Agatho” as we may, it would appear ill advised to take this as approval of a literal view of Papal infallibility as understood since Vatican I. It seems pretty clear that Rome was purposely using verbosity and vagueness so as to assert their doctrine, but at the same time, not cause actual disputations which would have arisen if they were asserted seriously.\""
                 }
             ]
         },
@@ -266,7 +274,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Registrum Apostolorum, Book IX, Letter 68",
+                    "summary": "Registrum Epistolarum, Book IX, Letter 68",
                     "year": "595–600 AD",
                     "author": "Pope St. Gregory the Great",
                     "url": "https://www.newadvent.org/fathers/360209068.htm",

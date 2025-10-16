@@ -157,7 +157,7 @@
             "category": "Patristic",
             "ancient": [
                 {
-                    "summary": "Stromata, Book VI, Chapter 14",
+                    "summary": "Stromata 6, Chapter 14",
                     "year": "c. 203 AD",
                     "author": "Clement of Alexandria",
                     "url": "https://www.newadvent.org/fathers/02106.htm",
@@ -165,7 +165,7 @@
                 },
                 {
                     "summary": "A Treatise on the Soul",
-                    "year": "c. 210 AD",
+                    "year": "c. 203 AD",
                     "author": "Tertullian",
                     "url": "https://ccel.org/ccel/schaff/anf03/anf03.iv.xi.lviii.html",
                     "text": "\"In short, inasmuch as we understand “the prison” pointed out in the Gospel<sup>(Matthew 5:<a href=\"https://biblehub.com/matthew/5-25.htm\"target=\"_blank\"rel=\"noopener noreferrer\">25</a>–<a href=\"https://biblehub.com/matthew/5-26.htm\"target=\"_blank\"rel=\"noopener noreferrer\">26</a>)</sup> to be Hades, and as we also interpret “the uttermost farthing” to mean the very smallest offence which has to be recompensed there before the resurrection, no one will hesitate to believe that the soul undergoes in Hades some compensatory discipline, without prejudice to the full process of the resurrection, when the recompense will be administered through the flesh besides.\""
@@ -178,7 +178,7 @@
                     "text": "\"For (the Scripture) says: “The fire will try each man’s work of what sort it is. If any man’s work abide which he hath built thereupon, he shall receive a reward. If any man’s work be burned, he shall suffer loss”<sup>(1 Corinthians 3:<a href=\"https://biblehub.com/1_corinthians/3-13.htm\"target=\"_blank\"rel=\"noopener noreferrer\">13</a><a href=\"https://biblehub.com/1_corinthians/3-14.htm\"target=\"_blank\"rel=\"noopener noreferrer\">–</a><a href=\"https://biblehub.com/1_corinthians/3-15.htm\"target=\"_blank\"rel=\"noopener noreferrer\">15</a>)</sup>. But what work can be spoken of in these words as being “burned,” save all that results from wickedness? Therefore our God is a “consuming fire” in the sense in which we have taken the word; and thus He enters in as a “refiner’s fire,” to refine the rational nature, which has been filled with the lead of wickedness, and to free it from the other impure materials, which adulterate the natural gold or silver, so to speak, of the soul. And, in like manner, “rivers of fire” are said to be before God, who will thoroughly cleanse away the evil which is intermingled throughout the whole soul. But these remarks are sufficient in answer to the assertion, “that thus they were made to give expression to the erroneous opinion that God will come down bearing fire like a torturer.”\""
                 },
                 {
-                    "summary": "Cyprian's Letter 51",
+                    "summary": "Letter 51",
                     "year": "252 AD",
                     "author": "St. Cyprian of Carthage",
                     "url": "https://ccel.org/ccel/schaff/anf05/anf05.iv.iv.li.html",
@@ -192,8 +192,8 @@
                     "text": "\"But when He shall have judged the righteous, He will also try them with fire. Then they whose sins shall exceed either in weight or in number, shall be scorched by the fire and burnt: but they whom full justice and maturity of virtue has imbued will not perceive that fire; for they have something of God in themselves which repels and rejects the violence of the flame. So great is the force of innocence, that the flame shrinks from it without doing harm; which has received from God this power, that it burns the wicked, and is under the command of the righteous. Nor, however, let any one imagine that souls are immediately judged after death. For all are detained in one and a common place of confinement, until the arrival of the time in which the great Judge shall make an investigation of their deserts.\""
                 },
                 {
-                    "summary": "City of God 21:13",
-                    "year": "c. 413–426 AD",
+                    "summary": "The City of God, Book 21, Chapter 13",
+                    "year": "c. 426 AD",
                     "author": "St. Augustine of Hippo",
                     "url": "https://www.logoslibrary.org/augustine/city/2113.html",
                     "text": "\"But temporary punishments are suffered by some in this life only, by others after death, by others both now and then; but all of them before that last and strictest judgment.\""
@@ -210,7 +210,6 @@
                 {
                     "summary": "Joshua Charles: \"Purgatory\"",
                     "year": "accessed 2025",
-                    "author": "Joshua Charles",
                     "url": "https://eternalchristendom.com/becoming-catholic/quote-archive/purgatory/",
                     "text": "A collection of quotes in favour of the doctrine of Purgatory."
                 }
@@ -222,11 +221,11 @@
             "short": "Some Church Fathers emphasize immediate judgement or the impossibility of repentance upon death.",
             "details": "Critics see it as a denial of any third options, which they view Purgatory as.\n\nProponents argue that this is still consistent with Purgatory, which is only an intermediate state on the way to Heaven. The impossibility of repentance is generally understood to refer to one's eternal fate in Hell.",
             "category": "Patristic",
-            "bible": [
+            "ancient": [
                 {
-                    "summary": "2 Clement 8 (An ancient Christian homily)",
+                    "summary": "2 Clement, Chapter 8 (An ancient Christian homily)",
                     "year": "c. 120–140 AD",
-                    "author": "attributed to St. Clement of Rome",
+                    "author": "attributed to Pope St. Clement I of Rome",
                     "url": "https://www.newadvent.org/fathers/1011.htm",
                     "text": "\"As long, therefore, as we are upon earth, let us practise repentance, for we are as clay in the hand of the artificer. For as the potter, if he make a vessel, and it be distorted or broken in his hands, fashions it over again; but if he have before this cast it into the furnace of fire, can no longer find any help for it: so let us also, while we are in this world, repent with our whole heart of the evil deeds we have done in the flesh, that we may be saved by the Lord, while we have yet an opportunity of repentance. For after we have gone out of the world, no further power of confessing or repenting will there belong to us.\""
                 },
