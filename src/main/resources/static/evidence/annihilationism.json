@@ -22,7 +22,7 @@
         {
             "id": 2,
             "head": "The Second Death",
-            "short": "The wicked will experience a 'second death', which seems to imply ceasing to exist.",
+            "short": "The wicked will experience a 'second death'.",
             "details": "Proponents argue that the most natural reading of this is that the wicked will simply cease to exist.\n\nCritics argue that the second death could be a spiritual death, or eternal separation from God.",
             "category": "Biblical",
             "bible": [
@@ -38,7 +38,7 @@
         },
         {
             "id": 3,
-            "head": "They Have No Rest Day and Night",
+            "head": "No Rest Day and Night",
             "short": "An angel announces that those who worship the beast will be tormented, the smoke of their torment goes up forever, and they have no rest day and night.",
             "details": "Critics emphasize that the \"smoke of their torment goes up forever and ever\", which seems to indicate that the torment never ceases.\n\nProponents argue that the smoke might simply continue even after the wicked are destroyed, but that it could also be poetic exaggeration.",
             "category": "Biblical",
@@ -51,7 +51,7 @@
         },
         {
             "id": 4,
-            "head": "Eternal Destruction Away from the Lord",
+            "head": "Eternal Destruction",
             "short": "Paul writes that the wicked will suffer 'eternal destruction away from the presence of the Lord'.",
             "details": "Proponents argue that the most natural reading of this is that the wicked will simply cease to exist.\n\nCritics emphasize that the wicked are described as being eternally separated from God's presence, which seems to imply that they will not simply cease to exist, but be \"destroyed\" in a figurative sense.\n\nProponents answer that being separated from God's presence is exactly what annihilation is, since God is the source of all existence.",
             "category": "Biblical",
@@ -148,6 +148,121 @@
             ]
         },
         {
+            "id": 9,
+            "summary": "The Tree of Life",
+            "short": "The tree of life which Adam and Eve lost access to in Genesis is again accessible to the inhabitants of New Jerusalem in Revelation.",
+            "details": "Proponents argue that the tree of life was the means by which Adam and Eve were able to live forever before the Fall, and since only those who are saved have access to it again in New Jerusalem, it follows that the damned will not live forever.\n\nCritics answer that Revelation is a vision, so any interpretation of it is speculative to some extent. Also, hell is not merely a physical punishment, but a spiritual one as well.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "Genesis 3:22–23 (Losing access to the tree of life)",
+                    "text": "<sup><a href=\"https://biblehub.com/genesis/3-22.htm\"target=\"_blank\"rel=\"noopener noreferrer\">22</a></sup>YHWH God said, “Behold, the man has become like one of us, knowing good and evil. Now, lest he reach out his hand, and also take of the tree of life, and eat, and live forever—” <sup><a href=\"https://biblehub.com/genesis/3-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>Therefore YHWH God sent him out from the garden of Eden, to till the ground from which he was taken."
+                },
+                {
+                    "summary": "Revelation 22:2 (Gaining access to the tree of life)",
+                    "text": "<sup><a href=\"https://biblehub.com/revelation/22-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>in the middle of its street. On this side of the river and on that was the tree of life, bearing twelve kinds of fruits, yielding its fruit every month. The leaves of the tree were for the healing of the nations."
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "summary": "Sons of the Resurrection",
+            "short": "Those who are considered worthy will be resurrected and can't die anymore.",
+            "details": "Proponents argue that this implies that those who are not worthy will not have eternal life and thus will be able to die.\n\nCritics argue that the unworthy will also be resurrected, but to judgement, and this is a spiritual judgement too.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "Luke 20:35–36 (The worthy cannot die anymore)",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/20-35.htm\"target=\"_blank\"rel=\"noopener noreferrer\">35</a></sup>But those who are considered worthy to attain to that age and the resurrection from the dead neither marry nor are given in marriage. <sup><a href=\"https://biblehub.com/luke/20-36.htm\"target=\"_blank\"rel=\"noopener noreferrer\">36</a></sup>For they can’t die any more, for they are like the angels and are children of God, being children of the resurrection. "
+                },
+                {
+                    "summary": "John 5:29 (Resurrections of life and judgement)",
+                    "text": "<sup><a href=\"https://biblehub.com/john/5-29.htm\"target=\"_blank\"rel=\"noopener noreferrer\">29</a></sup>and will come out; those who have done good, to the resurrection of life; and those who have done evil, to the resurrection of judgment. "
+                },
+                {
+                    "summary": "Daniel 12:2 (Resurrections of life vs. shame and everlasting contempt)",
+                    "text": "<sup><a href=\"https://biblehub.com/catholic/daniel/12-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Many of those who sleep in the dust of the earth will awake, some to everlasting life, and some to shame and everlasting contempt. "
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "summary": "The Wages of Sin",
+            "short": "Jesus died for the sins of the ungodly, then came back to life.",
+            "details": "Proponents argue that if Jesus were taking the punishment on himself, that implies that the lost will die, perhaps after suffering temporarily, but not be tormented forever, after the resurrection.\n\nCritics argue that we die once, but after that comes judgement, which seems to imply that the damned don't literally die more than once.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "Romans 6:23 (The wages of sin is death)",
+                    "text": "<sup><a href=\"https://biblehub.com/romans/6-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord. "
+                },
+                {
+                    "summary": "Romans 5:6 (Christ died for the ungodly)",
+                    "text": "<sup><a href=\"https://biblehub.com/romans/5-6.htm\"target=\"_blank\"rel=\"noopener noreferrer\">6</a></sup>For while we were yet weak, at the right time Christ died for the ungodly. "
+                },
+                {
+                    "summary": "1 Corinthians 15:3 (Christ died for our sins)",
+                    "text": "<sup><a href=\"https://biblehub.com/1_corinthians/15-3.htm\"target=\"_blank\"rel=\"noopener noreferrer\">3</a></sup>For I delivered to you first of all that which I also received: that Christ died for our sins according to the Scriptures, "
+                },
+                {
+                    "summary": "1 Peter 3:18 (Christ suffered once for sins)",
+                    "text": "<sup><a href=\"https://biblehub.com/1_peter/3-18.htm\"target=\"_blank\"rel=\"noopener noreferrer\">18</a></sup>Because Christ also suffered for sins once, the righteous for the unrighteous, that he might bring you to God, being put to death in the flesh, but made alive in the Spirit, "
+                },
+                {
+                    "summary": "Hebrews 9:27 (Die once, then judgement)",
+                    "text": "<sup><a href=\"https://biblehub.com/hebrews/9-27.htm\"target=\"_blank\"rel=\"noopener noreferrer\">27</a></sup>Inasmuch as it is appointed for men to die once, and after this, judgment, "
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "summary": "Their Worm Shall Not Die",
+            "short": "Isaiah (and Jesus) speaks of a worm that shall not die.",
+            "details": "Proponents argue that this is in the context of dead bodies, which suggests that the wicked will be dead.\n\nCritics argue that they will be dead in one sense, but that they will still be suffering.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "Isaiah 66:24 (The original)",
+                    "text": "<sup><a href=\"https://biblehub.com/isaiah/66-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>“They will go out, and look at the dead bodies of the men who have transgressed against me; for their worm will not die, nor will their fire be quenched, and they will be loathsome to all mankind.” "
+                },
+                {
+                    "summary": "Mark 9:44 (The allusion)",
+                    "text": "<sup><a href=\"https://biblehub.com/mark/9-44.htm\"target=\"_blank\"rel=\"noopener noreferrer\">44</a></sup>‘where their worm doesn’t die, and the fire is not quenched.’ "
+                },
+                {
+                    "summary": "Daniel 12:2 (Same Hebrew word as Isaiah)",
+                    "text": "<sup><a href=\"https://biblehub.com/catholic/daniel/12-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Many of those who sleep in the dust of the earth will awake, some to everlasting life, and some to shame and everlasting contempt. "
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "summary": "Everlasting Contempt",
+            "short": "Daniel says some will wake up to everlasting contempt.",
+            "details": "Critics argue that this makes more sense if they are aware of their fate the whole time.\n\nProponents argue that the contempt is everlasting to those who are saved, but that the lost are eventually destroyed.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "Daniel 12:2",
+                    "text": "<sup><a href=\"https://biblehub.com/catholic/daniel/12-2.htm\"target=\"_blank\"rel=\"noopener noreferrer\">2</a></sup>Many of those who sleep in the dust of the earth will awake, some to everlasting life, and some to shame and everlasting contempt. "
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "summary": "The Rich Man and Lazarus",
+            "short": "The rich man was in torment in flames, yet able to speak.",
+            "details": "Critics argue that this suggests he was not being destroyed, and that he would remain like this forever.\n\nProponents argue that this is a parable, so the details may not be literally true of the afterlife, but even if they are, the destruction might simply be very slow and gradual.",
+            "category": "Biblical",
+            "bible": [
+                {
+                    "summary": "Luke 16:23–24",
+                    "text": "<sup><a href=\"https://biblehub.com/luke/16-23.htm\"target=\"_blank\"rel=\"noopener noreferrer\">23</a></sup>In Hades, he lifted up his eyes, being in torment, and saw Abraham far off, and Lazarus at his bosom. <sup><a href=\"https://biblehub.com/luke/16-24.htm\"target=\"_blank\"rel=\"noopener noreferrer\">24</a></sup>He cried and said, ‘Father Abraham, have mercy on me, and send Lazarus, that he may dip the tip of his finger in water and cool my tongue! For I am in anguish in this flame.’ "
+                }
+            ]
+        },
+        {
+            "id": 15,
             "summary": "Consensus of the Church",
             "short": "The Catholic Church, the Eastern Orthodox Church, the Oriental Orthodox Church, the Assyrian Church of the East, as well as most Protestant groups, all reject annihilationism.",
             "details": "Critics argue that this weighs heavily against annihilationism, because the judgement of the Church trumps individual Fathers.\n\nProponents caution that it might be possible for the entire Church to be wrong on something non-essential.",
