@@ -35,6 +35,16 @@ public class Average {
         }
     }
 
+    // Initializing constructor - used when normalizing an Average
+    public Average(int count, String name, String title, String denomination, double aprioriPct, double posteriorPct) {
+        this.count = count;
+        this.name = name;
+        this.title = title;
+        this.denomination = denomination;
+        this.aprioriPct = aprioriPct;
+        this.posteriorPct = posteriorPct;
+    }
+
     public void updateWith(Average newData) {
         if (newData == null) {
             return;
@@ -62,6 +72,10 @@ public class Average {
                     existingEv.setWeight((int) Math.round(existingEv.getWeightD()));
                 }
             } else {
+                newEv.setCount(1);
+                if (newEv.getWeight() == 0) {
+                    newEv.setCountDisregard(1);
+                }
                 newEv.setWeightD(newEv.getWeight());
                 currentEvidenceMap.put(newEv.getId(), newEv);
             }
@@ -75,6 +89,19 @@ public class Average {
         double productNewAvg = productCurrentAvg + newData;
         double avg = productNewAvg / currentCount;
         return avg;
+    }
+
+    public void addEvidence(Evidence ev) {
+        this.evidence.add(ev);
+    }
+
+    public Evidence getEvidence(int id) {
+        for (Evidence ev : evidence) {
+            if (ev.getId() == id) {
+                return ev;
+            }
+        }
+        return null;
     }
 
     // getters / setters

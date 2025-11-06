@@ -5,7 +5,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +19,10 @@ import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 import java.util.UUID;
 import java.util.regex.Pattern;
@@ -46,12 +55,17 @@ class API {
                             throw new RuntimeException(e);
                         }
                     }).toList();
-            return ResponseEntity.ok(Map.of(
+
+            List<JsonNode> sortedAverages = sortAverages(averages);
+
+
+            Map<String, Object> sortedAverageMap = Map.of(
                     "status", "ok",
                     "hypothesis", hypothesis,
                     "count", averages.size(),
-                    "averages", averages
-            ));
+                    "averages", sortedAverages
+            );
+            return ResponseEntity.ok(sortedAverageMap);
         } catch (IOException io) {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(Map.of(
                     "status", "error",
@@ -139,5 +153,32 @@ class API {
             throw new IllegalArgumentException("Illegal characters in path segment: " + v);
         }
         return v;
+    }
+
+    private static List<String> canonicalOrder = List.of(
+            "All", "Catholic", "Eastern-Orthodox",
+            "Oriental-Orthodox", "Lutheran", "Reformed",
+            "Anglican", "Baptist", "Methodist", "Evangelical",
+            "Non-denominational", "Adventist", "JW", "LDS",
+            "Jewish", "Muslim", "Hindu", "Buddhist", "New-Age",
+            "Spiritual", "Agnostic", "Atheist", "Other"
+    );
+
+    private static List<JsonNode> sortAverages(List<JsonNode> averages) {
+        // Sorter etter denomination i canonicalOrder
+        // Vi lager sorted-list med like mange elementer som canonicalOrder
+        List<JsonNode> sorted = new ArrayList<>();
+        for (int i = 0; i < canonicalOrder.size(); i++) {
+            sorted.add(null);
+        }
+        for (JsonNode jsonNode : averages) {
+            String denom = jsonNode.path("denomination").asText("Other");
+            int index = canonicalOrder.indexOf(denom);
+            if (index == -1) index = canonicalOrder.size() - 1; // Sett til "Other"
+            sorted.set(index, jsonNode);
+        }
+        // Fjern null-verdier
+        sorted.removeIf(Objects::isNull);
+        return sorted;
     }
 }

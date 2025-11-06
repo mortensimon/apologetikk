@@ -105,26 +105,6 @@ createApp({
       publishButtonText.value = publishedUrl.value ? "Copy link" : "Published";
     }
 
-
-    async function publishToServer() {
-      try {
-        const res = await fetch('/api/results', {
-          method: 'POST',
-          headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify(publishJson.value)
-        });
-        const data = await res.json().catch(() => ({}));
-        if (!res.ok) {
-          alert(`Failed to publish: ${data.message || res.statusText}`);
-          return;
-        }
-        alert('Results published successfully. File: ' + (data.href || 'n/a'));
-      } catch (e) {
-        alert('Failed to publish: ' + (e && e.message ? e.message : String(e)));
-      }
-    }
-
-
     function fmtPct(v) {
       if (v == null || isNaN(v)) return '—';
       return `${(+v).toFixed(2)}%`;
@@ -413,7 +393,7 @@ createApp({
       onPriorInput, onEvInput,
       hypJson, showHelp, backgroundClass, backgroundClassEv,
       checkAutoAppendEvidence, extractUrl, makeRefIntoTextWithLink,
-      openPublish, closePublish, aiPrompt, publishToServer, publishJson, resultsDialog,
+      openPublish, closePublish, aiPrompt, publishJson, resultsDialog,
       fmtPct, startPublish, cancelDenomination, confirmDenomination,
       denomination, denominations, denomDialog, openView, openUrl, openUrlNewTab,
       publishDisabled,

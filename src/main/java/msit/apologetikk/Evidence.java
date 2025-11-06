@@ -16,6 +16,13 @@ public class Evidence {
     public Evidence() {
     }
 
+    // simple constructor - only used for keeping track of number of evidences in the original hypothesis file
+    public Evidence(int id, String head) {
+        this.id = id;
+        this.head = head;
+    }
+
+
     // copy constructor
     public Evidence(Evidence other) {
         this.count = other.count;

@@ -206,26 +206,44 @@
       </details>
       <div class="row-fixed">
         <div>
-          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}"? (0–100)</label>
-          <input
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>true</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}"?</label>
+          <select
             class="input-number"
-            type="number" min="0" max="100" step="any" inputmode="numeric"
             :value="ev.pehPct"
-            @keydown="blockNonNumeric"
             @input="onEvInput($event, ev, 'pehPct')"
             @change="checkAutoAppendEvidence"
+            style="width: 200px;"
           />
+          <option :value="1">Totally unlikely (1)</option>
+          <option :value="10">Very unlikely (10)</option>
+          <option :value="25">Somewhat unlikely (25)</option>
+          <option :value="40">Bit unlikely (40)</option>
+          <option :value="50">Even (50)</option>
+          <option :value="60">Bit likely (60)</option>
+          <option :value="75">Somewhat likely (75)</option>
+          <option :value="90">Very likely (90)</option>
+          <option :value="100">Complete certainty (100)</option>
+          </select>
         </div>
         <div>
-          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}"? (0–100)</label>
-          <input
+          <label style="font-size: 0.8em;">Imagine '{{ hypJson.title }}' is <b>false</b>. How likely is the evidence "{{ hypJson.evidence[idx].head }}"?</label>
+          <select
             class="input-number"
-            type="number" min="0" max="100" step="any" inputmode="numeric"
             :value="ev.penhPct"
-            @keydown="blockNonNumeric"
             @input="onEvInput($event, ev, 'penhPct')"
             @change="checkAutoAppendEvidence"
+            style="width: 200px;"
           />
+            <option :value="1">Totally unlikely (1)</option>
+            <option :value="10">Very unlikely (10)</option>
+            <option :value="25">Somewhat unlikely (25)</option>
+            <option :value="40">Bit unlikely (40)</option>
+            <option :value="50">Even (50)</option>
+            <option :value="60">Bit likely (60)</option>
+            <option :value="75">Somewhat likely (75)</option>
+            <option :value="90">Very likely (90)</option>
+            <option :value="100">Complete certainty (100)</option>
+          </select>
         </div>
         <!-- 🆕 Tredje input-felt: vekt -->
         <div>

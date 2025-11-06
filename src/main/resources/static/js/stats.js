@@ -44,6 +44,9 @@ createApp({
       const res = await fetch(url)
       const data = await res.json();
       stats.averages = Array.isArray(data.averages) ? data.averages : [];
+      console.log('Averages loaded (#)', stats.averages.length);
+      console.log("URL:", url);
+      console.log("Data.length:", data);
     }
 
     onMounted(load);
